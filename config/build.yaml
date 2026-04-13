@@ -1,0 +1,33 @@
+# config/build.yaml
+input-files:
+  - report/00-caratula.md
+  - report/01-registro-versiones.md
+  - report/02-collaboration-insights.md
+  - report/03-contenido.md
+  - report/04-student-outcome.md
+  - report/05-objetivos-smart.md
+  - report/10-cap1-introduccion.md
+  - report/20-cap2-requirements-analysis.md
+  - report/30-cap3-requirements-spec.md
+  - report/40-cap4-sol-software-design.md
+
+output-file: dist/informe-final.pdf
+
+# Selección del motor: xelatex o lualatex son ideales para soportar fuentes y UTF-8
+pdf-engine: xelatex
+standalone: true
+
+# Prevención de colisión de IDs en notas al pie y enlaces
+file-scope: true
+include-in-header:
+  - config/header.tex
+
+# Rutas donde Pandoc buscará las imágenes referenciadas
+resource-path:
+  - "."
+  - "assets/images/shared"
+
+# Variables de diseño
+variables:
+  geometry: [margin=2cm]
+  colorlinks: true
