@@ -27,3 +27,27 @@
 ### 2.3.5. As-is Scenario Mapping {#as-is-scenario-mapping}
 
 ## 2.4. Ubiquitous Language {#ubiquitous-language}
+
+A continuación, se define el lenguaje ubicuo (*Ubiquitous Language*) del proyecto **SoftWork**. Este vocabulario compartido garantiza un entendimiento común entre los miembros del equipo de desarrollo, los expertos en el dominio y los usuarios finales.
+
+**1. Stakeholders & Roles**
+*   **User / UserAccount:** Entidad que representa la cuenta y perfil de acceso de un usuario registrado en el sistema.
+*   **Role (Rol):** Nivel de autorización en la aplicación. Existen principalmente dos: `ANONYMOUS_USER` y `RRHH_MANAGER`.
+*   **Anonymous User (Trabajador):** Tipo de usuario que representa al empleado de una empresa. Su identidad se mantiene oculta para garantizar que pueda expresar sus problemas, quejas e ideas laborales libremente sin miedo a represalias.
+*   **RRHH Manager (Recursos Humanos):** Usuario administrador que monitorea el feedback de los empleados. Tienen la facultad de ver métricas organizacionales y enviar propuestas, soluciones y comunicados para mejorar el clima laboral.
+
+**2. Funcionalidades de la Plataforma**
+*   **Department Category (Categoría de Departamento):** Clasificación que permite organizar y agrupar los hilos de discusión según las distintas áreas o departamentos de una empresa.
+*   **Thread (Hilo de discusión):** Espacio virtual donde los usuarios publican y discuten sobre problemáticas o temas específicos del ambiente laboral de manera anónima.
+*   **Message (Mensaje):** Publicación textual que expresa el feedback, problema u opinión de un empleado dentro de un hilo o en la interacción asistida por Inteligencia Artificial.
+*   **Dashboard (Panel de Control):** Interfaz exclusiva para los perfiles de `RRHH_MANAGER`, donde pueden visualizar de forma resumida el estado emocional y problemático de las áreas de trabajo a través de métricas y gráficos.
+*   **Activity Widget:** Componentes visuales dentro del panel de control (*Bar Chart*, *Pie Chart*, *Heatmap*) que traducen los datos abstraídos en representaciones gráficas interactivas.
+*   **Analytic System (Sistema Analítico):** Módulo inteligente que evalúa los datos recopilados para identificar tópicos en tendencia, respuestas conductuales y puntajes de sentimiento laboral (*Sentiment Score*).
+*   **Announcement Manager (Gestor de Anuncios):** Módulo que permite al gestor u oficial de Recursos Humanos emitir mensajes públicos masivos y plantear encuestas de satisfacción.
+
+**3. Otros conceptos del dominio**
+*   **Data Recopiled (Datos Recopilados):** Conjunto de mensajes y comportamientos recolectados como materia prima para ser analizados posteriormente.
+*   **Notification (Notificación):** Alertas del sistema sobre nuevos comentarios, cambios o anuncios emitidos.
+*   **Membership (Membresía):** Suscripción adquirida por las empresas cliente (B2B) que determina el servicio, con estados de validación como `ACTIVE`, `CANCELLED` o `EXPIRED`.
+*   **Membership Plan:** Paquetes que ofrecen distintos niveles de funcionalidades (Beneficios) dependiendo de la necesidad empresarial.
+*   **Payment (Transacción):** Modelo de liquidación implementado mediante diversos procesadores y estrategias de pago (Tarjetas, PayPal) en la contratación de los servicios de Elysium.
