@@ -10,6 +10,7 @@ input-files:
   - report/20-cap2-requirements-analysis.md
   - report/30-cap3-requirements-spec.md
   - report/40-cap4-sol-software-design.md
+  - report/70-conclusiones.md
 
 output-file: dist/informe-final.pdf
 
@@ -17,8 +18,8 @@ output-file: dist/informe-final.pdf
 pdf-engine: xelatex
 standalone: true
 
-# Prevención de colisión de IDs en notas al pie y enlaces
-file-scope: true
+# IDs globales para permitir enlaces internos entre secciones del documento combinado
+file-scope: false
 include-in-header:
   - config/header.tex
 
