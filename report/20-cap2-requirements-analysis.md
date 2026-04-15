@@ -6,6 +6,16 @@
 
 ### 2.1.2. Estrategias y tácticas frente a competidores {#estrategias-tacticas-competidores}
 
+Frente a los competidores existentes en el mercado de bienestar laboral y gestión de clima organizacional, **SoftWork** busca diferenciarse mediante una propuesta centrada en la **privacidad, accesibilidad y análisis inteligente de datos**.
+
+La principal estrategia competitiva es ofrecer una **aplicación móvil con reportes totalmente anónimos**, permitiendo que los empleados puedan expresar problemas o inquietudes sin temor a represalias. A diferencia de otras plataformas tradicionales, SoftWork prioriza la confianza del usuario como eje principal de la experiencia.
+
+Como táctica de valor agregado, la solución incorpora **asistencia mediante Inteligencia Artificial**, capaz de brindar orientación inicial al trabajador y facilitar la clasificación temprana de incidentes. Esto mejora los tiempos de respuesta y optimiza la gestión por parte del área de Recursos Humanos.
+
+Además, se plantea como ventaja competitiva el uso de **dashboards analíticos en tiempo real**, donde RRHH puede identificar patrones de comportamiento, niveles de satisfacción y posibles focos de conflicto dentro de la organización.
+
+Finalmente, otra táctica importante es la **experiencia mobile-first**, diseñada para que los usuarios puedan interactuar desde cualquier lugar de forma rápida, intuitiva y segura, aumentando la adopción frente a soluciones únicamente web.
+
 ## 2.2. Entrevistas {#entrevistas}
 
 ### 2.2.1. Diseño de entrevistas {#diseno-entrevistas}
