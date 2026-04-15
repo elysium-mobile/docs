@@ -19,14 +19,38 @@ Elysium se especializa en el desarrollo de soluciones tecnológicas orientadas a
 | Piero Francesco Tenorio Medina | U202318731 | **Ingeniero de Software** - [Breve descripción sobre el rol del estudiante, conocimientos técnicos relevantes y su aporte/motivación para el desarrollo del proyecto "SoftWork".] |
 | Gianmarco Fabian Jiménez Guerra | U202123843 | **Ingeniero de Software** - [Breve descripción sobre el rol del estudiante, conocimientos técnicos relevantes y su aporte/motivación para el desarrollo del proyecto "SoftWork".] |
 | Flor De María Contreras Leon | U202323243 | **Ingeniero de Software** - [Breve descripción sobre el rol del estudiante, conocimientos técnicos relevantes y su aporte/motivación para el desarrollo del proyecto "SoftWork".] |
-| Diego Andres Avalos | U202X00000 | **Ingeniero de Software** - [Breve descripción sobre el rol del estudiante, conocimientos técnicos relevantes y su aporte/motivación para el desarrollo del proyecto "SoftWork".] |
+| Diego Andres Avalos Cordova | U202313922 | **Ingeniero de Software** - Mi nombre es Diego Avalos, tengo 19 años y actualmente estudio Ingeniería de Software. Me interesa mucho especializarme en Ciberseguridad y Hacking Ético. Tengo experiencia usando sistemas operativos como GNU/Linux, además de contar con conocimientos en Desarrollo Web. También me gustan mucho los temas relacionados con la tecnología, especialmente la Inteligencia Artificial, y siempre trato de investigar y aprender sobre nuevas herramientas o áreas que llamen mi atención. |
 
 
 ## 1.2. Solution Profile {#solution-profile}
 
 ### 1.2.1. Antecedentes y problemática {#antecedentes-problematica}
 
+Actualmente, muchas empresas presentan dificultades para gestionar el clima laboral de manera eficiente. Problemas como la falta de comunicación entre empleados y Recursos Humanos, el miedo a represalias al reportar incidentes y la ausencia de canales anónimos afectan directamente el bienestar del trabajador y la productividad organizacional.
+
+Los métodos tradicionales, como correos, reuniones o reportes presenciales, no siempre garantizan privacidad ni seguimiento oportuno, lo que provoca que muchos conflictos internos no sean reportados a tiempo.
+
+Ante esta problemática surge **SoftWork**, una aplicación móvil orientada a brindar un espacio seguro, anónimo y accesible donde los colaboradores puedan reportar incidentes, expresar inquietudes, recibir asistencia inicial mediante inteligencia artificial y dar seguimiento a sus casos. Al mismo tiempo, permite al área de RRHH visualizar métricas e indicadores para una mejor toma de decisiones.
+
+La solución busca responder a la siguiente pregunta:
+
+> **¿Cómo mejorar la comunicación entre empleados y RRHH mediante una aplicación móvil segura, anónima e inteligente?**
+
+---
+
 ### 1.2.2. Lean UX Process {#lean-ux-process}
+
+Para el desarrollo de **SoftWork** se aplicó la metodología **Lean UX**, enfocada en diseñar soluciones centradas en el usuario mediante ciclos rápidos de validación y mejora continua.
+
+El proceso seguido fue el siguiente:
+
+- **Supuestos:** Los empleados necesitan un canal privado y confiable para reportar problemas laborales.
+- **Hipótesis:** Si se implementa una app móvil anónima con soporte de IA, aumentará la confianza y frecuencia de reportes.
+- **MVP:** Se desarrolló una primera versión con reporte anónimo, foros, chat con IA y dashboard para RRHH.
+- **Validación:** Se realizaron pruebas con usuarios para medir facilidad de uso, privacidad y utilidad.
+- **Iteración:** Con base en la retroalimentación, se optimizó la navegación, formularios y visualización de métricas.
+
+Gracias a este enfoque, el equipo pudo construir una solución alineada con las necesidades reales de los usuarios y reducir riesgos durante el desarrollo.
 
 #### 1.2.2.1. Lean UX Problem Statements {#lean-ux-problem-statements}
 
