@@ -36,6 +36,55 @@ Finalmente, otra táctica importante es la **experiencia mobile-first**, diseña
 
 ### 2.3.5. As-is Scenario Mapping {#as-is-scenario-mapping}
 
+### Segmento 1: Empleados de la empresa
+
+| Fase | Acciones (Doing) | Pensamientos (Thinking) | Emociones (Feeling) |
+|------|-----------------|------------------------|---------------------|
+| Inicio del problema | Percibe dificultades en su desempeño o bienestar laboral. Recibe feedback informal o detecta estrés. | "Siento que algo no está funcionando bien, pero no sé exactamente qué es." | Incertidumbre, estrés leve |
+| Búsqueda de ayuda | Consulta con compañeros, busca información en internet o revisa recursos internos. | "Quizá esto es normal... pero debería hacer algo al respecto." | Duda, curiosidad |
+| Evaluación de opciones | Considera acudir a RRHH o usar herramientas internas (si existen). | "No sé si esto es lo suficientemente importante como para escalarlo." | Inseguridad, temor |
+| Interacción con RRHH | Contacta a RRHH o responde encuestas internas. Expone parcialmente su situación. | "Espero que esto realmente sirva y no afecte mi imagen." | Ansiedad, desconfianza |
+| Seguimiento | Recibe retroalimentación limitada o genérica. Puede o no aplicar recomendaciones. | "No estoy seguro si esto realmente me ayuda a mejorar." | Frustración, desmotivación |
+| Resultado actual | Continúa con el problema parcialmente resuelto o sin cambios significativos. | "Tal vez solo tengo que adaptarme..." | Resignación, agotamiento |
+
+---
+
+### Segmento 2: Área de Recursos Humanos (RRHH)
+
+| Fase | Acciones (Doing) | Pensamientos (Thinking) | Emociones (Feeling) |
+|------|-----------------|------------------------|---------------------|
+| Detección de necesidades | Recibe reportes, resultados de encuestas o quejas informales. | "Hay señales de problemas, pero no tengo toda la información." | Preocupación, presión |
+| Recolección de información | Aplica encuestas, entrevistas o revisa indicadores de desempeño. | "Los datos son limitados o poco claros para tomar decisiones." | Incertidumbre |
+| Análisis | Interpreta datos de forma general, identifica patrones básicos. | "Necesito herramientas más precisas para entender esto mejor." | Frustración, carga mental |
+| Diseño de acciones | Propone capacitaciones, talleres o intervenciones generales. | "Espero que estas soluciones funcionen para la mayoría." | Duda, responsabilidad |
+| Implementación | Ejecuta programas o comunica iniciativas a los empleados. | "No sé si todos realmente participarán o se beneficiarán." | Estrés, presión operativa |
+| Evaluación de impacto | Revisa resultados de forma superficial o a corto plazo. | "Es difícil medir el impacto real de lo que hacemos." | Insatisfacción, incertidumbre |
+
+---
+
+### Pain Points (Áreas críticas identificadas)
+
+#### Para empleados:
+- Falta de claridad sobre cómo identificar y abordar sus problemas.
+- Miedo a expresar situaciones personales o laborales.
+- Soluciones poco personalizadas o superficiales.
+- Escaso seguimiento continuo.
+
+#### Para RRHH:
+- Información fragmentada y poco profunda.
+- Falta de herramientas analíticas avanzadas.
+- Limitaciones de tiempo para atención individual.
+- Dificultad para medir impacto real de sus acciones.
+
+---
+
+### Insight clave
+
+Existe una **desconexión entre la necesidad real del empleado y la capacidad de respuesta de RRHH**, causada principalmente por:
+- Falta de datos profundos
+- Procesos reactivos en lugar de predictivos
+- Baja personalización en las soluciones
+
 ## 2.4. Ubiquitous Language {#ubiquitous-language}
 
 A continuación, se define el lenguaje ubicuo (*Ubiquitous Language*) del proyecto **SoftWork**. Este vocabulario compartido garantiza un entendimiento común entre los miembros del equipo de desarrollo, los expertos en el dominio y los usuarios finales.
