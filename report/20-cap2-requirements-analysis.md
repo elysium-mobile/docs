@@ -20,6 +20,90 @@ Finalmente, otra táctica importante es la **experiencia mobile-first**, diseña
 
 ### 2.2.1. Diseño de entrevistas {#diseno-entrevistas}
 
+Para el diseño de entrevistas se han definido dos bloques de preguntas diferenciadas por segmento: empleados y área de Recursos Humanos (RRHH).
+
+Se aplican buenas prácticas como:
+- Uso de preguntas abiertas para obtener respuestas profundas.
+- Lenguaje claro y cercano para generar confianza.
+- Estructura flexible que permita explorar insights inesperados.
+- Enfoque en experiencias reales más que en respuestas ideales.
+
+El objetivo principal es recolectar información clave para construir arquetipos sólidos, considerando:
+- Variables demográficas y laborales
+- Comportamiento dentro del entorno de trabajo
+- Uso de herramientas digitales
+- Motivaciones, frustraciones y necesidades
+- Percepción sobre apoyo organizacional
+
+---
+
+### Segmento 1: Empleados de la empresa
+
+### Objetivo
+Comprender la experiencia del empleado dentro de la organización, su percepción sobre bienestar y desempeño laboral, cómo enfrenta dificultades y su disposición a usar herramientas digitales de apoyo.
+
+### Preguntas principales
+- ¿Cuál es tu rol dentro de la empresa y cuánto tiempo llevas trabajando aquí?
+- ¿Cómo describirías tu experiencia general trabajando en la empresa?
+- ¿Qué tan satisfecho te sientes con tu desempeño laboral actualmente?
+- ¿Qué haces cuando sientes estrés o dificultades en el trabajo?
+- ¿Has recurrido alguna vez a Recursos Humanos para apoyo? ¿Cómo fue tu experiencia?
+- ¿Qué tipo de apoyo te gustaría recibir para mejorar tu desempeño o bienestar?
+- ¿Qué tan cómodo te sientes compartiendo problemas laborales con la empresa?
+- ¿Usas herramientas digitales para organizarte o mejorar tu productividad?
+
+### Preguntas complementarias
+- ¿Qué situaciones dentro del trabajo te generan más estrés o frustración?
+- ¿Qué te motiva a rendir mejor en tu trabajo?
+- ¿Sientes que la empresa se preocupa por tu bienestar? ¿Por qué?
+- ¿Qué tipo de soluciones te parecen más útiles (seguimiento, recomendaciones, asesoría, etc.)?
+- ¿Preferirías una plataforma que te brinde apoyo personalizado? ¿Por qué?
+- ¿Qué tan importante es para ti la confidencialidad en este tipo de herramientas?
+
+---
+
+### Segmento 2: Área de Recursos Humanos (RRHH)
+
+### Objetivo
+Entender cómo RRHH gestiona actualmente el bienestar y desempeño de los empleados, qué herramientas utiliza, sus limitaciones y su disposición a adoptar soluciones tecnológicas.
+
+### Preguntas principales
+- ¿Cuál es tu rol dentro del área de Recursos Humanos?
+- ¿Cómo gestionan actualmente el bienestar y desempeño de los empleados?
+- ¿Qué herramientas utilizan para evaluar el clima laboral o desempeño?
+- ¿Cuáles son los principales problemas que detectan en los empleados?
+- ¿Cómo identifican casos de estrés, bajo rendimiento o desmotivación?
+- ¿Qué tan efectivo consideras el seguimiento que realizan actualmente?
+- ¿Qué dificultades enfrentas al gestionar múltiples empleados?
+- ¿Qué tipo de información te gustaría tener para tomar mejores decisiones?
+
+### Preguntas complementarias
+- ¿Utilizan herramientas digitales o sistemas para el análisis de datos?
+- ¿Qué limitaciones tienen los procesos actuales?
+- ¿Cómo miden el impacto de sus intervenciones?
+- ¿Qué tipo de soluciones tecnológicas les facilitarían el trabajo?
+- ¿Qué tan importante es la automatización en su área?
+- ¿Estarías dispuesto a implementar una plataforma que brinde análisis predictivo y seguimiento continuo?
+
+---
+
+### Consideraciones clave
+
+- Garantizar anonimato para obtener respuestas sinceras.
+- Permitir profundización en respuestas relevantes durante la entrevista.
+- Identificar patrones comunes entre ambos segmentos.
+- Validar supuestos del problema planteado en el proyecto.
+
+---
+
+### Insight esperado
+
+Se busca identificar la brecha entre:
+- La percepción del empleado sobre el apoyo recibido
+- La capacidad real de RRHH para brindar soluciones efectivas
+
+Esto permitirá diseñar una solución más alineada a necesidades reales y no supuestas.
+
 ### 2.2.2. Registro de entrevistas {#registro-entrevistas}
 
 ### 2.2.3. Análisis de entrevistas {#analisis-entrevistas}
