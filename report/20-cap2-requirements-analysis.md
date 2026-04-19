@@ -4,17 +4,124 @@
 
 ### 2.1.1. Análisis competitivo {#analisis-competitivo}
 
+<table>
+  <tr>
+    <th>Sección</th>
+    <th>Criterio</th>
+    <th>SoftWork</th>
+    <th>Officevibe</th>
+    <th>Culture Amp</th>
+    <th>15Five</th>
+  </tr>
+
+  <tr>
+    <td rowspan="2"><b>Perfil</b></td>
+    <td>Overview</td>
+    <td>Plataforma de contacto y análisis basada en encuestas, foro y análisis organizacional.</td>
+    <td>Plataforma de engagement basada en encuestas rápidas y feedback continuo.</td>
+    <td>Plataforma avanzada de análisis de clima laboral y cultura organizacional.</td>
+    <td>Software de desempeño con enfoque en feedback continuo y objetivos (OKRs).</td>
+  </tr>
+
+  <tr>
+    <td>Ventaja Competitiva</td>
+    <td>Simplicidad y costeable por empresas de diversas magnitudes</td>
+    <td>Simplicidad y facilidad de uso en encuestas semanales.</td>
+    <td>Potente analítica y benchmarking global.</td>
+    <td>Integración de desempeño, objetivos y seguimiento del empleado.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2"><b>Marketing</b></td>
+    <td>Mercado objetivo</td>
+    <td>Empresas medianas o grandes</td>
+    <td>Empresas medianas y grandes.</td>
+    <td>Corporaciones globales.</td>
+    <td>Empresas que buscan analizar desempeño.</td>
+  </tr>
+
+  <tr>
+    <td>Estrategia</td>
+    <td>Branding y marketing direccionado a redes sociales.</td>
+    <td>Marketing digital enfocado en HR tech.</td>
+    <td>Branding + estudios organizacionales.</td>
+    <td>Contenido educativo y enfoque en managers.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="3"><b>Producto</b></td>
+    <td>Servicios</td>
+    <td>Encuestas, personalización de usuario, dashboards, foros de trabajo</td>
+    <td>Encuestas, feedback anónimo, reportes básicos.</td>
+    <td>Encuestas, analítica avanzada, planes de acción.</td>
+    <td>Evaluaciones, seguimiento de objetivos, feedback continuo.</td>
+  </tr>
+
+  <tr>
+    <td>Precios & Costos</td>
+    <td>Suscripción por usuario</td>
+    <td>Suscripción por usuario.</td>
+    <td>SaaS con precios elevados.</td>
+    <td>Suscripción escalable por usuario.</td>
+  </tr>
+
+  <tr>
+    <td>Canales de distribución</td>
+    <td>App móvil</td>
+    <td>Web + app móvil.</td>
+    <td>Web + app móvil.</td>
+    <td>Web + app móvil.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="4"><b>SWOT</b></td>
+    <td>Fortalezas</td>
+    <td>Integración sencilla.</td>
+    <td>Fácil adopción.</td>
+    <td>Alto nivel de análisis.</td>
+    <td>Plataforma integral de talento.</td>
+  </tr>
+
+  <tr>
+    <td>Debilidades</td>
+    <td>Disponible solo para app móvil</td>
+    <td>Funcionalidad limitada.</td>
+    <td>Alto costo.</td>
+    <td>Complejidad para equipos pequeños.</td>
+  </tr>
+
+  <tr>
+    <td>Oportunidades</td>
+    <td>Monitoreo específico y posiblemente tercerizado.</td>
+    <td>Crecimiento del trabajo remoto.</td>
+    <td>Expansión global.</td>
+    <td>Tendencia hacia OKRs.</td>
+  </tr>
+
+  <tr>
+    <td>Amenazas</td>
+    <td>Mercado ya establecido</td>
+    <td>Competencia más completa.</td>
+    <td>Nuevas startups.</td>
+    <td>Mercado saturado.</td>
+  </tr>
+</table>
+
+---
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores {#estrategias-tacticas-competidores}
 
-Frente a los competidores existentes en el mercado de bienestar laboral y gestión de clima organizacional, **SoftWork** busca diferenciarse mediante una propuesta centrada en la **privacidad, accesibilidad y análisis inteligente de datos**.
+Frente a los competidores existentes en el mercado de bienestar laboral y gestión de clima organizacional, **SoftWork** busca diferenciarse mediante una propuesta centrada en la **privacidad, accesibilidad y análisis inteligente de datos**. A diferencia de otras plataformas, SoftWork integra comunicación activa, feedback continuo y herramientas de acompañamiento. Además, puede integrar equipos de RRHH de diversas empresas para que analicen el clima laboral de cualquier tipo de empresa.  
 
-La principal estrategia competitiva es ofrecer una **aplicación móvil con reportes totalmente anónimos**, permitiendo que los empleados puedan expresar problemas o inquietudes sin temor a represalias. A diferencia de otras plataformas tradicionales, SoftWork prioriza la confianza del usuario como eje principal de la experiencia.
+Frente a diversos competidores ya establecidos en el mercado, Soft adopta una estrategia basada en:  
 
-Como táctica de valor agregado, la solución incorpora **asistencia mediante Inteligencia Artificial**, capaz de brindar orientación inicial al trabajador y facilitar la clasificación temprana de incidentes. Esto mejora los tiempos de respuesta y optimiza la gestión por parte del área de Recursos Humanos.
+- Simplicidad y accesibilidad, facilitando su implementación en empresas medianas.  
+- Enfoque en acción inmediata, no solo medición, permitiendo resolver problemas en tiempo real.  
+- Cercanía con el usuario, promoviendo comunicación directa entre empleados y RRHH.  
+- Adaptación al contexto local, considerando dinámicas laborales más informales o tradicionales.  
 
-Además, se plantea como ventaja competitiva el uso de **dashboards analíticos en tiempo real**, donde RRHH puede identificar patrones de comportamiento, niveles de satisfacción y posibles focos de conflicto dentro de la organización.
-
-Finalmente, otra táctica importante es la **experiencia mobile-first**, diseñada para que los usuarios puedan interactuar desde cualquier lugar de forma rápida, intuitiva y segura, aumentando la adopción frente a soluciones únicamente web.
+De esta forma, SoftWork busca diferenciarse como una herramienta práctica, humana y accesible para mejorar el entorno laboral de manera continua.  
 
 ## 2.2. Entrevistas {#entrevistas}
 
@@ -42,48 +149,45 @@ El objetivo principal es recolectar información clave para construir arquetipos
 ### Objetivo
 Comprender la experiencia del empleado dentro de la organización, su percepción sobre bienestar y desempeño laboral, cómo enfrenta dificultades y su disposición a usar herramientas digitales de apoyo.
 
-### Preguntas principales
-- ¿Cuál es tu rol dentro de la empresa y cuánto tiempo llevas trabajando aquí?
-- ¿Cómo describirías tu experiencia general trabajando en la empresa?
-- ¿Qué tan satisfecho te sientes con tu desempeño laboral actualmente?
-- ¿Qué haces cuando sientes estrés o dificultades en el trabajo?
-- ¿Has recurrido alguna vez a Recursos Humanos para apoyo? ¿Cómo fue tu experiencia?
-- ¿Qué tipo de apoyo te gustaría recibir para mejorar tu desempeño o bienestar?
-- ¿Qué tan cómodo te sientes compartiendo problemas laborales con la empresa?
-- ¿Usas herramientas digitales para organizarte o mejorar tu productividad?
+**Segmento 1: Empleados**
 
-### Preguntas complementarias
-- ¿Qué situaciones dentro del trabajo te generan más estrés o frustración?
-- ¿Qué te motiva a rendir mejor en tu trabajo?
-- ¿Sientes que la empresa se preocupa por tu bienestar? ¿Por qué?
-- ¿Qué tipo de soluciones te parecen más útiles (seguimiento, recomendaciones, asesoría, etc.)?
-- ¿Preferirías una plataforma que te brinde apoyo personalizado? ¿Por qué?
-- ¿Qué tan importante es para ti la confidencialidad en este tipo de herramientas?
+**Introducción:**  
+“Buenos días/tardes/noches, mi nombre es ‘Nombre del entrevistador’. Actualmente estamos desarrollando una aplicación orientada a mejorar el ambiente laboral con una mejor comunicación con Recursos Humanos. Nos gustaría conocer su experiencia y opinión a través de algunas preguntas.”  
+
+**Preguntas:**
+
+1. ¿Cómo describirías el ambiente laboral en tu área actualmente?  
+2. ¿Has tenido alguna incomodidad o problema en algún trabajo que hayas tenido? ¿Cómo lo manejaste?  
+3. ¿Sientes que quizás estás un poco limitado para expresar tus opiniones o preocupaciones?  
+4. ¿Cuentas con un área de Recursos Humanos en tu empresa? De ser así, ¿qué tan accesible es?  
+5. ¿Qué medios utilizas actualmente para comunicar problemas laborales? (ej. jefe directo, RRHH, chat, etc.)  
+6. ¿Has participado en encuestas de clima laboral? ¿Con qué frecuencia?  
+7. ¿Consideras que la comunicación en tu ambiente laboral ha mejorado?  
+8. ¿Qué tan útil sería para ti una app donde puedas comunicar problemas y recibir respuesta?  
+9. ¿Qué funcionalidades te gustaría que tenga una aplicación de este tipo?  
+10. ¿Te sentirías cómodo utilizando una app móvil para estos fines? ¿Por qué?  
+11. ¿Crees que mejorar el ambiente laboral impacta en tu productividad? ¿Cómo?  
 
 ---
 
-### Segmento 2: Área de Recursos Humanos (RRHH)
+**Segmento 2: Recursos Humanos**
 
-### Objetivo
-Entender cómo RRHH gestiona actualmente el bienestar y desempeño de los empleados, qué herramientas utiliza, sus limitaciones y su disposición a adoptar soluciones tecnológicas.
+**Introducción:**  
+“Buenos días/tardes/noches, mi nombre es ‘Nombre del entrevistador’. Estamos desarrollando una aplicación que busca mejorar el clima laboral mediante herramientas de feedback, comunicación directa y análisis de datos para RRHH. Nos gustaría conocer su experiencia para validar esta propuesta.”  
 
-### Preguntas principales
-- ¿Cuál es tu rol dentro del área de Recursos Humanos?
-- ¿Cómo gestionan actualmente el bienestar y desempeño de los empleados?
-- ¿Qué herramientas utilizan para evaluar el clima laboral o desempeño?
-- ¿Cuáles son los principales problemas que detectan en los empleados?
-- ¿Cómo identifican casos de estrés, bajo rendimiento o desmotivación?
-- ¿Qué tan efectivo consideras el seguimiento que realizan actualmente?
-- ¿Qué dificultades enfrentas al gestionar múltiples empleados?
-- ¿Qué tipo de información te gustaría tener para tomar mejores decisiones?
+**Preguntas:**
 
-### Preguntas complementarias
-- ¿Utilizan herramientas digitales o sistemas para el análisis de datos?
-- ¿Qué limitaciones tienen los procesos actuales?
-- ¿Cómo miden el impacto de sus intervenciones?
-- ¿Qué tipo de soluciones tecnológicas les facilitarían el trabajo?
-- ¿Qué tan importante es la automatización en su área?
-- ¿Estarías dispuesto a implementar una plataforma que brinde análisis predictivo y seguimiento continuo?
+1. ¿Cómo evalúan actualmente el clima laboral en la empresa?  
+2. ¿Utilizan medios digitales para recopilar feedback de los empleados? De ser así, ¿podría mencionar estos medios?  
+3. ¿Con qué frecuencia realizan encuestas o evaluaciones de clima laboral?  
+4. ¿Considera que es complicado gestionar el clima laboral y lograr mejorarlo?  
+5. ¿Qué tan rápido pueden actuar frente a un problema detectado?  
+6. ¿Cómo gestionan la comunicación con empleados que presentan incomodidades?  
+7. ¿Qué tipo de indicadores consideran más importantes en sus análisis?  
+8. ¿Obtienen reportes visuales basados en los resultados de los indicadores mencionados?  
+9. ¿Qué tan útil sería tener un dashboard automatizado en tiempo real sobre el estado del clima laboral?  
+10. ¿Qué funcionalidades consideran indispensables en una solución como esta?  
+11. ¿Estarían dispuestos a invertir en implementar una herramienta digital para mejorar el clima laboral? ¿Por qué?  
 
 ---
 
