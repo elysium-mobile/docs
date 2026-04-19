@@ -4,108 +4,19 @@
 
 ### 2.1.1. Análisis competitivo {#analisis-competitivo}
 
-<table>
-  <tr>
-    <th>Sección</th>
-    <th>Criterio</th>
-    <th>SoftWork</th>
-    <th>Officevibe</th>
-    <th>Culture Amp</th>
-    <th>15Five</th>
-  </tr>
-
-  <tr>
-    <td rowspan="2"><b>Perfil</b></td>
-    <td>Overview</td>
-    <td>Plataforma de contacto y análisis basada en encuestas, foro y análisis organizacional.</td>
-    <td>Plataforma de engagement basada en encuestas rápidas y feedback continuo.</td>
-    <td>Plataforma avanzada de análisis de clima laboral y cultura organizacional.</td>
-    <td>Software de desempeño con enfoque en feedback continuo y objetivos (OKRs).</td>
-  </tr>
-
-  <tr>
-    <td>Ventaja Competitiva</td>
-    <td>Simplicidad y costeable por empresas de diversas magnitudes</td>
-    <td>Simplicidad y facilidad de uso en encuestas semanales.</td>
-    <td>Potente analítica y benchmarking global.</td>
-    <td>Integración de desempeño, objetivos y seguimiento del empleado.</td>
-  </tr>
-
-  <tr>
-    <td rowspan="2"><b>Marketing</b></td>
-    <td>Mercado objetivo</td>
-    <td>Empresas medianas o grandes</td>
-    <td>Empresas medianas y grandes.</td>
-    <td>Corporaciones globales.</td>
-    <td>Empresas que buscan analizar desempeño.</td>
-  </tr>
-
-  <tr>
-    <td>Estrategia</td>
-    <td>Branding y marketing direccionado a redes sociales.</td>
-    <td>Marketing digital enfocado en HR tech.</td>
-    <td>Branding + estudios organizacionales.</td>
-    <td>Contenido educativo y enfoque en managers.</td>
-  </tr>
-
-  <tr>
-    <td rowspan="3"><b>Producto</b></td>
-    <td>Servicios</td>
-    <td>Encuestas, personalización de usuario, dashboards, foros de trabajo</td>
-    <td>Encuestas, feedback anónimo, reportes básicos.</td>
-    <td>Encuestas, analítica avanzada, planes de acción.</td>
-    <td>Evaluaciones, seguimiento de objetivos, feedback continuo.</td>
-  </tr>
-
-  <tr>
-    <td>Precios & Costos</td>
-    <td>Suscripción por usuario</td>
-    <td>Suscripción por usuario.</td>
-    <td>SaaS con precios elevados.</td>
-    <td>Suscripción escalable por usuario.</td>
-  </tr>
-
-  <tr>
-    <td>Canales de distribución</td>
-    <td>App móvil</td>
-    <td>Web + app móvil.</td>
-    <td>Web + app móvil.</td>
-    <td>Web + app móvil.</td>
-  </tr>
-
-  <tr>
-    <td rowspan="4"><b>SWOT</b></td>
-    <td>Fortalezas</td>
-    <td>Integración sencilla.</td>
-    <td>Fácil adopción.</td>
-    <td>Alto nivel de análisis.</td>
-    <td>Plataforma integral de talento.</td>
-  </tr>
-
-  <tr>
-    <td>Debilidades</td>
-    <td>Disponible solo para app móvil</td>
-    <td>Funcionalidad limitada.</td>
-    <td>Alto costo.</td>
-    <td>Complejidad para equipos pequeños.</td>
-  </tr>
-
-  <tr>
-    <td>Oportunidades</td>
-    <td>Monitoreo específico y posiblemente tercerizado.</td>
-    <td>Crecimiento del trabajo remoto.</td>
-    <td>Expansión global.</td>
-    <td>Tendencia hacia OKRs.</td>
-  </tr>
-
-  <tr>
-    <td>Amenazas</td>
-    <td>Mercado ya establecido</td>
-    <td>Competencia más completa.</td>
-    <td>Nuevas startups.</td>
-    <td>Mercado saturado.</td>
-  </tr>
-</table>
+| Sección | Criterio | SoftWork | Officevibe | Culture Amp | 15Five |
+|:---|:---|:---|:---|:---|:---|
+| **Perfil** | Overview | Plataforma de contacto y análisis basada en encuestas, foro y análisis organizacional. | Plataforma de engagement basada en encuestas rápidas y feedback continuo. | Plataforma avanzada de análisis de clima laboral y cultura organizacional. | Software de desempeño con enfoque en feedback continuo y objetivos (OKRs). |
+| | Ventaja Competitiva | Simplicidad y costeable por empresas de diversas magnitudes | Simplicidad y facilidad de uso en encuestas semanales. | Potente analítica y benchmarking global. | Integración de desempeño, objetivos y seguimiento del empleado. |
+| **Marketing** | Mercado objetivo | Empresas medianas o grandes | Empresas medianas y grandes. | Corporaciones globales. | Empresas que buscan analizar desempeño. |
+| | Estrategia | Branding y marketing direccionado a redes sociales. | Marketing digital enfocado en HR tech. | Branding + estudios organizacionales. | Contenido educativo y enfoque en managers. |
+| **Producto** | Servicios | Encuestas, personalización de usuario, dashboards, foros de trabajo | Encuestas, feedback anónimo, reportes básicos. | Encuestas, analítica avanzada, planes de acción. | Evaluaciones, seguimiento de objetivos, feedback continuo. |
+| | Precios & Costos | Suscripción por usuario | Suscripción por usuario. | SaaS con precios elevados. | Suscripción escalable por usuario. |
+| | Canales de distribución | App móvil | Web + app móvil. | Web + app móvil. | Web + app móvil. |
+| **SWOT** | Fortalezas | Integración sencilla. | Fácil adopción. | Alto nivel de análisis. | Plataforma integral de talento. |
+| | Debilidades | Disponible solo para app móvil | Funcionalidad limitada. | Alto costo. | Complejidad para equipos pequeños. |
+| | Oportunidades | Monitoreo específico y posiblemente tercerizado. | Crecimiento del trabajo remoto. | Expansión global. | Tendencia hacia OKRs. |
+| | Amenazas | Mercado ya establecido | Competencia más completa. | Nuevas startups. | Mercado saturado. |
 
 ---
 
@@ -227,7 +138,7 @@ Esto permitirá diseñar una solución más alineada a necesidades reales y no s
 ### Segmento 1: Empleados de la empresa
 
 | Fase | Acciones (Doing) | Pensamientos (Thinking) | Emociones (Feeling) |
-|------|-----------------|------------------------|---------------------|
+|:---|:---|:---|:---|
 | Inicio del problema | Percibe dificultades en su desempeño o bienestar laboral. Recibe feedback informal o detecta estrés. | "Siento que algo no está funcionando bien, pero no sé exactamente qué es." | Incertidumbre, estrés leve |
 | Búsqueda de ayuda | Consulta con compañeros, busca información en internet o revisa recursos internos. | "Quizá esto es normal... pero debería hacer algo al respecto." | Duda, curiosidad |
 | Evaluación de opciones | Considera acudir a RRHH o usar herramientas internas (si existen). | "No sé si esto es lo suficientemente importante como para escalarlo." | Inseguridad, temor |
@@ -240,7 +151,7 @@ Esto permitirá diseñar una solución más alineada a necesidades reales y no s
 ### Segmento 2: Área de Recursos Humanos (RRHH)
 
 | Fase | Acciones (Doing) | Pensamientos (Thinking) | Emociones (Feeling) |
-|------|-----------------|------------------------|---------------------|
+|:---|:---|:---|:---|
 | Detección de necesidades | Recibe reportes, resultados de encuestas o quejas informales. | "Hay señales de problemas, pero no tengo toda la información." | Preocupación, presión |
 | Recolección de información | Aplica encuestas, entrevistas o revisa indicadores de desempeño. | "Los datos son limitados o poco claros para tomar decisiones." | Incertidumbre |
 | Análisis | Interpreta datos de forma general, identifica patrones básicos. | "Necesito herramientas más precisas para entender esto mejor." | Frustración, carga mental |
@@ -278,23 +189,23 @@ Existe una **desconexión entre la necesidad real del empleado y la capacidad de
 A continuación, se define el lenguaje ubicuo (*Ubiquitous Language*) del proyecto **SoftWork**. Este vocabulario compartido garantiza un entendimiento común entre los miembros del equipo de desarrollo, los expertos en el dominio y los usuarios finales.
 
 **1. Stakeholders & Roles**
-*   **User / UserAccount:** Entidad que representa la cuenta y perfil de acceso de un usuario registrado en el sistema.
-*   **Role (Rol):** Nivel de autorización en la aplicación. Existen principalmente dos: `ANONYMOUS_USER` y `RRHH_MANAGER`.
-*   **Anonymous User (Trabajador):** Tipo de usuario que representa al empleado de una empresa. Su identidad se mantiene oculta para garantizar que pueda expresar sus problemas, quejas e ideas laborales libremente sin miedo a represalias.
-*   **RRHH Manager (Recursos Humanos):** Usuario administrador que monitorea el feedback de los empleados. Tienen la facultad de ver métricas organizacionales y enviar propuestas, soluciones y comunicados para mejorar el clima laboral.
+-   **User / UserAccount:** Entidad que representa la cuenta y perfil de acceso de un usuario registrado en el sistema.
+-   **Role (Rol):** Nivel de autorización en la aplicación. Existen principalmente dos: `ANONYMOUS_USER` y `RRHH_MANAGER`.
+-   **Anonymous User (Trabajador):** Tipo de usuario que representa al empleado de una empresa. Su identidad se mantiene oculta para garantizar que pueda expresar sus problemas, quejas e ideas laborales libremente sin miedo a represalias.
+-   **RRHH Manager (Recursos Humanos):** Usuario administrador que monitorea el feedback de los empleados. Tienen la facultad de ver métricas organizacionales y enviar propuestas, soluciones y comunicados para mejorar el clima laboral.
 
 **2. Funcionalidades de la Plataforma**
-*   **Department Category (Categoría de Departamento):** Clasificación que permite organizar y agrupar los hilos de discusión según las distintas áreas o departamentos de una empresa.
-*   **Thread (Hilo de discusión):** Espacio virtual donde los usuarios publican y discuten sobre problemáticas o temas específicos del ambiente laboral de manera anónima.
-*   **Message (Mensaje):** Publicación textual que expresa el feedback, problema u opinión de un empleado dentro de un hilo o en la interacción asistida por Inteligencia Artificial.
-*   **Dashboard (Panel de Control):** Interfaz exclusiva para los perfiles de `RRHH_MANAGER`, donde pueden visualizar de forma resumida el estado emocional y problemático de las áreas de trabajo a través de métricas y gráficos.
-*   **Activity Widget:** Componentes visuales dentro del panel de control (*Bar Chart*, *Pie Chart*, *Heatmap*) que traducen los datos abstraídos en representaciones gráficas interactivas.
-*   **Analytic System (Sistema Analítico):** Módulo inteligente que evalúa los datos recopilados para identificar tópicos en tendencia, respuestas conductuales y puntajes de sentimiento laboral (*Sentiment Score*).
-*   **Announcement Manager (Gestor de Anuncios):** Módulo que permite al gestor u oficial de Recursos Humanos emitir mensajes públicos masivos y plantear encuestas de satisfacción.
+-   **Department Category (Categoría de Departamento):** Clasificación que permite organizar y agrupar los hilos de discusión según las distintas áreas o departamentos de una empresa.
+-   **Thread (Hilo de discusión):** Espacio virtual donde los usuarios publican y discuten sobre problemáticas o temas específicos del ambiente laboral de manera anónima.
+-   **Message (Mensaje):** Publicación textual que expresa el feedback, problema u opinión de un empleado dentro de un hilo o en la interacción asistida por Inteligencia Artificial.
+-   **Dashboard (Panel de Control):** Interfaz exclusiva para los perfiles de `RRHH_MANAGER`, donde pueden visualizar de forma resumida el estado emocional y problemático de las áreas de trabajo a través de métricas y gráficos.
+-   **Activity Widget:** Componentes visuales dentro del panel de control (*Bar Chart*, *Pie Chart*, *Heatmap*) que traducen los datos abstraídos en representaciones gráficas interactivas.
+-   **Analytic System (Sistema Analítico):** Módulo inteligente que evalúa los datos recopilados para identificar tópicos en tendencia, respuestas conductuales y puntajes de sentimiento laboral (*Sentiment Score*).
+-   **Announcement Manager (Gestor de Anuncios):** Módulo que permite al gestor u oficial de Recursos Humanos emitir mensajes públicos masivos y plantear encuestas de satisfacción.
 
 **3. Otros conceptos del dominio**
-*   **Data Recopiled (Datos Recopilados):** Conjunto de mensajes y comportamientos recolectados como materia prima para ser analizados posteriormente.
-*   **Notification (Notificación):** Alertas del sistema sobre nuevos comentarios, cambios o anuncios emitidos.
-*   **Membership (Membresía):** Suscripción adquirida por las empresas cliente (B2B) que determina el servicio, con estados de validación como `ACTIVE`, `CANCELLED` o `EXPIRED`.
-*   **Membership Plan:** Paquetes que ofrecen distintos niveles de funcionalidades (Beneficios) dependiendo de la necesidad empresarial.
-*   **Payment (Transacción):** Modelo de liquidación implementado mediante diversos procesadores y estrategias de pago (Tarjetas, PayPal) en la contratación de los servicios de Elysium.
+-   **Data Recopiled (Datos Recopilados):** Conjunto de mensajes y comportamientos recolectados como materia prima para ser analizados posteriormente.
+-   **Notification (Notificación):** Alertas del sistema sobre nuevos comentarios, cambios o anuncios emitidos.
+-   **Membership (Membresía):** Suscripción adquirida por las empresas cliente (B2B) que determina el servicio, con estados de validación como `ACTIVE`, `CANCELLED` o `EXPIRED`.
+-   **Membership Plan:** Paquetes que ofrecen distintos niveles de funcionalidades (Beneficios) dependiendo de la necesidad empresarial.
+-   **Payment (Transacción):** Modelo de liquidación implementado mediante diversos procesadores y estrategias de pago (Tarjetas, PayPal) en la contratación de los servicios de Elysium.

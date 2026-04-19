@@ -7,7 +7,7 @@
 **Objetivo:** Brindar una experiencia proactiva, personalizada y continua que permita al empleado identificar, entender y mejorar su bienestar y desempeño laboral con apoyo tecnológico y acompañamiento estructurado.
 
 | Fase | Acciones (Doing) | Pensamientos (Thinking) | Emociones (Feeling) |
-|------|-----------------|------------------------|---------------------|
+|:---|:---|:---|:---|
 | Descubrimiento | Recibe alertas inteligentes o recomendaciones basadas en su comportamiento laboral (estrés, desempeño, clima). | "Esto refleja exactamente lo que estoy sintiendo, no lo había identificado tan claro." | Sorpresa, interés |
 | Acceso y diagnóstico | Ingresa a la plataforma y completa un diagnóstico guiado e interactivo. | "El proceso es claro y parece adaptado a mi situación." | Confianza, curiosidad |
 | Visualización de resultados | Recibe un análisis personalizado con indicadores claros, riesgos y oportunidades de mejora. | "Ahora entiendo qué está pasando y por qué." | Claridad, tranquilidad |
@@ -21,7 +21,7 @@
 **Objetivo:** Optimizar la toma de decisiones mediante datos en tiempo real, automatización de procesos y herramientas de análisis que permitan intervenciones más efectivas y personalizadas.
 
 | Fase | Acciones (Doing) | Pensamientos (Thinking) | Emociones (Feeling) |
-|------|-----------------|------------------------|---------------------|
+|:---|:---|:---|:---|
 | Monitoreo inteligente | Accede a dashboards con indicadores en tiempo real sobre clima, desempeño y bienestar. | "Ahora tengo visibilidad clara y actualizada de la situación." | Control, seguridad |
 | Detección predictiva | El sistema identifica riesgos y patrones antes de que escalen (burnout, rotación, bajo rendimiento). | "Puedo anticiparme en lugar de reaccionar tarde." | Confianza, proactividad |
 | Segmentación y priorización | Clasifica empleados según niveles de riesgo o necesidad de intervención. | "Sé exactamente dónde enfocar mis esfuerzos." | Claridad, eficiencia |

@@ -14,7 +14,7 @@ Elysium se especializa en el desarrollo de soluciones tecnológicas orientadas a
 ### 1.1.2. Perfiles de integrantes del equipo {#perfiles-integrantes-equipo}
 
 | Perfil del integrante | Código de alumno | Descripción |
-| :--- | :--- | :--- |
+|:---|:---|:---|
 | César Augusto Aróstegui Alzamora | U202114548 | **Ingeniero de Software** - Soy César Augusto, actualmente tengo 21 años. Mi lenguaje de programación más utilizado y favorito es TypeScript. Actualmente me encuentro desarrollando habilidades en áreas como DevOps y frameworks de desarrollo móvil. También me interesan las tecnologías de inteligencia artificial y su aplicación en soluciones empresariales. |
 | Piero Francesco Tenorio Medina | U202318731 | **Ingeniero de Software** - [Breve descripción sobre el rol del estudiante, conocimientos técnicos relevantes y su aporte/motivación para el desarrollo del proyecto "SoftWork".] |
 | Gianmarco Fabian Jiménez Guerra | U202123843 | **Ingeniero de Software** - Soy Gianmarco Jiménez, estudiante de Ingeniería de Software con conocimiento sobre desarrollo de aplicaciones web y análisis de datos. Me motiva trabajar en el proyecto "SoftWork" ya que me permitirá expandir mi área de conocimientos, implementando una aplicación móvil que puede solucionar un problmea real. Considero que mi conocimiento sobre las tecnologías: Java, Python, Angular y C# me permitirá desempeñarme de manera correcta para apoyar en la solución.  |

@@ -30,5 +30,6 @@ resource-path:
 
 # Variables de diseño
 variables:
+  lang: es-ES
   geometry: [margin=2cm]
   colorlinks: true
