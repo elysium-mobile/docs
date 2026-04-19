@@ -17,7 +17,7 @@ Elysium se especializa en el desarrollo de soluciones tecnológicas orientadas a
 | :--- | :--- | :--- |
 | César Augusto Aróstegui Alzamora | U202114548 | **Ingeniero de Software** - Soy César Augusto, actualmente tengo 21 años. Mi lenguaje de programación más utilizado y favorito es TypeScript. Actualmente me encuentro desarrollando habilidades en áreas como DevOps y frameworks de desarrollo móvil. También me interesan las tecnologías de inteligencia artificial y su aplicación en soluciones empresariales. |
 | Piero Francesco Tenorio Medina | U202318731 | **Ingeniero de Software** - [Breve descripción sobre el rol del estudiante, conocimientos técnicos relevantes y su aporte/motivación para el desarrollo del proyecto "SoftWork".] |
-| Gianmarco Fabian Jiménez Guerra | U202123843 | **Ingeniero de Software** - [Breve descripción sobre el rol del estudiante, conocimientos técnicos relevantes y su aporte/motivación para el desarrollo del proyecto "SoftWork".] |
+| Gianmarco Fabian Jiménez Guerra | U202123843 | **Ingeniero de Software** - Soy Gianmarco Jiménez, estudiante de Ingeniería de Software con conocimiento sobre desarrollo de aplicaciones web y análisis de datos. Me motiva trabajar en el proyecto "SoftWork" ya que me permitirá expandir mi área de conocimientos, implementando una aplicación móvil que puede solucionar un problmea real. Considero que mi conocimiento sobre las tecnologías: Java, Python, Angular y C# me permitirá desempeñarme de manera correcta para apoyar en la solución.  |
 | Flor De María Contreras Leon | U202323243 | **Ingeniero de Software** - [Breve descripción sobre el rol del estudiante, conocimientos técnicos relevantes y su aporte/motivación para el desarrollo del proyecto "SoftWork".] |
 | Diego Andres Avalos Cordova | U202313922 | **Ingeniero de Software** - Mi nombre es Diego Avalos, tengo 19 años y actualmente estudio Ingeniería de Software. Me interesa mucho especializarme en Ciberseguridad y Hacking Ético. Tengo experiencia usando sistemas operativos como GNU/Linux, además de contar con conocimientos en Desarrollo Web. También me gustan mucho los temas relacionados con la tecnología, especialmente la Inteligencia Artificial, y siempre trato de investigar y aprender sobre nuevas herramientas o áreas que llamen mi atención. |
 
@@ -62,3 +62,35 @@ Gracias a este enfoque, el equipo pudo construir una solución alineada con las 
 
 
 ## 1.3. Segmentos Objetivo {#segmentos-objetivo}
+
+**Segmento 1: Empleado de un área específica de una empresa:**
+
+**Sexo:** Masculino y Femenino  
+**Edades:** Entre 19 y 50 años  
+**Ocupación:** Empleado de algún área de una empresa que requiera monitoreo en su entorno.  
+
+**Aspectos Geográficos:**  
+Zona Geográfica en la que viven: Urbana, ciudad con múltiples negocios y empresas.  
+
+**Aspectos Psicográficos:**  
+- Valoran el buen servicio y la eficacia.  
+- Buscan mejorar la productividad y eficiencia en entornos colaborativos.  
+- Tienen interés mejorar el ambiente y química laboral.  
+
+---
+
+**Segmento 2: Trabajador del área de Recursos Humanos:**
+
+**Sexo:** Masculino y Femenino  
+**Edades:** Entre 19 y 50 años  
+**Ocupación:** Trabajador de RRHH que analiza y mejora el clima laboral.  
+
+**Aspectos Geográficos:**  
+Zona Geográfica en la que viven: Urbana, ciudad con múltiples negocios y empresas.  
+
+**Aspectos Psicográficos:**  
+- Estudian el desempeño y la carga laboral.  
+- Interés en mejorar el ambiente laboral.  
+- Buscan soluciones que les permitan mejorar las condiciones sociales dentro del entorno laboral.  
+
+---
