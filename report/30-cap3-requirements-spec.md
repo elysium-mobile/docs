@@ -113,7 +113,7 @@ A continuación se detalla el listado completo de User Stories. Cada una ha sido
 | US35 | Recepción de Sugerencias de Pausas Activas Inteligentes | Como empleado con altos niveles de estrés detectados por el sistema, quiero recibir sugerencias automáticas de pausas o ejercicios de respiración para reducir mi ansiedad durante la jornada laboral. | \textbf{Escenario 1:} Sugerencia proactiva de bienestar\newline \textbf{Dado} que mis respuestas indican niveles críticos de agotamiento,\newline \textbf{Cuando} inicio sesión,\newline \textbf{Entonces} el sistema me recomienda un ejercicio de 2 minutos con un enlace a una guía de relajación. \newline  \textbf{Escenario 2:} Personalización de sugerencias\newline \textbf{Dado} que recibo una sugerencia de pausa activa,\newline \textbf{Cuando} selecciono "Personalizar recomendaciones",\newline \textbf{Entonces} el sistema me permite elegir entre diferentes tipos de ejercicios o actividades según mis preferencias. | EP07 |
 
 
-### Historias Técnicas
+### Technical Stories
 
 En esta sección se detallan las historias técnicas necesarias para implementar las funcionalidades descritas en los User Stories. Estas historias técnicas se enfocan en la arquitectura, la infraestructura, la seguridad y otros aspectos técnicos que son fundamentales para el correcto funcionamiento de la aplicación.
 
@@ -150,7 +150,7 @@ En esta sección se detallan las historias técnicas necesarias para implementar
 | TS29 | Lógica de Roles y Permisos (RBAC) | Diseñar el esquema de acceso relacional en PostgreSQL para validar qué acciones pueden ejecutar los distintos usuarios. | Todas |
 | TS30 | Monitoreo del Pool de Conexiones SQL | Configurar e instrumentar la gestión del 'Grupo de Conexiones' (ej. pgBouncer o grupo de conexiones del ORM) para evitar sobrecargas en PostgreSQL. | Todas |
 
-### Historias de Investigación (Spikes)
+### Spike Stories
 
 Este apartado se dedica a las historias de investigación que el equipo debe realizar para resolver dudas técnicas, evaluar tecnologías o definir la mejor estrategia de implementación para ciertos aspectos del proyecto. Estas historias no generan código directamente, sino que buscan obtener información valiosa para tomar decisiones informadas en el desarrollo.
 
@@ -169,7 +169,7 @@ Este apartado se dedica a las historias de investigación que el equipo debe rea
 
 ## 3.3. Impact Mapping {#impact-mapping}
 
-## 3.4. Backlog del Producto {#product-backlog}
+## 3.4. Product Backlog {#product-backlog}
 
 [Trello Board - SoftWork](#)
 
