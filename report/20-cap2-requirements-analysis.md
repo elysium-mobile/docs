@@ -122,8 +122,26 @@ Esto permitirá diseñar una solución más alineada a necesidades reales y no s
 ### 2.2.2. Registro de entrevistas {#registro-entrevistas}
 
 **Segmento 1: Empleados**
+##### Entrevista N°1: Ailmeida Aguilar
+- Sexo: Masculino
+- Edad: 23 años
+- Dirección: Lima, San Miguel.
 
-**Entrevista 1: Diego Bullón**
+![Entrevista Empleado 1](Assets/chapter-II/Ailmeida.jpg)
+**Link De la Entrevista:** **https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2Fvideo1429593775%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec6e3db4b%2D35ca%2D4820%2D9413%2D4b88f04ad57e** 
+Duracion:**00:06:13**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inicio:**00:00:02**&nbsp;&nbsp;&nbsp;&nbsp;Final:**00:06:13**
+Almeida es un trabajador que percibe su ambiente laboral como generalmente tranquilo, pero con momentos de alta presión y una comunicación poco clara con sus líderes. Señala dificultades para expresar problemas por temor a juicios o repercusiones, y percibe a Recursos Humanos como poco accesible y enfocado en lo administrativo. Aunque participa en encuestas de clima laboral, siente desmotivación por la falta de retroalimentación. Valora la posibilidad de una aplicación que le permita comunicar situaciones de forma confidencial, hacer seguimiento y mejorar la interacción, destacando que un mejor clima laboral impactaría positivamente en su motivación y productividad.
+
+##### Entrevista N°2: Alexandro Bravo
+- Sexo: Masculino
+- Edad: 21 años
+- Dirección: Lima, San Miguel.
+
+![Entrevista Empleado 2](Assets/chapter-II/ale.jpg)
+**Link De la Entrevista:** **[https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2Fvideo1429593775%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec6e3db4b%2D35ca%2D4820%2D9413%2D4b88f04ad57e](https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2FEntrevista%5FEmpleados%5F02%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4e471350%2D19d2%2D4667%2D8736%2D2803f5042523&mode=Edit)** 
+Duracion:**00:06:37**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inicio:**00:00:02**&nbsp;&nbsp;&nbsp;&nbsp;Final:**00:06:37**
+Alessandro es un trabajador que percibe su ambiente laboral como estable y cómodo, aunque con momentos de sobrecarga y dificultades en la comunicación, especialmente con niveles jerárquicos superiores y otras áreas. Señala que sus opiniones no siempre son consideradas y que Recursos Humanos resulta poco accesible y lento en la gestión de solicitudes. Aunque la comunicación dentro de su equipo es buena, identifica falta de integración entre áreas. Valora la idea de una aplicación móvil interactiva que facilite la comunicación entre empleados y con la empresa, destacando que un mejor ambiente laboral incrementaría la comodidad y la productividad.
+**Entrevista 3: Diego Bullón**
 - Sexo: Masculino
 - Edad: 22 años
 - Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQDmh2AHjqLAQYOMxGj6E7ySAStWw66KWxCu0V6rcKm9ZBU?e=t2W23a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
