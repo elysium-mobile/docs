@@ -64,10 +64,21 @@ El Bounded Context Canvas es una herramienta que se aplica dentro del marco del 
 En esta sección se representan los Bounded Context Canvases correspondientes a los contextos identificados dentro de nuestra aplicación:
 
 #### - IAM (Identity and Access Management)
+
+<img src="../assets/images/cap4/IAM-Canvas.jpg">
+
 #### - Membership and Payments
+
+<img src="../assets/images/cap4/Membership-Canvas.jpg">
+
 #### - Dashboard and Analytics
+<img src="../assets/images/cap4/Dashboard-Canvas.jpg">
+
 #### - Workers Forum
+<img src="../assets/images/cap4/Workers-Canvas.jpg">
+
 #### - Feedback For Employees
+<img src="../assets/images/cap4/Feedback-Canvas.jpg">
 
 ### 4.1.2. Context Mapping {#context-mapping}
 
