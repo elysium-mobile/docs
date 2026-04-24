@@ -6,10 +6,24 @@
 Para esta sección ocupamos la herramienta de Miro y realizamos el Event Storming a cada una de los Bounded Context definidos en los que se vana  trabajar.
 
 #### - IAM (Identity and Access Management)
+
+![EventStorming - IAM](assets/images/cap4/IAM.png)
+
 #### - Membership and Payments
+
+![EventStorming - Membership and Payments](assets/images/cap4/Membership.png)
+
 #### - Dashboard and Analytics
+
+![EventStorming - Dashboard and Analytics](assets/images/cap4/Analytics.png)
+
 #### - Workers Forum
+
+![EventStorming - Workers Forum](assets/images/cap4/WorkersForum.png)       
+
 #### - Feedback For Employees
+
+![EventStorming - Feedback For Employees](assets/images/cap4/Feedback.png)
 
 #### 4.1.1.1. Candidate Context Discovery {#candidate-context-discovery}
 En esta sección aplicamos la técnica de Candidate Discovery para identificar y separar los posibles Bounded Context. Esto divide el trabajo en subramas donde se trabajan ciertas funcionalidades por separado.
@@ -18,35 +32,35 @@ Con esto, nos llevó a crear los iguientes Bounded Context:
 
 | Bounded Context | Descripción | Eventos Clave |
 | :--- | :--- | :--- |
-| IAM | a| s|
-| Membership and Payments | a | a |
-| Dashboard and Analytics | a |a |
-| Workers Forum | a | a |
-| Feedback for Employees | a | a |
+| IAM | Contexto donde se manejan el acceso a la aplicación, la asignación de roles y las verificacion de usuarios.| Usuario Registrado, Usuario Verificado|
+| Membership and Payments | Contexto donde se maneja los pagos dentro de la aplicación y la asignación de las membresías de los usuarios. | Pago Realizado,, Membresía Asignada |
+| Dashboard and Analytics | Contexto donde se manejan los dashboard y los análisis de los trabajadores y su rendimiento dentro del ambiente laboral. |Datos Recopilados, Informe Generado |
+| Workers Forum | Contexto donde los usuarios pueden compartir sus experiencias y mandar mensajes a los usuarios dentro de un entorno de trabajo.  | Mensaje Enviado, Hilo Creado, Encuesta Realizada |
+| Feedback for Employees | Contexto donde los gerentes de RRHH pueden realizar distintas encuestas a los usuarios y recabar información sobre el entorno laboral | Encuesta Creada, Mensaje Enviado |
  
 #### 4.1.1.2. Domain Message Flows Modeling {#domain-message-flows-modeling}
 
 El Domian Massage Flow Modelling es una técnica que nos permite representar cómo fluyen los mensjaes de dominios (comandos, eventos y consultas) entre los distintos Bounded Context. Esto se hace con el objetivo de especificar dentro del entorno las dependencias y responsabilidades de cada uno de los contextos.
 
-<b>Escenario 01: Mandar un nuevo mensaje en el foro</b>
+**Escenario 01: Mandar un nuevo mensaje en el foro**
 
-<img src="../assets/images/cap4/Scenario1.jpg">
+![Domain Message Flow - Escenario 1](assets/images/cap4/Scenario1.jpg)
 
-<b>Escenario 02: Editar mensaje en el foro</b>
+**Escenario 02: Editar mensaje en el foro**
 
-<img src="../assets/images/cap4/Scenario2.jpg">
+![Domain Message Flow - Escenario 2](assets/images/cap4/Scenario2.jpg)
 
-<b>Escenario 03: Creación de encuestas para Trabajadores</b>
+**Escenario 03: Creación de encuestas para Trabajadores**
 
-<img src="../assets/images/cap4/Scenario 3.jpg">
+![Domain Message Flow - Escenario 3](assets/images/cap4/Scenario3.jpg)
 
-<b>Escenario 04: Envio de mensajes directos a trabajadores</b>
+**Escenario 04: Envio de mensajes directos a trabajadores**
 
-<img src="../assets/images/cap4/Scenario4.jpg">
+![Domain Message Flow - Escenario 4](assets/images/cap4/Scenario4.jpg)
 
-<b>Escenario 05: Solicitar Reporte de encuestas dentro de un periodo determinado</b>
+**Escenario 05: Solicitar Reporte de encuestas dentro de un periodo determinado**
 
-<img src="../assets/images/cap4/Scenario 5.jpg" alt="scenario5">
+![Domain Message Flow - Escenario 5](assets/images/cap4/Scenario5.jpg)
 
 #### 4.1.1.3. Bounded Context Canvases {#bounded-context-canvases}
 
@@ -55,14 +69,31 @@ El Bounded Context Canvas es una herramienta que se aplica dentro del marco del 
 En esta sección se representan los Bounded Context Canvases correspondientes a los contextos identificados dentro de nuestra aplicación:
 
 #### - IAM (Identity and Access Management)
+
+![Bounded Context Canvas - IAM](assets/images/cap4/IAM-Canvas.jpg)
+
 #### - Membership and Payments
+
+![Bounded Context Canvas - Membership and Payments](assets/images/cap4/Membership-Canvas.jpg)
+
 #### - Dashboard and Analytics
+
+![Bounded Context Canvas - Dashboard and Analytics](assets/images/cap4/Dashboard-Canvas.jpg)
+
 #### - Workers Forum
+
+![Bounded Context Canvas - Workers Forum](assets/images/cap4/Workers-Canvas.jpg)
+
 #### - Feedback For Employees
+
+
+![Bounded Context Canvas - Feedback For Employees](assets/images/cap4/Feedback-Canvas.jpg)
 
 ### 4.1.2. Context Mapping {#context-mapping}
 
-<img src="../assets/images/cap4/DiagramContextMapping.jpg">
+El Context Mapping es una técnica que nos permite representar las relaciones entre los distintos Bounded Context dentro de un sistema. Esto se hace con el objetivo de identificar las dependencias, las interacciones y las responsabilidades de cada contexto dentro del sistema.
+
+![Context Mapping](assets/images/cap4/DiagramContextMapping.jpg)
 
 ####  IAM - Workers Forum (Conformist)
 - En esta relación, IAM es Upstream ya que provee las identidades de los usuarios para el acceso al foro. 
@@ -124,8 +155,19 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 #### 4.2.1.3. Application Layer
 #### 4.2.1.4  Infrastructure Layer
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams 
+
+Aquí se presenta el diagrama de componentes del Bounded Context de IAM, donde se muestran los principales componentes que conforman este contexto, como el componente de autenticación, el componente de autorización y el componente de gestión de usuarios. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![IAM Component Diagram](assets\images\cap4\iamBCComponent.png)
+
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.1.6.1. Bunded Context Domain Layer Class Diagrams 
+
+
+Aquí se muestra el diagrama de clases del Bounded Context de IAM, donde se representan las principales clases que conforman este contexto, como la clase de Usuario, la clase de Rol y la clase de Permiso. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bunded Context Domain Layer Class Diagram - IAM](assets/images/cap4/tactical-level/iam-layer-class-diagram.png)
+
 #### 4.2.1.6.2. Bounded Context Database Design Diagram 
 
 ### 4.2.2. Bounded Context: Subscription and Payments Management
@@ -134,9 +176,19 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 #### 4.2.2.3. Application Layer
 #### 4.2.2.4  Infrastructure Layer
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams 
-#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
-#### 4.2.3.6.1. Bunded Context Domain Layer Class Diagrams 
-#### 4.2.3.6.2. Bounded Context Database Design Diagram 
+
+En este diagrama de componentes del Bounded Context de Subscription and Payments Management, se muestran los principales componentes que conforman este contexto, como el componente de gestión de suscripciones, el componente de procesamiento de pagos y el componente de integración con servicios de pago externos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Subscription Component Diagram](assets\images\cap4\subscriptionPaymentsComponent.png)
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.2.6.1. Bunded Context Domain Layer Class Diagrams 
+
+En este diagrama de clases del Bounded Context de Subscription and Payments Management, se representan las principales clases que conforman este contexto, como la clase de Suscripción, la clase de Pago y la clase de Usuario. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bunded Context Domain Layer Class Diagram - Subscription and Payments](assets/images/cap4/tactical-level/subscription-layer-class-diagram.png)
+
+#### 4.2.2.6.2. Bounded Context Database Design Diagram 
 
 ### 4.2.3. Bounded Context: Workers Forum
 #### 4.2.3.1. Domain Layer  
@@ -144,8 +196,18 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 #### 4.2.3.3. Application Layer
 #### 4.2.3.4  Infrastructure Layer
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams 
+
+Presentamos el diagrama de componentes del Bounded Context de Workers Forum, donde se muestran los principales componentes que conforman este contexto, como el componente de gestión de mensajes, el componente de gestión de hilos y el componente de gestión de encuestas. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Workers Forum Component Diagram](assets\images\cap4\workersForumComponent.png)
+
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.3.6.1. Bunded Context Domain Layer Class Diagrams 
+
+Presentamos el diagrama de clases del Bounded Context de Workers Forum, donde se representan las principales clases que conforman este contexto, como la clase de Mensaje, la clase de Hilo y la clase de Encuesta. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bunded Context Domain Layer Class Diagram - Workers Forum](assets/images/cap4/tactical-level/workers-layer-class-diagram.png)
+
 #### 4.2.3.6.2. Bounded Context Database Design Diagram 
 
 ### 4.2.4. Bounded Context: Dashboard and Analytics 
@@ -154,8 +216,18 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 #### 4.2.4.3. Application Layer
 #### 4.2.4.4  Infrastructure Layer
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams 
+
+En este diagrama de componentes del Bounded Context de Dashboard and Analytics, se muestran los principales componentes que conforman este contexto, como el componente de recopilación de datos, el componente de generación de informes y el componente de visualización de datos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Dashboard Component Diagram](assets\images\cap4\dashboardAnalyticsComponent.png)
+
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.4.6.1. Bunded Context Domain Layer Class Diagrams 
+
+En este diagrama de clases del Bounded Context de Dashboard and Analytics, se representan las principales clases que conforman este contexto, como la clase de DatosRecopilados, la clase de Informe y la clase de Visualización. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bunded Context Domain Layer Class Diagram - Dashboard and Analytics](assets/images/cap4/tactical-level/dashboard-layer-class-diagram.png)
+
 #### 4.2.4.6.2. Bounded Context Database Design Diagram 
 
 ### 4.2.5. Bounded Context: Feedback for Workers
@@ -164,16 +236,15 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 #### 4.2.5.3. Application Layer
 #### 4.2.5.4  Infrastructure Layer
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams 
+
+![Feedback Component Diagram](assets\images\cap4\feedbackWorkersComponent.png)
+
+
+En este diagrama de componentes del Bounded Context de Feedback for Workers, se muestran los principales componentes que conforman este contexto, como el componente de gestión de encuestas, el componente de gestión de mensajes y el componente de generación de informes. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.5.6.1. Bunded Context Domain Layer Class Diagrams 
-#### 4.2.5.6.2. Bounded Context Database Design Diagram 
 
-### 4.2.6. Bounded Context: <Bounded Context Name> 
-#### 4.2.6.1. Domain Layer  
-#### 4.2.6.2. Interface Layer
-#### 4.2.6.3. Application Layer
-#### 4.2.6.4  Infrastructure Layer
-#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams 
-#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
-#### 4.2.6.6.1. Bunded Context Domain Layer Class Diagrams 
-#### 4.2.6.6.2. Bounded Context Database Design Diagram 
+![Bunded Context Domain Layer Class Diagram - Feedback for Workers](assets/images/cap4/tactical-level/feedback-layer-class-diagram.png)
+
+#### 4.2.5.6.2. Bounded Context Database Design Diagram 
