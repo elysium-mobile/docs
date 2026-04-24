@@ -16,7 +16,7 @@ Elysium se especializa en el desarrollo de soluciones tecnológicas orientadas a
 | Perfil del integrante | Código de alumno | Descripción |
 |:---|:---|:---|
 | César Augusto Aróstegui Alzamora | U202114548 | **Ingeniero de Software** - Soy César Augusto, actualmente tengo 21 años. Mi lenguaje de programación más utilizado y favorito es TypeScript. Actualmente me encuentro desarrollando habilidades en áreas como DevOps y frameworks de desarrollo móvil. También me interesan las tecnologías de inteligencia artificial y su aplicación en soluciones empresariales. |
-| Piero Francesco Tenorio Medina | U202318731 | **Ingeniero de Software** - [Breve descripción sobre el rol del estudiante, conocimientos técnicos relevantes y su aporte/motivación para el desarrollo del proyecto "SoftWork".] |
+| Piero Francesco Tenorio Medina | U202318731 | **Ingeniero de Software** - Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me considero una persona comprometida, responsable y con una actitud proactiva hacia el trabajo en equipo. Estoy dispuesta a colaborar con mi equipo para alcanzar los objetivos del proyecto, aportando mis conocimientos y habilidades técnicas. Cuento con experiencia en el desarrollo de interfaces web utilizando distintas tecnologías que me permite contribuir en la creación de soluciones visuales y funcionales. Además, tengo interés en seguir aprendiendo y perfeccionando mis habilidades en el diseño y desarrollo de software, con el objetivo de aportar valor al proyecto y garantizar su éxito. |
 | Gianmarco Fabian Jiménez Guerra | U202123843 | **Ingeniero de Software** - Soy Gianmarco Jiménez, estudiante de Ingeniería de Software con conocimiento sobre desarrollo de aplicaciones web y análisis de datos. Me motiva trabajar en el proyecto "SoftWork" ya que me permitirá expandir mi área de conocimientos, implementando una aplicación móvil que puede solucionar un problmea real. Considero que mi conocimiento sobre las tecnologías: Java, Python, Angular y C# me permitirá desempeñarme de manera correcta para apoyar en la solución.  |
 | Flor De María Contreras Leon | U202323243 | **Ingeniero de Software** - Mi nombre es Flor de María, tengo 20 años y actualmente curso la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Desde siempre me he caracterizado por ser una persona que toma la iniciativa y busca aportar de manera activa |
 | Diego Andres Avalos Cordova | U202313922 | **Ingeniero de Software** - Mi nombre es Diego Avalos, tengo 19 años y actualmente estudio Ingeniería de Software. Me interesa mucho especializarme en Ciberseguridad y Hacking Ético. Tengo experiencia usando sistemas operativos como GNU/Linux, además de contar con conocimientos en Desarrollo Web. También me gustan mucho los temas relacionados con la tecnología, especialmente la Inteligencia Artificial, y siempre trato de investigar y aprender sobre nuevas herramientas o áreas que llamen mi atención. |
@@ -138,6 +138,7 @@ se logrará mayor uso y retención del sistema.
 
 #### 1.2.2.4. Lean UX Canvas {#lean-ux-canvas}
 
+![Lean UX Canvas](assets/images/cap1/Lean_UX_Canvas_SoftWork.png)
 
 ## 1.3. Segmentos Objetivo {#segmentos-objetivo}
 
