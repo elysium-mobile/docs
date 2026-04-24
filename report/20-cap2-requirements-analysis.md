@@ -157,6 +157,50 @@ Alessandro es un trabajador que percibe su ambiente laboral como estable y cómo
 Diego es un empleado para una empresa bancaria. El describe su ambiente laboral como un ambiente cómodo donde no encontró ningún tipo de problema con compañeros y/o superiores. Resalta que el ambiente en el que se encuentra trabajando es muy atento a lo que los trabajadores necesitan. Dice que la gerencia de RRHH de su empresa se preocupa por estar atento a ¿Cómo retener al trabajador? y facilitar trámites. Cuenta que cuenta con comunicación con sus superiores por medio de otras herramientas. Además, Diego resalta que las encuestas realizadas son directamente proporcionadas por el jefe mas no el área de RRHH. Diego resalta que una aplicación móvil como SoftWork puede ser útil para poder comunicar ciertos malestares o un retiro temprano de la jornada laboral. Diego busca que la relación entre los trabajadores y los gerentes de RRHH sea mucho más directa.
 
 **Segmento 2: Recursos Humanos**
+
+**Entrevista 1: Jorge Chumpitaz**
+- Sexo: Masculino
+- Edad: 24 años
+- Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAwiQ2Xqz6QTava7w7OUGZwAUQ1yFUedJnl4dOKEeLhpDY?e=xlMhFY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Inicia en : 0:01
+- Duración: 7:25
+
+![Entrevista 1 RRHH](./../assets/images/cap2/registro-entrevistas/Entrevista1_RRHH.png)
+
+**Resumen de la Entrevista**
+
+Jorge es administrador de Recursos Humanos en su empresa. En esta organización se aborda de manera moderada el tema del comportamiento y el bienestar emocional de los empleados. Él comenta que cuentan con protocolos diseñados para asegurarse de que los trabajadores se sientan cómodos y tengan un buen ambiente laboral. Asimismo, dispone de procedimientos específicos para actuar cuando surge algún problema con uno o más empleados. Ante este tipo de situaciones, se llevan a cabo reuniones con el fin de comprender mejor lo ocurrido y encontrar una solución adecuada. Jorge considera que en su empresa sería muy útil contar con una aplicación como la que estamos desarrollando, ya que permitiría gestionar estos procesos de forma más rápida y eficiente en comparación con el método actual.
+
+---
+
+**Entrevista 2: Andree Cardernas**
+- Sexo: Masculino
+- Edad: 20 años
+- Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAhWAyfH1MHQpcmFd4EzwukAaspABC-icv6XK82h2knTU8?e=I9w3kI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Inicia en : 0:01
+- Duración: 5:33
+
+![Entrevista 1 RRHH](./../assets/images/cap2/registro-entrevistas/Entrevista2_RRHH.png)
+
+**Resumen de la Entrevista**
+
+Andree trabaja en el área de Recursos Humanos, aunque no ocupa un cargo administrativo. En su empresa también se presta atención al comportamiento y al bienestar de los empleados, apoyándose en ciertos protocolos para mantener un ambiente laboral adecuado. Él participa en la aplicación de estos procesos, especialmente cuando surgen conflictos o situaciones que afectan a uno o más trabajadores. Cuando ocurre algún problema, se realizan reuniones para entender mejor la situación y buscar soluciones. Andree considera que una aplicación como la que estamos desarrollando sería de gran ayuda, ya que facilitaría el seguimiento de los casos y haría el proceso más ágil y organizado.
+
+---
+
+**Entrevista 3: Elizabeth Apaza**
+- Sexo: Femenino
+- Edad: 20 años
+- Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQCLqWWJ4UYDTb47m2xWJCWbATxrNaD0rgXaYmFnOQao-uw?e=2LZth1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Inicia en : 0:01
+- Duración: 4:34
+
+![Entrevista 1 RRHH](./../assets/images/cap2/registro-entrevistas/Entrevista3_RRHH.png)
+
+**Resumen de la Entrevista**
+
+Elizabeth trabaja en el área de Recursos Humanos dentro de su empresa. En su entorno laboral se da importancia al comportamiento y al bienestar de los empleados, apoyándose en ciertos protocolos para mantener un ambiente adecuado. Ella participa en la aplicación de estos procesos, colaborando cuando se presentan situaciones que afectan a uno o más trabajadores. Cuando surge algún inconveniente, se realizan reuniones para analizar el caso y encontrar soluciones. Elizabeth considera que una aplicación como la que estamos desarrollando sería muy útil, ya que permitiría optimizar el seguimiento de los casos y hacer el proceso más rápido y ordenado.
+
 ### 2.2.3. Análisis de entrevistas {#analisis-entrevistas}
 
 En este apartado se procederá a analizar las entrevistas realizadas
