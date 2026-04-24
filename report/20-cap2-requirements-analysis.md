@@ -127,16 +127,87 @@ Esto permitirá diseñar una solución más alineada a necesidades reales y no s
 
 ### 2.3.1. User Personas {#user-personas}
 
-![User Personas](assets/images/cap2/user-personas.png)
-
+![User Personas](assets/images/cap2/User1.jpg)
+![User Personas](assets/images/cap2/user2.jpg)
 
 ### 2.3.2. User Task Matrix {#user-task-matrix}
+La matriz de tareas nos permite visualizar qué acciones realizan nuestros usuarios y con qué frecuencia o importancia. Esto es crucial para priorizar las funcionalidades de tu solución tecnológica.
+
+![Texto alternativo](assets/images/cap2/UserTaskMatrix.jpg)   
+
+| Tarea / Acción                              | Frecuencia | Prioridad | Beatriz (RRHH)      | Andrés (Empleado)   |
+|--------------------------------------------|------------|-----------|---------------------|---------------------|
+| Reportar estado de ánimo                   | Diaria     | Alta      | -                   | Acción principal     |
+| Consolidación de datos/reportes            | Semanal    | Alta      | Acción principal    | -                   |
+| Solicitud de ayuda/soporte                 | Ocasional  | Crítica   | -                   | Acción necesaria     |
+| Identificación de patrones burnout         | Mensual    | Alta      | Acción principal    | -                   |
+| Intervención ante conflicto                | Eventual   | Crítica   | Acción principal    | -                   |
+| Consumo de contenido (micro-learning)      | Diario     | Media     | -                   | Acción deseada       |
+
 
 ### 2.3.3. User Journey Mapping {#user-journey-mapping}
+Este mapa visualiza el proceso actual de "Detección de Malestar". Nos ayuda a identificar los puntos de fricción donde el sistema actual (basado en encuestas anuales) falla para ambos perfiles.
+
+![Texto alternativo](assets/images/cap2/UserJorneyMap.jpg)       
 
 ### 2.3.4. Empathy Mapping {#empathy-mapping}
+Esta herramienta nos permite ir más allá de lo que hacen, entendiendo qué los motiva y qué los frena.
+
+![Texto alternativo](assets/images/cap2/EmpathyMapAndres.jpg)                                                              ![Texto alternativo](assets/images/cap2/EmpathyMapBeatriz.jpg)  
+---
+
+### Para Andrés (El Empleado)
+
+- **¿Qué dice?**  
+  "Estoy bien, solo es una semana pesada."
+
+- **¿Qué piensa?**  
+  "Si pido ayuda, pensarán que no soy capaz de manejar mi carga."
+
+- **¿Qué hace?**  
+  Trabaja horas extra en silencio; evita reuniones de feedback.
+
+- **¿Qué siente?**  
+  Ansiedad, miedo al juicio, desilusión profesional.
+
+---
+
+### Para Beatriz (La Gerente)
+
+- **¿Qué dice?**  
+  "Necesito más datos para tomar decisiones estratégicas."
+
+- **¿Qué piensa?**  
+  "Siempre me entero de los conflictos cuando ya es irreparable."
+
+- **¿Qué hace?**  
+  Exporta datos a Excel, intenta cruzar variables manualmente (sobrecarga).
+
+- **¿Qué siente?**  
+  Frustración por su falta de proactividad, estrés por la incertidumbre.
+
 
 ### 2.3.5. As-is Scenario Mapping {#as-is-scenario-mapping}
+## Etapas del proceso "As-Is" (Estado actual)
+
+### Activación
+- **Andrés:** Siente agotamiento (burnout) → Oculta el sentimiento (miedo a parecer incompetente).
+- **Beatriz:** No recibe ninguna señal temprana.
+
+### Procesamiento
+- **Beatriz:** Envía encuesta anual → **Andrés** la completa mecánicamente (desconfianza).
+
+### Clímax del Problema
+- **Andrés:** El malestar escala en silencio.
+- **Beatriz:** Recibe resultados consolidados 30 días después → Detecta el problema cuando ya es tarde (renuncia o conflicto agudo).
+
+### Resolución (Estado actual)
+- Gestión reactiva, parches administrativos y falta de conexión emocional.
+
+---
+
+### Oportunidad de diseño
+- Insertar un punto de contacto digital continuo que permita a **Andrés** expresar su malestar de forma segura y a **Beatriz** recibir alertas accionables, no reportes estáticos.
 
 ### Segmento 1: Empleados de la empresa
 
