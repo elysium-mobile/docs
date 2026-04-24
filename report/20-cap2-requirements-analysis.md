@@ -127,6 +127,9 @@ Esto permitirá diseñar una solución más alineada a necesidades reales y no s
 
 ### 2.3.1. User Personas {#user-personas}
 
+<img width="850" height="757" alt="image" src="https://github.com/user-attachments/assets/d670c746-d753-449e-9aa9-d17efaaca1a4" />
+
+
 ### 2.3.2. User Task Matrix {#user-task-matrix}
 
 ### 2.3.3. User Journey Mapping {#user-journey-mapping}
