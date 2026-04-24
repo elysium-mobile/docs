@@ -123,17 +123,44 @@ Esto permitirá diseñar una solución más alineada a necesidades reales y no s
 
 ### 2.2.3. Análisis de entrevistas {#analisis-entrevistas}
 
+En este apartado se procederá a analizar las entrevistas realizadas
+
+Segmento #1:
+Total de entrevistas: 3
+
+Datos sobre preguntas:
+- El 67% de empleados considera util el uso de una app para su entorno laboral.
+- Los 3 entrevistados consideran de dificultad Media el acceso a la comunicación con RRHH
+- 2 entrevistados comentan que el ambiente es regular y 1 solo considera que el clima laboral es bueno
+
+![Grafico 1](./../assets/images/cap2/analisis-entrevistas/empleados_graf1.jpg)
+![Grafico 2](./../assets/images/cap2/analisis-entrevistas/empleados_graf2.jpg)
+![Grafico 3](./../assets/images/cap2/analisis-entrevistas/empleados_graf3.jpg)
+
+Segmento #2:
+Total de entrevistas: 3
+
+Datos sobre preguntas:
+- El 100% de personal de RRHH utiliza una app para desempeñarse en su entorno laboral.
+- Ante un problema, el 67% de entrevistados considera que el tiempo de respuesta es Lento mientras que el 33% lo considera Moderado
+- 2 entrevistados realizan encuestas frecuentemente mientras que uno lo hace ocasionalmente
+
+![Grafico 1](./../assets/images/cap2/analisis-entrevistas/rrhh_graf1.jpg)
+![Grafico 2](./../assets/images/cap2/analisis-entrevistas/rrhh_graf2.jpg)
+![Grafico 3](./../assets/images/cap2/analisis-entrevistas/rrhh_graf3.jpg)
+
+
 ## 2.3. Needfinding {#needfinding}
 
 ### 2.3.1. User Personas {#user-personas}
 
-![User Personas](assets/images/cap2/User1.jpg)
-![User Personas](assets/images/cap2/user2.jpg)
+![User Personas](./../assets/images/cap2/User1.jpg)
+![User Personas](./../assets/images/cap2/user2.jpg)
 
 ### 2.3.2. User Task Matrix {#user-task-matrix}
 La matriz de tareas nos permite visualizar qué acciones realizan nuestros usuarios y con qué frecuencia o importancia. Esto es crucial para priorizar las funcionalidades de tu solución tecnológica.
 
-![Texto alternativo](assets/images/cap2/UserTaskMatrix.jpg)   
+![Texto alternativo](./../assets/images/cap2/UserTaskMatrix.jpg)   
 
 | Tarea / Acción                              | Frecuencia | Prioridad | Beatriz (RRHH)      | Andrés (Empleado)   |
 |--------------------------------------------|------------|-----------|---------------------|---------------------|
@@ -148,12 +175,12 @@ La matriz de tareas nos permite visualizar qué acciones realizan nuestros usuar
 ### 2.3.3. User Journey Mapping {#user-journey-mapping}
 Este mapa visualiza el proceso actual de "Detección de Malestar". Nos ayuda a identificar los puntos de fricción donde el sistema actual (basado en encuestas anuales) falla para ambos perfiles.
 
-![Texto alternativo](assets/images/cap2/UserJorneyMap.jpg)       
+![Texto alternativo](./../assets/images/cap2/UserJorneyMap.jpg)       
 
 ### 2.3.4. Empathy Mapping {#empathy-mapping}
 Esta herramienta nos permite ir más allá de lo que hacen, entendiendo qué los motiva y qué los frena.
 
-![Texto alternativo](assets/images/cap2/EmpathyMapAndres.jpg)                                                              ![Texto alternativo](assets/images/cap2/EmpathyMapBeatriz.jpg)  
+![Texto alternativo](./../assets/images/cap2/EmpathyMapAndres.jpg)                                                              ![Texto alternativo](./../assets/images/cap2/EmpathyMapBeatriz.jpg)  
 ---
 
 ### Para Andrés (El Empleado)
