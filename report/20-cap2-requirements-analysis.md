@@ -121,6 +121,22 @@ Esto permitirá diseñar una solución más alineada a necesidades reales y no s
 
 ### 2.2.2. Registro de entrevistas {#registro-entrevistas}
 
+**Segmento 1: Empleados**
+
+**Entrevista 1: Diego Bullón**
+- Sexo: Masculino
+- Edad: 22 años
+- Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQDmh2AHjqLAQYOMxGj6E7ySAStWw66KWxCu0V6rcKm9ZBU?e=t2W23a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Inicia en : 0:01
+- Duración: 6:35
+
+![Entrevista 1](./../assets/images/cap2/registro-entrevistas/Entrevista1-Seg1.png)
+
+**Resumen de la Entrevista**
+
+Diego es un empleado para una empresa bancaria. El describe su ambiente laboral como un ambiente cómodo donde no encontró ningún tipo de problema con compañeros y/o superiores. Resalta que el ambiente en el que se encuentra trabajando es muy atento a lo que los trabajadores necesitan. Dice que la gerencia de RRHH de su empresa se preocupa por estar atento a ¿Cómo retener al trabajador? y facilitar trámites. Cuenta que cuenta con comunicación con sus superiores por medio de otras herramientas. Además, Diego resalta que las encuestas realizadas son directamente proporcionadas por el jefe mas no el área de RRHH. Diego resalta que una aplicación móvil como SoftWork puede ser útil para poder comunicar ciertos malestares o un retiro temprano de la jornada laboral. Diego busca que la relación entre los trabajadores y los gerentes de RRHH sea mucho más directa.
+
+**Segmento 2: Recursos Humanos**
 ### 2.2.3. Análisis de entrevistas {#analisis-entrevistas}
 
 En este apartado se procederá a analizar las entrevistas realizadas
