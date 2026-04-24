@@ -150,7 +150,7 @@ Alessandro es un trabajador que percibe su ambiente laboral como estable y cómo
 - Inicia en : 0:01
 - Duración: 6:35
 
-![Entrevista 1](./../assets/images/cap2/registro-entrevistas/Entrevista1-Seg1.png)
+![Entrevista 1](assets/images/cap2/registro-entrevistas/Entrevista1-Seg1.png)
 
 **Resumen de la Entrevista**
 
@@ -169,9 +169,9 @@ Datos sobre preguntas:
 - Los 3 entrevistados consideran de dificultad Media el acceso a la comunicación con RRHH
 - 2 entrevistados comentan que el ambiente es regular y 1 solo considera que el clima laboral es bueno
 
-![Grafico 1](./../assets/images/cap2/analisis-entrevistas/empleados_graf1.jpg)
-![Grafico 2](./../assets/images/cap2/analisis-entrevistas/empleados_graf2.jpg)
-![Grafico 3](./../assets/images/cap2/analisis-entrevistas/empleados_graf3.jpg)
+![Grafico 1](assets/images/cap2/analisis-entrevistas/empleados_graf1.jpg)
+![Grafico 2](assets/images/cap2/analisis-entrevistas/empleados_graf2.jpg)
+![Grafico 3](assets/images/cap2/analisis-entrevistas/empleados_graf3.jpg)
 
 Segmento #2:
 Total de entrevistas: 3
@@ -181,9 +181,9 @@ Datos sobre preguntas:
 - Ante un problema, el 67% de entrevistados considera que el tiempo de respuesta es Lento mientras que el 33% lo considera Moderado
 - 2 entrevistados realizan encuestas frecuentemente mientras que uno lo hace ocasionalmente
 
-![Grafico 1](./../assets/images/cap2/analisis-entrevistas/rrhh_graf1.jpg)
-![Grafico 2](./../assets/images/cap2/analisis-entrevistas/rrhh_graf2.jpg)
-![Grafico 3](./../assets/images/cap2/analisis-entrevistas/rrhh_graf3.jpg)
+![Grafico 1](assets/images/cap2/analisis-entrevistas/rrhh_graf1.jpg)
+![Grafico 2](assets/images/cap2/analisis-entrevistas/rrhh_graf2.jpg)
+![Grafico 3](assets/images/cap2/analisis-entrevistas/rrhh_graf3.jpg)
 
 
 ## 2.3. Needfinding {#needfinding}
@@ -220,7 +220,7 @@ La matriz de tareas nos permite visualizar qué acciones realizan nuestros usuar
 
 Este mapa visualiza el proceso actual de "Detección de Malestar". Nos ayuda a identificar los puntos de fricción donde el sistema actual (basado en encuestas anuales) falla para ambos perfiles.
 
-![User Journey Map](assets/images/cap2/UserJourneyMap.jpg) 
+![User Journey Map](assets/images/cap2/UserJorneyMap.jpg) 
 
 Podemos observar que el proceso actual es reactivo, con largos periodos de espera entre la detección del problema y la acción de RRHH. Esto genera frustración en Andrés, quien siente que su malestar no es atendido a tiempo, y en Beatriz, quien se entera de los problemas cuando ya es demasiado tarde para intervenir efectivamente.
 
