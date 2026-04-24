@@ -8,8 +8,8 @@ input-files:
   - report/05-objetivos-smart.md
   - report/10-cap1-introduccion.md
   - report/20-cap2-requirements-analysis.md
-  - report/30-cap3-requirements-spec.md
-  - report/40-cap4-sol-software-design.md
+  - report/30-cap3-ui-ux-design.md
+  - report/40-cap4-implementation.md
   - report/70-conclusiones.md
 
 output-file: dist/informe-final.pdf
