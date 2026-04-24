@@ -133,6 +133,8 @@ Esto permitirá diseñar una solución más alineada a necesidades reales y no s
 ### 2.3.2. User Task Matrix {#user-task-matrix}
 La matriz de tareas nos permite visualizar qué acciones realizan nuestros usuarios y con qué frecuencia o importancia. Esto es crucial para priorizar las funcionalidades de tu solución tecnológica.
 
+![Texto alternativo](assets/images/cap2/UserTaskMatrix.jpg)   
+
 | Tarea / Acción                              | Frecuencia | Prioridad | Beatriz (RRHH)      | Andrés (Empleado)   |
 |--------------------------------------------|------------|-----------|---------------------|---------------------|
 | Reportar estado de ánimo                   | Diaria     | Alta      | -                   | Acción principal     |
@@ -146,9 +148,12 @@ La matriz de tareas nos permite visualizar qué acciones realizan nuestros usuar
 ### 2.3.3. User Journey Mapping {#user-journey-mapping}
 Este mapa visualiza el proceso actual de "Detección de Malestar". Nos ayuda a identificar los puntos de fricción donde el sistema actual (basado en encuestas anuales) falla para ambos perfiles.
 
+![Texto alternativo](assets/images/cap2/UserJorneyMap.jpg)       
+
 ### 2.3.4. Empathy Mapping {#empathy-mapping}
 Esta herramienta nos permite ir más allá de lo que hacen, entendiendo qué los motiva y qué los frena.
 
+![Texto alternativo](assets/images/cap2/EmpathyMapAndres.jpg)                                                              ![Texto alternativo](assets/images/cap2/EmpathyMapBeatriz.jpg)  
 ---
 
 ### Para Andrés (El Empleado)
