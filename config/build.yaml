@@ -1,4 +1,4 @@
-# config/build.yaml
+# Pandoc build configuration file for generating the final report PDF
 input-files:
   - report/00-caratula.md
   - report/01-registro-versiones.md
@@ -13,6 +13,14 @@ input-files:
   - report/70-conclusiones.md
 
 output-file: dist/informe-final.pdf
+
+# Configuración de metadatos para el documento final
+metadata:
+  chapters: false
+  figPrefix: "Figura"
+  tabPrefix: "Tabla"
+  tableCaptions: true
+  figureCaptions: true
 
 # Selección del motor: xelatex o lualatex son ideales para soportar fuentes y UTF-8
 pdf-engine: xelatex

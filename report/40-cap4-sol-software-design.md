@@ -6,19 +6,24 @@
 Para esta sección ocupamos la herramienta de Miro y realizamos el Event Storming a cada una de los Bounded Context definidos en los que se vana  trabajar.
 
 #### - IAM (Identity and Access Management)
-<img src="../assets/images/cap4/IAM.png">
+
+![EventStorming - IAM](assets/images/cap4/IAM.png)
 
 #### - Membership and Payments
-<img src="../assets/images/cap4/Membership.png">
+
+![EventStorming - Membership and Payments](assets/images/cap4/Membership.png)
 
 #### - Dashboard and Analytics
-<img src="../assets/images/cap4/Analytics.png">
+
+![EventStorming - Dashboard and Analytics](assets/images/cap4/Analytics.png)
 
 #### - Workers Forum
-<img src="../assets/images/cap4/Workers Forum.png">
+
+![EventStorming - Workers Forum](assets/images/cap4/WorkersForum.png)       
 
 #### - Feedback For Employees
-<img src="../assets/images/cap4/Feedback.png">
+
+![EventStorming - Feedback For Employees](assets/images/cap4/Feedback.png)
 
 #### 4.1.1.1. Candidate Context Discovery {#candidate-context-discovery}
 En esta sección aplicamos la técnica de Candidate Discovery para identificar y separar los posibles Bounded Context. Esto divide el trabajo en subramas donde se trabajan ciertas funcionalidades por separado.
@@ -37,25 +42,25 @@ Con esto, nos llevó a crear los iguientes Bounded Context:
 
 El Domian Massage Flow Modelling es una técnica que nos permite representar cómo fluyen los mensjaes de dominios (comandos, eventos y consultas) entre los distintos Bounded Context. Esto se hace con el objetivo de especificar dentro del entorno las dependencias y responsabilidades de cada uno de los contextos.
 
-<b>Escenario 01: Mandar un nuevo mensaje en el foro</b>
+**Escenario 01: Mandar un nuevo mensaje en el foro**
 
-<img src="../assets/images/cap4/Scenario1.jpg">
+![Domain Message Flow - Escenario 1](assets/images/cap4/Scenario1.jpg)
 
-<b>Escenario 02: Editar mensaje en el foro</b>
+**Escenario 02: Editar mensaje en el foro**
 
-<img src="../assets/images/cap4/Scenario2.jpg">
+![Domain Message Flow - Escenario 2](assets/images/cap4/Scenario2.jpg)
 
-<b>Escenario 03: Creación de encuestas para Trabajadores</b>
+**Escenario 03: Creación de encuestas para Trabajadores**
 
-<img src="../assets/images/cap4/Scenario 3.jpg">
+![Domain Message Flow - Escenario 3](assets/images/cap4/Scenario3.jpg)
 
-<b>Escenario 04: Envio de mensajes directos a trabajadores</b>
+**Escenario 04: Envio de mensajes directos a trabajadores**
 
-<img src="../assets/images/cap4/Scenario4.jpg">
+![Domain Message Flow - Escenario 4](assets/images/cap4/Scenario4.jpg)
 
-<b>Escenario 05: Solicitar Reporte de encuestas dentro de un periodo determinado</b>
+**Escenario 05: Solicitar Reporte de encuestas dentro de un periodo determinado**
 
-<img src="../assets/images/cap4/Scenario 5.jpg" alt="scenario5">
+![Domain Message Flow - Escenario 5](assets/images/cap4/Scenario5.jpg)
 
 #### 4.1.1.3. Bounded Context Canvases {#bounded-context-canvases}
 
@@ -65,24 +70,30 @@ En esta sección se representan los Bounded Context Canvases correspondientes a 
 
 #### - IAM (Identity and Access Management)
 
-<img src="../assets/images/cap4/IAM-Canvas.jpg">
+![Bounded Context Canvas - IAM](assets/images/cap4/IAM-Canvas.jpg)
 
 #### - Membership and Payments
 
-<img src="../assets/images/cap4/Membership-Canvas.jpg">
+![Bounded Context Canvas - Membership and Payments](assets/images/cap4/Membership-Canvas.jpg)
 
 #### - Dashboard and Analytics
-<img src="../assets/images/cap4/Dashboard-Canvas.jpg">
+
+![Bounded Context Canvas - Dashboard and Analytics](assets/images/cap4/Dashboard-Canvas.jpg)
 
 #### - Workers Forum
-<img src="../assets/images/cap4/Workers-Canvas.jpg">
+
+![Bounded Context Canvas - Workers Forum](assets/images/cap4/Workers-Canvas.jpg)
 
 #### - Feedback For Employees
-<img src="../assets/images/cap4/Feedback-Canvas.jpg">
+
+
+![Bounded Context Canvas - Feedback For Employees](assets/images/cap4/Feedback-Canvas.jpg)
 
 ### 4.1.2. Context Mapping {#context-mapping}
 
-<img src="../assets/images/cap4/DiagramContextMapping.jpg">
+El Context Mapping es una técnica que nos permite representar las relaciones entre los distintos Bounded Context dentro de un sistema. Esto se hace con el objetivo de identificar las dependencias, las interacciones y las responsabilidades de cada contexto dentro del sistema.
+
+![Context Mapping](assets/images/cap4/DiagramContextMapping.jpg)
 
 ####  IAM - Workers Forum (Conformist)
 - En esta relación, IAM es Upstream ya que provee las identidades de los usuarios para el acceso al foro. 
