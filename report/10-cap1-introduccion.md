@@ -138,6 +138,7 @@ se logrará mayor uso y retención del sistema.
 
 #### 1.2.2.4. Lean UX Canvas {#lean-ux-canvas}
 
+![Lean UX Canvas](assets/images/cap1/Lean_UX_Canvas_SoftWork.png)
 
 ## 1.3. Segmentos Objetivo {#segmentos-objetivo}
 
