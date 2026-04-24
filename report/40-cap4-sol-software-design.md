@@ -27,11 +27,11 @@ Con esto, nos llevó a crear los iguientes Bounded Context:
 
 | Bounded Context | Descripción | Eventos Clave |
 | :--- | :--- | :--- |
-| IAM | Contexto donde se manejan el acceso a la aplicación, la asignación de roles y las verificacion de usuarios.| s|
-| Membership and Payments | Contexto donde se maneja los pagos dentro de la aplicación y la asignación de las membresías de los usuarios. | a |
-| Dashboard and Analytics | Contexto donde se manejan los dashboard y los análisis de los trabajadores y su rendimiento dentro del ambiente laboral. |a |
-| Workers Forum | Contexto donde los usuarios pueden compartir sus experiencias y mandar mensajes a los usuarios dentro de un entorno de trabajo.  | a |
-| Feedback for Employees | Contexto donde los gerentes de RRHH pueden realizar distintas encuestas a los usuarios y recabar información sobre el entorno laboral | a |
+| IAM | Contexto donde se manejan el acceso a la aplicación, la asignación de roles y las verificacion de usuarios.| Usuario Registrado, Usuario Verificado|
+| Membership and Payments | Contexto donde se maneja los pagos dentro de la aplicación y la asignación de las membresías de los usuarios. | Pago Realizado,, Membresía Asignada |
+| Dashboard and Analytics | Contexto donde se manejan los dashboard y los análisis de los trabajadores y su rendimiento dentro del ambiente laboral. |Datos Recopilados, Informe Generado |
+| Workers Forum | Contexto donde los usuarios pueden compartir sus experiencias y mandar mensajes a los usuarios dentro de un entorno de trabajo.  | Mensaje Enviado, Hilo Creado, Encuesta Realizada |
+| Feedback for Employees | Contexto donde los gerentes de RRHH pueden realizar distintas encuestas a los usuarios y recabar información sobre el entorno laboral | Encuesta Creada, Mensaje Enviado |
  
 #### 4.1.1.2. Domain Message Flows Modeling {#domain-message-flows-modeling}
 
