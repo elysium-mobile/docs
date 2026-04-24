@@ -28,15 +28,25 @@ Con esto, nos llevó a crear los iguientes Bounded Context:
 
 El Domian Massage Flow Modelling es una técnica que nos permite representar cómo fluyen los mensjaes de dominios (comandos, eventos y consultas) entre los distintos Bounded Context. Esto se hace con el objetivo de especificar dentro del entorno las dependencias y responsabilidades de cada uno de los contextos.
 
-<b>Escenario 01:</b>
+<b>Escenario 01: Mandar un nuevo mensaje en el foro</b>
 
-<b>Escenario 02:</b>
+<img src="../assets/images/cap4/Scenario1.jpg">
 
-<b>Escenario 03:</b>
+<b>Escenario 02: Editar mensaje en el foro</b>
 
-<b>Escenario 04:</b>
+<img src="../assets/images/cap4/Scenario2.jpg">
 
-<b>Escenario 05:</b>
+<b>Escenario 03: Creación de encuestas para Trabajadores</b>
+
+<img src="../assets/images/cap4/Scenario 3.jpg">
+
+<b>Escenario 04: Envio de mensajes directos a trabajadores</b>
+
+<img src="../assets/images/cap4/Scenario4.jpg">
+
+<b>Escenario 05: Solicitar Reporte de encuestas dentro de un periodo determinado</b>
+
+<img src="../assets/images/cap4/Scenario 5.jpg" alt="scenario5">
 
 #### 4.1.1.3. Bounded Context Canvases {#bounded-context-canvases}
 
@@ -45,8 +55,8 @@ El Bounded Context Canvas es una herramienta que se aplica dentro del marco del 
 En esta sección se representan los Bounded Context Canvases correspondientes a los contextos identificados dentro de nuestra aplicación:
 
 
-
 ### 4.1.2. Context Mapping {#context-mapping}
+
 
 ### 4.1.3. Software Architecture {#software-architecture}
 
