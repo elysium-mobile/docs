@@ -62,7 +62,45 @@ En esta sección se representan los Bounded Context Canvases correspondientes a 
 
 ### 4.1.2. Context Mapping {#context-mapping}
 
-<img src="../assets/images/cap4/ContextDiagram.jpg">
+<img src="../assets/images/cap4/DiagramContextMapping.jpg">
+
+####  IAM - Workers Forum (Conformist)
+- En esta relación, IAM es Upstream ya que provee las identidades de los usuarios para el acceso al foro. 
+
+- Worker Forum es Downstream, ya que consume información del Bounded Context IAM.
+
+- La relación es Conformist ya que el contexto en el que se encuentran se alinean según las reglas y estándares establecidos entre las dos.
+
+####  IAM - Feedback for Employees (Conformist)
+- En esta relación, IAM es Upstream ya que provee las identidades de los usuarios para visualizar la información de los usuarios registrados dentro de cada área de la organización. 
+
+- Feedback for Employees es Downstream, ya que consume información del Bounded Context IAM.
+
+- La relación es Conformist ya que el contexto en el que se encuentran se alinean según las reglas y estándares establecidos entre las dos. Los usuarios registrados tienen que contener la información necesaria dentro de la organización.
+
+####  IAM - Membership and Payments (Customer-Supplier)
+
+- En esta relación, IAM es Upstream ya que provee las identidades de los usuarios para el manejo de las membresías y pagos registrados.
+
+- Membership and Payments es Downstream, ya que consume información del Bounded Context IAM para los usuarios que tengan una membresía.
+
+- La relación es Customer-Supplier ya que IAM como Bounded Context brinda funcionalidades que el Bounded Context de Membership and Payments consume para realizar sus propias operaciones.
+
+####  Feedback for Employees - Dashboard and Analytics (Partnership)
+
+- En esta relación, Feedback for Employees es Downstream ya que consumme información del Bounded Context Dashborad and Analytics para poder realizar el feedback a los trabajadores de una área.
+
+- Dashborad and Analytics es Upstream, ya que consume información directa de este Bounded Context. Esto se debe a el tipo de encuestas que se le realiza al empleado se podrá realizar el feeback necesario.
+
+- La relación es Partnership, porque ambos Bounded Context colaboran para poder coexistir por un objetivo en común.
+
+####  Workers Forum - Dashboard and Analytics (Customer-Supplier)
+
+- En esta relación, Workers Forum es Upstream ya que provee funcionalidades y data para el Bounded Context de Dashborad and Analytics. 
+
+-  Dashborad and Analytics es Downstream, ya que la información que llegue del otro Bounded Context es vital y funcional para este contexto.
+
+- La relación es Customer-Supplier ya que ambos contextos proveen funcionalidades y información para ambos Bounded Context. 
 
 ### 4.1.3. Software Architecture {#software-architecture}
 
