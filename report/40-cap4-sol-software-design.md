@@ -156,10 +156,18 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 #### 4.2.1.4  Infrastructure Layer
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams 
 
+Aquí se presenta el diagrama de componentes del Bounded Context de IAM, donde se muestran los principales componentes que conforman este contexto, como el componente de autenticación, el componente de autorización y el componente de gestión de usuarios. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
 ![IAM Component Diagram](assets\images\cap4\iamBCComponent.png)
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.1.6.1. Bunded Context Domain Layer Class Diagrams 
+
+
+Aquí se muestra el diagrama de clases del Bounded Context de IAM, donde se representan las principales clases que conforman este contexto, como la clase de Usuario, la clase de Rol y la clase de Permiso. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bunded Context Domain Layer Class Diagram - IAM](assets/images/cap4/tactical-level/iam-layer-class-diagram.png)
+
 #### 4.2.1.6.2. Bounded Context Database Design Diagram 
 
 ### 4.2.2. Bounded Context: Subscription and Payments Management
@@ -169,10 +177,17 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 #### 4.2.2.4  Infrastructure Layer
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams 
 
+En este diagrama de componentes del Bounded Context de Subscription and Payments Management, se muestran los principales componentes que conforman este contexto, como el componente de gestión de suscripciones, el componente de procesamiento de pagos y el componente de integración con servicios de pago externos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
 ![Subscription Component Diagram](assets\images\cap4\subscriptionPaymentsComponent.png)
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.2.6.1. Bunded Context Domain Layer Class Diagrams 
+
+En este diagrama de clases del Bounded Context de Subscription and Payments Management, se representan las principales clases que conforman este contexto, como la clase de Suscripción, la clase de Pago y la clase de Usuario. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bunded Context Domain Layer Class Diagram - Subscription and Payments](assets/images/cap4/tactical-level/subscription-layer-class-diagram.png)
+
 #### 4.2.2.6.2. Bounded Context Database Design Diagram 
 
 ### 4.2.3. Bounded Context: Workers Forum
@@ -182,10 +197,17 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 #### 4.2.3.4  Infrastructure Layer
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams 
 
+Presentamos el diagrama de componentes del Bounded Context de Workers Forum, donde se muestran los principales componentes que conforman este contexto, como el componente de gestión de mensajes, el componente de gestión de hilos y el componente de gestión de encuestas. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
 ![Workers Forum Component Diagram](assets\images\cap4\workersForumComponent.png)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.3.6.1. Bunded Context Domain Layer Class Diagrams 
+
+Presentamos el diagrama de clases del Bounded Context de Workers Forum, donde se representan las principales clases que conforman este contexto, como la clase de Mensaje, la clase de Hilo y la clase de Encuesta. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bunded Context Domain Layer Class Diagram - Workers Forum](assets/images/cap4/tactical-level/workers-layer-class-diagram.png)
+
 #### 4.2.3.6.2. Bounded Context Database Design Diagram 
 
 ### 4.2.4. Bounded Context: Dashboard and Analytics 
@@ -195,10 +217,17 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 #### 4.2.4.4  Infrastructure Layer
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams 
 
+En este diagrama de componentes del Bounded Context de Dashboard and Analytics, se muestran los principales componentes que conforman este contexto, como el componente de recopilación de datos, el componente de generación de informes y el componente de visualización de datos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
 ![Dashboard Component Diagram](assets\images\cap4\dashboardAnalyticsComponent.png)
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.4.6.1. Bunded Context Domain Layer Class Diagrams 
+
+En este diagrama de clases del Bounded Context de Dashboard and Analytics, se representan las principales clases que conforman este contexto, como la clase de DatosRecopilados, la clase de Informe y la clase de Visualización. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bunded Context Domain Layer Class Diagram - Dashboard and Analytics](assets/images/cap4/tactical-level/dashboard-layer-class-diagram.png)
+
 #### 4.2.4.6.2. Bounded Context Database Design Diagram 
 
 ### 4.2.5. Bounded Context: Feedback for Workers
@@ -210,16 +239,12 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 
 ![Feedback Component Diagram](assets\images\cap4\feedbackWorkersComponent.png)
 
+
+En este diagrama de componentes del Bounded Context de Feedback for Workers, se muestran los principales componentes que conforman este contexto, como el componente de gestión de encuestas, el componente de gestión de mensajes y el componente de generación de informes. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 #### 4.2.5.6.1. Bunded Context Domain Layer Class Diagrams 
-#### 4.2.5.6.2. Bounded Context Database Design Diagram 
 
-### 4.2.6. Bounded Context: <Bounded Context Name> 
-#### 4.2.6.1. Domain Layer  
-#### 4.2.6.2. Interface Layer
-#### 4.2.6.3. Application Layer
-#### 4.2.6.4  Infrastructure Layer
-#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams 
-#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
-#### 4.2.6.6.1. Bunded Context Domain Layer Class Diagrams 
-#### 4.2.6.6.2. Bounded Context Database Design Diagram 
+![Bunded Context Domain Layer Class Diagram - Feedback for Workers](assets/images/cap4/tactical-level/feedback-layer-class-diagram.png)
+
+#### 4.2.5.6.2. Bounded Context Database Design Diagram 
