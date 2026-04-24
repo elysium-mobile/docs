@@ -10,7 +10,7 @@ input-files:
   - report/20-cap2-requirements-analysis.md
   - report/30-cap3-ui-ux-design.md
   - report/40-cap4-implementation.md
-  - report/70-conclusiones.md
+  - report/90-conclusiones.md
 
 output-file: dist/informe-final.pdf
 
