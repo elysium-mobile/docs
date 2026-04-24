@@ -6,10 +6,19 @@
 Para esta sección ocupamos la herramienta de Miro y realizamos el Event Storming a cada una de los Bounded Context definidos en los que se vana  trabajar.
 
 #### - IAM (Identity and Access Management)
+<img src="../assets/images/cap4/IAM.png">
+
 #### - Membership and Payments
+<img src="../assets/images/cap4/Membership.png">
+
 #### - Dashboard and Analytics
+<img src="../assets/images/cap4/Analytics.png">
+
 #### - Workers Forum
+<img src="../assets/images/cap4/Workers Forum.png">
+
 #### - Feedback For Employees
+<img src="../assets/images/cap4/Feedback.png">
 
 #### 4.1.1.1. Candidate Context Discovery {#candidate-context-discovery}
 En esta sección aplicamos la técnica de Candidate Discovery para identificar y separar los posibles Bounded Context. Esto divide el trabajo en subramas donde se trabajan ciertas funcionalidades por separado.
@@ -18,11 +27,11 @@ Con esto, nos llevó a crear los iguientes Bounded Context:
 
 | Bounded Context | Descripción | Eventos Clave |
 | :--- | :--- | :--- |
-| IAM | a| s|
-| Membership and Payments | a | a |
-| Dashboard and Analytics | a |a |
-| Workers Forum | a | a |
-| Feedback for Employees | a | a |
+| IAM | Contexto donde se manejan el acceso a la aplicación, la asignación de roles y las verificacion de usuarios.| s|
+| Membership and Payments | Contexto donde se maneja los pagos dentro de la aplicación y la asignación de las membresías de los usuarios. | a |
+| Dashboard and Analytics | Contexto donde se manejan los dashboard y los análisis de los trabajadores y su rendimiento dentro del ambiente laboral. |a |
+| Workers Forum | Contexto donde los usuarios pueden compartir sus experiencias y mandar mensajes a los usuarios dentro de un entorno de trabajo.  | a |
+| Feedback for Employees | Contexto donde los gerentes de RRHH pueden realizar distintas encuestas a los usuarios y recabar información sobre el entorno laboral | a |
  
 #### 4.1.1.2. Domain Message Flows Modeling {#domain-message-flows-modeling}
 
