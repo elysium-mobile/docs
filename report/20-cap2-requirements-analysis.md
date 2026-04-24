@@ -127,8 +127,8 @@ Esto permitirá diseñar una solución más alineada a necesidades reales y no s
 
 ### 2.3.1. User Personas {#user-personas}
 
-![User Personas](assets/images/cap2/user-personas.png)
-
+![User Personas](assets/images/cap2/User1.jpg)
+![User Personas](assets/images/cap2/user2.jpg)
 
 ### 2.3.2. User Task Matrix {#user-task-matrix}
 La matriz de tareas nos permite visualizar qué acciones realizan nuestros usuarios y con qué frecuencia o importancia. Esto es crucial para priorizar las funcionalidades de tu solución tecnológica.
