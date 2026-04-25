@@ -157,6 +157,50 @@ Alessandro es un trabajador que percibe su ambiente laboral como estable y cómo
 Diego es un empleado para una empresa bancaria. El describe su ambiente laboral como un ambiente cómodo donde no encontró ningún tipo de problema con compañeros y/o superiores. Resalta que el ambiente en el que se encuentra trabajando es muy atento a lo que los trabajadores necesitan. Dice que la gerencia de RRHH de su empresa se preocupa por estar atento a ¿Cómo retener al trabajador? y facilitar trámites. Cuenta que cuenta con comunicación con sus superiores por medio de otras herramientas. Además, Diego resalta que las encuestas realizadas son directamente proporcionadas por el jefe mas no el área de RRHH. Diego resalta que una aplicación móvil como SoftWork puede ser útil para poder comunicar ciertos malestares o un retiro temprano de la jornada laboral. Diego busca que la relación entre los trabajadores y los gerentes de RRHH sea mucho más directa.
 
 **Segmento 2: Recursos Humanos**
+
+**Entrevista 1: Jorge Chumpitaz**
+- Sexo: Masculino
+- Edad: 24 años
+- Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAwiQ2Xqz6QTava7w7OUGZwAUQ1yFUedJnl4dOKEeLhpDY?e=xlMhFY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Inicia en : 0:01
+- Duración: 7:25
+
+![Entrevista 1 RRHH](assets/images/cap2/registro-entrevistas/Entrevista1_RRHH.png)
+
+**Resumen de la Entrevista**
+
+Jorge es administrador de Recursos Humanos en su empresa. En esta organización se aborda de manera moderada el tema del comportamiento y el bienestar emocional de los empleados. Él comenta que cuentan con protocolos diseñados para asegurarse de que los trabajadores se sientan cómodos y tengan un buen ambiente laboral. Asimismo, dispone de procedimientos específicos para actuar cuando surge algún problema con uno o más empleados. Ante este tipo de situaciones, se llevan a cabo reuniones con el fin de comprender mejor lo ocurrido y encontrar una solución adecuada. Jorge considera que en su empresa sería muy útil contar con una aplicación como la que estamos desarrollando, ya que permitiría gestionar estos procesos de forma más rápida y eficiente en comparación con el método actual.
+
+---
+
+**Entrevista 2: Andree Cardernas**
+- Sexo: Masculino
+- Edad: 20 años
+- Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAhWAyfH1MHQpcmFd4EzwukAaspABC-icv6XK82h2knTU8?e=I9w3kI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Inicia en : 0:01
+- Duración: 5:33
+
+![Entrevista 1 RRHH](assets/images/cap2/registro-entrevistas/Entrevista2_RRHH.png)
+
+**Resumen de la Entrevista**
+
+Andree trabaja en el área de Recursos Humanos, aunque no ocupa un cargo administrativo. En su empresa también se presta atención al comportamiento y al bienestar de los empleados, apoyándose en ciertos protocolos para mantener un ambiente laboral adecuado. Él participa en la aplicación de estos procesos, especialmente cuando surgen conflictos o situaciones que afectan a uno o más trabajadores. Cuando ocurre algún problema, se realizan reuniones para entender mejor la situación y buscar soluciones. Andree considera que una aplicación como la que estamos desarrollando sería de gran ayuda, ya que facilitaría el seguimiento de los casos y haría el proceso más ágil y organizado.
+
+---
+
+**Entrevista 3: Elizabeth Apaza**
+- Sexo: Femenino
+- Edad: 20 años
+- Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQCLqWWJ4UYDTb47m2xWJCWbATxrNaD0rgXaYmFnOQao-uw?e=2LZth1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Inicia en : 0:01
+- Duración: 4:34
+
+![Entrevista 1 RRHH](assets/images/cap2/registro-entrevistas/Entrevista3_RRHH.png)
+
+**Resumen de la Entrevista**
+
+Elizabeth trabaja en el área de Recursos Humanos dentro de su empresa. En su entorno laboral se da importancia al comportamiento y al bienestar de los empleados, apoyándose en ciertos protocolos para mantener un ambiente adecuado. Ella participa en la aplicación de estos procesos, colaborando cuando se presentan situaciones que afectan a uno o más trabajadores. Cuando surge algún inconveniente, se realizan reuniones para analizar el caso y encontrar soluciones. Elizabeth considera que una aplicación como la que estamos desarrollando sería muy útil, ya que permitiría optimizar el seguimiento de los casos y hacer el proceso más rápido y ordenado.
+
 ### 2.2.3. Análisis de entrevistas {#analisis-entrevistas}
 
 En este apartado se procederá a analizar las entrevistas realizadas
@@ -270,75 +314,28 @@ De igual manera, para Beatriz, es fundamental contar con datos en tiempo real y 
 
 
 ### 2.3.5. Big Picture EventStorming {#big-picture-eventstorming}
-## Etapas del proceso "As-Is" (Estado actual)
 
-### Activación
-- **Andrés:** Siente agotamiento (burnout) → Oculta el sentimiento (miedo a parecer incompetente).
-- **Beatriz:** No recibe ninguna señal temprana.
+Para esta sección ocupamos la técnica de Big Picture EventStorming para mapear los procesos y eventos clave relacionados con el bienestar laboral y la gestión de clima organizacional. Este enfoque nos permite visualizar de manera integral las interacciones entre empleados, RRHH y la plataforma SoftWork, identificando los puntos críticos donde la tecnología puede intervenir para mejorar la experiencia y los resultados. A continuación, se presentan los mapas de eventos para cada uno de los dominios identificados:
 
-### Procesamiento
-- **Beatriz:** Envía encuesta anual → **Andrés** la completa mecánicamente (desconfianza).
+#### - IAM (Identity and Access Management)
 
-### Clímax del Problema
-- **Andrés:** El malestar escala en silencio.
-- **Beatriz:** Recibe resultados consolidados 30 días después → Detecta el problema cuando ya es tarde (renuncia o conflicto agudo).
+![EventStorming - IAM](assets/images/cap2/strategic-level/event-storming/IAM.png)
 
-### Resolución (Estado actual)
-- Gestión reactiva, parches administrativos y falta de conexión emocional.
+#### - Membership and Payments
 
----
+![EventStorming - Membership and Payments](assets/images/cap2/strategic-level/event-storming/Membership.png)
 
-### Oportunidad de diseño
-- Insertar un punto de contacto digital continuo que permita a **Andrés** expresar su malestar de forma segura y a **Beatriz** recibir alertas accionables, no reportes estáticos.
+#### - Dashboard and Analytics
 
-### Segmento 1: Empleados de la empresa
+![EventStorming - Dashboard and Analytics](assets/images/cap2/strategic-level/event-storming/Analytics.png)
 
-| Fase | Acciones (Doing) | Pensamientos (Thinking) | Emociones (Feeling) |
-|:---|:---|:---|:---|
-| Inicio del problema | Percibe dificultades en su desempeño o bienestar laboral. Recibe feedback informal o detecta estrés. | "Siento que algo no está funcionando bien, pero no sé exactamente qué es." | Incertidumbre, estrés leve |
-| Búsqueda de ayuda | Consulta con compañeros, busca información en internet o revisa recursos internos. | "Quizá esto es normal... pero debería hacer algo al respecto." | Duda, curiosidad |
-| Evaluación de opciones | Considera acudir a RRHH o usar herramientas internas (si existen). | "No sé si esto es lo suficientemente importante como para escalarlo." | Inseguridad, temor |
-| Interacción con RRHH | Contacta a RRHH o responde encuestas internas. Expone parcialmente su situación. | "Espero que esto realmente sirva y no afecte mi imagen." | Ansiedad, desconfianza |
-| Seguimiento | Recibe retroalimentación limitada o genérica. Puede o no aplicar recomendaciones. | "No estoy seguro si esto realmente me ayuda a mejorar." | Frustración, desmotivación |
-| Resultado actual | Continúa con el problema parcialmente resuelto o sin cambios significativos. | "Tal vez solo tengo que adaptarme..." | Resignación, agotamiento |
+#### - Workers Forum
 
----
+![EventStorming - Workers Forum](assets/images/cap2/strategic-level/event-storming/WorkersForum.png)       
 
-### Segmento 2: Área de Recursos Humanos (RRHH)
+#### - Feedback For Employees
 
-| Fase | Acciones (Doing) | Pensamientos (Thinking) | Emociones (Feeling) |
-|:---|:---|:---|:---|
-| Detección de necesidades | Recibe reportes, resultados de encuestas o quejas informales. | "Hay señales de problemas, pero no tengo toda la información." | Preocupación, presión |
-| Recolección de información | Aplica encuestas, entrevistas o revisa indicadores de desempeño. | "Los datos son limitados o poco claros para tomar decisiones." | Incertidumbre |
-| Análisis | Interpreta datos de forma general, identifica patrones básicos. | "Necesito herramientas más precisas para entender esto mejor." | Frustración, carga mental |
-| Diseño de acciones | Propone capacitaciones, talleres o intervenciones generales. | "Espero que estas soluciones funcionen para la mayoría." | Duda, responsabilidad |
-| Implementación | Ejecuta programas o comunica iniciativas a los empleados. | "No sé si todos realmente participarán o se beneficiarán." | Estrés, presión operativa |
-| Evaluación de impacto | Revisa resultados de forma superficial o a corto plazo. | "Es difícil medir el impacto real de lo que hacemos." | Insatisfacción, incertidumbre |
-
----
-
-### Pain Points (Áreas críticas identificadas)
-
-#### Para empleados:
-- Falta de claridad sobre cómo identificar y abordar sus problemas.
-- Miedo a expresar situaciones personales o laborales.
-- Soluciones poco personalizadas o superficiales.
-- Escaso seguimiento continuo.
-
-#### Para RRHH:
-- Información fragmentada y poco profunda.
-- Falta de herramientas analíticas avanzadas.
-- Limitaciones de tiempo para atención individual.
-- Dificultad para medir impacto real de sus acciones.
-
----
-
-### Insight clave
-
-Existe una **desconexión entre la necesidad real del empleado y la capacidad de respuesta de RRHH**, causada principalmente por:
-- Falta de datos profundos
-- Procesos reactivos en lugar de predictivos
-- Baja personalización en las soluciones
+![EventStorming - Feedback For Employees](assets/images/cap2/strategic-level/event-storming/Feedback.png)
 
 ### 2.3.6. Ubiquitous Language {#ubiquitous-language}
 
@@ -540,6 +537,12 @@ Este apartado se dedica a las historias de investigación que el equipo debe rea
 
 ### 2.4.2. Impact Mapping {#impact-mapping}
 
+![Impact Mapping Empleado](assets/images/cap2/ImpactMapping_Empleado.jpg)
+
+---
+
+![Impact Mapping RRHH](assets/images/cap2/ImpactMapping_RRHH.jpg)
+
 ### 2.4.3. Product Backlog {#product-backlog}
 
 [Trello Board - SoftWork](#)
@@ -585,27 +588,8 @@ Este apartado se dedica a las historias de investigación que el equipo debe rea
 ## 2.5. Strategic-Level Domain-Driven Design {#strategic-level-domain-driven-design}
  
 ### 2.5.1. EventStorming {#eventstorming}
-Para esta sección ocupamos la herramienta de Miro y realizamos el Event Storming a cada una de los Bounded Context definidos en los que se vana  trabajar.
 
-#### - IAM (Identity and Access Management)
-
-![EventStorming - IAM](assets/images/cap4/IAM.png)
-
-#### - Membership and Payments
-
-![EventStorming - Membership and Payments](assets/images/cap4/Membership.png)
-
-#### - Dashboard and Analytics
-
-![EventStorming - Dashboard and Analytics](assets/images/cap4/Analytics.png)
-
-#### - Workers Forum
-
-![EventStorming - Workers Forum](assets/images/cap4/WorkersForum.png)       
-
-#### - Feedback For Employees
-
-![EventStorming - Feedback For Employees](assets/images/cap4/Feedback.png)
+En esta sección se aplican las técnicas de EventStorming para identificar los distintos Bounded Context dentro del dominio de la aplicación, así como las interacciones y dependencias entre ellos. Esto nos permite tener una visión clara de cómo se estructuran los distintos componentes del sistema y cómo se comunican entre sí.
 
 #### 2.5.1.1. Candidate Context Discovery {#candidate-context-discovery}
 En esta sección aplicamos la técnica de Candidate Discovery para identificar y separar los posibles Bounded Context. Esto divide el trabajo en subramas donde se trabajan ciertas funcionalidades por separado.
@@ -626,23 +610,23 @@ El Domian Massage Flow Modelling es una técnica que nos permite representar có
 
 **Escenario 01: Mandar un nuevo mensaje en el foro**
 
-![Domain Message Flow - Escenario 1](assets/images/cap4/Scenario1.jpg)
+![Domain Message Flow - Escenario 1](assets/images/cap2/strategic-level/message-flow/Scenario1.jpg)
 
 **Escenario 02: Editar mensaje en el foro**
 
-![Domain Message Flow - Escenario 2](assets/images/cap4/Scenario2.jpg)
+![Domain Message Flow - Escenario 2](assets/images/cap2/strategic-level/message-flow/Scenario2.jpg)
 
 **Escenario 03: Creación de encuestas para Trabajadores**
 
-![Domain Message Flow - Escenario 3](assets/images/cap4/Scenario3.jpg)
+![Domain Message Flow - Escenario 3](assets/images/cap2/strategic-level/message-flow/Scenario3.jpg)
 
 **Escenario 04: Envio de mensajes directos a trabajadores**
 
-![Domain Message Flow - Escenario 4](assets/images/cap4/Scenario4.jpg)
+![Domain Message Flow - Escenario 4](assets/images/cap2/strategic-level/message-flow/Scenario4.jpg)
 
 **Escenario 05: Solicitar Reporte de encuestas dentro de un periodo determinado**
 
-![Domain Message Flow - Escenario 5](assets/images/cap4/Scenario5.jpg)
+![Domain Message Flow - Escenario 5](assets/images/cap2/strategic-level/message-flow/Scenario5.jpg)
 
 #### 2.5.1.3. Bounded Context Canvases {#bounded-context-canvases}
 
@@ -652,30 +636,30 @@ En esta sección se representan los Bounded Context Canvases correspondientes a 
 
 #### - IAM (Identity and Access Management)
 
-![Bounded Context Canvas - IAM](assets/images/cap4/IAM-Canvas.jpg)
+![Bounded Context Canvas - IAM](assets/images/cap2/strategic-level/canvas/IAM-Canvas.jpg)
 
 #### - Membership and Payments
 
-![Bounded Context Canvas - Membership and Payments](assets/images/cap4/Membership-Canvas.jpg)
+![Bounded Context Canvas - Membership and Payments](assets/images/cap2/strategic-level/canvas/Membership-Canvas.jpg)
 
 #### - Dashboard and Analytics
 
-![Bounded Context Canvas - Dashboard and Analytics](assets/images/cap4/Dashboard-Canvas.jpg)
+![Bounded Context Canvas - Dashboard and Analytics](assets/images/cap2/strategic-level/canvas/Dashboard-Canvas.jpg)
 
 #### - Workers Forum
 
-![Bounded Context Canvas - Workers Forum](assets/images/cap4/Workers-Canvas.jpg)
+![Bounded Context Canvas - Workers Forum](assets/images/cap2/strategic-level/canvas/Workers-Canvas.jpg)
 
 #### - Feedback For Employees
 
 
-![Bounded Context Canvas - Feedback For Employees](assets/images/cap4/Feedback-Canvas.jpg)
+![Bounded Context Canvas - Feedback For Employees](assets/images/cap2/strategic-level/canvas/Feedback-Canvas.jpg)
 
 ### 2.5.2. Context Mapping {#context-mapping}
 
 El Context Mapping es una técnica que nos permite representar las relaciones entre los distintos Bounded Context dentro de un sistema. Esto se hace con el objetivo de identificar las dependencias, las interacciones y las responsabilidades de cada contexto dentro del sistema.
 
-![Context Mapping](assets/images/cap4/DiagramContextMapping.jpg)
+![Context Mapping](assets/images/cap2/strategic-level/DiagramContextMapping.jpg)
 
 ####  IAM - Workers Forum (Conformist)
 - En esta relación, IAM es Upstream ya que provee las identidades de los usuarios para el acceso al foro. 
@@ -717,116 +701,235 @@ El Context Mapping es una técnica que nos permite representar las relaciones en
 
 ### 2.5.3. Software Architecture {#software-architecture}
 
+Para la arquitectura de software, se aplican los principios de DDD para diseñar una arquitectura que sea escalable, mantenible y que permita una clara separación de responsabilidades entre los distintos Bounded Context. También la estrategia de microservicios para cada uno de los Bounded Context, lo que permite una mayor flexibilidad y escalabilidad en el desarrollo y despliegue de la aplicación.
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams {#software-architecture-context-level-diagrams}
 
 Para el diagrama de Contexto, se muestra la relación entre el sistema y los actores externos que interactuan con él. En este caso, los trabajadores, que interactuan y comparten experiencias con otros trabajadores y Gerentes de RRHH que escuchan y supervisan el comporatamiento dentro del entorno laboral. También se incluyen servicios a utilizar, como el servicio de notificaciones (envíos de correo/SMS hacia el usuario) y el servicio de pagos que será utilizado en el contexto de membresías.
+
+![Software Architecture Context Level Diagram](assets/images/cap2/strategic-level/software-architecture/context-level-diagram.png)
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams {#software-architecture-container-level-diagrams}
 
 El diagrama de contenedores representa los principales componentes del sistema y cómo interactuan entre sí. Se muestra la aplicación móvil para los trabajadores y los gerentes de RRHH, el gestor de backend que centraliza la lógica de negocio y los Bounded Context, como la base de datos y la integración con distintos servicios.
 
+![Software Architecture Container Level Diagram](assets/images/cap2/strategic-level/software-architecture/container-level-diagram.png)
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams {#software-architecture-deployment-diagrams}
+
 El siguiente diagrama de despliegue muestra la infraestructura física y lógica que se ejecutan los principales componentes del sistema.
+
+![Software Architecture Deployment Diagram](assets/images/cap2/strategic-level/software-architecture/deployment-diagram.png)
 
 
 ## 2.6. Tactical-Level Domain-Driven Design {#tactical-level-domain-driven-design}
 
-### 2.6.1. Bounded Context: Identity and Access Management
-#### 2.6.1.1. Domain Layer  
-#### 2.6.1.2. Interface Layer
-#### 2.6.1.3. Application Layer
-#### 2.6.1.4  Infrastructure Layer
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams 
+En esta sección se aplican las técnicas de DDD a nivel táctico para diseñar la arquitectura de software de cada uno de los Bounded Context identificados en la sección anterior. Esto incluye la definición de las capas de cada contexto, los componentes que lo conforman y cómo interactuan entre sí. También se incluyen diagramas de componentes y diagramas de código para cada contexto, lo que permite una mayor claridad en la implementación de cada uno de los contextos y su integración con el resto del sistema.
+
+### 2.6.1. Bounded Context: Identity and Access Management {#bounded-context-identity-and-access-management}
+
+En el Bounded Context del IAM (Identity and Access Management), se manejan todas las funcionalidades relacionadas con la gestión de identidades, autenticación y autorización de los usuarios dentro del sistema. Esto incluye el registro de usuarios, la asignación de roles y permisos, y la verificación de credenciales para el acceso a la aplicación. 
+
+#### 2.6.1.1. Domain Layer {#bounded-context-identity-and-access-management-domain-layer}
+Esta capa es el corazón del contexto de IAM. Contiene el **Agregado Raíz `UserAccount`**, que encapsula la identidad del usuario. Se utilizan **Value Objects** como `EmailAddress` y `PasswordHash` para garantizar que los datos críticos sean inmutables y válidos desde su creación. La lógica de negocio incluye la gestión de estados de cuenta y la asignación de la entidad `Role` (roles como `EMPLOYEE_USER` o `RRHH_MANAGER`). También define las interfaces de los repositorios que la infraestructura debe implementar.
+
+#### 2.6.1.2. Interface Layer {#bounded-context-identity-and-access-management-interface-layer}
+Actúa como la puerta de entrada al Bounded Context a través de una API REST. Incluye el `UserAccountController`, que expone endpoints para `signUp`, `signIn` y gestión de perfiles. Utiliza **Resources (DTOs)** como `UserAccountResource` para no exponer las entidades internas y un `UserAccountAssembler` que se encarga de la transformación bidireccional entre el modelo de dominio y los recursos externos.
+
+#### 2.6.1.3. Application Layer {#bounded-context-identity-and-access-management-application-layer}
+Orquesta los casos de uso del sistema. Se divide en **Command Services** (para acciones que cambian el estado, como `CreateUserAccountCommand`) y **Query Services** (para lecturas, como `GetUserAccountByIdQuery`). Esta capa no contiene lógica de negocio, sino que coordina la carga de agregados desde los repositorios y la ejecución de métodos en el dominio.
+
+#### 2.6.1.4. Infrastructure Layer {#bounded-context-identity-and-access-management-infrastructure-layer}
+Provee las implementaciones técnicas de las interfaces definidas en el dominio. Aquí se encuentra el `UserAccountRepository` implementado con **Spring Data JPA**, gestionando la persistencia en la base de datos relacional. También incluye la configuración de seguridad y servicios de encriptación para las contraseñas. Además, se encarga de la integración con servicios externos para funcionalidades como el envío de correos electrónicos de verificación o recuperación de contraseña.
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams {#bounded-context-identity-and-access-management-software-architecture-component-level-diagrams}
 
 Aquí se presenta el diagrama de componentes del Bounded Context de IAM, donde se muestran los principales componentes que conforman este contexto, como el componente de autenticación, el componente de autorización y el componente de gestión de usuarios. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![IAM Component Diagram](assets\images\cap4\iamBCComponent.png)
+![IAM Component Diagram](assets/images/cap2/tactical-level/components/iamBCComponent.png)
 
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams 
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams {#bounded-context-identity-and-access-management-software-architecture-code-level-diagrams}
 
+En este apartado se presentan los diagramas de código del Bounded Context de IAM, donde se representan las principales clases y sus relaciones dentro de este contexto. Se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams {#bounded-context-identity-and-access-management-domain-layer-class-diagrams}
 
 Aquí se muestra el diagrama de clases del Bounded Context de IAM, donde se representan las principales clases que conforman este contexto, como la clase de Usuario, la clase de Rol y la clase de Permiso. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Bounded Context Domain Layer Class Diagram - IAM](assets/images/cap4/tactical-level/iam-layer-class-diagram.png)
+![Bounded Context Domain Layer Class Diagram - IAM](assets/images/cap2/tactical-level/class-diagrams/iam-layer-class-diagram.png)
 
-#### 2.6.1.6.2. Bounded Context Database Design Diagram 
+#### 2.6.1.6.2. Bounded Context Database Design Diagram {#bounded-context-identity-and-access-management-database-design-diagram}
 
-### 2.6.2. Bounded Context: Subscription and Payments Management
-#### 2.6.2.1. Domain Layer  
-#### 2.6.2.2. Interface Layer
-#### 2.6.2.3. Application Layer
-#### 2.6.2.4  Infrastructure Layer
-#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+En este diagrama de diseño de base de datos del Bounded Context de IAM, se muestran las tablas principales que conforman este contexto, como la tabla de Usuarios, la tabla de Roles y la tabla de Permisos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bounded Context Database Design Diagram - IAM](assets/images/cap2/tactical-level/database-diagrams/iam-database-design-diagram.png)
+
+### 2.6.2. Bounded Context: Subscription and Payments Management {#bounded-context-subscription-and-payments-management}
+
+En el Bounded Context de Subscription and Payments Management, se manejan todas las funcionalidades relacionadas con la gestión de suscripciones y pagos dentro del sistema. Esto incluye la creación y gestión de membresías, el procesamiento de pagos y la integración con servicios de pago externos.
+
+#### 2.6.2.1. Domain Layer {#bounded-context-subscription-and-payments-management-domain-layer}
+
+Define el ciclo de vida de las suscripciones mediante el agregado **`Membership`**. Utiliza el patrón **Strategy** (`PaymentStrategy`) para desacoplar la lógica de cobro de los proveedores específicos (Tarjetas, PayPal). Contiene las entidades `Order`, `Payment` y `MembershipPlan`. Los **Value Objects** como `MembershipState` controlan los estados de validez de la suscripción (Active, Expired, Cancelled).
+
+#### 2.6.2.2. Interface Layer {#bounded-context-subscription-and-payments-management-interface-layer}
+
+Representada por el `MembershipController`, gestiona las peticiones de suscripción y procesamiento de pagos. Utiliza el `MembershipAssembler` para transformar las entidades en `MembershipResource`, asegurando que el cliente solo reciba la información necesaria sobre su estado de suscripción.
+
+
+#### 2.6.2.3. Application Layer {#bounded-context-subscription-and-payments-management-application-layer}
+
+Orquesta el flujo de pago complejo. El `MembershipCommandServiceImpl` coordina la creación de una orden, la llamada al `PaymentProcessor` (servicio de dominio) y la actualización posterior del estado de la membresía. Utiliza una **Capa Anticorrupción (ACL)** para verificar la existencia del usuario en el contexto de IAM antes de procesar cobros.
+
+#### 2.6.2.4  Infrastructure Layer {#bounded-context-subscription-and-payments-management-infrastructure-layer}
+
+Implementa la persistencia mediante `MembershipRepository`. Gestiona la integración con pasarelas de pago externas y la persistencia de transacciones e historiales de facturación utilizando JPA.
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams {#bounded-context-subscription-and-payments-management-software-architecture-component-level-diagrams}
 
 En este diagrama de componentes del Bounded Context de Subscription and Payments Management, se muestran los principales componentes que conforman este contexto, como el componente de gestión de suscripciones, el componente de procesamiento de pagos y el componente de integración con servicios de pago externos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Subscription Component Diagram](assets\images\cap4\subscriptionPaymentsComponent.png)
+![Subscription Component Diagram](assets/images/cap2/tactical-level/components/subscriptionPaymentsComponent.png)
 
-#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
-#### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams {#bounded-context-subscription-and-payments-management-software-architecture-code-level-diagrams}
+
+En este apartado se presentan los diagramas de código del Bounded Context de Subscription and Payments Management, donde se representan las principales clases que conforman este contexto, como la clase de Suscripción, la clase de Pago y la clase de Usuario. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+#### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams {#bounded-context-subscription-and-payments-management-domain-layer-class-diagrams}
 
 En este diagrama de clases del Bounded Context de Subscription and Payments Management, se representan las principales clases que conforman este contexto, como la clase de Suscripción, la clase de Pago y la clase de Usuario. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Bounded Context Domain Layer Class Diagram - Subscription and Payments](assets/images/cap4/tactical-level/subscription-layer-class-diagram.png)
+![Bounded Context Domain Layer Class Diagram - Subscription and Payments](assets/images/cap2/tactical-level/class-diagrams/subscription-layer-class-diagram.png)
 
-#### 2.6.2.6.2. Bounded Context Database Design Diagram 
+#### 2.6.2.6.2. Bounded Context Database Design Diagram {#bounded-context-subscription-and-payments-management-database-design-diagram}
 
-### 2.6.3. Bounded Context: Workers Forum
-#### 2.6.3.1. Domain Layer  
-#### 2.6.3.2. Interface Layer
-#### 2.6.3.3. Application Layer
-#### 2.6.3.4  Infrastructure Layer
-#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 
+En este diagrama de diseño de base de datos del Bounded Context de Subscription and Payments Management, se muestran las tablas principales que conforman este contexto, como la tabla de Suscripciones, la tabla de Pagos y la tabla de Usuarios. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bounded Context Database Design Diagram - Subscription and Payments](assets/images/cap2/tactical-level/database-diagrams/subscription-database-design-diagram.png)
+
+### 2.6.3. Bounded Context: Workers Forum {#bounded-context-workers-forum}
+
+En el Bounded Context de Workers Forum, se manejan todas las funcionalidades relacionadas con la gestión de foros y mensajes dentro del sistema. Esto incluye la creación y gestión de hilos de discusión, la publicación de mensajes y la realización de encuestas para recabar información sobre el entorno laboral.
+
+#### 2.6.3.1. Domain Layer {#bounded-context-workers-forum-domain-layer}
+
+El dominio se centra en la colaboración. El agregado raíz es **`Thread`** (Hilo), que gobierna la consistencia de los mensajes publicados. Contiene la entidad `Message` y `Attachment`. Los **Value Objects** `ThreadTitle` y `MessageContent` validan las reglas de contenido. Se asegura de que no se puedan añadir mensajes a hilos cerrados.
+
+#### 2.6.3.2. Interface Layer {#bounded-context-workers-forum-interface-layer}
+
+A través del `ThreadController`, permite a los usuarios crear discusiones y responder. Los DTOs como `AddMessageResource` facilitan la transferencia de contenido y metadatos de archivos adjuntos de forma segura. El `ThreadAssembler` se encarga de convertir entre el modelo de dominio y los recursos expuestos a la API, asegurando que solo se exponga la información necesaria.
+
+#### 2.6.3.3. Application Layer {#bounded-context-workers-forum-application-layer}
+
+Gestiona la lógica de publicación de contenido. El `ThreadCommandServiceImpl` orquesta la creación de hilos y la adición de mensajes, asegurando que se asocie correctamente el `authorId`. Implementa una **ACL** para consultar los datos básicos del autor desde el Bounded Context de IAM sin acoplarse a su base de datos.
+
+#### 2.6.3.4  Infrastructure Layer {#bounded-context-workers-forum-infrastructure-layer}
+
+Provee la persistencia de los hilos y mensajes en tablas relacionales. Gestiona el almacenamiento de referencias a archivos adjuntos y la indexación para búsquedas rápidas por categorías. También se encarga de la integración con servicios de notificaciones para alertar a los usuarios sobre nuevas respuestas o menciones en los hilos que siguen.
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams {#bounded-context-workers-forum-software-architecture-component-level-diagrams}
 
 Presentamos el diagrama de componentes del Bounded Context de Workers Forum, donde se muestran los principales componentes que conforman este contexto, como el componente de gestión de mensajes, el componente de gestión de hilos y el componente de gestión de encuestas. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Workers Forum Component Diagram](assets\images\cap4\workersForumComponent.png)
+![Workers Forum Component Diagram](assets/images/cap2/tactical-level/components/workersForumComponent.png)
 
-#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
-#### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams 
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams {#bounded-context-workers-forum-software-architecture-code-level-diagrams}
+
+En este apartado se presentan los diagramas de código del Bounded Context de Workers Forum, donde se representan las principales clases que conforman este contexto, como la clase de Mensaje, la clase de Hilo y la clase de Encuesta. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+#### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams {#bounded-context-workers-forum-domain-layer-class-diagrams}
 
 Presentamos el diagrama de clases del Bounded Context de Workers Forum, donde se representan las principales clases que conforman este contexto, como la clase de Mensaje, la clase de Hilo y la clase de Encuesta. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Bounded Context Domain Layer Class Diagram - Workers Forum](assets/images/cap4/tactical-level/workers-layer-class-diagram.png)
+![Bounded Context Domain Layer Class Diagram - Workers Forum](assets/images/cap2/tactical-level/class-diagrams/workers-layer-class-diagram.png)
 
-#### 2.6.3.6.2. Bounded Context Database Design Diagram 
+#### 2.6.3.6.2. Bounded Context Database Design Diagram {#bounded-context-workers-forum-database-design-diagram}
 
-### 2.6.4. Bounded Context: Dashboard and Analytics 
-#### 2.6.4.1. Domain Layer  
-#### 2.6.4.2. Interface Layer
-#### 2.6.4.3. Application Layer
-#### 2.6.4.4  Infrastructure Layer
-#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 
+En este diagrama de diseño de base de datos del Bounded Context de Workers Forum, se muestran las tablas principales que conforman este contexto, como la tabla de Mensajes, la tabla de Hilos y la tabla de Encuestas. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bounded Context Database Design Diagram - Workers Forum](assets/images/cap2/tactical-level/database-diagrams/workers-database-design-diagram.png)
+
+### 2.6.4. Bounded Context: Dashboard and Analytics {#bounded-context-dashboard-and-analytics}
+
+En el Bounded Context de Dashboard and Analytics, se manejan todas las funcionalidades relacionadas con la gestión de dashboard y análisis dentro del sistema. Esto incluye la recopilación de datos, la generación de informes y la visualización de datos para los gerentes de RRHH.
+
+#### 2.6.4.1. Domain Layer {#bounded-context-dashboard-and-analytics-domain-layer}
+
+A diferencia de otros contextos, este es predominantemente de lectura. El agregado **`Dashboard`** contiene la configuración de los `Widget`s que un usuario o empresa desea ver. El **Domain Service** `CompanyMetricsAnalyzer` contiene los algoritmos para calcular la salud organizacional y el compromiso de los empleados a partir de datos crudos.
+
+#### 2.6.4.2. Interface Layer {#bounded-context-dashboard-and-analytics-interface-layer}
+
+El `DashboardController` expone endpoints para visualizar métricas agregadas y configurar el tablero. Utiliza el `DashboardAssembler` para construir una vista unificada de datos que provienen de múltiples fuentes.
+
+#### 2.6.4.3. Application Layer {#bounded-context-dashboard-and-analytics-application-layer}
+
+Es la capa más activa en este contexto. El `DashboardQueryServiceImpl` recopila datos de otros Bounded Contexts (Forum, Feedback, IAM) a través de múltiples **Anti-Corruption Layers (ACL)**. Esta capa transforma datos transaccionales de otros módulos en modelos de información analítica listos para el consumo del dominio.
+
+#### 2.6.4.4  Infrastructure Layer {#bounded-context-dashboard-and-analytics-infrastructure-layer}
+
+Implementa los adaptadores para las llamadas externas a otros microservicios/contextos y gestiona la persistencia de las preferencias de visualización del usuario (configuración de widgets). También se encarga de la integración con herramientas de análisis y visualización de datos, como Grafana o Tableau, para mostrar los dashboards de manera efectiva.
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams {#bounded-context-dashboard-and-analytics-software-architecture-component-level-diagrams}
 
 En este diagrama de componentes del Bounded Context de Dashboard and Analytics, se muestran los principales componentes que conforman este contexto, como el componente de recopilación de datos, el componente de generación de informes y el componente de visualización de datos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Dashboard Component Diagram](assets\images\cap4\dashboardAnalyticsComponent.png)
+![Dashboard Component Diagram](assets/images/cap2/tactical-level/components/dashboardAnalyticsComponent.png)
 
-#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
-#### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams 
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams {#bounded-context-dashboard-and-analytics-software-architecture-code-level-diagrams}
+
+En este apartado se presentan los diagramas de código del Bounded Context de Dashboard and Analytics, donde se representan las principales clases que conforman este contexto, como la clase de DatosRecopilados, la clase de Informe y la clase de Visualización. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+#### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams {#bounded-context-dashboard-and-analytics-domain-layer-class-diagrams}
 
 En este diagrama de clases del Bounded Context de Dashboard and Analytics, se representan las principales clases que conforman este contexto, como la clase de DatosRecopilados, la clase de Informe y la clase de Visualización. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Bounded Context Domain Layer Class Diagram - Dashboard and Analytics](assets/images/cap4/tactical-level/dashboard-layer-class-diagram.png)
+![Bounded Context Domain Layer Class Diagram - Dashboard and Analytics](assets/images/cap2/tactical-level/class-diagrams/dashboard-layer-class-diagram.png)
 
-#### 2.6.4.6.2. Bounded Context Database Design Diagram 
+#### 2.6.4.6.2. Bounded Context Database Design Diagram {#bounded-context-dashboard-and-analytics-database-design-diagram}
 
-### 2.6.5. Bounded Context: Feedback for Workers
-#### 2.6.5.1. Domain Layer  
-#### 2.6.5.2. Interface Layer
-#### 2.6.5.3. Application Layer
-#### 2.6.5.4  Infrastructure Layer
-#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 
+En este diagrama de diseño de base de datos del Bounded Context de Dashboard and Analytics, se muestran las tablas principales que conforman este contexto, como la tabla de DatosRecopilados, la tabla de Informes y la tabla de Visualizaciones. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Feedback Component Diagram](assets\images\cap4\feedbackWorkersComponent.png)
+![Bounded Context Database Design Diagram - Dashboard and Analytics](assets/images/cap2/tactical-level/database-diagrams/dashboard-database-design-diagram.png)
 
+### 2.6.5. Bounded Context: Feedback for Workers {#bounded-context-feedback-for-workers}
+
+En el Bounded Context de Feedback for Workers, se manejan todas las funcionalidades relacionadas con la gestión de feedback para los trabajadores dentro del sistema. Esto incluye la creación y gestión de encuestas, el envío de mensajes directos a los trabajadores y la generación de informes para los gerentes de RRHH. Este contexto es crucial para recabar información sobre el entorno laboral y mejorar la experiencia de los trabajadores dentro de la empresa.
+
+#### 2.6.5.1. Domain Layer {#bounded-context-feedback-for-workers-domain-layer}
+
+Se enfoca en el crecimiento profesional mediante el agregado **`PerformanceReview`**. Este agregado controla las reglas de evaluación, permitiendo añadir `FeedbackComment` (Entidad) solo durante periodos activos. Define **Value Objects** como `ReviewClassification` para estandarizar las métricas de desempeño.
+
+#### 2.6.5.2. Interface Layer {#bounded-context-feedback-for-workers-interface-layer}
+
+El `PerformanceController` permite a los managers crear evaluaciones y a los colaboradores visualizarlas. Utiliza `PerformanceReviewResource` para presentar el historial de retroalimentación de manera estructurada.
+
+#### 2.6.5.3. Application Layer {#bounded-context-feedback-for-workers-application-layer}
+
+Orquesta el flujo de las evaluaciones de desempeño. El `PerformanceCommandServiceImpl` asegura que solo los usuarios con roles de Manager (validados vía ACL con IAM) puedan iniciar evaluaciones o cambiar clasificaciones de desempeño.
+
+#### 2.6.5.4  Infrastructure Layer {#bounded-context-feedback-for-workers-infrastructure-layer}
+
+Provee persistencia para el historial de feedback y evaluaciones. Implementa los repositorios necesarios para realizar consultas históricas por empleado y área organizacional. También se encarga de la integración con servicios de notificaciones para alertar a los empleados sobre nuevas evaluaciones o comentarios de feedback.
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams {#bounded-context-feedback-for-workers-software-architecture-component-level-diagrams}
 
 En este diagrama de componentes del Bounded Context de Feedback for Workers, se muestran los principales componentes que conforman este contexto, como el componente de gestión de encuestas, el componente de gestión de mensajes y el componente de generación de informes. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
-#### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams 
+![Feedback Component Diagram](assets/images/cap2/tactical-level/components/feedbackWorkersComponent.png)
 
-![Bounded Context Domain Layer Class Diagram - Feedback for Workers](assets/images/cap4/tactical-level/feedback-layer-class-diagram.png)
 
-#### 2.6.5.6.2. Bounded Context Database Design Diagram 
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams {#bounded-context-feedback-for-workers-software-architecture-code-level-diagrams}
+
+En este apartado se presentan los diagramas de código del Bounded Context de Feedback for Workers, donde se representan las principales clases que conforman este contexto, como la clase de Encuesta, la clase de Mensaje y la clase de Informe. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+#### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams {#bounded-context-feedback-for-workers-domain-layer-class-diagrams}
+
+En este diagrama de clases del Bounded Context de Feedback for Workers, se representan las principales clases que conforman este contexto, como la clase de Encuesta, la clase de Mensaje y la clase de Informe. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bounded Context Domain Layer Class Diagram - Feedback for Workers](assets/images/cap2/tactical-level/class-diagrams/feedback-layer-class-diagram.png)
+
+#### 2.6.5.6.2. Bounded Context Database Design Diagram {#bounded-context-feedback-for-workers-database-design-diagram}
+
+En este diagrama de diseño de base de datos del Bounded Context de Feedback for Workers, se representan las principales tablas que conforman este contexto, como la tabla de Encuestas, la tabla de Mensajes y la tabla de Informes. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Feedback Database Design Diagram](assets/images/cap2/tactical-level/database-diagrams/feedbackDatabaseDesign.png)

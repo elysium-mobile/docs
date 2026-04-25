@@ -43,6 +43,52 @@
         - [2.5.3.2. Software Architecture Container Level Diagrams][2.5.3.2]
         - [2.5.3.3. Software Architecture Deployment Diagrams][2.5.3.3]
 * [2.6. Tactical-Level Domain-Driven Design][2.6]
+    - [2.6.1. Bounded Context: Identity and Access Management][2.6.1]
+        - [2.6.1.1. Domain Layer][2.6.1.1]
+        - [2.6.1.2. Interface Layer][2.6.1.2]
+        - [2.6.1.3. Application Layer][2.6.1.3]
+        - [2.6.1.4. Infrastructure Layer][2.6.1.4]
+        - [2.6.1.5. Bounded Context Software Architecture Component Level Diagrams][2.6.1.5]
+        - [2.6.1.6. Bounded Context Software Architecture Code Level Diagrams][2.6.1.6]
+            - [2.6.1.6.1. Bounded Context Domain Layer Class Diagrams][2.6.1.6.1]
+            - [2.6.1.6.2. Bounded Context Database Design Diagram][2.6.1.6.2]
+    - [2.6.2. Bounded Context: Subscription and Payments Management][2.6.2]
+        - [2.6.2.1. Domain Layer][2.6.2.1]
+        - [2.6.2.2. Interface Layer][2.6.2.2]
+        - [2.6.2.3. Application Layer][2.6.2.3]
+        - [2.6.2.4. Infrastructure Layer][2.6.2.4]
+        - [2.6.2.5. Bounded Context Software Architecture Component Level Diagrams][2.6.2.5]
+        - [2.6.2.6. Bounded Context Software Architecture Code Level Diagrams][2.6.2.6]
+            - [2.6.2.6.1. Bounded Context Domain Layer Class Diagrams][2.6.2.6.1]
+            - [2.6.2.6.2. Bounded Context Database Design Diagram][2.6.2.6.2]
+    - [2.6.3. Bounded Context: Workers Forum][2.6.3]
+        - [2.6.3.1. Domain Layer][2.6.3.1]
+        - [2.6.3.2. Interface Layer][2.6.3.2]
+        - [2.6.3.3. Application Layer][2.6.3.3]
+        - [2.6.3.4. Infrastructure Layer][2.6.3.4]
+        - [2.6.3.5. Bounded Context Software Architecture Component Level Diagrams][2.6.3.5]
+        - [2.6.3.6. Bounded Context Software Architecture Code Level Diagrams][2.6.3.6]
+            - [2.6.3.6.1. Bounded Context Domain Layer Class Diagrams][2.6.3.6.1]
+            - [2.6.3.6.2. Bounded Context Database Design Diagram][2.6.3.6.2]
+
+    - [2.6.4. Bounded Context: Dashboard and Analytics ][2.6.4]
+        - [2.6.4.1. Domain Layer][2.6.4.1]
+        - [2.6.4.2. Interface Layer][2.6.4.2]
+        - [2.6.4.3 Application Layer][2.6.4.3]
+        - [2.6.4.4. Infrastructure Layer][2.6.4.4]
+        - [2.6.4.5 Bounded Context Software Architecture Component Level Diagrams][2.6.4.5]
+        - [2.6.4.6 Bounded Context Software Architecture Code Level Diagrams][2.6.4.6]
+            - [2.6.4.6.1 Bounded Context Domain Layer Class Diagrams][2.6.4.6.1]
+            - [2.6.4.6.2 Bounded Context Database Design Diagram][2.6.4.6.2]
+    - [2.6.5. Bounded Context: Feedback for Workers][2.6.5]
+        - [2.6.5.1. Domain Layer][2.6.5.1]
+        - [2.6.5.2. Interface Layer][2.6.5.2]
+        - [2.6.5.3. Application Layer][2.6.5.3]
+        - [2.6.5.4. Infrastructure Layer][2.6.5.4]
+        - [2.6.5.5. Bounded Context Software Architecture Component Level Diagrams][2.6.5.5]
+        - [2.6.5.6. Bounded Context Software Architecture Code Level Diagrams][2.6.5.6]
+            - [2.6.5.6.1. Bounded Context Domain Layer Class Diagrams][2.6.5.6.1]
+            - [2.6.5.6.2. Bounded Context Database Design Diagram][2.6.5.6.2]
 
 ### [Capítulo III: Solution UI/UX Design][cap3]
 * [3.1. Product Design][3.1]
@@ -139,6 +185,51 @@
 [2.5.3.2]: #software-architecture-container-level-diagrams
 [2.5.3.3]: #software-architecture-deployment-diagrams
 [2.6]: #tactical-level-domain-driven-design
+[2.6.1]: #bounded-context-identity-and-access-management
+[2.6.1.1]: #bounded-context-identity-and-access-management-domain-layer
+[2.6.1.2]: #bounded-context-identity-and-access-management-interface-layer
+[2.6.1.3]: #bounded-context-identity-and-access-management-application-layer
+[2.6.1.4]: #bounded-context-identity-and-access-management-infrastructure-layer
+[2.6.1.5]: #bounded-context-identity-and-access-management-software-architecture-component-level-diagrams
+[2.6.1.6]: #bounded-context-identity-and-access-management-software-architecture-code-level-diagrams
+[2.6.1.6.1]: #bounded-context-identity-and-access-management-domain-layer-class-diagrams
+[2.6.1.6.2]: #bounded-context-identity-and-access-management-database-design-diagram
+[2.6.2]: #bounded-context-subscription-and-payments-management
+[2.6.2.1]: #bounded-context-subscription-and-payments-management-domain-layer
+[2.6.2.2]: #bounded-context-subscription-and-payments-management-interface-layer
+[2.6.2.3]: #bounded-context-subscription-and-payments-management-application-layer
+[2.6.2.4]: #bounded-context-subscription-and-payments-management-infrastructure-layer
+[2.6.2.5]: #bounded-context-subscription-and-payments-management-software-architecture-component-level-diagrams
+[2.6.2.6]: #bounded-context-subscription-and-payments-management-software-architecture-code-level-diagrams
+[2.6.2.6.1]: #bounded-context-subscription-and-payments-management-domain-layer-class-diagrams
+[2.6.2.6.2]: #bounded-context-subscription-and-payments-management-database-design-diagram
+[2.6.3]: #bounded-context-workers-forum
+[2.6.3.1]: #bounded-context-workers-forum-domain-layer
+[2.6.3.2]: #bounded-context-workers-forum-interface-layer
+[2.6.3.3]: #bounded-context-workers-forum-application-layer
+[2.6.3.4]: #bounded-context-workers-forum-infrastructure-layer
+[2.6.3.5]: #bounded-context-workers-forum-software-architecture-component-level-diagrams
+[2.6.3.6]: #bounded-context-workers-forum-software-architecture-code-level-diagrams
+[2.6.3.6.1]: #bounded-context-workers-forum-domain-layer-class-diagrams
+[2.6.3.6.2]: #bounded-context-workers-forum-database-design-diagram
+[2.6.4]: #bounded-context-dashboard-and-analytics
+[2.6.4.1]: #bounded-context-dashboard-and-analytics-domain-layer
+[2.6.4.2]: #bounded-context-dashboard-and-analytics-interface-layer
+[2.6.4.3]: #bounded-context-dashboard-and-analytics-application-layer
+[2.6.4.4]: #bounded-context-dashboard-and-analytics-infrastructure-layer
+[2.6.4.5]: #bounded-context-dashboard-and-analytics-software-architecture-component-level-diagrams
+[2.6.4.6]: #bounded-context-dashboard-and-analytics-software-architecture-code-level-diagrams
+[2.6.4.6.1]: #bounded-context-dashboard-and-analytics-domain-layer-class-diagrams
+[2.6.4.6.2]: #bounded-context-dashboard-and-analytics-database-design-diagram
+[2.6.5]: #bounded-context-feedback-for-workers
+[2.6.5.1]: #bounded-context-feedback-for-workers-domain-layer
+[2.6.5.2]: #bounded-context-feedback-for-workers-interface-layer
+[2.6.5.3]: #bounded-context-feedback-for-workers-application-layer
+[2.6.5.4]: #bounded-context-feedback-for-workers-infrastructure-layer
+[2.6.5.5]: #bounded-context-feedback-for-workers-software-architecture-component-level-diagrams
+[2.6.5.6]: #bounded-context-feedback-for-workers-software-architecture-code-level-diagrams
+[2.6.5.6.1]: #bounded-context-feedback-for-workers-domain-layer-class-diagrams
+[2.6.5.6.2]: #bounded-context-feedback-for-workers-database-design-diagram
 
 [cap3]: #capítulo-iii-solution-ui-ux-design
 [3.1]: #product-design
