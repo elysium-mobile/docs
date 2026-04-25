@@ -6,3 +6,7 @@
 |   TB1   | 24/04/2026  | Gianmarco Fabian Jiménez Guerra | Análisis de las entrevistas |
 |   TB1   | 13/04/2026  | Piero Francesco Tenorio Medina   | Creación del diagrama de clases y base de datos |
 |   TB1   | 22/04/2026 | Piero Francesco Tenorio Medina   | Creación del Event Storming y Context Mapping  |
+|   TB1   | 18/04/2026 | Diego Andres Avalos Cordova | Agregar los antecedentes y problematicas del proyecto junto al Lean UX process |
+|   TB1   | 22/04/2026 | Diego Andres Avalos Cordova | Implementación de As-is Scenario Mapping y To-Be Scenario Mapping |
+|   TB1   | 20/04/2026 | Flor Contreras Leon | Analisar las entrevistas y crear los User Personas |
+|   TB1   | 21/04/2026 | Flor Contreras Leon | Crear los User Journey Mapping y User Task Matrix |
