@@ -718,137 +718,211 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 
 ## 2.6. Tactical-Level Domain-Driven Design {#tactical-level-domain-driven-design}
 
-### 2.6.1. Bounded Context: Identity and Access Management
-#### 2.6.1.1. Domain Layer  
-#### 2.6.1.2. Interface Layer
-#### 2.6.1.3. Application Layer
-#### 2.6.1.4  Infrastructure Layer
-#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams 
+En esta sección se aplican las técnicas de DDD a nivel táctico para diseñar la arquitectura de software de cada uno de los Bounded Context identificados en la sección anterior. Esto incluye la definición de las capas de cada contexto, los componentes que lo conforman y cómo interactuan entre sí. También se incluyen diagramas de componentes y diagramas de código para cada contexto, lo que permite una mayor claridad en la implementación de cada uno de los contextos y su integración con el resto del sistema.
+
+### 2.6.1. Bounded Context: Identity and Access Management {#bounded-context-identity-and-access-management}
+
+En el Bounded Context del IAM (Identity and Access Management), se manejan todas las funcionalidades relacionadas con la gestión de identidades, autenticación y autorización de los usuarios dentro del sistema. Esto incluye el registro de usuarios, la asignación de roles y permisos, y la verificación de credenciales para el acceso a la aplicación. 
+
+#### 2.6.1.1. Domain Layer {#bounded-context-identity-and-access-management-domain-layer}
+Esta capa es el corazón del contexto de IAM. Contiene el **Agregado Raíz `UserAccount`**, que encapsula la identidad del usuario. Se utilizan **Value Objects** como `EmailAddress` y `PasswordHash` para garantizar que los datos críticos sean inmutables y válidos desde su creación. La lógica de negocio incluye la gestión de estados de cuenta y la asignación de la entidad `Role` (roles como `EMPLOYEE_USER` o `RRHH_MANAGER`). También define las interfaces de los repositorios que la infraestructura debe implementar.
+
+#### 2.6.1.2. Interface Layer {#bounded-context-identity-and-access-management-interface-layer}
+Actúa como la puerta de entrada al Bounded Context a través de una API REST. Incluye el `UserAccountController`, que expone endpoints para `signUp`, `signIn` y gestión de perfiles. Utiliza **Resources (DTOs)** como `UserAccountResource` para no exponer las entidades internas y un `UserAccountAssembler` que se encarga de la transformación bidireccional entre el modelo de dominio y los recursos externos.
+
+#### 2.6.1.3. Application Layer {#bounded-context-identity-and-access-management-application-layer}
+Orquesta los casos de uso del sistema. Se divide en **Command Services** (para acciones que cambian el estado, como `CreateUserAccountCommand`) y **Query Services** (para lecturas, como `GetUserAccountByIdQuery`). Esta capa no contiene lógica de negocio, sino que coordina la carga de agregados desde los repositorios y la ejecución de métodos en el dominio.
+
+#### 2.6.1.4. Infrastructure Layer {#bounded-context-identity-and-access-management-infrastructure-layer}
+Provee las implementaciones técnicas de las interfaces definidas en el dominio. Aquí se encuentra el `UserAccountRepository` implementado con **Spring Data JPA**, gestionando la persistencia en la base de datos relacional. También incluye la configuración de seguridad y servicios de encriptación para las contraseñas. Además, se encarga de la integración con servicios externos para funcionalidades como el envío de correos electrónicos de verificación o recuperación de contraseña.
+
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams {#bounded-context-identity-and-access-management-software-architecture-component-level-diagrams}
 
 Aquí se presenta el diagrama de componentes del Bounded Context de IAM, donde se muestran los principales componentes que conforman este contexto, como el componente de autenticación, el componente de autorización y el componente de gestión de usuarios. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![IAM Component Diagram](assets/images/cap2/tactical-level/components/iamBCComponent.png)
 
-#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams {#bounded-context-identity-and-access-management-software-architecture-code-level-diagrams}
 
 En este apartado se presentan los diagramas de código del Bounded Context de IAM, donde se representan las principales clases y sus relaciones dentro de este contexto. Se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams 
+#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams {#bounded-context-identity-and-access-management-domain-layer-class-diagrams}
 
 Aquí se muestra el diagrama de clases del Bounded Context de IAM, donde se representan las principales clases que conforman este contexto, como la clase de Usuario, la clase de Rol y la clase de Permiso. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Bounded Context Domain Layer Class Diagram - IAM](assets/images/cap2/tactical-level/class-diagrams/iam-layer-class-diagram.png)
 
-#### 2.6.1.6.2. Bounded Context Database Design Diagram 
+#### 2.6.1.6.2. Bounded Context Database Design Diagram {#bounded-context-identity-and-access-management-database-design-diagram}
 
 En este diagrama de diseño de base de datos del Bounded Context de IAM, se muestran las tablas principales que conforman este contexto, como la tabla de Usuarios, la tabla de Roles y la tabla de Permisos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Bounded Context Database Design Diagram - IAM](assets/images/cap2/tactical-level/database-diagrams/iam-database-design-diagram.png)
 
-### 2.6.2. Bounded Context: Subscription and Payments Management
-#### 2.6.2.1. Domain Layer  
-#### 2.6.2.2. Interface Layer
-#### 2.6.2.3. Application Layer
-#### 2.6.2.4  Infrastructure Layer
-#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams 
+### 2.6.2. Bounded Context: Subscription and Payments Management {#bounded-context-subscription-and-payments-management}
+
+En el Bounded Context de Subscription and Payments Management, se manejan todas las funcionalidades relacionadas con la gestión de suscripciones y pagos dentro del sistema. Esto incluye la creación y gestión de membresías, el procesamiento de pagos y la integración con servicios de pago externos.
+
+#### 2.6.2.1. Domain Layer {#bounded-context-subscription-and-payments-management-domain-layer}
+
+Define el ciclo de vida de las suscripciones mediante el agregado **`Membership`**. Utiliza el patrón **Strategy** (`PaymentStrategy`) para desacoplar la lógica de cobro de los proveedores específicos (Tarjetas, PayPal). Contiene las entidades `Order`, `Payment` y `MembershipPlan`. Los **Value Objects** como `MembershipState` controlan los estados de validez de la suscripción (Active, Expired, Cancelled).
+
+#### 2.6.2.2. Interface Layer {#bounded-context-subscription-and-payments-management-interface-layer}
+
+Representada por el `MembershipController`, gestiona las peticiones de suscripción y procesamiento de pagos. Utiliza el `MembershipAssembler` para transformar las entidades en `MembershipResource`, asegurando que el cliente solo reciba la información necesaria sobre su estado de suscripción.
+
+
+#### 2.6.2.3. Application Layer {#bounded-context-subscription-and-payments-management-application-layer}
+
+Orquesta el flujo de pago complejo. El `MembershipCommandServiceImpl` coordina la creación de una orden, la llamada al `PaymentProcessor` (servicio de dominio) y la actualización posterior del estado de la membresía. Utiliza una **Capa Anticorrupción (ACL)** para verificar la existencia del usuario en el contexto de IAM antes de procesar cobros.
+
+#### 2.6.2.4  Infrastructure Layer {#bounded-context-subscription-and-payments-management-infrastructure-layer}
+
+Implementa la persistencia mediante `MembershipRepository`. Gestiona la integración con pasarelas de pago externas y la persistencia de transacciones e historiales de facturación utilizando JPA.
+
+#### 2.6.2.5. Bounded Context Software Architecture Component Level Diagrams {#bounded-context-subscription-and-payments-management-software-architecture-component-level-diagrams}
 
 En este diagrama de componentes del Bounded Context de Subscription and Payments Management, se muestran los principales componentes que conforman este contexto, como el componente de gestión de suscripciones, el componente de procesamiento de pagos y el componente de integración con servicios de pago externos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Subscription Component Diagram](assets/images/cap2/tactical-level/components/subscriptionPaymentsComponent.png)
 
-#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams {#bounded-context-subscription-and-payments-management-software-architecture-code-level-diagrams}
 
 En este apartado se presentan los diagramas de código del Bounded Context de Subscription and Payments Management, donde se representan las principales clases que conforman este contexto, como la clase de Suscripción, la clase de Pago y la clase de Usuario. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-#### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 
+#### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams {#bounded-context-subscription-and-payments-management-domain-layer-class-diagrams}
 
 En este diagrama de clases del Bounded Context de Subscription and Payments Management, se representan las principales clases que conforman este contexto, como la clase de Suscripción, la clase de Pago y la clase de Usuario. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Bounded Context Domain Layer Class Diagram - Subscription and Payments](assets/images/cap2/tactical-level/class-diagrams/subscription-layer-class-diagram.png)
 
-#### 2.6.2.6.2. Bounded Context Database Design Diagram 
+#### 2.6.2.6.2. Bounded Context Database Design Diagram {#bounded-context-subscription-and-payments-management-database-design-diagram}
 
 En este diagrama de diseño de base de datos del Bounded Context de Subscription and Payments Management, se muestran las tablas principales que conforman este contexto, como la tabla de Suscripciones, la tabla de Pagos y la tabla de Usuarios. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Bounded Context Database Design Diagram - Subscription and Payments](assets/images/cap2/tactical-level/database-diagrams/subscription-database-design-diagram.png)
 
-### 2.6.3. Bounded Context: Workers Forum
-#### 2.6.3.1. Domain Layer  
-#### 2.6.3.2. Interface Layer
-#### 2.6.3.3. Application Layer
-#### 2.6.3.4  Infrastructure Layer
-#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams 
+### 2.6.3. Bounded Context: Workers Forum {#bounded-context-workers-forum}
+
+En el Bounded Context de Workers Forum, se manejan todas las funcionalidades relacionadas con la gestión de foros y mensajes dentro del sistema. Esto incluye la creación y gestión de hilos de discusión, la publicación de mensajes y la realización de encuestas para recabar información sobre el entorno laboral.
+
+#### 2.6.3.1. Domain Layer {#bounded-context-workers-forum-domain-layer}
+
+El dominio se centra en la colaboración. El agregado raíz es **`Thread`** (Hilo), que gobierna la consistencia de los mensajes publicados. Contiene la entidad `Message` y `Attachment`. Los **Value Objects** `ThreadTitle` y `MessageContent` validan las reglas de contenido. Se asegura de que no se puedan añadir mensajes a hilos cerrados.
+
+#### 2.6.3.2. Interface Layer {#bounded-context-workers-forum-interface-layer}
+
+A través del `ThreadController`, permite a los usuarios crear discusiones y responder. Los DTOs como `AddMessageResource` facilitan la transferencia de contenido y metadatos de archivos adjuntos de forma segura. El `ThreadAssembler` se encarga de convertir entre el modelo de dominio y los recursos expuestos a la API, asegurando que solo se exponga la información necesaria.
+
+#### 2.6.3.3. Application Layer {#bounded-context-workers-forum-application-layer}
+
+Gestiona la lógica de publicación de contenido. El `ThreadCommandServiceImpl` orquesta la creación de hilos y la adición de mensajes, asegurando que se asocie correctamente el `authorId`. Implementa una **ACL** para consultar los datos básicos del autor desde el Bounded Context de IAM sin acoplarse a su base de datos.
+
+#### 2.6.3.4  Infrastructure Layer {#bounded-context-workers-forum-infrastructure-layer}
+
+Provee la persistencia de los hilos y mensajes en tablas relacionales. Gestiona el almacenamiento de referencias a archivos adjuntos y la indexación para búsquedas rápidas por categorías. También se encarga de la integración con servicios de notificaciones para alertar a los usuarios sobre nuevas respuestas o menciones en los hilos que siguen.
+
+#### 2.6.3.5. Bounded Context Software Architecture Component Level Diagrams {#bounded-context-workers-forum-software-architecture-component-level-diagrams}
 
 Presentamos el diagrama de componentes del Bounded Context de Workers Forum, donde se muestran los principales componentes que conforman este contexto, como el componente de gestión de mensajes, el componente de gestión de hilos y el componente de gestión de encuestas. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Workers Forum Component Diagram](assets/images/cap2/tactical-level/components/workersForumComponent.png)
 
-#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams {#bounded-context-workers-forum-software-architecture-code-level-diagrams}
 
 En este apartado se presentan los diagramas de código del Bounded Context de Workers Forum, donde se representan las principales clases que conforman este contexto, como la clase de Mensaje, la clase de Hilo y la clase de Encuesta. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-#### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams 
+#### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams {#bounded-context-workers-forum-domain-layer-class-diagrams}
 
 Presentamos el diagrama de clases del Bounded Context de Workers Forum, donde se representan las principales clases que conforman este contexto, como la clase de Mensaje, la clase de Hilo y la clase de Encuesta. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Bounded Context Domain Layer Class Diagram - Workers Forum](assets/images/cap2/tactical-level/class-diagrams/workers-layer-class-diagram.png)
 
-#### 2.6.3.6.2. Bounded Context Database Design Diagram 
+#### 2.6.3.6.2. Bounded Context Database Design Diagram {#bounded-context-workers-forum-database-design-diagram}
 
 En este diagrama de diseño de base de datos del Bounded Context de Workers Forum, se muestran las tablas principales que conforman este contexto, como la tabla de Mensajes, la tabla de Hilos y la tabla de Encuestas. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Bounded Context Database Design Diagram - Workers Forum](assets/images/cap2/tactical-level/database-diagrams/workers-database-design-diagram.png)
 
-### 2.6.4. Bounded Context: Dashboard and Analytics 
-#### 2.6.4.1. Domain Layer  
-#### 2.6.4.2. Interface Layer
-#### 2.6.4.3. Application Layer
-#### 2.6.4.4  Infrastructure Layer
-#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams 
+### 2.6.4. Bounded Context: Dashboard and Analytics {#bounded-context-dashboard-and-analytics}
+
+En el Bounded Context de Dashboard and Analytics, se manejan todas las funcionalidades relacionadas con la gestión de dashboard y análisis dentro del sistema. Esto incluye la recopilación de datos, la generación de informes y la visualización de datos para los gerentes de RRHH.
+
+#### 2.6.4.1. Domain Layer {#bounded-context-dashboard-and-analytics-domain-layer}
+
+A diferencia de otros contextos, este es predominantemente de lectura. El agregado **`Dashboard`** contiene la configuración de los `Widget`s que un usuario o empresa desea ver. El **Domain Service** `CompanyMetricsAnalyzer` contiene los algoritmos para calcular la salud organizacional y el compromiso de los empleados a partir de datos crudos.
+
+#### 2.6.4.2. Interface Layer {#bounded-context-dashboard-and-analytics-interface-layer}
+
+El `DashboardController` expone endpoints para visualizar métricas agregadas y configurar el tablero. Utiliza el `DashboardAssembler` para construir una vista unificada de datos que provienen de múltiples fuentes.
+
+#### 2.6.4.3. Application Layer {#bounded-context-dashboard-and-analytics-application-layer}
+
+Es la capa más activa en este contexto. El `DashboardQueryServiceImpl` recopila datos de otros Bounded Contexts (Forum, Feedback, IAM) a través de múltiples **Anti-Corruption Layers (ACL)**. Esta capa transforma datos transaccionales de otros módulos en modelos de información analítica listos para el consumo del dominio.
+
+#### 2.6.4.4  Infrastructure Layer {#bounded-context-dashboard-and-analytics-infrastructure-layer}
+
+Implementa los adaptadores para las llamadas externas a otros microservicios/contextos y gestiona la persistencia de las preferencias de visualización del usuario (configuración de widgets). También se encarga de la integración con herramientas de análisis y visualización de datos, como Grafana o Tableau, para mostrar los dashboards de manera efectiva.
+
+#### 2.6.4.5. Bounded Context Software Architecture Component Level Diagrams {#bounded-context-dashboard-and-analytics-software-architecture-component-level-diagrams}
 
 En este diagrama de componentes del Bounded Context de Dashboard and Analytics, se muestran los principales componentes que conforman este contexto, como el componente de recopilación de datos, el componente de generación de informes y el componente de visualización de datos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Dashboard Component Diagram](assets/images/cap2/tactical-level/components/dashboardAnalyticsComponent.png)
 
-#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams {#bounded-context-dashboard-and-analytics-software-architecture-code-level-diagrams}
 
 En este apartado se presentan los diagramas de código del Bounded Context de Dashboard and Analytics, donde se representan las principales clases que conforman este contexto, como la clase de DatosRecopilados, la clase de Informe y la clase de Visualización. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-#### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams 
+#### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams {#bounded-context-dashboard-and-analytics-domain-layer-class-diagrams}
 
 En este diagrama de clases del Bounded Context de Dashboard and Analytics, se representan las principales clases que conforman este contexto, como la clase de DatosRecopilados, la clase de Informe y la clase de Visualización. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Bounded Context Domain Layer Class Diagram - Dashboard and Analytics](assets/images/cap2/tactical-level/class-diagrams/dashboard-layer-class-diagram.png)
 
-#### 2.6.4.6.2. Bounded Context Database Design Diagram 
+#### 2.6.4.6.2. Bounded Context Database Design Diagram {#bounded-context-dashboard-and-analytics-database-design-diagram}
 
 En este diagrama de diseño de base de datos del Bounded Context de Dashboard and Analytics, se muestran las tablas principales que conforman este contexto, como la tabla de DatosRecopilados, la tabla de Informes y la tabla de Visualizaciones. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Bounded Context Database Design Diagram - Dashboard and Analytics](assets/images/cap2/tactical-level/database-diagrams/dashboard-database-design-diagram.png)
 
-### 2.6.5. Bounded Context: Feedback for Workers
-#### 2.6.5.1. Domain Layer  
-#### 2.6.5.2. Interface Layer
-#### 2.6.5.3. Application Layer
-#### 2.6.5.4  Infrastructure Layer
-#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 
+### 2.6.5. Bounded Context: Feedback for Workers {#bounded-context-feedback-for-workers}
+
+En el Bounded Context de Feedback for Workers, se manejan todas las funcionalidades relacionadas con la gestión de feedback para los trabajadores dentro del sistema. Esto incluye la creación y gestión de encuestas, el envío de mensajes directos a los trabajadores y la generación de informes para los gerentes de RRHH. Este contexto es crucial para recabar información sobre el entorno laboral y mejorar la experiencia de los trabajadores dentro de la empresa.
+
+#### 2.6.5.1. Domain Layer {#bounded-context-feedback-for-workers-domain-layer}
+
+Se enfoca en el crecimiento profesional mediante el agregado **`PerformanceReview`**. Este agregado controla las reglas de evaluación, permitiendo añadir `FeedbackComment` (Entidad) solo durante periodos activos. Define **Value Objects** como `ReviewClassification` para estandarizar las métricas de desempeño.
+
+#### 2.6.5.2. Interface Layer {#bounded-context-feedback-for-workers-interface-layer}
+
+El `PerformanceController` permite a los managers crear evaluaciones y a los colaboradores visualizarlas. Utiliza `PerformanceReviewResource` para presentar el historial de retroalimentación de manera estructurada.
+
+#### 2.6.5.3. Application Layer {#bounded-context-feedback-for-workers-application-layer}
+
+Orquesta el flujo de las evaluaciones de desempeño. El `PerformanceCommandServiceImpl` asegura que solo los usuarios con roles de Manager (validados vía ACL con IAM) puedan iniciar evaluaciones o cambiar clasificaciones de desempeño.
+
+#### 2.6.5.4  Infrastructure Layer {#bounded-context-feedback-for-workers-infrastructure-layer}
+
+Provee persistencia para el historial de feedback y evaluaciones. Implementa los repositorios necesarios para realizar consultas históricas por empleado y área organizacional. También se encarga de la integración con servicios de notificaciones para alertar a los empleados sobre nuevas evaluaciones o comentarios de feedback.
+
+#### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams {#bounded-context-feedback-for-workers-software-architecture-component-level-diagrams}
 
 En este diagrama de componentes del Bounded Context de Feedback for Workers, se muestran los principales componentes que conforman este contexto, como el componente de gestión de encuestas, el componente de gestión de mensajes y el componente de generación de informes. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Feedback Component Diagram](assets/images/cap2/tactical-level/components/feedbackWorkersComponent.png)
 
 
-#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams {#bounded-context-feedback-for-workers-software-architecture-code-level-diagrams}
 
 En este apartado se presentan los diagramas de código del Bounded Context de Feedback for Workers, donde se representan las principales clases que conforman este contexto, como la clase de Encuesta, la clase de Mensaje y la clase de Informe. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-#### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams 
+#### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams {#bounded-context-feedback-for-workers-domain-layer-class-diagrams}
 
 En este diagrama de clases del Bounded Context de Feedback for Workers, se representan las principales clases que conforman este contexto, como la clase de Encuesta, la clase de Mensaje y la clase de Informe. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Bounded Context Domain Layer Class Diagram - Feedback for Workers](assets/images/cap2/tactical-level/class-diagrams/feedback-layer-class-diagram.png)
 
-#### 2.6.5.6.2. Bounded Context Database Design Diagram 
+#### 2.6.5.6.2. Bounded Context Database Design Diagram {#bounded-context-feedback-for-workers-database-design-diagram}
 
 En este diagrama de diseño de base de datos del Bounded Context de Feedback for Workers, se representan las principales tablas que conforman este contexto, como la tabla de Encuestas, la tabla de Mensajes y la tabla de Informes. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
