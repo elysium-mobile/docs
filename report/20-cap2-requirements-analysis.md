@@ -270,75 +270,28 @@ De igual manera, para Beatriz, es fundamental contar con datos en tiempo real y 
 
 
 ### 2.3.5. Big Picture EventStorming {#big-picture-eventstorming}
-## Etapas del proceso "As-Is" (Estado actual)
 
-### Activación
-- **Andrés:** Siente agotamiento (burnout) → Oculta el sentimiento (miedo a parecer incompetente).
-- **Beatriz:** No recibe ninguna señal temprana.
+Para esta sección ocupamos la técnica de Big Picture EventStorming para mapear los procesos y eventos clave relacionados con el bienestar laboral y la gestión de clima organizacional. Este enfoque nos permite visualizar de manera integral las interacciones entre empleados, RRHH y la plataforma SoftWork, identificando los puntos críticos donde la tecnología puede intervenir para mejorar la experiencia y los resultados. A continuación, se presentan los mapas de eventos para cada uno de los dominios identificados:
 
-### Procesamiento
-- **Beatriz:** Envía encuesta anual → **Andrés** la completa mecánicamente (desconfianza).
+#### - IAM (Identity and Access Management)
 
-### Clímax del Problema
-- **Andrés:** El malestar escala en silencio.
-- **Beatriz:** Recibe resultados consolidados 30 días después → Detecta el problema cuando ya es tarde (renuncia o conflicto agudo).
+![EventStorming - IAM](assets/images/cap2/strategic-level/event-storming/IAM.png)
 
-### Resolución (Estado actual)
-- Gestión reactiva, parches administrativos y falta de conexión emocional.
+#### - Membership and Payments
 
----
+![EventStorming - Membership and Payments](assets/images/cap2/strategic-level/event-storming/Membership.png)
 
-### Oportunidad de diseño
-- Insertar un punto de contacto digital continuo que permita a **Andrés** expresar su malestar de forma segura y a **Beatriz** recibir alertas accionables, no reportes estáticos.
+#### - Dashboard and Analytics
 
-### Segmento 1: Empleados de la empresa
+![EventStorming - Dashboard and Analytics](assets/images/cap2/strategic-level/event-storming/Analytics.png)
 
-| Fase | Acciones (Doing) | Pensamientos (Thinking) | Emociones (Feeling) |
-|:---|:---|:---|:---|
-| Inicio del problema | Percibe dificultades en su desempeño o bienestar laboral. Recibe feedback informal o detecta estrés. | "Siento que algo no está funcionando bien, pero no sé exactamente qué es." | Incertidumbre, estrés leve |
-| Búsqueda de ayuda | Consulta con compañeros, busca información en internet o revisa recursos internos. | "Quizá esto es normal... pero debería hacer algo al respecto." | Duda, curiosidad |
-| Evaluación de opciones | Considera acudir a RRHH o usar herramientas internas (si existen). | "No sé si esto es lo suficientemente importante como para escalarlo." | Inseguridad, temor |
-| Interacción con RRHH | Contacta a RRHH o responde encuestas internas. Expone parcialmente su situación. | "Espero que esto realmente sirva y no afecte mi imagen." | Ansiedad, desconfianza |
-| Seguimiento | Recibe retroalimentación limitada o genérica. Puede o no aplicar recomendaciones. | "No estoy seguro si esto realmente me ayuda a mejorar." | Frustración, desmotivación |
-| Resultado actual | Continúa con el problema parcialmente resuelto o sin cambios significativos. | "Tal vez solo tengo que adaptarme..." | Resignación, agotamiento |
+#### - Workers Forum
 
----
+![EventStorming - Workers Forum](assets/images/cap2/strategic-level/event-storming/WorkersForum.png)       
 
-### Segmento 2: Área de Recursos Humanos (RRHH)
+#### - Feedback For Employees
 
-| Fase | Acciones (Doing) | Pensamientos (Thinking) | Emociones (Feeling) |
-|:---|:---|:---|:---|
-| Detección de necesidades | Recibe reportes, resultados de encuestas o quejas informales. | "Hay señales de problemas, pero no tengo toda la información." | Preocupación, presión |
-| Recolección de información | Aplica encuestas, entrevistas o revisa indicadores de desempeño. | "Los datos son limitados o poco claros para tomar decisiones." | Incertidumbre |
-| Análisis | Interpreta datos de forma general, identifica patrones básicos. | "Necesito herramientas más precisas para entender esto mejor." | Frustración, carga mental |
-| Diseño de acciones | Propone capacitaciones, talleres o intervenciones generales. | "Espero que estas soluciones funcionen para la mayoría." | Duda, responsabilidad |
-| Implementación | Ejecuta programas o comunica iniciativas a los empleados. | "No sé si todos realmente participarán o se beneficiarán." | Estrés, presión operativa |
-| Evaluación de impacto | Revisa resultados de forma superficial o a corto plazo. | "Es difícil medir el impacto real de lo que hacemos." | Insatisfacción, incertidumbre |
-
----
-
-### Pain Points (Áreas críticas identificadas)
-
-#### Para empleados:
-- Falta de claridad sobre cómo identificar y abordar sus problemas.
-- Miedo a expresar situaciones personales o laborales.
-- Soluciones poco personalizadas o superficiales.
-- Escaso seguimiento continuo.
-
-#### Para RRHH:
-- Información fragmentada y poco profunda.
-- Falta de herramientas analíticas avanzadas.
-- Limitaciones de tiempo para atención individual.
-- Dificultad para medir impacto real de sus acciones.
-
----
-
-### Insight clave
-
-Existe una **desconexión entre la necesidad real del empleado y la capacidad de respuesta de RRHH**, causada principalmente por:
-- Falta de datos profundos
-- Procesos reactivos en lugar de predictivos
-- Baja personalización en las soluciones
+![EventStorming - Feedback For Employees](assets/images/cap2/strategic-level/event-storming/Feedback.png)
 
 ### 2.3.6. Ubiquitous Language {#ubiquitous-language}
 
@@ -585,27 +538,8 @@ Este apartado se dedica a las historias de investigación que el equipo debe rea
 ## 2.5. Strategic-Level Domain-Driven Design {#strategic-level-domain-driven-design}
  
 ### 2.5.1. EventStorming {#eventstorming}
-Para esta sección ocupamos la herramienta de Miro y realizamos el Event Storming a cada una de los Bounded Context definidos en los que se vana  trabajar.
 
-#### - IAM (Identity and Access Management)
-
-![EventStorming - IAM](assets/images/cap4/IAM.png)
-
-#### - Membership and Payments
-
-![EventStorming - Membership and Payments](assets/images/cap4/Membership.png)
-
-#### - Dashboard and Analytics
-
-![EventStorming - Dashboard and Analytics](assets/images/cap4/Analytics.png)
-
-#### - Workers Forum
-
-![EventStorming - Workers Forum](assets/images/cap4/WorkersForum.png)       
-
-#### - Feedback For Employees
-
-![EventStorming - Feedback For Employees](assets/images/cap4/Feedback.png)
+En esta sección se aplican las técnicas de EventStorming para identificar los distintos Bounded Context dentro del dominio de la aplicación, así como las interacciones y dependencias entre ellos. Esto nos permite tener una visión clara de cómo se estructuran los distintos componentes del sistema y cómo se comunican entre sí.
 
 #### 2.5.1.1. Candidate Context Discovery {#candidate-context-discovery}
 En esta sección aplicamos la técnica de Candidate Discovery para identificar y separar los posibles Bounded Context. Esto divide el trabajo en subramas donde se trabajan ciertas funcionalidades por separado.
@@ -626,23 +560,23 @@ El Domian Massage Flow Modelling es una técnica que nos permite representar có
 
 **Escenario 01: Mandar un nuevo mensaje en el foro**
 
-![Domain Message Flow - Escenario 1](assets/images/cap4/Scenario1.jpg)
+![Domain Message Flow - Escenario 1](assets/images/cap2/strategic-level/message-flow/Scenario1.jpg)
 
 **Escenario 02: Editar mensaje en el foro**
 
-![Domain Message Flow - Escenario 2](assets/images/cap4/Scenario2.jpg)
+![Domain Message Flow - Escenario 2](assets/images/cap2/strategic-level/message-flow/Scenario2.jpg)
 
 **Escenario 03: Creación de encuestas para Trabajadores**
 
-![Domain Message Flow - Escenario 3](assets/images/cap4/Scenario3.jpg)
+![Domain Message Flow - Escenario 3](assets/images/cap2/strategic-level/message-flow/Scenario3.jpg)
 
 **Escenario 04: Envio de mensajes directos a trabajadores**
 
-![Domain Message Flow - Escenario 4](assets/images/cap4/Scenario4.jpg)
+![Domain Message Flow - Escenario 4](assets/images/cap2/strategic-level/message-flow/Scenario4.jpg)
 
 **Escenario 05: Solicitar Reporte de encuestas dentro de un periodo determinado**
 
-![Domain Message Flow - Escenario 5](assets/images/cap4/Scenario5.jpg)
+![Domain Message Flow - Escenario 5](assets/images/cap2/strategic-level/message-flow/Scenario5.jpg)
 
 #### 2.5.1.3. Bounded Context Canvases {#bounded-context-canvases}
 
@@ -652,30 +586,30 @@ En esta sección se representan los Bounded Context Canvases correspondientes a 
 
 #### - IAM (Identity and Access Management)
 
-![Bounded Context Canvas - IAM](assets/images/cap4/IAM-Canvas.jpg)
+![Bounded Context Canvas - IAM](assets/images/cap2/strategic-level/canvas/IAM-Canvas.jpg)
 
 #### - Membership and Payments
 
-![Bounded Context Canvas - Membership and Payments](assets/images/cap4/Membership-Canvas.jpg)
+![Bounded Context Canvas - Membership and Payments](assets/images/cap2/strategic-level/canvas/Membership-Canvas.jpg)
 
 #### - Dashboard and Analytics
 
-![Bounded Context Canvas - Dashboard and Analytics](assets/images/cap4/Dashboard-Canvas.jpg)
+![Bounded Context Canvas - Dashboard and Analytics](assets/images/cap2/strategic-level/canvas/Dashboard-Canvas.jpg)
 
 #### - Workers Forum
 
-![Bounded Context Canvas - Workers Forum](assets/images/cap4/Workers-Canvas.jpg)
+![Bounded Context Canvas - Workers Forum](assets/images/cap2/strategic-level/canvas/Workers-Canvas.jpg)
 
 #### - Feedback For Employees
 
 
-![Bounded Context Canvas - Feedback For Employees](assets/images/cap4/Feedback-Canvas.jpg)
+![Bounded Context Canvas - Feedback For Employees](assets/images/cap2/strategic-level/canvas/Feedback-Canvas.jpg)
 
 ### 2.5.2. Context Mapping {#context-mapping}
 
 El Context Mapping es una técnica que nos permite representar las relaciones entre los distintos Bounded Context dentro de un sistema. Esto se hace con el objetivo de identificar las dependencias, las interacciones y las responsabilidades de cada contexto dentro del sistema.
 
-![Context Mapping](assets/images/cap4/DiagramContextMapping.jpg)
+![Context Mapping](assets/images/cap2/strategic-level/DiagramContextMapping.jpg)
 
 ####  IAM - Workers Forum (Conformist)
 - En esta relación, IAM es Upstream ya que provee las identidades de los usuarios para el acceso al foro. 
@@ -717,16 +651,25 @@ El Context Mapping es una técnica que nos permite representar las relaciones en
 
 ### 2.5.3. Software Architecture {#software-architecture}
 
+Para la arquitectura de software, se aplican los principios de DDD para diseñar una arquitectura que sea escalable, mantenible y que permita una clara separación de responsabilidades entre los distintos Bounded Context. También la estrategia de microservicios para cada uno de los Bounded Context, lo que permite una mayor flexibilidad y escalabilidad en el desarrollo y despliegue de la aplicación.
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams {#software-architecture-context-level-diagrams}
 
 Para el diagrama de Contexto, se muestra la relación entre el sistema y los actores externos que interactuan con él. En este caso, los trabajadores, que interactuan y comparten experiencias con otros trabajadores y Gerentes de RRHH que escuchan y supervisan el comporatamiento dentro del entorno laboral. También se incluyen servicios a utilizar, como el servicio de notificaciones (envíos de correo/SMS hacia el usuario) y el servicio de pagos que será utilizado en el contexto de membresías.
+
+![Software Architecture Context Level Diagram](assets/images/cap2/strategic-level/software-architecture/context-level-diagram.png)
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams {#software-architecture-container-level-diagrams}
 
 El diagrama de contenedores representa los principales componentes del sistema y cómo interactuan entre sí. Se muestra la aplicación móvil para los trabajadores y los gerentes de RRHH, el gestor de backend que centraliza la lógica de negocio y los Bounded Context, como la base de datos y la integración con distintos servicios.
 
+![Software Architecture Container Level Diagram](assets/images/cap2/strategic-level/software-architecture/container-level-diagram.png)
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams {#software-architecture-deployment-diagrams}
+
 El siguiente diagrama de despliegue muestra la infraestructura física y lógica que se ejecutan los principales componentes del sistema.
+
+![Software Architecture Deployment Diagram](assets/images/cap2/strategic-level/software-architecture/deployment-diagram.png)
 
 
 ## 2.6. Tactical-Level Domain-Driven Design {#tactical-level-domain-driven-design}
@@ -740,17 +683,23 @@ El siguiente diagrama de despliegue muestra la infraestructura física y lógica
 
 Aquí se presenta el diagrama de componentes del Bounded Context de IAM, donde se muestran los principales componentes que conforman este contexto, como el componente de autenticación, el componente de autorización y el componente de gestión de usuarios. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![IAM Component Diagram](assets\images\cap4\iamBCComponent.png)
+![IAM Component Diagram](assets/images/cap2/tactical-level/components/iamBCComponent.png)
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
-#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams 
 
+En este apartado se presentan los diagramas de código del Bounded Context de IAM, donde se representan las principales clases y sus relaciones dentro de este contexto. Se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+#### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams 
 
 Aquí se muestra el diagrama de clases del Bounded Context de IAM, donde se representan las principales clases que conforman este contexto, como la clase de Usuario, la clase de Rol y la clase de Permiso. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Bounded Context Domain Layer Class Diagram - IAM](assets/images/cap4/tactical-level/iam-layer-class-diagram.png)
+![Bounded Context Domain Layer Class Diagram - IAM](assets/images/cap2/tactical-level/class-diagrams/iam-layer-class-diagram.png)
 
 #### 2.6.1.6.2. Bounded Context Database Design Diagram 
+
+En este diagrama de diseño de base de datos del Bounded Context de IAM, se muestran las tablas principales que conforman este contexto, como la tabla de Usuarios, la tabla de Roles y la tabla de Permisos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bounded Context Database Design Diagram - IAM](assets/images/cap2/tactical-level/database-diagrams/iam-database-design-diagram.png)
 
 ### 2.6.2. Bounded Context: Subscription and Payments Management
 #### 2.6.2.1. Domain Layer  
@@ -761,16 +710,23 @@ Aquí se muestra el diagrama de clases del Bounded Context de IAM, donde se repr
 
 En este diagrama de componentes del Bounded Context de Subscription and Payments Management, se muestran los principales componentes que conforman este contexto, como el componente de gestión de suscripciones, el componente de procesamiento de pagos y el componente de integración con servicios de pago externos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Subscription Component Diagram](assets\images\cap4\subscriptionPaymentsComponent.png)
+![Subscription Component Diagram](assets/images/cap2/tactical-level/components/subscriptionPaymentsComponent.png)
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+En este apartado se presentan los diagramas de código del Bounded Context de Subscription and Payments Management, donde se representan las principales clases que conforman este contexto, como la clase de Suscripción, la clase de Pago y la clase de Usuario. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
 #### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams 
 
 En este diagrama de clases del Bounded Context de Subscription and Payments Management, se representan las principales clases que conforman este contexto, como la clase de Suscripción, la clase de Pago y la clase de Usuario. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Bounded Context Domain Layer Class Diagram - Subscription and Payments](assets/images/cap4/tactical-level/subscription-layer-class-diagram.png)
+![Bounded Context Domain Layer Class Diagram - Subscription and Payments](assets/images/cap2/tactical-level/class-diagrams/subscription-layer-class-diagram.png)
 
 #### 2.6.2.6.2. Bounded Context Database Design Diagram 
+
+En este diagrama de diseño de base de datos del Bounded Context de Subscription and Payments Management, se muestran las tablas principales que conforman este contexto, como la tabla de Suscripciones, la tabla de Pagos y la tabla de Usuarios. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bounded Context Database Design Diagram - Subscription and Payments](assets/images/cap2/tactical-level/database-diagrams/subscription-database-design-diagram.png)
 
 ### 2.6.3. Bounded Context: Workers Forum
 #### 2.6.3.1. Domain Layer  
@@ -781,16 +737,23 @@ En este diagrama de clases del Bounded Context de Subscription and Payments Mana
 
 Presentamos el diagrama de componentes del Bounded Context de Workers Forum, donde se muestran los principales componentes que conforman este contexto, como el componente de gestión de mensajes, el componente de gestión de hilos y el componente de gestión de encuestas. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Workers Forum Component Diagram](assets\images\cap4\workersForumComponent.png)
+![Workers Forum Component Diagram](assets/images/cap2/tactical-level/components/workersForumComponent.png)
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+En este apartado se presentan los diagramas de código del Bounded Context de Workers Forum, donde se representan las principales clases que conforman este contexto, como la clase de Mensaje, la clase de Hilo y la clase de Encuesta. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
 #### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams 
 
 Presentamos el diagrama de clases del Bounded Context de Workers Forum, donde se representan las principales clases que conforman este contexto, como la clase de Mensaje, la clase de Hilo y la clase de Encuesta. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Bounded Context Domain Layer Class Diagram - Workers Forum](assets/images/cap4/tactical-level/workers-layer-class-diagram.png)
+![Bounded Context Domain Layer Class Diagram - Workers Forum](assets/images/cap2/tactical-level/class-diagrams/workers-layer-class-diagram.png)
 
 #### 2.6.3.6.2. Bounded Context Database Design Diagram 
+
+En este diagrama de diseño de base de datos del Bounded Context de Workers Forum, se muestran las tablas principales que conforman este contexto, como la tabla de Mensajes, la tabla de Hilos y la tabla de Encuestas. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bounded Context Database Design Diagram - Workers Forum](assets/images/cap2/tactical-level/database-diagrams/workers-database-design-diagram.png)
 
 ### 2.6.4. Bounded Context: Dashboard and Analytics 
 #### 2.6.4.1. Domain Layer  
@@ -801,16 +764,23 @@ Presentamos el diagrama de clases del Bounded Context de Workers Forum, donde se
 
 En este diagrama de componentes del Bounded Context de Dashboard and Analytics, se muestran los principales componentes que conforman este contexto, como el componente de recopilación de datos, el componente de generación de informes y el componente de visualización de datos. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Dashboard Component Diagram](assets\images\cap4\dashboardAnalyticsComponent.png)
+![Dashboard Component Diagram](assets/images/cap2/tactical-level/components/dashboardAnalyticsComponent.png)
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+En este apartado se presentan los diagramas de código del Bounded Context de Dashboard and Analytics, donde se representan las principales clases que conforman este contexto, como la clase de DatosRecopilados, la clase de Informe y la clase de Visualización. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
 #### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams 
 
 En este diagrama de clases del Bounded Context de Dashboard and Analytics, se representan las principales clases que conforman este contexto, como la clase de DatosRecopilados, la clase de Informe y la clase de Visualización. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![Bounded Context Domain Layer Class Diagram - Dashboard and Analytics](assets/images/cap4/tactical-level/dashboard-layer-class-diagram.png)
+![Bounded Context Domain Layer Class Diagram - Dashboard and Analytics](assets/images/cap2/tactical-level/class-diagrams/dashboard-layer-class-diagram.png)
 
 #### 2.6.4.6.2. Bounded Context Database Design Diagram 
+
+En este diagrama de diseño de base de datos del Bounded Context de Dashboard and Analytics, se muestran las tablas principales que conforman este contexto, como la tabla de DatosRecopilados, la tabla de Informes y la tabla de Visualizaciones. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bounded Context Database Design Diagram - Dashboard and Analytics](assets/images/cap2/tactical-level/database-diagrams/dashboard-database-design-diagram.png)
 
 ### 2.6.5. Bounded Context: Feedback for Workers
 #### 2.6.5.1. Domain Layer  
@@ -819,14 +789,23 @@ En este diagrama de clases del Bounded Context de Dashboard and Analytics, se re
 #### 2.6.5.4  Infrastructure Layer
 #### 2.6.5.5. Bounded Context Software Architecture Component Level Diagrams 
 
-![Feedback Component Diagram](assets\images\cap4\feedbackWorkersComponent.png)
-
-
 En este diagrama de componentes del Bounded Context de Feedback for Workers, se muestran los principales componentes que conforman este contexto, como el componente de gestión de encuestas, el componente de gestión de mensajes y el componente de generación de informes. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
+![Feedback Component Diagram](assets/images/cap2/tactical-level/components/feedbackWorkersComponent.png)
+
+
 #### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+En este apartado se presentan los diagramas de código del Bounded Context de Feedback for Workers, donde se representan las principales clases que conforman este contexto, como la clase de Encuesta, la clase de Mensaje y la clase de Informe. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
 #### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams 
 
-![Bounded Context Domain Layer Class Diagram - Feedback for Workers](assets/images/cap4/tactical-level/feedback-layer-class-diagram.png)
+En este diagrama de clases del Bounded Context de Feedback for Workers, se representan las principales clases que conforman este contexto, como la clase de Encuesta, la clase de Mensaje y la clase de Informe. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Bounded Context Domain Layer Class Diagram - Feedback for Workers](assets/images/cap2/tactical-level/class-diagrams/feedback-layer-class-diagram.png)
 
 #### 2.6.5.6.2. Bounded Context Database Design Diagram 
+
+En este diagrama de diseño de base de datos del Bounded Context de Feedback for Workers, se representan las principales tablas que conforman este contexto, como la tabla de Encuestas, la tabla de Mensajes y la tabla de Informes. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
+
+![Feedback Database Design Diagram](assets/images/cap2/tactical-level/database-diagrams/feedbackDatabaseDesign.png)
