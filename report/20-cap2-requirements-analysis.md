@@ -131,7 +131,7 @@ Esto permitirá diseñar una solución más alineada a necesidades reales y no s
 
 ![Entrevista Empleado 1](assets/images/cap2/Ailmeida.jpg)
 
-- **Link De la Entrevista:** [Enlace](https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2Fvideo1429593775%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec6e3db4b%2D35ca%2D4820%2D9413%2D4b88f04ad57e)
+- **Link De la Entrevista:** [https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2Fvideo1429593775%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec6e3db4b%2D35ca%2D4820%2D9413%2D4b88f04ad57e](https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2Fvideo1429593775%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec6e3db4b%2D35ca%2D4820%2D9413%2D4b88f04ad57e)
 
 - **Duracion:** 00:06:13 
 
@@ -150,7 +150,7 @@ Almeida es un trabajador que percibe su ambiente laboral como generalmente tranq
 
 ![Entrevista Empleado 2](assets/images/cap2/ale.jpg)
 
-- **Link De la Entrevista:** [Enlace](https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2FEntrevista%5FEmpleados%5F02%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4e471350%2D19d2%2D4667%2D8736%2D2803f5042523&mode=Edit)
+- **Link De la Entrevista:** [https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2FEntrevista%5FEmpleados%5F02%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4e471350%2D19d2%2D4667%2D8736%2D2803f5042523&mode=Edit](https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2FEntrevista%5FEmpleados%5F02%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4e471350%2D19d2%2D4667%2D8736%2D2803f5042523&mode=Edit)
 
 - **Duracion:** 00:06:37
 
@@ -169,7 +169,7 @@ Alessandro es un trabajador que percibe su ambiente laboral como estable y cómo
 
 - Edad: 22 años
 
-- Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQDmh2AHjqLAQYOMxGj6E7ySAStWw66KWxCu0V6rcKm9ZBU?e=t2W23a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Link : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQDmh2AHjqLAQYOMxGj6E7ySAStWw66KWxCu0V6rcKm9ZBU?e=t2W23a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQDmh2AHjqLAQYOMxGj6E7ySAStWw66KWxCu0V6rcKm9ZBU?e=t2W23a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
 
 - Inicia en : 0:01
 
@@ -189,7 +189,7 @@ Diego es un empleado para una empresa bancaria. El describe su ambiente laboral 
 
 - Edad: 24 años
 
-- Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAwiQ2Xqz6QTava7w7OUGZwAUQ1yFUedJnl4dOKEeLhpDY?e=xlMhFY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Link : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAwiQ2Xqz6QTava7w7OUGZwAUQ1yFUedJnl4dOKEeLhpDY?e=xlMhFY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAwiQ2Xqz6QTava7w7OUGZwAUQ1yFUedJnl4dOKEeLhpDY?e=xlMhFY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
 
 - Inicia en : 0:01
 
@@ -209,7 +209,7 @@ Jorge es administrador de Recursos Humanos en su empresa. En esta organización 
 
 - Edad: 20 años
 
-- Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAhWAyfH1MHQpcmFd4EzwukAaspABC-icv6XK82h2knTU8?e=I9w3kI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Link : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAhWAyfH1MHQpcmFd4EzwukAaspABC-icv6XK82h2knTU8?e=I9w3kI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAhWAyfH1MHQpcmFd4EzwukAaspABC-icv6XK82h2knTU8?e=I9w3kI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
 
 - Inicia en : 0:01
 
@@ -229,7 +229,7 @@ Andree trabaja en el área de Recursos Humanos, aunque no ocupa un cargo adminis
 
 - Edad: 20 años
 
-- Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQCLqWWJ4UYDTb47m2xWJCWbATxrNaD0rgXaYmFnOQao-uw?e=2LZth1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+- Link : [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQCLqWWJ4UYDTb47m2xWJCWbATxrNaD0rgXaYmFnOQao-uw?e=2LZth1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQCLqWWJ4UYDTb47m2xWJCWbATxrNaD0rgXaYmFnOQao-uw?e=2LZth1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
 
 - Inicia en : 0:01
 

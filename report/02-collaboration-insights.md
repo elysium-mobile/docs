@@ -4,7 +4,7 @@ En esta sección se presenta el URL del repositorio en la organización de GitHu
 
 ## Repositorio del Project Report
 
-https://github.com/elysium-mobile/docs
+[https://github.com/elysium-mobile/docs](https://github.com/elysium-mobile/docs)
 
 ## Desarrollo de las actividades de elaboración del informe
 
@@ -24,7 +24,7 @@ Durante AV1, el equipo trabajó de manera colaborativa y mantuvo un registro de 
 
 A continuación se presentan las evidencias de colaboración registradas en GitHub, donde se observa la participación distribuida de los integrantes en commits, revisiones y actualizaciones del informe. Estas evidencias respaldan el trabajo conjunto realizado en el repositorio del equipo.
 
-Repositorio utilizado para el informe: https://github.com/elysium-mobile/docs
+Repositorio utilizado para el informe: [https://github.com/elysium-mobile/docs](https://github.com/elysium-mobile/docs)
 
 ![Evidencia de colaboración en GitHub](assets/images/shared/evidence-av1.png)
 
