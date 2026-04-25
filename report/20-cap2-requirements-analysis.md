@@ -165,7 +165,7 @@ Diego es un empleado para una empresa bancaria. El describe su ambiente laboral 
 - Inicia en : 0:01
 - Duración: 7:25
 
-![Entrevista 1 RRHH](./../assets/images/cap2/registro-entrevistas/Entrevista1_RRHH.png)
+![Entrevista 1 RRHH](assets/images/cap2/registro-entrevistas/Entrevista1_RRHH.png)
 
 **Resumen de la Entrevista**
 
@@ -180,7 +180,7 @@ Jorge es administrador de Recursos Humanos en su empresa. En esta organización 
 - Inicia en : 0:01
 - Duración: 5:33
 
-![Entrevista 1 RRHH](./../assets/images/cap2/registro-entrevistas/Entrevista2_RRHH.png)
+![Entrevista 1 RRHH](assets/images/cap2/registro-entrevistas/Entrevista2_RRHH.png)
 
 **Resumen de la Entrevista**
 
@@ -195,7 +195,7 @@ Andree trabaja en el área de Recursos Humanos, aunque no ocupa un cargo adminis
 - Inicia en : 0:01
 - Duración: 4:34
 
-![Entrevista 1 RRHH](./../assets/images/cap2/registro-entrevistas/Entrevista3_RRHH.png)
+![Entrevista 1 RRHH](assets/images/cap2/registro-entrevistas/Entrevista3_RRHH.png)
 
 **Resumen de la Entrevista**
 
