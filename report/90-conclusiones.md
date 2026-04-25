@@ -65,9 +65,12 @@ Glosario de términos técnicos y conceptos clave utilizados en el proyecto, inc
 
 # Bibliografía {#bibliografía}
 
-Domain-Driven Design Practitioners. (s.f.). Context map. Domain-driven Design: A Practitioner's Guide. https://ddd-practitioners.com/home/glossary/context-map/
+- Domain-Driven Design Practitioners. (s.f.). Context map. Domain-driven Design: A Practitioner's Guide. https://ddd-practitioners.com/home/glossary/context-map/
 
-ddd-crew. (s.f.). Domain message flow modelling [Repositorio de software]. GitHub. https://github.com/ddd-crew/domain-message-flow-modelling
+- ddd-crew. (s.f.). Domain message flow modelling [Repositorio de software]. GitHub. https://github.com/ddd-crew/domain-message-flow-modelling
+
+- Tinoco, J. (2023).Clima organizacional y satisfacción laboral de los trabajadores de una empresa peruana. Industrial Data, 26(2), 217-237.
+http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S1810-99932023000200217
 
 # Anexos {#anexos}
 
