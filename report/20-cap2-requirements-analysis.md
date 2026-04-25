@@ -608,7 +608,7 @@ Este apartado se dedica a las historias de investigación que el equipo debe rea
 
 ### 2.4.3. Product Backlog {#product-backlog}
 
-Trello Board - SoftWork
+[Trello Board - SoftWork](https://trello.com/invite/b/69ec16f90a18ae07a586815f/ATTI09fa38ae568497db954db4d23a814fb682BFF5BA/product-backlog)
 
 | Orden | User Story Id | Título | Descripción | Story Points |
 |:---|:---|:---|:---|:---|
