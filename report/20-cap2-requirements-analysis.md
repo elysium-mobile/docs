@@ -537,6 +537,12 @@ Este apartado se dedica a las historias de investigación que el equipo debe rea
 
 ### 2.4.2. Impact Mapping {#impact-mapping}
 
+![Impact Mapping Empleado](assets/images/cap2/ImpactMapping_Empleado.jpg)
+
+---
+
+![Impact Mapping RRHH](assets/images/cap2/ImpactMapping_RRHH.jpg)
+
 ### 2.4.3. Product Backlog {#product-backlog}
 
 [Trello Board - SoftWork](#)
