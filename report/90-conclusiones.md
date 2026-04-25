@@ -72,6 +72,8 @@ Glosario de términos técnicos y conceptos clave utilizados en el proyecto, inc
 - Tinoco, J. (2023).Clima organizacional y satisfacción laboral de los trabajadores de una empresa peruana. Industrial Data, 26(2), 217-237.
 http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S1810-99932023000200217
 
+- Gonzales, G. (2022). Ambiente laboral y su relación en el desempeño laboralen los trabajadores de una institución pública, Huánuco–2022[Tesis de especialización, Universidad Norbert Wiener]. Alicia. https://alicia.concytec.gob.pe/vufind/Record/UWIE_225da1fd737364e5756e72f61e0d60e7
+
 # Anexos {#anexos}
 
 Link de la organización de Github de la Startup: [https://github.com/elysium-mobile](https://github.com/elysium-mobile)
