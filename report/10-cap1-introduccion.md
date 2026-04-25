@@ -52,7 +52,7 @@ El proceso seguido fue el siguiente:
 
 Gracias a este enfoque, el equipo pudo construir una solución alineada con las necesidades reales de los usuarios y reducir riesgos durante el desarrollo.
 
-#### 1.2.2.1 Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements {#lean-ux-problem-statements}
 
 En el entorno empresarial actual, muchas organizaciones enfrentan dificultades para gestionar de manera efectiva el bienestar y desempeño de sus empleados. Aunque existen áreas de Recursos Humanos encargadas de estos procesos, en la práctica suelen operar de manera reactiva, con información limitada y herramientas poco integradas.
 
@@ -64,7 +64,7 @@ Las entrevistas realizadas evidencian una brecha clara: los empleados perciben q
 
 ---
 
-#### 1.2.2.2 Lean UX Assumptions
+#### 1.2.2.2. Lean UX Assumptions {#lean-ux-assumptions}
 
 A partir del análisis del problema y la investigación inicial, se plantean las siguientes suposiciones clave:
 
@@ -107,7 +107,7 @@ A partir del análisis del problema y la investigación inicial, se plantean las
 
 ---
 
-#### 1.2.2.3 Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements {#lean-ux-hypothesis-statements}
 
 A partir de las suposiciones planteadas, se formulan las siguientes hipótesis:
 

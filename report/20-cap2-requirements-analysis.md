@@ -122,14 +122,25 @@ Esto permitirá diseñar una solución más alineada a necesidades reales y no s
 ### 2.2.2. Registro de entrevistas {#registro-entrevistas}
 
 **Segmento 1: Empleados**
+
 ##### Entrevista N°1: Ailmeida Aguilar
+
 - Sexo: Masculino
 - Edad: 23 años
 - Dirección: Lima, San Miguel.
 
 ![Entrevista Empleado 1](assets/images/cap2/Ailmeida.jpg)
-**Link De la Entrevista:** **https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2Fvideo1429593775%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec6e3db4b%2D35ca%2D4820%2D9413%2D4b88f04ad57e** 
-Duracion:**00:06:13**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inicio:**00:00:02**&nbsp;&nbsp;&nbsp;&nbsp;Final:**00:06:13**
+
+- **Link De la Entrevista:** [Enlace](https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2Fvideo1429593775%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec6e3db4b%2D35ca%2D4820%2D9413%2D4b88f04ad57e)
+
+- **Duracion:** 00:06:13 
+
+- **Inicio:** 00:00:02 
+
+- **Final:** 00:06:13
+
+**Resumen de la Entrevista**
+
 Almeida es un trabajador que percibe su ambiente laboral como generalmente tranquilo, pero con momentos de alta presión y una comunicación poco clara con sus líderes. Señala dificultades para expresar problemas por temor a juicios o repercusiones, y percibe a Recursos Humanos como poco accesible y enfocado en lo administrativo. Aunque participa en encuestas de clima laboral, siente desmotivación por la falta de retroalimentación. Valora la posibilidad de una aplicación que le permita comunicar situaciones de forma confidencial, hacer seguimiento y mejorar la interacción, destacando que un mejor clima laboral impactaría positivamente en su motivación y productividad.
 
 ##### Entrevista N°2: Alexandro Bravo
@@ -138,16 +149,30 @@ Almeida es un trabajador que percibe su ambiente laboral como generalmente tranq
 - Dirección: Lima, San Miguel.
 
 ![Entrevista Empleado 2](assets/images/cap2/ale.jpg)
-**Link De la Entrevista:** **[https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2Fvideo1429593775%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ec6e3db4b%2D35ca%2D4820%2D9413%2D4b88f04ad57e](https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2FEntrevista%5FEmpleados%5F02%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4e471350%2D19d2%2D4667%2D8736%2D2803f5042523&mode=Edit)** 
-Duracion:**00:06:37**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inicio:**00:00:02**&nbsp;&nbsp;&nbsp;&nbsp;Final:**00:06:37**
+
+- **Link De la Entrevista:** [Enlace](https://upcedupe-my.sharepoint.com/personal/u202114548_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114548%5Fupc%5Fedu%5Fpe%2FDocuments%2FMobiles%5FG2%2FEntrevista%5FEmpleados%5F02%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E4e471350%2D19d2%2D4667%2D8736%2D2803f5042523&mode=Edit)
+
+- **Duracion:** 00:06:37
+
+- **Inicio:** 00:00:02
+
+- **Final:** 00:06:37
+
+**Resumen de la Entrevista**
+
 Alessandro es un trabajador que percibe su ambiente laboral como estable y cómodo, aunque con momentos de sobrecarga y dificultades en la comunicación, especialmente con niveles jerárquicos superiores y otras áreas. Señala que sus opiniones no siempre son consideradas y que Recursos Humanos resulta poco accesible y lento en la gestión de solicitudes. Aunque la comunicación dentro de su equipo es buena, identifica falta de integración entre áreas. Valora la idea de una aplicación móvil interactiva que facilite la comunicación entre empleados y con la empresa, destacando que un mejor ambiente laboral incrementaría la comodidad y la productividad.
 
 
-**Entrevista 3: Diego Bullón**
+##### Entrevista 3: Diego Bullón
+
 - Sexo: Masculino
+
 - Edad: 22 años
+
 - Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQDmh2AHjqLAQYOMxGj6E7ySAStWw66KWxCu0V6rcKm9ZBU?e=t2W23a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+
 - Inicia en : 0:01
+
 - Duración: 6:35
 
 ![Entrevista 1](assets/images/cap2/registro-entrevistas/Entrevista1-Seg1.png)
@@ -158,11 +183,16 @@ Diego es un empleado para una empresa bancaria. El describe su ambiente laboral 
 
 **Segmento 2: Recursos Humanos**
 
-**Entrevista 1: Jorge Chumpitaz**
+#### Entrevista 1: Jorge Chumpitaz
+
 - Sexo: Masculino
+
 - Edad: 24 años
+
 - Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAwiQ2Xqz6QTava7w7OUGZwAUQ1yFUedJnl4dOKEeLhpDY?e=xlMhFY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+
 - Inicia en : 0:01
+
 - Duración: 7:25
 
 ![Entrevista 1 RRHH](assets/images/cap2/registro-entrevistas/Entrevista1_RRHH.png)
@@ -173,14 +203,19 @@ Jorge es administrador de Recursos Humanos en su empresa. En esta organización 
 
 ---
 
-**Entrevista 2: Andree Cardernas**
+#### Entrevista 2: Andree Cardernas**
+
 - Sexo: Masculino
+
 - Edad: 20 años
+
 - Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAhWAyfH1MHQpcmFd4EzwukAaspABC-icv6XK82h2knTU8?e=I9w3kI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+
 - Inicia en : 0:01
+
 - Duración: 5:33
 
-![Entrevista 1 RRHH](assets/images/cap2/registro-entrevistas/Entrevista2_RRHH.png)
+![Entrevista 2 RRHH](assets/images/cap2/registro-entrevistas/Entrevista2_RRHH.png)
 
 **Resumen de la Entrevista**
 
@@ -188,14 +223,19 @@ Andree trabaja en el área de Recursos Humanos, aunque no ocupa un cargo adminis
 
 ---
 
-**Entrevista 3: Elizabeth Apaza**
+#### Entrevista 3: Elizabeth Apaza**
+
 - Sexo: Femenino
+
 - Edad: 20 años
+
 - Link : [Enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQCLqWWJ4UYDTb47m2xWJCWbATxrNaD0rgXaYmFnOQao-uw?e=2LZth1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) 
+
 - Inicia en : 0:01
+
 - Duración: 4:34
 
-![Entrevista 1 RRHH](assets/images/cap2/registro-entrevistas/Entrevista3_RRHH.png)
+![Entrevista 3 RRHH](assets/images/cap2/registro-entrevistas/Entrevista3_RRHH.png)
 
 **Resumen de la Entrevista**
 
@@ -205,28 +245,51 @@ Elizabeth trabaja en el área de Recursos Humanos dentro de su empresa. En su en
 
 En este apartado se procederá a analizar las entrevistas realizadas
 
-Segmento #1:
+#### Segmento #1:
 Total de entrevistas: 3
 
 Datos sobre preguntas:
+
 - El 67% de empleados considera util el uso de una app para su entorno laboral.
+
 - Los 3 entrevistados consideran de dificultad Media el acceso a la comunicación con RRHH
+
 - 2 entrevistados comentan que el ambiente es regular y 1 solo considera que el clima laboral es bueno
 
+En este gráfico 1 se puede observar que el 67% de los entrevistados considera que el ambiente laboral es regular, mientras que el 33% restante lo percibe como bueno. Esto indica que la mayoría de los empleados entrevistados no están completamente satisfechos con su entorno laboral actual, lo cual podría ser un punto crítico a abordar en el diseño de la aplicación SoftWork para mejorar el clima organizacional y la satisfacción de los empleados.
+
 ![Grafico 1](assets/images/cap2/analisis-entrevistas/empleados_graf1.jpg)
+
+
+En este gráfico 2 se puede observar que el 100% de los empleados entrevistados consideran que la comunicación con RRHH es de dificultad media. Esto indica que existe una percepción generalizada de que la comunicación con el área de Recursos Humanos no es completamente fluida ni accesible, lo cual podría ser un punto crítico a abordar en el diseño de la aplicación SoftWork para mejorar esta interacción.
+
 ![Grafico 2](assets/images/cap2/analisis-entrevistas/empleados_graf2.jpg)
+
+En este gráfico 3 se destaca que el 67% de los empleados entrevistados encuentran útil el uso de una aplicación para mejorar su entorno laboral, mientras que el 33% restante no lo considera útil. Esto sugiere que la mayoría de los empleados ven con buenos ojos la idea de implementar una herramienta digital como SoftWork para facilitar la comunicación y mejorar el clima laboral, aunque también es importante considerar las razones detrás del 33% que no lo encuentra útil para asegurar que la aplicación aborde sus preocupaciones y necesidades específicas.
+
 ![Grafico 3](assets/images/cap2/analisis-entrevistas/empleados_graf3.jpg)
 
-Segmento #2:
+#### Segmento #2:
 Total de entrevistas: 3
 
 Datos sobre preguntas:
+
 - El 100% de personal de RRHH utiliza una app para desempeñarse en su entorno laboral.
+
 - Ante un problema, el 67% de entrevistados considera que el tiempo de respuesta es Lento mientras que el 33% lo considera Moderado
+
 - 2 entrevistados realizan encuestas frecuentemente mientras que uno lo hace ocasionalmente
 
+En el gráfico 1 se puede observar que el 100% del personal de RRHH entrevistado utiliza una aplicación para desempeñarse en su entorno laboral. Esto indica que la adopción de herramientas digitales es común en esta área, lo cual podría facilitar la integración de SoftWork como una solución adicional para mejorar la gestión del clima laboral.
+
 ![Grafico 1](assets/images/cap2/analisis-entrevistas/rrhh_graf1.jpg)
+
+En el gráfico 2 se muestra que el 67% de los entrevistados considera que el tiempo de respuesta ante un problema es lento, mientras que el 33% restante lo percibe como moderado. Esto sugiere que existe una percepción generalizada de que la gestión de problemas en el área de Recursos Humanos no es lo suficientemente ágil, lo cual podría ser un aspecto clave a mejorar con la implementación de SoftWork para agilizar la comunicación y la resolución de problemas.
+
 ![Grafico 2](assets/images/cap2/analisis-entrevistas/rrhh_graf2.jpg)
+
+En el gráfico 3 se destaca que el 67% de los entrevistados realizan encuestas de clima laboral con frecuencia, mientras que el 33% restante lo hace ocasionalmente. Esto indica que la recopilación de feedback a través de encuestas es una práctica común en el área de Recursos Humanos, aunque también sugiere que podría haber oportunidades para mejorar la frecuencia y la efectividad de estas encuestas, lo cual podría ser abordado con las funcionalidades de SoftWork para facilitar la recolección y el análisis de datos en tiempo real.
+
 ![Grafico 3](assets/images/cap2/analisis-entrevistas/rrhh_graf3.jpg)
 
 
@@ -545,7 +608,7 @@ Este apartado se dedica a las historias de investigación que el equipo debe rea
 
 ### 2.4.3. Product Backlog {#product-backlog}
 
-[Trello Board - SoftWork](#)
+Trello Board - SoftWork
 
 | Orden | User Story Id | Título | Descripción | Story Points |
 |:---|:---|:---|:---|:---|
