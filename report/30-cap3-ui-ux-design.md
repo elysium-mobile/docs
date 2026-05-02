@@ -1,5 +1,7 @@
 # Capítulo III: Solution UI/UX Design {#capítulo-iii-solution-ui-ux-design}
 
+En este capítulo se presentan los diseños de la interfaz de usuario (UI) y la experiencia de usuario (UX) para la solución propuesta. Se incluyen las directrices de estilo, la arquitectura de la información, el diseño de la página de inicio y el diseño de las aplicaciones móviles. Cada sección se detalla con wireframes, mock-ups, diagramas de flujo y prototipos para ilustrar el proceso de diseño y las decisiones tomadas.
+
 ## 3.1. Product Design {#product-design}
 
 ### 3.1.1. Style Guidelines {#style-guidelines}
