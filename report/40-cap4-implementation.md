@@ -33,6 +33,27 @@
 ## 4.3. Validation Interviews {#validation-interviews}
 
 ### 4.3.1. Diseño de Entrevistas {#diseno-entrevistas-validacion}
+Para el diseño de entrevistas se han definido dos bloques de preguntas diferenciadas por segmento: empleados y área de Recursos Humanos (RRHH).
+
+Las preguntas fueron diseñadas con el objetivo de evaluar la experiencia de uso, accesibilidad y percepción visual de la plataforma, considerando tanto a los trabajadores que interactúan con la aplicación como a los profesionales encargados de gestionar la información organizacional.
+
+Se aplican buenas prácticas como:
+
+- Uso de preguntas abiertas para obtener respuestas más detalladas y auténticas.
+- Lenguaje claro, cercano y fácil de comprender para generar confianza en los entrevistados.
+- Estructura flexible que permita profundizar en opiniones o experiencias relevantes durante la entrevista.
+- Enfoque centrado en experiencias reales de navegación, interacción y percepción del sistema.
+- Validación de aspectos visuales, funcionales y emocionales relacionados con el uso de la plataforma.
+
+El objetivo principal es recolectar información clave que permita mejorar la experiencia de usuario (UX) y la interfaz visual (UI) de la aplicación, considerando:
+
+- Facilidad de uso y navegación dentro de la plataforma.
+- Claridad de botones, íconos y herramientas disponibles.
+- Percepción de confianza y seguridad al utilizar funciones como el “Modo Anónimo”.
+- Nivel de satisfacción con el diseño visual y la organización de la información.
+- Necesidades, frustraciones y oportunidades de mejora detectadas por los usuarios.
+- Utilidad de dashboards, métricas y gráficos para la toma de decisiones en RRHH.
+- Preferencias relacionadas con interactividad, notificaciones y estilo visual moderno.
 ### Preguntas para Segmento 1: Empleados
 
 **Objetivo:** Validar si el trabajador se siente seguro usando la app y si la interfaz reduce la fricción para reportar malestares.
@@ -81,6 +102,25 @@
 9. ¿La plataforma te parece intuitiva y fácil de manejar desde el punto de vista de un profesional de RRHH?
 
 10. ¿Hay algún cambio en la disposición de las herramientas que te gustaría ver para facilitar tu labor de gestión?
+
+## Consideraciones clave
+
+- Garantizar un entorno de confianza y confidencialidad durante las entrevistas para obtener respuestas sinceras y naturales.
+- Permitir la profundización en experiencias, comentarios o situaciones relevantes mencionadas por los participantes.
+- Identificar patrones de comportamiento, opiniones y necesidades compartidas entre empleados y el área de RRHH.
+- Validar si la experiencia de uso, el diseño visual y las funcionalidades propuestas realmente responden al problema planteado en el proyecto.
+- Detectar dificultades relacionadas con navegación, comprensión de herramientas y percepción de seguridad dentro de la plataforma.
+- Evaluar el nivel de aceptación de elementos interactivos, dashboards y funciones de comunicación interna.
+
+
+## Insight esperado
+
+Se busca identificar la brecha existente entre:
+
+- La percepción del empleado respecto a la facilidad, confianza y utilidad de la plataforma para expresar problemas o necesidades.
+- La capacidad del área de RRHH para interpretar la información obtenida y brindar respuestas efectivas mediante herramientas visuales y analíticas.
+
+Esto permitirá diseñar una solución digital más alineada con las necesidades reales de los usuarios, mejorando tanto la experiencia de interacción como la eficiencia en la gestión organizacional.
 
 
 ### 4.3.2. Registro de Entrevistas {#registro-entrevistas-validacion}
