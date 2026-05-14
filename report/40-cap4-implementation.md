@@ -33,7 +33,7 @@
 ## 4.3. Validation Interviews {#validation-interviews}
 
 ### 4.3.1. Diseño de Entrevistas {#diseno-entrevistas-validacion}
-# Preguntas para Segmento 1: Empleados
+### Preguntas para Segmento 1: Empleados
 
 **Objetivo:** Validar si el trabajador se siente seguro usando la app y si la interfaz reduce la fricción para reportar malestares.
 
@@ -58,7 +58,7 @@
 10. ¿Cambiarías algo del diseño para que se sienta más como una red social o app que te guste usar a diario?
 
 
-# Preguntas para Segmento 2: Recursos Humanos
+### Preguntas para Segmento 2: Recursos Humanos
 
 **Objetivo:** Validar si las herramientas de análisis facilitan la toma de decisiones y si la plataforma se integra bien a su flujo de trabajo.
 
