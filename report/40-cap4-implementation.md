@@ -38,7 +38,7 @@ A continuación, se resume el estado del testing al cierre del Sprint 1:
 | Estado general del testing | Funcionalidades y experiencia de usuario validadas manualmente de forma satisfactoria. |
 
 | Branch | Commit Message | Commit Message Body | Committed on (Date) |
-|:---|:---|
+|:---|:---|:---|:---|
 | main | test: validaciones landing page | Se verificaron visualmente las validaciones de campos obligatorios y correos en formularios de login y registro. | 10/05/2026 |
 | main | test: visual review de formulario de registro | Se realizaron pruebas funcionales del flujo de registro de nuevos usuarios en la plataforma. | 10/05/2026 |
 | main | test: verificación de navegación landing | Se evaluó el correcto funcionamiento del menú de navegación y la responsividad en diferentes dispositivos. | 10/05/2026 |
@@ -188,7 +188,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Edad | 20 años |
 | Cargo | Empleado |
 | Inicio de entrevista | 00:02 |
-| Enlace de entrevista |https://n9.cl/py3txj|
+| Enlace de entrevista | [Entrevista en video](https://n9.cl/py3txj) |
 | Foto captura | Captura |
 | Facilidad de uso de la aplicación | Le pareció intuitiva y fácil de usar desde el inicio. Comentó que el diseño le recordó a otras plataformas que ya había utilizado anteriormente. |
 | Navegación y acceso a funciones | Encontró rápidamente las opciones para reportar problemas y participar en el foro. Consideró que la estructura de la aplicación está bien organizada. |
@@ -209,7 +209,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Edad | 20 años |
 | Cargo | Empleado |
 | Inicio de entrevista | 00:02 |
-| Enlace de entrevista |https://n9.cl/s2of0 |
+| Enlace de entrevista | [Entrevista en video](https://n9.cl/s2of0) |
 | Foto captura | Captura |
 | Facilidad de uso de la aplicación | Consideró que la aplicación es fácil de usar desde el inicio. Destacó que las funciones principales como inicio de sesión, menú, foro, perfil y reportes son visibles y fáciles de identificar. |
 | Navegación y acceso a funciones | Encontró rápidamente las opciones para reportar problemas y publicar en el foro. Comentó que la estructura está bien organizada y que las categorías de denuncia ayudan a la navegación. |
@@ -232,8 +232,8 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Inicio de entrevista | 00:03 |
 | Enlace de entrevista |[Entrevista en video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQBGQ2PW6ConT6qEH9Oxn3KgAUWQNRpqavreCHrQ2wWBKy4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=zTvTDu)|
 | Foto captura | Captura |
-| Facilidad de uso de la aplicación | La empleada de Recursos Humanos indicó que la aplicación le pareció intuitiva y fácil de usar desde el primer momento.<br><br>Comentó que la experiencia de navegación es familiar y no requiere una curva de aprendizaje elevada. |
-| Navegación y acceso a funciones | Señaló que pudo encontrar sin dificultad las funciones principales como el reporte de incidencias y el acceso al foro.<br><br>Considera que la estructura general está bien organizada y orientada a la eficiencia. |
+| Facilidad de uso de la aplicación | La empleada de Recursos Humanos indicó que la aplicación le pareció intuitiva y fácil de usar desde el primer momento. Comentó que la experiencia de navegación es familiar y no requiere una curva de aprendizaje elevada. |
+| Navegación y acceso a funciones | Señaló que pudo encontrar sin dificultad las funciones principales como el reporte de incidencias y el acceso al foro. Considera que la estructura general está bien organizada y orientada a la eficiencia. |
 | Claridad de íconos y botones | Mencionó que los íconos y botones son claros y comprensibles, lo que facilita la interacción sin necesidad de asistencia adicional. |
 | Percepción del modo anónimo/nocturno | Indicó que el diseño transmite confianza, especialmente por el modo nocturno, adecuado para uso prolongado. |
 | Apariencia visual de la aplicación | Destacó que los colores blanco y azul transmiten profesionalismo y calma, adecuados para un entorno institucional. |
@@ -274,7 +274,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 - **AUDITOR:** Grupo 3
 - **CLIENTE(S):** Grupo 2
 
----
+***
 ## SITE o APP A EVALUAR:
 
 SoftWork    
@@ -292,7 +292,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 8. Gestión y visualización de reportes de clima por equipos (Rol RRHH).
 9. Revisión del centro de notificaciones y alertas.
 
----
+***
 
 ## 2. Escala de Severidad
 Los problemas detectados se puntúan bajo la siguiente métrica:
@@ -302,7 +302,7 @@ Los problemas detectados se puntúan bajo la siguiente métrica:
 * **3. Problema mayor:** Ocurre frecuentemente; es importante que sean corregidos con prioridad alta.
 * **4. Problema muy grave:** Impide al usuario continuar con el uso de la herramienta; imperativo corregir antes del lanzamiento.
 
----
+***
 
 ## 3. Tabla Resumen
 
@@ -323,7 +323,7 @@ Los problemas detectados se puntúan bajo la siguiente métrica:
 | 13  | Botón flotante en el foro sin etiqueta descriptiva      |   **2** | Usability: Reconocimiento antes que recuerdo           |
 | 14  | Falta de botón de cancelación en el modal de encuesta   |   **3** | Usability: Control y libertad del usuario              |
 
----
+***
 
 ## 4. Descripción de Problemas
 
@@ -420,7 +420,7 @@ Los problemas detectados se puntúan bajo la siguiente métrica:
 - **AUDITOR:** Grupo 2
 - **CLIENTE(S):** Grupo 4
 
----
+***
 ## SITE o APP A EVALUAR:
 
 Spitly
@@ -437,7 +437,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 7. Registro de contribuciones económicas y visualización de gastos.
 8. Seguimiento del cumplimiento de metas grupales.
 
----
+***
 
 2. Escala de Severidad
 Los problemas detectados se puntúan bajo la siguiente métrica:
@@ -447,7 +447,7 @@ Los problemas detectados se puntúan bajo la siguiente métrica:
 * **3. Problema mayor:** Ocurre frecuentemente; es importante que sean corregidos con prioridad alta.
 * **4. Problema muy grave:** Impide al usuario continuar con el uso de la herramienta; imperativo corregir antes del lanzamiento.
 
----
+***
 
 ## 3. Tabla Resumen
 
@@ -468,7 +468,7 @@ Los problemas detectados se puntúan bajo la siguiente métrica:
 | 13  | Botones de sistema incrustados dentro de inputs de texto  |   **2**   | Usability: Estética y diseño minimalista               |
 | 14  | Contraste crítico de accesibilidad en el Login            |   **3**   | Inclusive Design: Proporciona experiencias comparables |
 
----
+***
 
 ## 4. Descripción de Problemas
 
