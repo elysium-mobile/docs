@@ -37,7 +37,15 @@ A continuación, se resume el estado del testing al cierre del Sprint 1:
 | Herramientas utilizadas |Androis Studio Figma, Google Meet, formularios de validación y pruebas de navegación manual. |
 | Estado general del testing | Funcionalidades y experiencia de usuario validadas manualmente de forma satisfactoria. |
 
+| Branch | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|
+| main | test: validaciones landing page | Se verificaron visualmente las validaciones de campos obligatorios y correos en formularios de login y registro. | 10/05/2026 |
+| main | test: visual review de formulario de registro | Se realizaron pruebas funcionales del flujo de registro de nuevos usuarios en la plataforma. | 10/05/2026 |
+| main | test: verificación de navegación landing | Se evaluó el correcto funcionamiento del menú de navegación y la responsividad en diferentes dispositivos. | 10/05/2026 |
+
+
 #### 4.2.1.5. Execution Evidence for Sprint Review {#execution-evidence-sprint-1}
+
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review {#services-documentation-evidence-sprint-1}
 
