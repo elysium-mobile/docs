@@ -221,6 +221,48 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Percepción del diseño para jóvenes | Considera que el diseño está orientado a personas jóvenes y modernas. Comentó que los botones redondeados, las tarjetas y la paleta de colores hacen que la experiencia sea familiar y fácil de usar. |
 | Cambios para asemejarse a una red social | Propuso hacer el foro más dinámico mediante reacciones visibles, comentarios destacados, tendencias o temas populares y mayor personalización del perfil para generar una experiencia más interactiva. |
 
+### Segmento Objetivo 2: Recursos Humanos
+
+| Campo | Detalle |
+|---|---|
+| Entrevista 1 | Empleados jóvenes entre 20-30 años |
+| Entrevistado | Fatima Belen |
+| Edad | 20 años |
+| Cargo | Recursos Humanos |
+| Inicio de entrevista | 00:03 |
+| Enlace de entrevista |[Entrevista en video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQBGQ2PW6ConT6qEH9Oxn3KgAUWQNRpqavreCHrQ2wWBKy4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=zTvTDu)|
+| Foto captura | Captura |
+| Facilidad de uso de la aplicación | La empleada de Recursos Humanos indicó que la aplicación le pareció intuitiva y fácil de usar desde el primer momento.<br><br>Comentó que la experiencia de navegación es familiar y no requiere una curva de aprendizaje elevada. |
+| Navegación y acceso a funciones | Señaló que pudo encontrar sin dificultad las funciones principales como el reporte de incidencias y el acceso al foro.<br><br>Considera que la estructura general está bien organizada y orientada a la eficiencia. |
+| Claridad de íconos y botones | Mencionó que los íconos y botones son claros y comprensibles, lo que facilita la interacción sin necesidad de asistencia adicional. |
+| Percepción del modo anónimo/nocturno | Indicó que el diseño transmite confianza, especialmente por el modo nocturno, adecuado para uso prolongado. |
+| Apariencia visual de la aplicación | Destacó que los colores blanco y azul transmiten profesionalismo y calma, adecuados para un entorno institucional. |
+| Elementos visuales incómodos o innecesarios | No identificó elementos molestos; percibe una estética limpia y ordenada. |
+| Opinión sobre animaciones y efectos visuales | Consideró adecuadas las animaciones, pero sugirió agregar confirmaciones visuales al enviar mensajes o reportes. |
+| Sugerencias de mejora | Propuso incluir gráficos más dinámicos en el dashboard para mejorar la visualización de reportes y métricas. |
+| Percepción del diseño para jóvenes | Considera que es accesible para jóvenes, pero también usable para personas con menor experiencia digital. |
+| Cambios para asemejarse a una red social | No haría cambios hacia un estilo más social; lo considera funcional y adecuado para entorno institucional. |
+
+| Campo | Detalle |
+|---|---|
+| Entrevista 1 | Empleados jóvenes entre 20-30 años |
+| Entrevistado | Jorge Chumpitaz |
+| Edad | 26 años |
+| Cargo | Recursos Humanos |
+| Inicio de entrevista | 00:02 |
+| Enlace de entrevista |[Entrevista en video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQC0L3CLVLaKSoR12-KjrTuSAcA8O7xHnM9fEFeiiDaTn2c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bEMPQ6)|
+| Foto captura | Captura |
+| Facilidad de uso de la aplicación | El empleado del área de Recursos Humanos comentó que la aplicación le resultó práctica y fácil de comprender. Indicó que las funciones principales son accesibles y no generan confusión durante el uso. |
+| Navegación y acceso a funciones | Señaló que pudo desplazarse entre las distintas secciones de manera rápida y ordenada. Destacó que el acceso a reportes y publicaciones está bien distribuido dentro de la interfaz. |
+| Claridad de íconos y botones | Mencionó que los botones e íconos son fáciles de identificar y que las etiquetas ayudan a entender correctamente cada funcionalidad. |
+| Percepción del modo anónimo/nocturno | Indicó que el modo nocturno le parece cómodo visualmente y que la opción de anonimato puede incentivar a los usuarios a reportar situaciones con mayor confianza. |
+| Apariencia visual de la aplicación | Consideró que el diseño visual transmite formalidad y modernidad. Comentó que la combinación de colores genera una sensación profesional adecuada para el entorno corporativo. |
+| Elementos visuales incómodos o innecesarios | No observó elementos innecesarios dentro de la aplicación. Añadió que el diseño mantiene un equilibrio visual agradable y organizado. |
+| Opinión sobre animaciones y efectos visuales | Opinó que las animaciones son discretas y ayudan a mejorar la experiencia del usuario sin distraer demasiado durante la navegación. |
+| Sugerencias de mejora | Sugirió agregar indicadores visuales o estadísticas resumidas para facilitar el seguimiento de incidencias y actividades dentro de la plataforma. |
+| Percepción del diseño para jóvenes | Considera que la aplicación tiene un diseño moderno orientado a jóvenes, aunque también puede ser utilizada sin dificultad por trabajadores de distintas edades. |
+| Cambios para asemejarse a una red social | Comentó que no considera necesario implementar demasiados elementos similares a redes sociales, ya que el enfoque profesional de la aplicación está bien logrado. |
+
 ### 4.3.3. Evaluaciones según heurísticas {#evaluaciones-heuristicas}
 ### UX Heuristics & Principles Evaluation
 
