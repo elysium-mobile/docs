@@ -108,23 +108,23 @@ El sistema de etiquetado de SoftWork prioriza la claridad y la simplicidad. Toda
 
 **Etiquetas de navegación principal — Empleado**
 
-| Ícono | Etiqueta | Descripción de contenido |
-|:---|:---|:---|
-|   | Inicio | Resumen del estado de bienestar y actividad reciente |
-|   | Foro | Muro de discusiones del entorno laboral |
-|   | Mis Encuestas | Encuestas recibidas y pendientes de responder |
-|   | Mensajes | Comunicaciones privadas de RRHH |
-|   | Perfil | Datos personales y configuración de privacidad |
+| Etiqueta | Descripción de contenido |
+|:---|:---|
+| Inicio | Resumen del estado de bienestar y actividad reciente |
+| Foro | Muro de discusiones del entorno laboral |
+| Mis Encuestas | Encuestas recibidas y pendientes de responder |
+| Mensajes | Comunicaciones privadas de RRHH |
+| Perfil | Datos personales y configuración de privacidad |
 
 **Etiquetas de navegación principal — RRHH Manager**
 
-| Ícono | Etiqueta | Descripción de contenido |
-|:---|:---|:---|
-|   | Dashboard | Panel de indicadores de clima laboral |
-|   | Foro | Moderación y gestión del foro laboral |
-|   | Feedback | Creación y envío de encuestas y mensajes directos |
-|   | Suscripción | Gestión de plan, licencias y pagos |
-|   | Perfil | Datos de la organización y configuración |
+| Etiqueta | Descripción de contenido |
+|:---|:---|
+| Dashboard | Panel de indicadores de clima laboral |
+| Foro | Moderación y gestión del foro laboral |
+| Feedback | Creación y envío de encuestas y mensajes directos |
+| Suscripción | Gestión de plan, licencias y pagos |
+| Perfil | Datos de la organización y configuración |
 
 **Etiquetas de acciones frecuentes**
 
