@@ -67,6 +67,22 @@ Esta sección compila las evidencias de funcionamiento de la plataforma SoftWork
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review {#software-deployment-evidence-sprint-1}
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint {#team-collaboration-insights-sprint-1}
+En esta sección se describen los mecanismos de coordinación y las dinámicas de trabajo adoptadas por el equipo durante el primer Sprint. El análisis se centra en cómo la comunicación constante y el uso de herramientas colaborativas permitieron sincronizar el desarrollo del backend con el diseño de la interfaz móvil, asegurando que los bloqueos técnicos se resolvieran de manera ágil para cumplir con los objetivos establecidos.
+
+Se detalla la interfaz orientada al colaborador, diseñada bajo un enfoque de 'mobile-first' para garantizar accesibilidad y comodidad. La aplicación móvil integra las funcionalidades clave de comunicación, como el foro de discusión, el buzón de denuncias cifradas y el control de identidad protegida, facilitando la participación constante desde cualquier lugar.
+
+**REPORT:**
+
+![Login SoftWork](assets/images/Cap4/Report.jpg)
+
+**MOBILE APP:**
+
+![Login SoftWork](assets/images/Cap4/MobileApp.jpg)
+
+**LANDING PAGE:**
+
+![Login SoftWork](assets/images/Cap4/LandingPaGE.jpg)
+
 
 ## 4.3. Validation Interviews {#validation-interviews}
 
