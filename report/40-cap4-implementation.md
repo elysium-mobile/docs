@@ -168,7 +168,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Cambios para asemejarse a una red social | Propuso hacer el foro más dinámico mediante reacciones visibles, comentarios destacados, tendencias o temas populares y mayor personalización del perfil para generar una experiencia más interactiva. |
 
 ### 4.3.3. Evaluaciones según heurísticas {#evaluaciones-heuristicas}
-# UX Heuristics & Principles Evaluation
+### UX Heuristics & Principles Evaluation
 
 | Campo | Detalle |
 |---|---|
@@ -181,7 +181,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 
 ---
 
-# Tareas a Evaluar
+### Tareas a Evaluar
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas dentro de la aplicación móvil:
 
@@ -201,7 +201,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ---
 
-# Escala de Severidad
+### Escala de Severidad
 
 | Nivel | Descripción |
 |---|---|
@@ -212,7 +212,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ---
 
-# Tabla Resumen de Problemas
+### Tabla Resumen de Problemas
 
 | # | Problema | Severidad | Heurística/Principio violado |
 |---|---|---|---|
@@ -223,9 +223,9 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 ---
 
-# Descripción de Problemas
+## Descripción de Problemas
 
-## Problema #1: Poca diferenciación visual en los campos de registro
+### Problema #1: Poca diferenciación visual en los campos de registro
 
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Estética y diseño minimalista  
@@ -238,7 +238,7 @@ Aumentar el grosor de los bordes, mejorar el contraste o incorporar un ligero so
 
 ---
 
-## Problema #2: Riesgo de confusión en el estado del “Modo Anónimo Global”
+### Problema #2: Riesgo de confusión en el estado del “Modo Anónimo Global”
 
 **Severidad:** 3  
 **Heurística violada:** Usabilidad – Visibilidad del estado del sistema  
@@ -251,7 +251,7 @@ Agregar un banner, etiqueta o ícono de “Escudo” visible en la parte superio
 
 ---
 
-## Problema #3: Falta de confirmación intermedia en denuncias críticas
+### Problema #3: Falta de confirmación intermedia en denuncias críticas
 
 **Severidad:** 3  
 **Heurística violada:** Usabilidad – Prevención de errores  
@@ -266,7 +266,7 @@ Implementar una ventana modal de confirmación antes del envío final con un men
 
 ---
 
-## Problema #4: Jerarquía visual plana en el Dashboard de RRHH
+### Problema #4: Jerarquía visual plana en el Dashboard de RRHH
 
 **Severidad:** 2  
 **Heurística violada:** Usabilidad – Visibilidad y jerarquía visual  
