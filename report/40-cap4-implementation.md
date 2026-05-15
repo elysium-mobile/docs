@@ -283,4 +283,25 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Percepción del diseño para jóvenes | Considera que la aplicación tiene un diseño moderno orientado a jóvenes, aunque también puede ser utilizada sin dificultad por trabajadores de distintas edades. |
 | Cambios para asemejarse a una red social | Comentó que no considera necesario implementar demasiados elementos similares a redes sociales, ya que el enfoque profesional de la aplicación está bien logrado. |
 
+
+| Campo | Detalle |
+|:---|:---|
+| Entrevista 1 | Empleados jóvenes entre 20-30 años |
+| Entrevistado | Elizabeth Apaza |
+| Edad | 21 años |
+| Cargo | Recursos Humanos |
+| Inicio de entrevista | 00:03 |
+| Enlace de entrevista |[Entrevista en video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAagUM7ABWmRryraDDBifv9AR6IM6ssZkOX7ts0lonG8ac?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0dzNDd)|
+| Foto captura | Captura |
+| Facilidad de uso de la aplicación | La trabajadora del área de Recursos Humanos mencionó que la aplicación le pareció bastante accesible y sencilla de entender. Comentó que la interfaz permite adaptarse rápidamente incluso sin experiencia previa en plataformas similares. |
+| Navegación y acceso a funciones | Indicó que las secciones principales están bien ubicadas y que pudo acceder fácilmente a las herramientas de reportes y comunicación dentro de la aplicación. |
+| Claridad de íconos y botones | Señaló que los íconos y botones son claros y mantienen una buena distribución visual, facilitando la interacción del usuario durante la navegación. |
+| Percepción del modo anónimo/nocturno | Comentó que el modo nocturno le resultó cómodo para la vista y que la función de anonimato puede generar mayor seguridad y privacidad para los colaboradores. |
+| Apariencia visual de la aplicación | Destacó que el diseño visual proyecta modernidad y orden. Además, consideró que los colores utilizados transmiten tranquilidad y profesionalismo. |
+| Elementos visuales incómodos o innecesarios | No identificó elementos visuales que interfieran con la experiencia de uso. Consideró que la aplicación mantiene una apariencia limpia y equilibrada. |
+| Opinión sobre animaciones y efectos visuales | Indicó que los efectos visuales son adecuados y ayudan a que la aplicación se vea más dinámica, aunque recomendó agregar pequeñas transiciones al cambiar entre secciones. |
+| Sugerencias de mejora | Sugirió implementar filtros dentro de los reportes y añadir gráficos estadísticos más detallados para mejorar el análisis de información. |
+| Percepción del diseño para jóvenes | Considera que el diseño logra conectar bien con usuarios jóvenes debido a su apariencia moderna, pero mantiene una estructura comprensible para cualquier trabajador. |
+| Cambios para asemejarse a una red social | Comentó que el diseño actual ya resulta atractivo y funcional, por lo que no considera necesario incorporar demasiados elementos similares a redes sociales. |
+
 ### 4.3.3. Evaluaciones según heurísticas {#evaluaciones-heuristicas}
