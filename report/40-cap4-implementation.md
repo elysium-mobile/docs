@@ -49,18 +49,38 @@ A continuación, se resume el estado del testing al cierre del Sprint 1:
 A continuación, se presentan las evidencias de ejecución correspondientes al cierre del Sprint. Estas capturas documentan la operatividad de los componentes desarrollados, validando la integración exitosa entre los servicios del Backend y la interfaz de la Aplicación Móvil. Las pruebas demuestran el cumplimiento de los criterios de aceptación para las funcionalidades de autenticación, gestión de anonimato y flujo de reportes en tiempo real.
 
 **LANDING PAGE:**
-![Login SoftWork](assets/images/Cap4/Lan1.jpg)
-![Login SoftWork](assets/images/Cap4/Lan2.jpg)
-![Login SoftWork](assets/images/Cap4/Lan3.jpg)
+
+![Login SoftWork](assets/images/Cap4/Lan1.jpg){width=50%}
+
+Figura: Captura de la sección Hero del Landing Page — muestra CTA "Solicitar Demo", mockup móvil y disposición responsive validada durante el sprint.
+
+![Login SoftWork](assets/images/Cap4/Lan2.jpg){width=50%}
+
+Figura: Captura de sección de beneficios — estructura de contenido en dos columnas y ejemplo de publicación/foro para comprobación de jerarquía visual.
+
+![Login SoftWork](assets/images/Cap4/Lan3.jpg){width=50%}
+
+Figura: Captura del panel de métricas del Landing Page — ejemplos de widgets y visualización de indicadores clave usados para pruebas de usabilidad.
 
 Esta sección compila las evidencias de funcionamiento de la plataforma SoftWork obtenidas durante el Sprint Review. Se exhiben los logros técnicos alcanzados tanto en el desarrollo de la arquitectura del backend como en la implementación del frontend móvil, asegurando la trazabilidad de las historias de usuario completadas durante este ciclo de desarrollo.
 
 **MOBILE APP:**
 
-![Login SoftWork](assets/images/Cap4/Mockup1.jpg)
-![Login SoftWork](assets/images/Cap4/Mockup2.jpg)
-![Login SoftWork](assets/images/Cap4/Mockup3.jpg)
-![Login SoftWork](assets/images/Cap4/Mockup4.jpg)
+![Login SoftWork](assets/images/Cap4/Mockup1.jpg){width=50%}
+
+Figura: Pantalla móvil — flujo de inicio de sesión y validación de campos; evidencia de integración visual entre wireframe y build.
+
+![Login SoftWork](assets/images/Cap4/Mockup2.jpg){width=50%}
+
+Figura: Pantalla móvil — perfil / hero del usuario con controles de privacidad y toggles, revisada para accesibilidad y espaciamiento.
+
+![Login SoftWork](assets/images/Cap4/Mockup3.jpg){width=50%}
+
+Figura: Pantalla móvil — vista del foro y publicación anónima; se verificó legibilidad de etiquetas y chips de estado.
+
+![Login SoftWork](assets/images/Cap4/Mockup4.jpg){width=50%}
+
+Figura: Pantalla móvil — flujo de reporte de incidente cifrado y pantalla de confirmación, evidenciando el comportamiento esperado.
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review {#services-documentation-evidence-sprint-1}
 
@@ -264,294 +284,3 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Cambios para asemejarse a una red social | Comentó que no considera necesario implementar demasiados elementos similares a redes sociales, ya que el enfoque profesional de la aplicación está bien logrado. |
 
 ### 4.3.3. Evaluaciones según heurísticas {#evaluaciones-heuristicas}
-### UX Heuristics & Principles Evaluation
-
-### Evaluación recibida
-
-- **CARRERA:** Ingeniería de Software
-- **CURSO:** 1acc0238 Aplicaciones para dispositivos móviles
-- **SECCIÓN:** Todos
-- **AUDITOR:** Grupo 3
-- **CLIENTE(S):** Grupo 2
-
-***
-## SITE o APP A EVALUAR:
-
-SoftWork    
-
-## 1. Tareas a Evaluar 
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas tanto en la Landing Page como en la aplicación móvil (flujos de Empleado y RRHH):
-
-1. Identificación de la propuesta de valor.
-2. Registro de un usuario nuevo con validación de correo corporativo.
-3. Inicio de sesión seguro.
-4. Selección de planes de membresía y registro de método de pago.
-5. Configuración de preferencias de privacidad en el perfil.
-6. Interacción comunitaria: lectura, publicación y votación en foros anónimos.
-7. Cumplimentación de encuestas diarias de clima laboral y bienestar.
-8. Gestión y visualización de reportes de clima por equipos (Rol RRHH).
-9. Revisión del centro de notificaciones y alertas.
-
-***
-
-## 2. Escala de Severidad
-Los problemas detectados se puntúan bajo la siguiente métrica:
-
-* **1. Problema superficial:** Ocurre con muy poca frecuencia; no necesita ser arreglado a menos que exista disponibilidad de tiempo.
-* **2. Problema menor:** Se le debería asignar una prioridad baja de cara al siguiente release.
-* **3. Problema mayor:** Ocurre frecuentemente; es importante que sean corregidos con prioridad alta.
-* **4. Problema muy grave:** Impide al usuario continuar con el uso de la herramienta; imperativo corregir antes del lanzamiento.
-
-***
-
-## 3. Tabla Resumen
-
-| #   | Problema                                                | Severidad | Heurística/Principio Violada(o)                      |
-|:---|:---|:---|:---|
-| 1   | Desorden ilógico en el eje Y del gráfico de reportes    |   **4** | Usability: Prevención de errores / Consistencia        |
-| 2   | Enlaces inoperativos en la Landing Page                 |   **3** | Information Architecture: Is it usable?                |
-| 3   | Inconsistencia de idioma en formulario de tarjeta       |   **1** | Usability: Consistencia y estándares                   |
-| 4   | Botón principal de "Iniciar sesión" en web sin ruta     |   **4** | Usability: Control y libertad del usuario              |
-| 5   | Formato de fecha extranjero en el dashboard de RRHH     |   **2** | Usability: Relación entre el sistema y el mundo real   |
-| 6   | Contraste insuficiente en enlaces de login/registro     |   **3** | Inclusive Design: Diseño accesible                     |
-| 7   | Pantallas de éxito carentes de contexto o resumen       |   **2** | Usability: Visibilidad del estado del sistema          |
-| 8   | Ausencia de fechas explícitas en notificaciones de pago |   **2** | Usability: Reconocimiento antes que recuerdo           |
-| 9   | Semántica de colores confusa en tarjetas del dashboard  |   **3** | Usability: Consistencia y estándares                   |
-| 10  | Estados vacíos sin orientación a la acción              |   **2** | Usability: Ayudar a los usuarios a reconocer errores   |
-| 11  | Ambigüedad visual en el estado por defecto del dropdown |   **2** | Usability: Estética y diseño minimalista               |
-| 12  | Duplicidad de acceso a "Métodos de pago" para RRHH      |   **1** | Information Architecture: Is it findable?              |
-| 13  | Botón flotante en el foro sin etiqueta descriptiva      |   **2** | Usability: Reconocimiento antes que recuerdo           |
-| 14  | Falta de botón de cancelación en el modal de encuesta   |   **3** | Usability: Control y libertad del usuario              |
-
-***
-
-## 4. Descripción de Problemas
-
-### **PROBLEMA #1: Desorden ilógico en el eje Y del gráfico de reportes**
-* **Severidad:** 4
-* **Heurística violada:** Usabilidad - Prevención de errores / Consistencia
-* **Problema:** En la pantalla de "Reportes" (vista RRHH), el gráfico de líneas presenta un eje Y completamente desordenado numéricamente ("10, 0, 80, 50, 20, 10"). Esto hace que la visualización de datos de clima laboral sea totalmente inútil, impidiendo al analista interpretar la evolución del equipo.
-* **Recomendación:** Corregir la lógica de renderizado del componente del gráfico para que el eje Y mantenga un orden ascendente estricto (ej. 0, 20, 40, 60, 80, 100).
-
-### **PROBLEMA #2: Enlaces inoperativos (anclas `#`) en la Landing Page**
-* **Severidad:** 3
-* **Heurística violada:** Arquitectura de Información - ¿Es usable?
-* **Problema:** En el *footer* y en la navegación principal de la página web promocional, varios enlaces clave (como "Hablar con ventas", "Integraciones" y todas las políticas legales) apuntan a un ancla vacía (`#`). El usuario hace clic esperando información vital y no ocurre ninguna acción.
-* **Recomendación:** Deshabilitar y ocultar estos enlaces si las páginas aún no existen en esta fase del proyecto, o enlazar a un modal de "Próximamente" para no romper el flujo de navegación.
-
-### **PROBLEMA #3: Inconsistencia de idioma en formulario de tarjeta**
-* **Severidad:** 1
-* **Heurística violada:** Usabilidad - Consistencia y estándares
-* **Problema:** En la pantalla "Agregar método de pago" de la aplicación móvil, los *placeholders* de los campos de texto están en inglés ("Name on the card", "Card number", "Month / Year"), a pesar de que toda la interfaz y los títulos de la app están en español.
-* **Recomendación:** Traducir los atributos de marcador de posición (placeholders) al español ("Nombre en la tarjeta", "Número de tarjeta", "Mes / Año") para mantener la cohesión del idioma.
-
-### **PROBLEMA #4: Botón principal de "Iniciar sesión" en web sin ruta**
-* **Severidad:** 4
-* **Heurística violada:** Usabilidad - Control y libertad del usuario
-* **Problema:** En la cabecera de la *landing page*, el botón primario de "Iniciar sesión" apunta a `#`. Esto bloquea completamente a los usuarios existentes que intentan ingresar a la plataforma web desde la página principal.
-* **Recomendación:** Enlazar inmediatamente el botón al subdominio de la aplicación (ej. `app.softwork.com/login`) o a la vista web de autenticación.
-
-### **PROBLEMA #5: Formato de fecha extranjero en el dashboard de RRHH**
-* **Severidad:** 2
-* **Heurística violada:** Usabilidad - Relación entre el sistema y el mundo real
-* **Problema:** En el eje X del gráfico de reportes, las fechas están formateadas en el estándar estadounidense "Mes/Día" (ej. "3/19", "3/20"). Para usuarios en Latinoamérica o España, esto resulta antinatural y puede causar confusión temporal.
-* **Recomendación:** Adaptar el formato de fecha a la configuración regional del usuario, utilizando el estándar "Día/Mes" (ej. "19/03", "20/03").
-
-### **PROBLEMA #6: Contraste insuficiente en enlaces de login/registro**
-* **Severidad:** 3
-* **Heurística violada:** Diseño Inclusivo - Diseño accesible
-* **Problema:** En las pantallas de autenticación de la app móvil, textos como "¿Olvidaste tu contraseña?" y "Regístrate" utilizan un tono de azul claro sobre fondo blanco que no alcanza el ratio mínimo de contraste de la WCAG (4.5:1). Esto dificulta la lectura para personas con baja visión.
-* **Recomendación:** Oscurecer el código hexadecimal del color azul en estos enlaces de texto para cumplir con los estándares de accesibilidad visual.
-
-### **PROBLEMA #7: Pantallas de éxito carentes de contexto o resumen**
-* **Severidad:** 2
-* **Heurística violada:** Usabilidad - Visibilidad del estado del sistema
-* **Problema:** Tras realizar una compra o registrarse, la app muestra una pantalla blanca dominada casi por completo por un *check* gigante y el texto "Membresía adquirida" o "Usuario registrado". No se ofrece un recibo rápido, el correo registrado, ni el tipo de plan comprado, lo que genera dudas sobre si la transacción fue correcta.
-* **Recomendación:** Incluir una pequeña tarjeta de resumen debajo del check (ej. "Plan Pro - S/. 99 cobrados a tu tarjeta terminada en 4521") antes del botón de "Menú inicial".
-
-### **PROBLEMA #8: Ausencia de fechas explícitas en notificaciones de pago**
-* **Severidad:** 2
-* **Heurística violada:** Usabilidad - Reconocimiento antes que recuerdo
-* **Problema:** En la pestaña de Notificaciones, la alerta de pago indica "Tu plan vencerá pronto". Al no especificar la fecha exacta de vencimiento en la misma tarjeta, obliga al usuario a recordar la fecha de facturación o a hacer clics innecesarios para averiguarlo.
-* **Recomendación:** Dinamizar el texto para que incluya la fecha concreta: "Tu plan vencerá el 27 de Mayo. Actualiza tu método de pago".
-
-### **PROBLEMA #9: Semántica de colores confusa en tarjetas del dashboard**
-* **Severidad:** 3
-* **Heurística violada:** Usabilidad - Consistencia y estándares
-* **Problema:** En la pantalla de Reportes (vista RRHH), las tarjetas superiores utilizan colores pastel de fondo (celeste, verde, rojo, morado) que parecen ser meramente decorativos. Sin embargo, el rojo en "Reportes en foro: 1" transmite una alerta de error grave instintivamente, mientras que el verde en "Integrantes: 5" no representa un estado de éxito real.
-* **Recomendación:** Utilizar un esquema de colores neutro (blanco/gris) para los contenedores y reservar los colores semánticos (rojo, amarillo, verde) únicamente para los iconos o indicadores numéricos que representen cambios positivos o críticos.
-
-### **PROBLEMA #10: Estados vacíos sin orientación a la acción**
-* **Severidad:** 2
-* **Heurística violada:** Usabilidad - Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
-* **Problema:** En la pantalla "Historial de pagos", si no hay registros, solo se lee el texto "No ha realizado ningún pago" flotando en el espacio en blanco. No hay ilustración, ni un botón que sugiera la siguiente acción lógica (como "Adquirir un plan").
-* **Recomendación:** Diseñar estados vacíos amigables que incluyan un gráfico ligero y un Call to Action (CTA) que dirija al usuario a resolver esa "ausencia" de datos.
-
-### **PROBLEMA #11: Ambigüedad visual en el estado por defecto del dropdown**
-* **Severidad:** 2
-* **Heurística violada:** Usabilidad - Estética y diseño minimalista
-* **Problema:** En la pantalla inicial de "Reportes", el selector de equipos dice "Ninguno" por defecto, dejando casi el 90% de la pantalla en un blanco absoluto sin instrucciones. Da la sensación de ser un error de carga o una pantalla inacabada.
-* **Recomendación:** Cambiar el texto "Ninguno" por un placeholder instruccional como "Selecciona un equipo" y colocar un gráfico tenue de fondo con el texto "Elige un equipo de la lista para visualizar sus métricas de clima".
-
-### **PROBLEMA #12: Duplicidad de acceso a "Métodos de pago" para RRHH**
-* **Severidad:** 1
-* **Heurística violada:** Arquitectura de Información - ¿Es fácil de encontrar?
-* **Problema:** Para los perfiles de pago, la opción para gestionar o ver la facturación parece estar distribuida tanto en el "Perfil" del usuario como directamente expuesta en el "Menú inicial" mediante botones grandes. Esto infla la carga cognitiva sin necesidad.
-* **Recomendación:** Consolidar todo lo relacionado a facturación y pagos bajo una única ruta (preferiblemente dentro de "Mi Perfil" o "Configuración") para limpiar el dashboard principal.
-
-### **PROBLEMA #13: Botón flotante en el foro sin etiqueta descriptiva**
-* **Severidad:** 2
-* **Heurística violada:** Usabilidad - Reconocimiento antes que recuerdo
-* **Problema:** En la pantalla del Foro, hay un Floating Action Button (FAB) en la esquina inferior derecha con un simple ícono de suma (+). Aunque es un patrón común, en contextos laborales complejos, un ícono solitario puede dejar dudas sobre si es para "Crear post", "Invitar persona" o "Crear encuesta".
-* **Recomendación:** Al hacer scroll hacia arriba, expandir momentáneamente el FAB para mostrar el texto "Nueva publicación" junto al ícono (+), asegurando la claridad de la acción.
-
-### **PROBLEMA #14: Falta de botón de cancelación en el modal de encuesta**
-* **Severidad:** 3
-* **Heurística violada:** Usabilidad - Control y libertad del usuario
-* **Problema:** Una vez que el usuario ingresa a la pantalla de "Encuesta" (¿Cómo te sientes hoy?), no existe una "X" visible o un botón de "Cancelar" claro en la parte superior. El usuario podría sentirse atrapado y obligado a enviar la encuesta para poder regresar al menú.
-* **Recomendación:** Añadir un ícono de "X" o una flecha de retroceso explícita en la esquina superior izquierda de la vista de la encuesta para garantizar una salida segura sin enviar datos.
-
-### Evaluación enviada
-
-- **CARRERA:** Ingeniería de Software
-- **CURSO:** 1acc0238 Aplicaciones para dispositivos móviles
-- **SECCIÓN:** 3667
-- **PROFESORES:** Todos
-- **AUDITOR:** Grupo 2
-- **CLIENTE(S):** Grupo 4
-
-***
-## SITE o APP A EVALUAR:
-
-Spitly
-
-## 1. Tareas a Evaluar 
-El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas tanto en la Landing Page como en la aplicación móvil:
-
-1. Identificación de la propuesta de valor y misión.
-2. Navegación por el catálogo de servicios y funcionamiento por roles.
-3. Comparación y selección de planes de pago.
-4. Registro de un usuario nuevo e inicio de sesión.
-5. Creación de un "Hogar" (Household) y unión mediante ID.
-6. Gestión de miembros de la comunidad.
-7. Registro de contribuciones económicas y visualización de gastos.
-8. Seguimiento del cumplimiento de metas grupales.
-
-***
-
-2. Escala de Severidad
-Los problemas detectados se puntúan bajo la siguiente métrica:
-
-* **1. Problema superficial:** Ocurre con muy poca frecuencia; no necesita ser arreglado a menos que exista disponibilidad de tiempo.
-* **2. Problema menor:** Se le debería asignar una prioridad baja de cara al siguiente release.
-* **3. Problema mayor:** Ocurre frecuentemente; es importante que sean corregidos con prioridad alta.
-* **4. Problema muy grave:** Impide al usuario continuar con el uso de la herramienta; imperativo corregir antes del lanzamiento.
-
-***
-
-## 3. Tabla Resumen
-
-| # | Problema | Severidad | Heurística/Principio Violada(o) |
-|:---|:---|:---|:---|
-| 1   | Sección de testimonios sin contenido visible              |   **4**   | Information Architecture: Is it usable?                |
-| 2   | Inconsistencia de idioma (Inglés/Español)                 |   **1**   | Usability: Consistencia y estándares                   |
-| 3   | Duplicidad de encabezados de sección                      |   **2**   | Usability: Consistencia y estándares                   |
-| 4   | Superposición de texto sobre mapa interactivo             |   **2**   | Inclusive Design: Proporciona experiencias comparables |
-| 5   | Falta de indicadores de campos obligatorios               |   **2**   | Usability: Prevención de errores                       |
-| 6   | Iconos de redes sociales sin etiquetas descriptivas       |   **3**   | Inclusive Design: Diseño accesible                     |
-| 7   | Ambigüedad visual en el toggle de ahorro anual            |   **2**   | Information Architecture: Is it findable?              |
-| 8   | Contraste insuficiente en selector de rol inactivo        |   **2**   | Usability: Visibilidad del estado del sistema          |
-| 9   | Inconsistencia monetaria (S/ frente a $)                  |   **3**   | Usability: Consistencia y estándares                   |
-| 10  | Menú de navegación inferior (Tab Bar) volátil             |   **4**   | Usability: Consistencia y estándares                   |
-| 11  | Componente de fecha con lógica de botones inusual         |   **3**   | Usability: Libertad y control del usuario              |
-| 12  | Variación de etiquetas de retroceso ("Back" vs "Go back") |   **1**   | Usability: Consistencia y estándares                   |
-| 13  | Botones de sistema incrustados dentro de inputs de texto  |   **2**   | Usability: Estética y diseño minimalista               |
-| 14  | Contraste crítico de accesibilidad en el Login            |   **3**   | Inclusive Design: Proporciona experiencias comparables |
-
-***
-
-## 4. Descripción de Problemas
-
-### **PROBLEMA #1: Sección de testimonios sin contenido visible**
-* **Severidad:** 4 
-* **Heurística violada:** Arquitectura de Información - ¿Es usable? 
-* **Problema:** En la landing page, el menú de navegación incluye el enlace "Opiniones", pero al dirigirse a dicha sección, solo se muestra el título sin ningún testimonio o reseña de usuario. Esto genera una percepción de producto incompleto y resta credibilidad a la marca. 
-* **Recomendación:** Integrar al menos tres testimonios reales con fotografía y nombre, o en su defecto, ocultar la sección y el acceso desde el menú hasta que se cuente con contenido validado.
-
-### **PROBLEMA #2: Inconsistencia de idioma (Inglés/Español)**
-* **Severidad:** 1
-* **Heurística violada:** Usabilidad - Consistencia y estándares
-* **Problema:** Se detectan elementos en inglés dentro de una interfaz configurada en español. Específicamente, los placeholders de los videos ("VIDEO ABOUT THE PRODUCT") y etiquetas de navegación móvil ("Back") rompen la armonía idiomática del sitio.
-* **Recomendación:** Traducir todos los recursos gráficos y etiquetas de navegación al español para mantener la consistencia en la experiencia del usuario local.
-
-### **PROBLEMA #3: Duplicidad de encabezados de sección**
-* **Severidad:** 2
-* **Heurística violada:** Usabilidad - Consistencia y estándares
-* **Problema:** El título "Nuestros Servicios" aparece repetido en dos secciones consecutivas de la landing page. Esto puede confundir al usuario sobre la jerarquía de la información y hace que la navegación se sienta redundante.
-* **Recomendación:** Unificar ambas secciones bajo un solo encabezado o renombrar la primera como "Introducción a Splitly" y la segunda como "Características principales".
-
-### **PROBLEMA #4: Superposición de texto sobre mapa interactivo**
-* **Severidad:** 2
-* **Heurística violada:** Diseño Inclusivo - Proporciona experiencias comparables
-* **Problema:** En la sección de contacto, las instrucciones de uso del mapa ("Utiliza la tecla Ctrl...") aparecen superpuestas directamente sobre la cartografía. Dependiendo del color del mapa en esa zona, el texto puede volverse ilegible.
-* **Recomendación:** Colocar las instrucciones de interacción en un cintillo informativo debajo del mapa o dentro de un contenedor con fondo sólido para garantizar el contraste.
-
-### **PROBLEMA #5: Falta de indicadores de campos obligatorios**
-* **Severidad:** 2
-* **Heurística violada:** Usabilidad - Prevención de errores
-* **Problema:** Los formularios de la landing page y de la aplicación móvil (como el de registro) no especifican qué campos son obligatorios. Esto obliga al usuario a adivinar y puede generar frustración tras intentos fallidos de envío.
-* **Recomendación:** Añadir el asterisco estándar (*) en los campos obligatorios y un mensaje aclaratorio al inicio del formulario.
-
-### **PROBLEMA #6: Iconos de redes sociales sin etiquetas descriptivas**
-* **Severidad:** 3
-* **Heurística violada:** Diseño Inclusivo - Diseño accesible
-* **Problema:** Los iconos de redes sociales en el footer carecen de etiquetas de texto o atributos "aria-label". Esto hace que la sección sea inaccesible para usuarios que dependen de lectores de pantalla.
-* **Recomendación:** Implementar etiquetas descriptivas invisibles (como aria-label="Síguenos en Instagram") para cada enlace social.
-
-### **PROBLEMA #7: Ambigüedad visual en el toggle de ahorro anual**
-* **Severidad:** 2
-* **Heurística violada:** Arquitectura de Información - ¿Es fácil de encontrar?
-* **Problema:** En la sección de precios, el beneficio "Ahorra 2 meses" es visualmente pequeño. Al activar el modo anual, el sistema no resalta con suficiente fuerza el cambio en el costo total, diluyendo la percepción de valor de la oferta.
-* **Recomendación:** Utilizar un color de contraste más llamativo para el distintivo de ahorro y mostrar el cálculo del precio mensual anterior tachado.
-
-### **PROBLEMA #8: Contraste insuficiente en selector de rol inactivo**
-* **Severidad:** 2
-* **Heurística violada:** Usabilidad - Visibilidad del estado del sistema
-* **Problema:** En el flujo de "¿Cómo funciona?", el botón del rol no seleccionado tiene un color tan claro que parece estar deshabilitado en lugar de simplemente "no activo". El usuario podría pensar que la opción no está disponible.
-* **Recomendación:** Aplicar un borde definido o un tono gris más oscuro al estado inactivo para comunicar que el elemento es interactivo pero no está seleccionado.
-
-### **PROBLEMA #9: Inconsistencia monetaria (S/ frente a $)**
-* **Severidad:** 3
-* **Heurística violada:** Usabilidad - Consistencia y estándares
-* **Problema:** Existe una contradicción en el uso de divisas dentro de la aplicación móvil. Mientras la mayoría de pantallas usan Soles (S/), la vista de detalles de gastos utiliza el signo de Dólares ($). Esto genera incertidumbre financiera crítica en una app de gestión de gastos.
-* **Recomendación:** Configurar una variable global de moneda que se aplique a toda la interfaz según la preferencia del hogar, asegurando que el símbolo sea idéntico en todas las pantallas.
-
-### **PROBLEMA #10: Navegación inferior (Tab Bar) inconsistente**
-* **Severidad:** 4
-* **Heurística violada:** Usabilidad - Consistencia y estándares
-* **Problema:** El menú inferior (Tab Bar) no mantiene una estructura fija. En la pantalla de gastos aparece la opción "Bills", mientras que en la de invitaciones es reemplazada por "Members", y en el seguimiento por "Contributions". Esto desorienta al usuario al cambiarle las rutas principales de navegación según la pantalla en la que se encuentre.
-* **Recomendación:** Definir un set de 4 o 5 iconos globales que representen las secciones más importantes del sistema y mantenerlos estáticos en toda la aplicación móvil.
-
-### **PROBLEMA #11: Control de fecha con botones internos confusos**
-* **Severidad:** 3
-* **Heurística violada:** Usabilidad - Libertad y control del usuario
-* **Problema:** El componente de selección de fecha incluye botones de "Set" y "Cancel" como parte de la misma fila de entrada. Esto rompe el flujo natural de introducción de datos y puede causar que el usuario cancele el proceso por error al intentar ajustar el día o el mes.
-* **Recomendación:** Implementar un Date Picker nativo del sistema operativo (iOS/Android) que se despliegue en un modal o menú inferior independiente.
-
-### **PROBLEMA #12: Variación de etiquetas de retroceso ("Back" vs "Go back")**
-* **Severidad:** 1
-* **Heurística violada:** Usabilidad - Consistencia y estándares
-* **Problema:** Existe una falta de consistencia en las etiquetas textuales asignadas a los botones de navegación de retorno en la barra superior de la interfaz móvil. En ciertas vistas se utiliza el texto "< Back", mientras que en otras pantallas de la misma aplicación se visualiza como "< Go back". Esta variabilidad rompe con el principio de uniformidad y previsibilidad del sistema.
-* **Recomendación:** Estandarizar un único formato de botón de retroceso para todas las pantallas de la aplicación móvil (se sugiere adoptar la etiqueta estándar "< Back" o emplear únicamente un icono de flecha limpia) para unificar la experiencia de navegación.
-
-### **PROBLEMA #13: Botones de sistema incrustados dentro de inputs de texto**
-* **Severidad:** 2
-* **Heurística violada:** Usabilidad - Estética y diseño minimalista
-* **Problema:** Los botones de acción interactivos del sistema, tales como "Search" y "Generate ID", se encuentran posicionados directamente dentro del contenedor interno del campo de texto de entrada. Este patrón de diseño compromete el espacio útil horizontal para la introducción y lectura de datos por parte del usuario, además de saturar la jerarquía visual dentro de los formularios.
-* **Recomendación:** Extraer los botones de acción fuera de las cajas de texto y reubicarlos de manera externa (ya sea al lado derecho como un elemento adyacente o debajo del campo correspondiente) para asegurar un área de entrada limpia, espaciosa y legible.
-
-### **PROBLEMA #14: Contraste crítico de accesibilidad en el Login**
-* **Severidad:** 3 
-* **Heurística violada:** Diseño Inclusivo - Experiencias comparables
-* **Problema:** En la pantalla de inicio de sesión, las etiquetas de los campos ("Email", "Password") utilizan un color azul oscuro sobre un fondo negro. Esta combinación no cumple con los estándares mínimos de contraste de la WCAG, dificultando severamente la lectura para personas con visión reducida o en entornos con mucha luz.
-* **Recomendación:** Cambiar el color de las etiquetas a blanco o un gris de alta luminancia para asegurar una legibilidad universal.
