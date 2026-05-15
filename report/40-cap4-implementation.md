@@ -125,4 +125,46 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 
 ### 4.3.2. Registro de Entrevistas {#registro-entrevistas-validacion}
 
+### Segmento Objetivo 1: Empleados
+
+| Campo | Detalle |
+|---|---|
+| Entrevista 1 | Empleados jóvenes de 18 - 25 años |
+| Entrevistado | Alexandro Bravo |
+| Edad | 20 años |
+| Cargo | Empleado |
+| Inicio de entrevista | 00:02 |
+| Enlace de entrevista | URL de la entrevista |
+| Foto captura | Captura |
+| Facilidad de uso de la aplicación | Le pareció intuitiva y fácil de usar desde el inicio. Comentó que el diseño le recordó a otras plataformas que ya había utilizado anteriormente. |
+| Navegación y acceso a funciones | Encontró rápidamente las opciones para reportar problemas y participar en el foro. Consideró que la estructura de la aplicación está bien organizada. |
+| Claridad de íconos y botones | Indicó que entendió correctamente la función de los botones e íconos y que no tuvo dificultades para comprender la navegación. |
+| Percepción del modo anónimo/nocturno | Mencionó que el diseño le genera confianza y que le agrada especialmente el modo nocturno de la aplicación. |
+| Apariencia visual de la aplicación | Destacó el equilibrio entre los colores blanco y azul. Aunque no suele preferir colores pasteles, consideró que la combinación visual está bien lograda. |
+| Elementos visuales incómodos o innecesarios | No identificó elementos molestos o fuera de lugar. Comentó que el contraste de colores y los tonos celestes le parecieron agradables. |
+| Opinión sobre animaciones y efectos visuales | Consideró que el diseño actual está bien, aunque sugirió agregar una confirmación visual al momento de enviar mensajes. |
+| Sugerencias de mejora | Sugirió implementar gráficos más visuales dentro del dashboard para mejorar la visualización de reportes y datos. |
+| Percepción del diseño para jóvenes | Considera que el diseño sí está orientado a personas jóvenes y modernas, manteniendo además un equilibrio para usuarios con menos experiencia digital. |
+| Cambios para asemejarse a una red social | Indicó que, por el momento, no cambiaría nada del diseño ya que le pareció adecuado y funcional. |
+
+
+| Campo | Detalle |
+|---|---|
+| Entrevista 2 | Empleados jóvenes de 18 - 25 años |
+| Entrevistado | Pedro Omar Lecca |
+| Edad | 20 años |
+| Cargo | Empleado |
+| Inicio de entrevista | 00:02 |
+| Enlace de entrevista | URL de la entrevista |
+| Foto captura | Captura |
+| Facilidad de uso de la aplicación | Consideró que la aplicación es fácil de usar desde el inicio. Destacó que las funciones principales como inicio de sesión, menú, foro, perfil y reportes son visibles y fáciles de identificar. |
+| Navegación y acceso a funciones | Encontró rápidamente las opciones para reportar problemas y publicar en el foro. Comentó que la estructura está bien organizada y que las categorías de denuncia ayudan a la navegación. |
+| Claridad de íconos y botones | Indicó que la mayoría de botones e íconos son claros, especialmente funciones como publicar, enviar denuncia cifrada, generar reporte y editar perfil. Sugirió que algunos íconos podrían ser más grandes o incluir etiquetas visibles. |
+| Percepción del modo anónimo | El diseño del modo anónimo le generó confianza debido a que la opción aparece visible y se explica el cifrado de extremo a extremo. Sin embargo, mencionó que el interruptor para desactivar el anonimato podría generar dudas sobre el manejo de la identidad del usuario. |
+| Apariencia visual de la aplicación | Destacó el diseño limpio, minimalista y moderno. Consideró que la combinación de colores azul, blanco y celeste transmite tranquilidad y confianza. También resaltó la buena organización visual del foro y el menú principal. |
+| Opinión sobre animaciones y efectos visuales | Le gustaría que la aplicación incluya animaciones simples o notificaciones visuales al publicar contenido o recibir respuestas, siempre manteniendo la seriedad de la plataforma. |
+| Sugerencias de mejora | Sugirió agregar una sección llamada “Mis reportes” para visualizar el estado de cada denuncia o caso enviado. También recomendó incluir confirmaciones más claras después de realizar acciones importantes. |
+| Percepción del diseño para jóvenes | Considera que el diseño está orientado a personas jóvenes y modernas. Comentó que los botones redondeados, las tarjetas y la paleta de colores hacen que la experiencia sea familiar y fácil de usar. |
+| Cambios para asemejarse a una red social | Propuso hacer el foro más dinámico mediante reacciones visibles, comentarios destacados, tendencias o temas populares y mayor personalización del perfil para generar una experiencia más interactiva. |
+
 ### 4.3.3. Evaluaciones según heurísticas {#evaluaciones-heuristicas}
