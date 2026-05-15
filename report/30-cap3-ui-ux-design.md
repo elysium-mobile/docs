@@ -29,6 +29,7 @@ El logo de SoftWork (Elysium) comunica profesionalismo y cercanía. Reglas de us
 #### Tipografía
 
 Fuente del sistema: Exo (Google Fonts). Uso por jerarquía:
+
 - Display: Exo ExtraBold 800 — Splash / Onboarding (32px)
 - Heading 1: Exo Bold 700 — Secciones principales (22px)
 - Heading 2: Exo SemiBold 600 — Subtítulos (18px)
