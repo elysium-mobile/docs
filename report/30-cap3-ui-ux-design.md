@@ -4,11 +4,69 @@ En este capítulo se presentan los diseños de la interfaz de usuario (UI) y la 
 
 ## 3.1. Product Design {#product-design}
 
+En esta sección se describen los aspectos clave del diseño de la solución: directrices de estilo, arquitectura de la información y sistemas de navegación. El enfoque aplica principios de SCRUM y Lean UX para iterar rápidamente sobre hipótesis de producto, validar con usuarios y entregar componentes reutilizables dentro de un Design System móvil.
+
+Objetivos breves:
+- Asegurar consistencia visual y accesibilidad mediante Design Tokens obligatorios (colores, tipografía, espaciamiento, elevaciones).
+- Facilitar desarrollo ágil y diseño colaborativo con componentes reutilizables y documentación clara para desarrolladores y diseñadores.
+
 ### 3.1.1. Style Guidelines {#style-guidelines}
+
+Con el objetivo de crear una identidad visual coherente y atractiva para SoftWork, las siguientes directrices definen cómo aplicar los Design Tokens y los componentes base en todas las pantallas móviles. Estas reglas priorizan legibilidad, jerarquía visual y facilidad de implementación por equipos SCRUM.
 
 #### 3.1.1.1. General Style Guidelines {#general-style-guidelines}
 
-### 3.1.2. Information Architecture {#information-architecture}
+
+#### Branding
+
+El logo de SoftWork (Elysium) comunica profesionalismo y cercanía. Reglas de uso resumidas:
+- Versiones: fondo oscuro (para splash y headers) y versión sin fondo (para cards y espacios claros).
+- Margen mínimo: 16px alrededor del isotipo.
+- Versiones monocromáticas (blanco o gris oscuro) solo para casos de contraste extremo.
+
+![SoftWork Logo](assets/images/cap3/style-guidelines/elysium-logo.jpg){width=20%}
+
+#### Tipografía
+
+Fuente del sistema: Exo (Google Fonts). Uso por jerarquía:
+- Display: Exo ExtraBold 800 — Splash / Onboarding (32px)
+- Heading 1: Exo Bold 700 — Secciones principales (22px)
+- Heading 2: Exo SemiBold 600 — Subtítulos (18px)
+- Body: Exo Regular 400 — Contenido principal (15px)
+- Caption: Exo Light 300 — Labels y timestamps (12px)
+- Button: Exo SemiBold 600 — CTA (14px)
+- Badge: Exo Medium 500 — Tags (11px)
+
+Con esta tipografía se busca transmitir modernidad y profesionalismo, manteniendo una excelente legibilidad en pantallas móviles.
+
+#### Paleta de colores
+
+| Nombre | Código Hex | Uso |
+|:---|:---:|:---|
+| Azul Navy | #1C4B78 | Fondos de headers, CTAs principales RRHH, iconos de autoridad |
+| Azul Cielo | #4DA8DA | Botones primarios Employee App, links, estados activos |
+| Verde Teal | #19A4A1 | Acentos, badges de éxito, iconos del Employee App |
+| Blanco | #F2F4F7 | Fondos de pantalla, cards en modo claro |
+| Gris Oscuro | #3E3E3E | Texto principal, iconos neutros |
+| Menta | #A5E3D8 | Estados suaves, chips anónimos, fondos de notificación |
+
+#### Colores semánticos
+
+| Nombre semántico | Código Hex | Uso |
+|:---|:---:|:---|
+| Éxito | #19A4A1 | Confirmaciones, check-ins positivos |
+| Advertencia | #E8A838 | Alertas de clima, riesgo medio |
+| Peligro | #C94040 | Alertas críticas, denuncias, riesgo alto |
+| Información | #4DA8DA | Mensajes informativos, tooltips |
+
+Tokens auxiliares:
+- Border radius: cards 16px, botones 12px, chips 20px
+- Spacing base: 8px grid (8, 16, 24, 32, 40px)
+
+
+### 3.1.2. Information Architecture {#information-architecture} 
+
+En esta sección se detalla la arquitectura de la información de SoftWork, que abarca la organización del contenido, los sistemas de etiquetado, las etiquetas SEO y meta, los sistemas de búsqueda y los sistemas de navegación. La arquitectura de la información es fundamental para garantizar que los usuarios puedan encontrar fácilmente lo que buscan y navegar por la plataforma de manera intuitiva.
 
 #### 3.1.2.1. Organization Systems {#organization-systems}
 
@@ -19,7 +77,7 @@ El contenido de SoftWork se organiza mediante distintos esquemas según la secci
 El Landing Page guía al visitante a través de un flujo narrativo paso a paso, diseñado para informar y convertir al potencial cliente empresarial. El orden responde a una lógica de descubrimiento progresivo:
 
 | Paso | Sección | Propósito |
-|------|---------|-----------|
+|:---|:---|:---|
 | 1 | Hero / Propuesta de Valor | Captar atención y comunicar el problema que resuelve SoftWork |
 | 2 | Funcionalidades clave | Mostrar qué puede hacer el producto |
 | 3 | Comparativa de Planes | Ayudar al visitante a elegir el plan adecuado |
@@ -37,7 +95,7 @@ Dentro de la app, el contenido se organiza de forma jerárquica partiendo del ro
 **Esquemas de categorización utilizados**
 
 | Esquema | Dónde se aplica |
-|---------|----------------|
+|:---|:---|
 | **Por tópicos** | Categorías del foro (Clima laboral, Sugerencias, Eventos, Dudas, Reconocimientos) |
 | **Por audiencia** | Separación completa de vistas y funcionalidades según rol (Empleado / RRHH Manager) |
 | **Cronológico** | Historial de bienestar personal, historial de pagos e historial de encuestas enviadas |
@@ -51,7 +109,7 @@ El sistema de etiquetado de SoftWork prioriza la claridad y la simplicidad. Toda
 **Etiquetas de navegación principal — Empleado**
 
 | Ícono | Etiqueta | Descripción de contenido |
-|-------|----------|--------------------------|
+|:---|:---|:---|
 |   | Inicio | Resumen del estado de bienestar y actividad reciente |
 |   | Foro | Muro de discusiones del entorno laboral |
 |   | Mis Encuestas | Encuestas recibidas y pendientes de responder |
@@ -61,7 +119,7 @@ El sistema de etiquetado de SoftWork prioriza la claridad y la simplicidad. Toda
 **Etiquetas de navegación principal — RRHH Manager**
 
 | Ícono | Etiqueta | Descripción de contenido |
-|-------|----------|--------------------------|
+|:---|:---|:---|
 |   | Dashboard | Panel de indicadores de clima laboral |
 |   | Foro | Moderación y gestión del foro laboral |
 |   | Feedback | Creación y envío de encuestas y mensajes directos |
@@ -71,7 +129,7 @@ El sistema de etiquetado de SoftWork prioriza la claridad y la simplicidad. Toda
 **Etiquetas de acciones frecuentes**
 
 | Acción | Etiqueta en pantalla |
-|--------|---------------------|
+|:---|:---|:---|
 | Crear publicación en el foro | Nueva publicación |
 | Responder un hilo | Comentar |
 | Votar positivamente una publicación | Útil |
@@ -86,7 +144,7 @@ El sistema de etiquetado de SoftWork prioriza la claridad y la simplicidad. Toda
 **Etiquetas de estados del sistema**
 
 | Estado | Etiqueta mostrada |
-|--------|------------------|
+|:---|:---|
 | Membresía activa | Activa |
 | Membresía vencida | Vencida |
 | Membresía cancelada | Cancelada |
@@ -100,7 +158,7 @@ El sistema de etiquetado de SoftWork prioriza la claridad y la simplicidad. Toda
 **Etiquetas de categorías del Workers Forum**
 
 | Etiqueta | Uso |
-|----------|-----|
+|:---|:---|
 | Clima laboral | Situaciones que afectan el ambiente de trabajo |
 | Sugerencias | Ideas para mejorar el entorno laboral |
 | Eventos | Actividades y comunicados de la empresa |
@@ -110,7 +168,7 @@ El sistema de etiquetado de SoftWork prioriza la claridad y la simplicidad. Toda
 **Etiquetas de secciones internas del Dashboard (RRHH Manager)**
 
 | Etiqueta | Contenido que representa |
-|----------|--------------------------|
+|:---|:---|
 | Bienestar general | Índice promedio de satisfacción de los empleados |
 | Nivel de estrés | Indicador de carga emocional reportada |
 | Participación | Porcentaje de empleados activos en el foro y encuestas |
@@ -173,7 +231,7 @@ El sistema de etiquetado de SoftWork prioriza la claridad y la simplicidad. Toda
 **ASO (App Store Optimization) — Google Play Store**
 
 | Campo | Valor |
-|-------|-------|
+|:---|:---|
 | **App Title** | SoftWork: Bienestar Laboral |
 | **App Subtitle** | Foro, encuestas y analíticas RRHH |
 | **App Keywords** | clima laboral, RRHH, bienestar, foro anónimo, encuestas, recursos humanos, empresas Perú, feedback laboral, gestión de talento |
@@ -190,7 +248,7 @@ SoftWork ofrece mecanismos de búsqueda y filtrado diferenciados según la secci
 Este es el sistema de búsqueda más completo de la aplicación, dado que el foro es el módulo con mayor volumen de contenido generado por los usuarios.
 
 | Elemento | Descripción |
-|----------|-------------|
+|:---|:---|
 | **Tipo de búsqueda** | Búsqueda de texto libre por título o contenido del hilo |
 | **Ubicación** | Barra de búsqueda en la parte superior de la sección Foro |
 | **Filtros disponibles** | Categoría (Clima laboral, Sugerencias, Eventos, Dudas, Reconocimientos) y Orden (Más recientes, Más votados, Más comentados) |
@@ -201,7 +259,7 @@ Este es el sistema de búsqueda más completo de la aplicación, dado que el for
 El RRHH Manager no realiza búsquedas de texto libre en el Dashboard, sino que filtra y segmenta los datos mediante controles visuales. Al aplicar los filtros, los widgets del Dashboard se actualizan en tiempo real mostrando únicamente los datos que corresponden a los parámetros seleccionados.
 
 | Filtro | Opciones |
-|--------|---------|
+|:---|:---|
 | **Área / Departamento** | Lista desplegable con todas las áreas registradas de la empresa |
 | **Periodo de tiempo** | Última semana, Último mes, Últimos 3 meses, Rango personalizado |
 | **Indicador** | Bienestar general, Nivel de estrés, Participación, Respuestas a encuestas |
@@ -212,7 +270,7 @@ Si la combinación de filtros no arroja datos suficientes, se muestra el mensaje
 **Filtrado de Encuestas (solo RRHH Manager)**
 
 | Filtro | Opciones |
-|--------|---------|
+|:---|:---|
 | **Estado** | Todas, Pendientes, Completadas, Vencidas |
 | **Área destinataria** | Área específica de la organización |
 | **Fecha de creación** | Orden cronológico ascendente / descendente |
@@ -220,12 +278,12 @@ Si la combinación de filtros no arroja datos suficientes, se muestra el mensaje
 **Resumen de mecanismos por sección**
 
 | Sección | Búsqueda de texto | Filtros | Ordenamiento |
-|---------|:-----------------:|:-------:|:------------:|
-| Workers Forum | ✅ Sí | ✅ Por categoría | ✅ Recientes / Votados / Comentados |
-| Dashboard Analítico | ❌ No aplica | ✅ Área, periodo, indicador, equipo | ❌ No aplica |
-| Encuestas enviadas | ❌ No aplica | ✅ Estado, área, fecha | ✅ Cronológico |
-| Historial de pagos | ❌ No aplica | ❌ No aplica | ✅ Cronológico |
-| Mis publicaciones (Empleado) | ❌ No aplica | ❌ No aplica | ✅ Cronológico |
+|:---|:---|:---|:---|
+| Workers Forum | Sí | Por categoría | Recientes / Votados / Comentados |
+| Dashboard Analítico | No aplica | Área, periodo, indicador, equipo | No aplica |
+| Encuestas enviadas | No aplica | Estado, área, fecha | Cronológico |
+| Historial de pagos | No aplica | No aplica | Cronológico |
+| Mis publicaciones (Empleado) | No aplica | No aplica | Cronológico |
 
 #### 3.1.2.5. Navigation Systems {#navigation-systems}
 
@@ -252,9 +310,9 @@ La aplicación móvil nativa Android utiliza una **Bottom Navigation Bar** como 
 Dentro de cada sección principal, la navegación se realiza mediante los siguientes mecanismos:
 
 | Mecanismo | Dónde se usa | Descripción |
-|-----------|-------------|-------------|
+|:---|:---|:---|
 | **Lista con tap** | Foro, Encuestas, Historial de pagos | El usuario toca un ítem de la lista para acceder a su vista de detalle |
-| **Tabs horizontales** | Foro (Categorías), Dashboard (indicadores) | Permiten cambiar entre subvistas dentro de la misma sección sin salir de ella |
+| **Tabs horizontales** | Foro (Categorías), Dashboard (indicadores) | Permiten cambiar entre vistas dentro de la misma sección sin salir de ella |
 | **Scroll infinito** | Foro (lista de hilos), Historial de mensajes | El contenido se carga progresivamente conforme el usuario hace scroll hacia abajo |
 | **Floating Action Button (FAB)** | Foro | Botón de acción principal para crear una nueva publicación, siempre visible y accesible |
 | **Bottom Sheet** | Filtros del foro, opciones de publicación | Panel deslizable desde la parte inferior para mostrar opciones sin abandonar la pantalla actual |
@@ -310,7 +368,7 @@ Confirma y envía → Notificación enviada a empleados del área
 **Principios de navegación aplicados**
 
 | Principio | Aplicación en SoftWork |
-|-----------|----------------------|
+|:---|:---|
 | **Mínimo de pasos** | Ninguna tarea crítica requiere más de 4 pasos desde la pantalla principal |
 | **Contexto siempre visible** | El título de la sección activa se muestra en la barra superior de cada pantalla |
 | **Retroceso predecible** | El botón nativo de Android retrocede siempre un nivel dentro de la jerarquía, nunca cierra la app desde pantallas internas |
