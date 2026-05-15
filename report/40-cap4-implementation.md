@@ -46,6 +46,21 @@ A continuación, se resume el estado del testing al cierre del Sprint 1:
 
 #### 4.2.1.5. Execution Evidence for Sprint Review {#execution-evidence-sprint-1}
 
+A continuación, se presentan las evidencias de ejecución correspondientes al cierre del Sprint. Estas capturas documentan la operatividad de los componentes desarrollados, validando la integración exitosa entre los servicios del Backend y la interfaz de la Aplicación Móvil. Las pruebas demuestran el cumplimiento de los criterios de aceptación para las funcionalidades de autenticación, gestión de anonimato y flujo de reportes en tiempo real.
+
+**LANDING PAGE:**
+![Login SoftWork](assets/images/Cap4/Lan1.jpg)
+![Login SoftWork](assets/images/Cap4/Lan2.jpg)
+![Login SoftWork](assets/images/Cap4/Lan3.jpg)
+
+Esta sección compila las evidencias de funcionamiento de la plataforma SoftWork obtenidas durante el Sprint Review. Se exhiben los logros técnicos alcanzados tanto en el desarrollo de la arquitectura del backend como en la implementación del frontend móvil, asegurando la trazabilidad de las historias de usuario completadas durante este ciclo de desarrollo.
+
+**MOBILE APP:**
+
+![Login SoftWork](assets/images/Cap4/Mockup1.jpg)
+![Login SoftWork](assets/images/Cap4/Mockup2.jpg)
+![Login SoftWork](assets/images/Cap4/Mockup3.jpg)
+![Login SoftWork](assets/images/Cap4/Mockup4.jpg)
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review {#services-documentation-evidence-sprint-1}
 
