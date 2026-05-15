@@ -22,6 +22,21 @@
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review {#testing-suite-evidence-sprint-1}
 
+Durante el Sprint 1 se realizaron principalmente pruebas manuales enfocadas en validar la correcta navegación, interacción y funcionamiento básico de las pantallas desarrolladas en el prototipo de la aplicación SoftWork. En esta etapa inicial no se implementaron pruebas automatizadas ni archivos `.feature` bajo metodología BDD, ya que el objetivo principal fue validar la experiencia de usuario (UX/UI) y los flujos esenciales del sistema.
+
+Las validaciones se llevaron a cabo mediante revisiones funcionales en el prototipo desarrollado en Figma y pruebas de interacción realizadas por el equipo y usuarios entrevistados. Asimismo, se evaluaron aspectos relacionados con accesibilidad visual, comprensión de botones, navegación entre pantallas y percepción del “Modo Anónimo”.
+
+Estas pruebas permitieron verificar el comportamiento esperado de los módulos iniciales para empleados y RRHH, incluyendo flujos de inicio de sesión, navegación en el foro, visualización de dashboards y envío de denuncias. Además, las entrevistas realizadas ayudaron a identificar oportunidades de mejora relacionadas con diseño visual, claridad de funciones y jerarquía de información.
+
+A continuación, se resume el estado del testing al cierre del Sprint 1:
+
+| Aspecto Evaluado | Resultado |
+|---|---|
+| Pruebas BDD automatizadas | No implementadas en esta etapa inicial del proyecto. |
+| Pruebas manuales | Realizadas mediante validación de prototipos y entrevistas con usuarios. |
+| Herramientas utilizadas |Androis Studio Figma, Google Meet, formularios de validación y pruebas de navegación manual. |
+| Estado general del testing | Funcionalidades y experiencia de usuario validadas manualmente de forma satisfactoria. |
+
 #### 4.2.1.5. Execution Evidence for Sprint Review {#execution-evidence-sprint-1}
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review {#services-documentation-evidence-sprint-1}
