@@ -15,3 +15,4 @@
 |   AV2   | 16/05/2026 | Flor Contreras Leon | Analizar feedback de entrevistas y detectar mejoras UX/UI. |
 |   AV2   | 17/05/2026 | Flor Contreras Leon | Elaborar la evaluación UX Heuristics & Principles del Sprint 1. |
 |   AV2   | 18/05/2026 | Flor Contreras Leon | Documentar resultados de testing y validaciones manuales del prototipo. |
+|AV2|15/05/2026| Piero Francesco Tenorio Medina| Actualizar el backend y Diagramas a utilizar (Diagrama de Clases y Base de Datos)
