@@ -377,9 +377,45 @@ Confirma y envía → Notificación enviada a empleados del área
 
 ### 3.1.3. Landing Page UI Design {#landing-page-ui-design}
 
+En esta sección se presentan los diseños de la página de inicio (Landing Page) de SoftWork, que es la primera impresión que tendrán los visitantes y potenciales clientes empresariales. Se incluyen tanto el wireframe como el mock-up final, mostrando cómo se aplican las directrices de estilo y la arquitectura de la información para crear una experiencia visual atractiva y coherente con la marca.
+
 #### 3.1.3.1. Landing Page Wireframe {#landing-page-wireframe}
 
+Primera vista: Hero principal y vista móvil: presenta la propuesta de valor, CTA principal "Solicitar Demo" y mockup del flujo móvil; diseñado para captura de leads y primera impresión.
+
+![Landing Page Wireframe 1](assets/images/cap3/landing-page/wireframes/landing-wireframe-1.png){width=70%}
+
+Segunda vista: Sección de valor y beneficios: estructura dos columnas con texto explicativo a la izquierda y ejemplo de publicación/foro a la derecha; enfatiza seguridad y anonimato.
+
+![Landing Page Wireframe 2](assets/images/cap3/landing-page/wireframes/landing-wireframe-2.png){width=70%}
+
+Tercera vistas: Insights y métricas: panel con indicadores clave (pulseo de clima, métricas de participación) junto a texto que resalta visibilidad en tiempo real para RRHH.
+
+![Landing Page Wireframe 3](assets/images/cap3/landing-page/wireframes/landing-wireframe-3.png){width=70%}
+
+Cuarta vista: Conversación asistida y soporte IA: muestra interaction flow de asistente IA y ventajas operativas (24/7, contención), con CTA para probar demo.
+
+![Landing Page Wireframe 4](assets/images/cap3/landing-page/wireframes/landing-wireframe-4.png){width=70%}
+
 #### 3.1.3.2. Landing Page Mock-up {#landing-page-mock-up}
+
+Primera mockup — Hero realzado: versión coloreada del hero con CTA primario destacado en Azul Navy y botón secundario outlined. El mockup del móvil muestra la pantalla de inicio del Employee App con un post destacado en el foro, reforzando la propuesta de valor.
+
+![Landing Page Mock-up 1](assets/images/cap3/landing-page/mockups/landing-mockup-1.png){width=70%}
+
+Segunda mockup — Conversación y demo IA: muestra la interacción con el asistente IA dentro de un contenedor card; acentos en Verde Teal para estados positivos y microcopy que refuerza privacidad. Uso: prueba de concepto para demo interactiva.
+
+![Landing Page Mock-up 2](assets/images/cap3/landing-page/mockups/landing-mockup-2.png){width=70%}
+
+Tercera mockup — Panel de métricas: visualización de indicadores clave con componentes card y barra de progreso; los acentos de color identifican tendencias (positivo/negativo). Uso: evidencia para RRHH y venta consultiva.
+
+![Landing Page Mock-up 3](assets/images/cap3/landing-page/mockups/landing-mockup-3.png){width=70%}
+
+Cuarta mockup — Llamado a la acción y footer: bloque de conversión con fondo Azul Navy y CTA contrastado. Footer con navegación secundaria y enlaces legales; diseñado para cierre de jornada en la página.
+
+![Landing Page Mock-up 4](assets/images/cap3/landing-page/mockups/landing-mockup-4.png){width=70%}
+
+Las Fortalezas que tiene el diseño del Landing Page son: jerarquía visual clara, uso consistente de la paleta y tipografía, y foco en conversión con CTAs visibles.
 
 ### 3.1.4. Mobile Applications UX/UI Design {#mobile-applications-ux-ui-design}
 
