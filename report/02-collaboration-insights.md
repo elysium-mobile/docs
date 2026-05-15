@@ -31,3 +31,5 @@ Repositorio utilizado para el informe: [https://github.com/elysium-mobile/docs](
 ## Participación total
 
 Todos los miembros del equipo contribuyeron activamente en AV1 y participaron en la elaboración del Project Report de forma coordinada. La evidencia de commits y el registro de versiones reflejan una colaboración constante, con aportes distribuidos según las responsabilidades asignadas a cada integrante.
+
+\newpage

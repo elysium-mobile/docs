@@ -10,3 +10,5 @@
 |   AV1   | 22/04/2026 | Diego Andres Avalos Cordova | Implementación de As-is Scenario Mapping y To-Be Scenario Mapping |
 |   AV1   | 20/04/2026 | Flor Contreras Leon | Analisar las entrevistas y crear los User Personas |
 |   AV1   | 21/04/2026 | Flor Contreras Leon | Crear los User Journey Mapping y User Task Matrix |
+
+\newpage
