@@ -157,7 +157,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Edad | 20 años |
 | Cargo | Empleado |
 | Inicio de entrevista | 00:02 |
-| Enlace de entrevista | URL de la entrevista |
+| Enlace de entrevista |https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQDUPjNQdksWSZ6EnDZcmb6DAQmS_n1W5xFC8iBN-YFl2JQ?e=abuqHk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D|
 | Foto captura | Captura |
 | Facilidad de uso de la aplicación | Le pareció intuitiva y fácil de usar desde el inicio. Comentó que el diseño le recordó a otras plataformas que ya había utilizado anteriormente. |
 | Navegación y acceso a funciones | Encontró rápidamente las opciones para reportar problemas y participar en el foro. Consideró que la estructura de la aplicación está bien organizada. |
@@ -178,7 +178,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Edad | 20 años |
 | Cargo | Empleado |
 | Inicio de entrevista | 00:02 |
-| Enlace de entrevista | URL de la entrevista |
+| Enlace de entrevista | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQDASIyd_lOKQKmAhM_EFGb5ASZ8S_fKepDJt2tXumL1sOM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tH8Da4 |
 | Foto captura | Captura |
 | Facilidad de uso de la aplicación | Consideró que la aplicación es fácil de usar desde el inicio. Destacó que las funciones principales como inicio de sesión, menú, foro, perfil y reportes son visibles y fáciles de identificar. |
 | Navegación y acceso a funciones | Encontró rápidamente las opciones para reportar problemas y publicar en el foro. Comentó que la estructura está bien organizada y que las categorías de denuncia ayudan a la navegación. |
