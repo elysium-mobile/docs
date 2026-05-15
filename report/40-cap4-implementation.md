@@ -168,3 +168,116 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Cambios para asemejarse a una red social | Propuso hacer el foro más dinámico mediante reacciones visibles, comentarios destacados, tendencias o temas populares y mayor personalización del perfil para generar una experiencia más interactiva. |
 
 ### 4.3.3. Evaluaciones según heurísticas {#evaluaciones-heuristicas}
+# UX Heuristics & Principles Evaluation
+
+| Campo | Detalle |
+|---|---|
+| Carrera | Ingeniería de Software |
+| Curso | Aplicaciones Móviles |
+| Startup | Elysium |
+| Producto | SoftWork |
+| Auditor | Elysium |
+| Clientes | Empresas B2B (RRHH) y Empleados |
+
+---
+
+# Tareas a Evaluar
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas dentro de la aplicación móvil:
+
+- Registro e Inicio de Sesión: Validación de flujos para empleados y RRHH.
+- Configuración de Privacidad: Activación del “Modo Anónimo” y gestión de visibilidad.
+- Interacción en el Foro: Publicación de dudas/conflictos y lectura de respuestas.
+- Gestión de RRHH: Visualización de dashboards de métricas y estados de reportes.
+- Proceso de Pago: Selección de planes y registro de métodos de pago.
+- Envío de Denuncias: Uso del formulario de denuncias cifradas de extremo a extremo.
+
+###  Tareas no incluidas en esta versión
+
+- Revisión de rendimiento (tiempos de carga de base de datos).
+- Validación de seguridad técnica del cifrado (backend).
+- Accesibilidad para personas con daltonismo extremo.
+- Comportamiento en tablets o dispositivos con pantallas plegables.
+
+---
+
+# Escala de Severidad
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: no interfiere gravemente con la experiencia. |
+| 2 | Problema menor: ocurre ocasionalmente, conviene resolverlo. |
+| 3 | Problema mayor: afecta la interacción frecuente. Alta prioridad. |
+| 4 | Problema muy grave: impide continuar o compromete la propuesta de valor (anonimato). |
+
+---
+
+# Tabla Resumen de Problemas
+
+| # | Problema | Severidad | Heurística/Principio violado |
+|---|---|---|---|
+| 1 | Poca diferenciación visual en los campos de registro | 2 | Usabilidad – Estética y diseño minimalista |
+| 2 | Riesgo de confusión en el estado del “Modo Anónimo Global” | 3 | Usabilidad – Visibilidad del estado del sistema |
+| 3 | Falta de confirmación intermedia en denuncias críticas | 3 | Usabilidad – Prevención de errores |
+| 4 | Jerarquía visual plana en el Dashboard de RRHH | 2 | Usabilidad – Visibilidad y jerarquía visual |
+
+---
+
+# Descripción de Problemas
+
+## Problema #1: Poca diferenciación visual en los campos de registro
+
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Estética y diseño minimalista  
+
+### Descripción
+En las pantallas de “Crear cuenta”, los campos de texto presentan bordes demasiado delgados y poco contraste respecto al fondo blanco. Esto puede dificultar que el usuario identifique rápidamente las áreas interactivas donde debe ingresar información.
+
+### Recomendación
+Aumentar el grosor de los bordes, mejorar el contraste o incorporar un ligero sombreado (*elevation*) para resaltar visualmente los inputs y facilitar su identificación.
+
+---
+
+## Problema #2: Riesgo de confusión en el estado del “Modo Anónimo Global”
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema  
+
+### Descripción
+Aunque existe un interruptor para activar la opción de “Identidad Protegida”, dentro del foro no se muestra un indicador persistente que recuerde al usuario que el modo anónimo está activo antes de publicar comentarios sensibles.
+
+### Recomendación
+Agregar un banner, etiqueta o ícono de “Escudo” visible en la parte superior del foro cuando el anonimato global se encuentre activado.
+
+---
+
+## Problema #3: Falta de confirmación intermedia en denuncias críticas
+
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Prevención de errores  
+
+### Descripción
+En el flujo de “Denuncia cifrada”, el botón “Enviar denuncia” ejecuta inmediatamente la acción. Debido a la sensibilidad del contenido (acoso, conflictos laborales o ética), un clic accidental podría provocar el envío de reportes incompletos.
+
+### Recomendación
+Implementar una ventana modal de confirmación antes del envío final con un mensaje como:
+
+> “¿Estás seguro de que deseas enviar esta denuncia? Esta acción no se puede deshacer.”
+
+---
+
+## Problema #4: Jerarquía visual plana en el Dashboard de RRHH
+
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad y jerarquía visual  
+
+### Descripción
+En la pantalla de métricas y reportes, indicadores críticos como “Bienestar promedio” y “Reportes en foro” poseen el mismo peso visual. Esto podría ocasionar que el personal de RRHH no detecte rápidamente alertas importantes.
+
+### Recomendación
+Aplicar colores semafóricos para diferenciar estados críticos y aumentar el tamaño o relevancia visual de las tarjetas que requieren atención inmediata.
+
+- Rojo → Alertas o conflictos críticos.
+- Amarillo → Riesgos moderados.
+- Verde → Indicadores positivos o estables.
+- 
