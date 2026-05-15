@@ -392,3 +392,5 @@ Confirma y envía → Notificación enviada a empleados del área
 #### 3.1.4.4. Mobile Applications User Flow Diagrams {#mobile-applications-user-flow-diagrams}
 
 #### 3.1.4.5. Mobile Applications Prototyping {#mobile-applications-prototyping}
+
+\newpage

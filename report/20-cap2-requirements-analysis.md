@@ -996,3 +996,5 @@ En este diagrama de clases del Bounded Context de Feedback for Workers, se repre
 En este diagrama de diseño de base de datos del Bounded Context de Feedback for Workers, se representan las principales tablas que conforman este contexto, como la tabla de Encuestas, la tabla de Mensajes y la tabla de Informes. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
 ![Feedback Database Design Diagram](assets/images/cap2/tactical-level/database-diagrams/feedbackDatabaseDesign.png)
+
+\newpage
