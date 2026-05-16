@@ -11,5 +11,6 @@
 |   AV1   | 20/04/2026 | Flor Contreras Leon | Analisar las entrevistas y crear los User Personas |
 |   AV1   | 21/04/2026 | Flor Contreras Leon | Crear los User Journey Mapping y User Task Matrix |
 |   TB1   | 15/05/2026 | Gianmarco Fabian Jiménez Guerra | Crear los wireframes y mockups para el aplicativo móvil |
+|   TB1   | 15/05/2026 | Diego Andres Avalos Cordova | Information Architecture, Searching Systems y Navigation Systems |
 
 \newpage
