@@ -28,7 +28,7 @@ Repositorio utilizado para el informe: [https://github.com/elysium-mobile/docs](
 
 ![Evidencia de colaboración en GitHub](assets/images/shared/evidence-av1.png)
 
-## Participación total
+## Participación total en AV1
 
 Todos los miembros del equipo contribuyeron activamente en AV1 y participaron en la elaboración del Project Report de forma coordinada. La evidencia de commits y el registro de versiones reflejan una colaboración constante, con aportes distribuidos según las responsabilidades asignadas a cada integrante.
 
@@ -49,5 +49,9 @@ A continuación se presentan las evidencias de colaboración registradas en GitH
 Repositorio utilizado para el informe: [https://github.com/elysium-mobile/docs](https://github.com/elysium-mobile/docs){width=70%}
 
 ![Evidencia de colaboración en GitHub para TB1](assets/images/shared/evidence-tb1.png)
+
+## Participación total en TB1
+
+Todos los miembros del equipo contribuyeron activamente en TB1, participando en la implementación de la landing page, el desarrollo del aplicativo móvil y la documentación del Sprint 1. La evidencia de commits y el registro de versiones reflejan una colaboración constante, con aportes distribuidos según las responsabilidades asignadas a cada integrante durante TB1.
 
 \newpage
