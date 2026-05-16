@@ -547,7 +547,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Cargo | Empleado |
 | Inicio de entrevista | 00:02 |
 | Enlace de entrevista | [Entrevista en video](https://n9.cl/py3txj) |
-| Foto captura | Captura |
+| Foto captura |![Login SoftWork](assets/images/Cap4/AleEntrevista.png) |
 | Facilidad de uso de la aplicación | Le pareció intuitiva y fácil de usar desde el inicio. Comentó que el diseño le recordó a otras plataformas que ya había utilizado anteriormente. |
 | Navegación y acceso a funciones | Encontró rápidamente las opciones para reportar problemas y participar en el foro. Consideró que la estructura de la aplicación está bien organizada. |
 | Claridad de íconos y botones | Indicó que entendió correctamente la función de los botones e íconos y que no tuvo dificultades para comprender la navegación. |
@@ -568,7 +568,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Cargo | Empleado |
 | Inicio de entrevista | 00:02 |
 | Enlace de entrevista | [Entrevista en video](https://n9.cl/s2of0) |
-| Foto captura | Captura |
+| Foto captura | ![Login SoftWork](assets/images/Cap4/PedroExpo.png) |
 | Facilidad de uso de la aplicación | Consideró que la aplicación es fácil de usar desde el inicio. Destacó que las funciones principales como inicio de sesión, menú, foro, perfil y reportes son visibles y fáciles de identificar. |
 | Navegación y acceso a funciones | Encontró rápidamente las opciones para reportar problemas y publicar en el foro. Comentó que la estructura está bien organizada y que las categorías de denuncia ayudan a la navegación. |
 | Claridad de íconos y botones | Indicó que la mayoría de botones e íconos son claros, especialmente funciones como publicar, enviar denuncia cifrada, generar reporte y editar perfil. Sugirió que algunos íconos podrían ser más grandes o incluir etiquetas visibles. |
