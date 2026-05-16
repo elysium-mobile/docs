@@ -1,4 +1,4 @@
-# Pandoc build configuration file for generating the final report PDF
+# Pandoc build configuration file for generating the final report Word document
 input-files:
   - report/00-caratula.md
   - report/01-registro-versiones.md
@@ -12,7 +12,7 @@ input-files:
   - report/40-cap4-implementation.md
   - report/90-conclusiones.md
 
-output-file: dist/informe-final.pdf
+output-file: dist/informe-final.docx
 
 # Configuración de metadatos para el documento final
 metadata:
@@ -22,23 +22,13 @@ metadata:
   tableCaptions: true
   figureCaptions: true
 
-# Selección del motor: xelatex o lualatex son ideales para soportar fuentes y UTF-8
-pdf-engine: xelatex
 standalone: true
-
-# IDs globales para permitir enlaces internos entre secciones del documento combinado
-file-scope: false
-include-in-header:
-  - config/header.tex
 
 # Rutas donde Pandoc buscará las imágenes referenciadas
 resource-path:
   - "."
-  - "assets/images"
   - "assets/images/shared"
 
 # Variables de diseño
 variables:
   lang: es-ES
-  geometry: [margin=2cm]
-  colorlinks: true

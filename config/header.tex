@@ -1,12 +1,21 @@
 \usepackage{graphicx}
-\usepackage{etoolbox}
-\BeforeBeginEnvironment{longtable}{\small}
-\usepackage{microtype}
 \usepackage{float}
-\let\origfigure\figure
-\let\endorigfigure\endfigure
-\renewenvironment{figure}[1][2] {
-    \expandafter\origfigure\expandafter[H]
-} {
-    \endorigfigure
-}
+\usepackage{seqsplit}
+\usepackage{needspace}
+\usepackage{enumitem}
+\usepackage[table,xcdraw]{xcolor}
+\makeatletter
+\def\fps@figure{H}
+\def\fps@table{H}
+\makeatother
+\setkeys{Gin}{width=\linewidth,height=0.45\textheight,keepaspectratio}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{etoolbox}
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.5}
+\AtBeginEnvironment{tabular}{\small}
+\AtBeginEnvironment{tabularx}{\small}
+\AtBeginEnvironment{longtable}{\small}
