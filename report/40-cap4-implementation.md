@@ -589,7 +589,6 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Cargo | Recursos Humanos |
 | Inicio de entrevista | 00:03 |
 | Enlace de entrevista |[Entrevista en video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQBGQ2PW6ConT6qEH9Oxn3KgAUWQNRpqavreCHrQ2wWBKy4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=zTvTDu)|
-| Foto captura | Captura |
 | Facilidad de uso de la aplicación | La empleada de Recursos Humanos indicó que la aplicación le pareció intuitiva y fácil de usar desde el primer momento. Comentó que la experiencia de navegación es familiar y no requiere una curva de aprendizaje elevada. |
 | Navegación y acceso a funciones | Señaló que pudo encontrar sin dificultad las funciones principales como el reporte de incidencias y el acceso al foro. Considera que la estructura general está bien organizada y orientada a la eficiencia. |
 | Claridad de íconos y botones | Mencionó que los íconos y botones son claros y comprensibles, lo que facilita la interacción sin necesidad de asistencia adicional. |
@@ -609,7 +608,6 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Cargo | Recursos Humanos |
 | Inicio de entrevista | 00:02 |
 | Enlace de entrevista |[Entrevista en video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQC0L3CLVLaKSoR12-KjrTuSAcA8O7xHnM9fEFeiiDaTn2c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=bEMPQ6)|
-| Foto captura | Captura |
 | Facilidad de uso de la aplicación | El empleado del área de Recursos Humanos comentó que la aplicación le resultó práctica y fácil de comprender. Indicó que las funciones principales son accesibles y no generan confusión durante el uso. |
 | Navegación y acceso a funciones | Señaló que pudo desplazarse entre las distintas secciones de manera rápida y ordenada. Destacó que el acceso a reportes y publicaciones está bien distribuido dentro de la interfaz. |
 | Claridad de íconos y botones | Mencionó que los botones e íconos son fáciles de identificar y que las etiquetas ayudan a entender correctamente cada funcionalidad. |
@@ -630,7 +628,6 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Cargo | Recursos Humanos |
 | Inicio de entrevista | 00:03 |
 | Enlace de entrevista |[Entrevista en video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114548_upc_edu_pe/IQAagUM7ABWmRryraDDBifv9AR6IM6ssZkOX7ts0lonG8ac?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0dzNDd)|
-| Foto captura | Captura |
 | Facilidad de uso de la aplicación | La trabajadora del área de Recursos Humanos mencionó que la aplicación le pareció bastante accesible y sencilla de entender. Comentó que la interfaz permite adaptarse rápidamente incluso sin experiencia previa en plataformas similares. |
 | Navegación y acceso a funciones | Indicó que las secciones principales están bien ubicadas y que pudo acceder fácilmente a las herramientas de reportes y comunicación dentro de la aplicación. |
 | Claridad de íconos y botones | Señaló que los íconos y botones son claros y mantienen una buena distribución visual, facilitando la interacción del usuario durante la navegación. |
