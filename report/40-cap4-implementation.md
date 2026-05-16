@@ -315,70 +315,86 @@ En esta sección se muestra el proceso de implementación de la landing page y l
 
 En el primer Sprint se enfocó en establecer la base del producto digital, desarrollando la estructura inicial de la landing page y prototipo móvil con las pantallas clave de la aplicación móvil. Se priorizaron las funcionalidades esenciales para validar los flujos principales de registro, navegación y comunicación dentro de la plataforma, asegurando que los artefactos entregados permitieran realizar pruebas de usuario efectivas y obtener evidencia visual para el Sprint Review.
 
+
 #### 4.2.1.1. Sprint Planning 1 {#sprint-planning-1}
 
-Objetivos del Sprint 1:
+Es muy importante dedicar atención a la identificación del **Sprint Goal**. Utilice el siguiente template recomendado (inspirado en Scrum.org) para redactarlo y, si procede, formularlo como un objetivo SMART:
 
-- Implementar la base del Landing Page (hero, beneficios, métricas) y prototipado inicial de la app móvil (pantallas clave).
-- Validar flujos principales: registro/login, modo anónimo, publicación en foro y reportes.
-- Entregar artefactos para pruebas de usuario y evidencia visual para Sprint Review.
+Sprint Planning Meeting — Plantilla de resumen:
 
-Velocidad y criterios de aceptación:
-- Historias priorizadas con estimación relativa (story points).
-- Cada historia debe incluir criterios de aceptación claros y pruebas manuales asociadas.
+| Sprint # | Sprint 1 |
+|:---|:---|
+| Date | 2026-05-15 |
+| Time | 09:00 (PM) |
+| Location | Universidad Peruana de Ciencias Aplicadas |
+| Prepared By | Nombre |
+| Attendees | César Augusto Aróstegui Alzamora, Gianmarco Fabian Jiménez Guerra, Diego Andres Avalos Cordova, Piero Francesco Tenorio Medina, Flor Contreras Leon |
+| Sprint n-1 Review Summary | No aplica por que es el primer Sprint |
+| Sprint n-1 Retrospective Summary | No aplica por que es el primer Sprint |
+
+**Sprint Goal & User Stories**
+
+| Sprint Goal (Our focus / Outcome / Impact / Event) |
+|:---|
+| Our focus is on delivering a responsive Hero section with a subscription CTA, basic landing metrics widgets, and interactive prototypes for core mobile screens (Login, Registro, Perfil). We believe it delivers a clearer signup path and validated navigation flows that increase demo requests and reduce friction for new users. This will be confirmed when the landing preview receives at least 5 QA signoffs and records >=10 CTA clicks in staging analytics, and when the mobile prototypes complete the main navigation flows validated by at least 5 moderated user tests. |
+
+**Sprint Window**: 2026-05-15 → 2026-05-29
+
+| Sprint n Velocity | 24 |
+| Sum of Story Points | 31 |
+
+Nota: Conversión usada para el cálculo — 1 Story Point = 4 horas. Ajustar la conversión o la `Velocidad objetivo` según la capacidad real del equipo.
+
+Incluir aquí la lista de User Stories priorizadas con sus IDs y criterios de aceptación.
+
+---
 
 #### 4.2.1.2. Sprint Backlog 1 {#sprint-backlog-1}
 
-Backlog mínimo para Sprint 1 (ejemplo):
+El Sprint Backlog debe iniciarse con una breve introducción del objetivo del Sprint y un enlace o captura del board (Trello/Jira/GitHub Projects). A continuación se presenta la estructura de tabla recomendada para el control de estado:
 
-- Diseño e implementación del Hero y CTA del Landing Page.
-- Implementación de cards de métricas y estructura responsive.
-- Prototipado de pantallas: Login, Registro, Perfil, Foro y Reporte.
-- Integración básica de formulario de contacto (no productivo).
-- Preparación de evidencias (capturas de pantalla etiquetadas) para Sprint Review.
+| User Story Id | User Story Title | Work-Item / Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Progress / To-Review / Done) |
+|:---|:---|:---|:---|:---|:---:|:---|:---|
+| US01 | Hero section with CTA | T-101 | Create Hero markup & styles | Responsive Hero with primary CTA and accessible markup | 8 | @cesar | In-Progress |
+| US04 | Subscription form | T-102 | Implement subscription backend + form | Client-side validation + simple API mock for staging | 6 | @gianmarco | To-Do |
+| US18 | Landing metrics widgets | T-103 | Build metrics widgets UI | Create 3 small widgets (users, signups, requests) with placeholder data | 10 | @diego | To-Do |
+| US02 | Features / Benefits section | T-104 | Create features content blocks | Reusable section components and copy-ready slots | 6 | @piero | To-Do |
+| US01 | Responsive Header & Footer | T-105 | Implement navigation & footer | Mobile-first nav, hamburger menu, footer links and accessibility | 6 | @flor | To-Do |
+| US05 | Contact / Demo request form | T-106 | Implement contact form & spam protection | Form with validation, honeypot, and staging send-to-email mock | 6 | @cesar | To-Do |
+| US01 | Performance & image optimization | T-107 | Optimize images & critical CSS | WebP/AVIF sources, srcset, critical CSS inlining for hero | 8 | @gianmarco | To-Do |
+| US07 | Mobile: Login flow | T-201 | Implement login screen + validation | Compose/Flutter login screen with form, validation and mock auth | 8 | @diego | In-Progress |
+| US06 | Mobile: Registro (Sign-up) | T-202 | Implement registration flow | Registration screen, email validation, onboarding intro | 10 | @piero | To-Do |
+| US09 | Mobile: Perfil usuario | T-203 | Profile screen & edit | Profile display, edit, avatar upload (mock) | 8 | @flor | To-Do |
+| US25 | Mobile: Foro - publicar anónimo | T-204 | Implement new post flow | Create anonymous post UI and local preview (no backend) | 8 | @diego | To-Do |
+| US33 | Mobile: Reportar incidente | T-205 | Report incident flow | Encrypted report flow UI and confirmation screen | 12 | @cesar | To-Do |
+| US07 | Mobile: Main navigation | T-206 | Implement bottom nav & routes | Navigation shell connecting Login/Profile/Forum/Report | 6 | @piero | To-Do |
+| US24 | Mobile: Offline caching/basic sync | T-207 | Add local cache for key screens | Cache posts and profile for offline viewing (simple) | 10 | @flor | To-Do |
+| US22 | Mobile: Push notifications (staging) | T-208 | Integrate FCM stub & permission UX | Request permissions and show sample notification flow | 6 | @diego | To-Do |
+| US09 | Mobile: Accessibility checks | T-209 | Accessibility review & fixes | Color contrast, tappable areas, TalkBack/VoiceOver checks | 6 | @cesar | To-Do |
 
-Cada ítem debe referenciar su issue/ID en el repositorio y estar asignado a un desarrollador.
+---
 
 #### 4.2.1.3. Development Evidence for Sprint Review {#development-evidence-sprint-1}
 
-Plantilla de evidencia (usar para cada captura o artefacto):
+Esta sección documenta los avances de implementación. Inicie con una breve introducción y agregue tablas que relacionen repositorios y commits clave asociados a los entregables del Sprint.
 
-- Título: [Breve título de la evidencia]
-- Archivo: `assets/images/Cap4/<nombre>.jpg`
-- Fecha: YYYY-MM-DD
-- Descripción: 1–2 líneas describiendo qué muestra la captura y su relevancia.
-- Referencia: Issue/PR relacionado (ej. `#123`)
+**Commits relacionados con la implementación**
 
-Ejemplo en Markdown (plantilla lista para pegar):
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|:---|:---|:---|:---|:---|:---|
+| https://github.com/elysium-mobile/landing-page | develop | f05351d | feat: Init landing page with animations | Initialized landing page structure with CSS animations | 2026-05-08 |
+| https://github.com/elysium-mobile/landing-page | develop | 5280427 | feat: Implement request demo placeholder pages and update related components | Implement request demo placeholder pages and update related components | 2026-05-08 |
+| https://github.com/elysium-mobile/frontend | feature/iam | e7a4152 | feat: Implement IAM bounded context and authentication infrastructure | Build UI screens for `LoginScreen`, `RegisterScreen`, `RegisterGoogleScreen`, and `AuthSuccessScreen`. | 2026-05-10 |
+| https://github.com/elysium-mobile/frontend | feature/worker-forum | 504fca4 | feat(forum): Add forum report screen | Add forum report screen | 2026-05-15 |
 
-```markdown
-![Título descriptivo](assets/images/Cap4/placeholder.jpg){#fig:placeholder width=60%}
 
-Figura: Breve descripción (¿qué se validó? ¿qué resultado se obtuvo?). Referencia: PR #123.
-```
+Estos commits representan los avances en la implementación de la landing page y la aplicación móvil, evidenciando el progreso hacia el cumplimiento de los objetivos del Sprint. Se recomienda incluir enlaces a los commits para facilitar la revisión durante el Sprint Review y proporcionar contexto adicional sobre los cambios realizados.
+
+---
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review {#testing-suite-evidence-sprint-1}
 
-Durante el Sprint 1 se realizaron principalmente pruebas manuales enfocadas en validar la correcta navegación, interacción y funcionamiento básico de las pantallas desarrolladas en el prototipo de la aplicación SoftWork. En esta etapa inicial no se implementaron pruebas automatizadas ni archivos `.feature` bajo metodología BDD, ya que el objetivo principal fue validar la experiencia de usuario (UX/UI) y los flujos esenciales del sistema.
-
-Las validaciones se llevaron a cabo mediante revisiones funcionales en el prototipo desarrollado en Figma y pruebas de interacción realizadas por el equipo y usuarios entrevistados. Asimismo, se evaluaron aspectos relacionados con accesibilidad visual, comprensión de botones, navegación entre pantallas y percepción del “Modo Anónimo”.
-
-Estas pruebas permitieron verificar el comportamiento esperado de los módulos iniciales para empleados y RRHH, incluyendo flujos de inicio de sesión, navegación en el foro, visualización de dashboards y envío de denuncias. Además, las entrevistas realizadas ayudaron a identificar oportunidades de mejora relacionadas con diseño visual, claridad de funciones y jerarquía de información.
-
-A continuación, se resume el estado del testing al cierre del Sprint 1:
-
-| Aspecto Evaluado | Resultado |
-|:---|:---|
-| Pruebas BDD automatizadas | No implementadas en esta etapa inicial del proyecto. |
-| Pruebas manuales | Realizadas mediante validación de prototipos y entrevistas con usuarios. |
-| Herramientas utilizadas | Android Studio, Figma, Google Meet, formularios de validación y pruebas de navegación manual. |
-| Estado general del testing | Funcionalidades y experiencia de usuario validadas manualmente de forma satisfactoria. |
-
-| Branch | Commit Message | Commit Message Body | Committed on (Date) |
-|:---|:---|:---|:---|
-| main | test: validaciones landing page | Se verificaron visualmente las validaciones de campos obligatorios y correos en formularios de login y registro. | 10/05/2026 |
-| main | test: visual review de formulario de registro | Se realizaron pruebas funcionales del flujo de registro de nuevos usuarios en la plataforma. | 10/05/2026 |
-| main | test: verificación de navegación landing | Se evaluó el correcto funcionamiento del menú de navegación y la responsividad en diferentes dispositivos. | 10/05/2026 |
+En esta sección se presentan las evidencias relacionadas con la suite de pruebas implementada durante el Sprint. Se incluyen tablas que detallan los casos de prueba, su estado y los resultados obtenidos, así como capturas de pantalla de las pruebas ejecutadas.
 
 
 #### 4.2.1.5. Execution Evidence for Sprint Review {#execution-evidence-sprint-1}
