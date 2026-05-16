@@ -422,12 +422,203 @@ Las Fortalezas que tiene el diseño del Landing Page son: jerarquía visual clar
 
 #### 3.1.4.1. Mobile Applications Wireframes {#mobile-applications-wireframes}
 
+Se procederá a presentar los Wireframes del aplicativo móvil:
+
+**Registro de Usuario**  
+Pantalla de creación de cuenta para nuevos usuarios dentro de la aplicación.
+
+![Register Wireframe](assets/images/cap3/mobile-app/Wireframes/Registro.png){width=70%}
+
+**Registro con Google**  
+Vista de autenticación mediante una cuenta de Google.
+
+![Google Wireframe](assets/images/cap3/mobile-app/Wireframes/RegistroGoogle.png){width=70%}
+
+**Planes de Membresía**  
+Pantalla donde se visualizan los planes de suscripción disponibles.
+
+![Memberships Wireframe](assets/images/cap3/mobile-app/Wireframes/PlanesPago.png){width=70%}
+
+**Menú Principal del Empleado**  
+Interfaz principal con las opciones disponibles para el empleado.
+
+![Employee Menu Wireframe](assets/images/cap3/mobile-app/Wireframes/MenuEmpleado.png){width=70%}
+
+**Menú Principal de RRHH**  
+Vista principal destinada al área de Recursos Humanos.
+
+![HR Menu Wireframe](assets/images/cap3/mobile-app/Wireframes/MenuRRHH.png){width=70%}
+
+**Llenado de Encuestas**  
+Pantalla para responder encuestas relacionadas al clima laboral.
+
+![Filling Survey Wireframe](assets/images/cap3/mobile-app/Wireframes/LlenarEncuesta.png){width=70%}
+
+**Edición de Perfil del Empleado**  
+Vista para actualizar la información personal del empleado.
+
+![Profile Edit Employee Wireframe](assets/images/cap3/mobile-app/Wireframes/EditarPerfil.png){width=70%}
+
+**Modo Anónimo**  
+Funcionalidad que permite interactuar de manera anónima dentro de la aplicación.
+
+![Anonymus Mode Wireframe](assets/images/cap3/mobile-app/Wireframes/ModoAnonimo.png){width=70%}
+
+**Foro de Comunicación**  
+Espacio de interacción y comunicación entre usuarios.
+
+![Forum Wireframe](assets/images/cap3/mobile-app/Wireframes/Foro.png){width=70%}
+
+**Publicación en el Foro**  
+Pantalla para crear nuevas publicaciones dentro del foro.
+
+![New Post Wireframe](assets/images/cap3/mobile-app/Wireframes/PublicarForo.png){width=70%}
+
+**Comentarios en Publicaciones**  
+Vista para responder o comentar publicaciones del foro.
+
+![New Comment Wireframe](assets/images/cap3/mobile-app/Wireframes/ComentarForo.png){width=70%}
+
+**Reporte de Publicaciones**  
+Funcionalidad para reportar contenido inapropiado dentro del foro.
+
+![Forum Report Wireframe](assets/images/cap3/mobile-app/Wireframes/ReportarForo.png){width=70%}
+
+**Reportes de Datos para RRHH**  
+Pantalla de visualización de métricas y reportes para Recursos Humanos.
+
+![Data Report Wireframe](assets/images/cap3/mobile-app/Wireframes/ReporteRRHH.png){width=70%}
+
+
+
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams {#mobile-applications-wireflow-diagrams}
+
+A continuación se presentarán los flujos de actividades utilizando los wireframes:
+
+Escenario de registro, aplica para ambos segmentos:
+![Sign up Wireflow](assets/images/cap3/userflow/Wireframes/Registro.png){width=70%}
+
+Escenario de pago de suscripción al aplicativo, aplica para ambos segmentos:
+![Payment Wireflow](assets/images/cap3/userflow/Wireframes/PagoMembresia.png){width=70%}
+
+Escenario de inicio de sesión, aplica para ambos segmentos:
+![Log in Wireflow](assets/images/cap3/userflow/Wireframes/InicioSesion.png){width=70%}
+
+Escenario de edición del perfil, aplica para el segmento 1 (empleado):
+![Profile Employee in Wireflow](assets/images/cap3/userflow/Wireframes/EdicionPerfilEmpleado.png){width=70%}
+
+Escenario de edición del perfil, aplica para el segmento 2 (RRHH):
+![Profile RRHH in Wireflow](assets/images/cap3/userflow/Wireframes/EdicionPerfilRRHH.png){width=70%}
+
+Escenario de completar la encuesta, aplica para el segmento 1 (empleado):
+![Survey Wireflow](assets/images/cap3/userflow/Wireframes/Encuesta.png){width=70%}
+
+Escenario de acceso a estadísticas, aplica para el segmento 2 (RRHH):
+![Stats Wireflow](assets/images/cap3/userflow/Wireframes/Estadisticas.png){width=70%}
+
+Escenario de acceso y uso del foro, aplica para el segmento 1 (empleado):
+![Forum Wireflow](assets/images/cap3/userflow/Wireframes/Foro.png){width=70%}
+
+
 
 #### 3.1.4.3. Mobile Applications Mock-ups {#mobile-applications-mock-ups}
 
+**Registro de Usuario**  
+Pantalla de creación de cuenta para nuevos usuarios dentro de la aplicación.
+
+![Register Mockup](assets/images/cap3/mobile-app/Mockups/Registro.png){width=70%}
+
+**Registro con Google**  
+Vista de autenticación mediante una cuenta de Google.
+
+![Google Mockup](assets/images/cap3/mobile-app/Mockups/RegistroGoogle.png){width=70%}
+
+**Planes de Membresía**  
+Pantalla donde se visualizan los planes de suscripción disponibles.
+
+![Memberships Mockup](assets/images/cap3/mobile-app/Mockups/PlanesPago.png){width=70%}
+
+**Menú Principal del Empleado**  
+Interfaz principal con las opciones disponibles para el empleado.
+
+![Employee Menu Mockup](assets/images/cap3/mobile-app/Mockups/MenuEmpleado.png){width=70%}
+
+**Menú Principal de RRHH**  
+Vista principal destinada al área de Recursos Humanos.
+
+![HR Menu Mockup](assets/images/cap3/mobile-app/Mockups/MenuRRHH.png){width=70%}
+
+**Llenado de Encuestas**  
+Pantalla para responder encuestas relacionadas al clima laboral.
+
+![Filling Survey Mockup](assets/images/cap3/mobile-app/Mockups/LlenarEncuesta.png){width=70%}
+
+**Edición de Perfil del Empleado**  
+Vista para actualizar la información personal del empleado.
+
+![Profile Edit Employee Mockup](assets/images/cap3/mobile-app/Mockups/EditarPerfil.png){width=70%}
+
+**Modo Anónimo**  
+Funcionalidad que permite interactuar de manera anónima dentro de la aplicación.
+
+![Anonymous Mode Mockup](assets/images/cap3/mobile-app/Mockups/ModoAnonimo.png){width=70%}
+
+**Foro de Comunicación**  
+Espacio de interacción y comunicación entre usuarios.
+
+![Forum Mockup](assets/images/cap3/mobile-app/Mockups/Foro.png){width=70%}
+
+**Publicación en el Foro**  
+Pantalla para crear nuevas publicaciones dentro del foro.
+
+![New Post Mockup](assets/images/cap3/mobile-app/Mockups/PublicarForo.png){width=70%}
+
+**Comentarios en Publicaciones**  
+Vista para responder o comentar publicaciones del foro.
+
+![New Comment Mockup](assets/images/cap3/mobile-app/Mockups/ComentarForo.png){width=70%}
+
+**Reporte de Publicaciones**  
+Funcionalidad para reportar contenido inapropiado dentro del foro.
+
+![Forum Report Mockup](assets/images/cap3/mobile-app/Mockups/ReporteForo.png){width=70%}
+
+**Reportes de Datos para RRHH**  
+Pantalla de visualización de métricas y reportes para Recursos Humanos.
+
+![Data Report Mockup](assets/images/cap3/mobile-app/Mockups/ReporteRRHH.png){width=70%}
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams {#mobile-applications-user-flow-diagrams}
+A continuación se presentarán los flujos de actividades utilizando los mockups:
+
+Escenario de registro, aplica para ambos segmentos:
+![Sign up User Flow](assets/images/cap3/userflow/Mockups/Registro.png){width=70%}
+
+Escenario de pago de suscripción al aplicativo, aplica para ambos segmentos:
+![Payment User Flow](assets/images/cap3/userflow/Mockups/Pago.png){width=70%}
+
+Escenario de inicio de sesión, aplica para ambos segmentos:
+![Log in User Flow](assets/images/cap3/userflow/Mockups/InicioSesion.png){width=70%}
+
+Escenario de edición del perfil, aplica para el segmento 1 (empleado):
+![Profile Employee in User Flow](assets/images/cap3/userflow/Mockups/EdicionPerfilEmpleado.png){width=70%}
+
+Escenario de edición del perfil, aplica para el segmento 2 (RRHH):
+![Profile RRHH in User Flow](assets/images/cap3/userflow/Mockups/EdicionPerfilRRHH.png){width=70%}
+
+Escenario de completar la encuesta, aplica para el segmento 1 (empleado):
+![Survey User Flow](assets/images/cap3/userflow/Mockups/Encuesta.png){width=70%}
+
+Escenario de acceso a estadísticas, aplica para el segmento 2 (RRHH):
+![Stats User Flow](assets/images/cap3/userflow/Mockups/Estadistica.png){width=70%}
+
+Escenario de acceso y uso del foro, aplica para el segmento 1 (empleado):
+![Forum User Flow](assets/images/cap3/userflow/Mockups/Foro.png){width=70%}
+
 
 #### 3.1.4.5. Mobile Applications Prototyping {#mobile-applications-prototyping}
 
-\newpage
+Prototipo de ambos segmentos de usuario en Figma:
+
+[Ver prototipo en Figma](https://www.figma.com/proto/ezXKQmOE0fcqXfyuxxaKB5/Flujo---SoftWork?node-id=2019-1446&p=f&t=p0q6plJEoNqWkt6V-1&scaling=min-zoom&content-scaling=fixed&page-id=2009%3A8&starting-point-node-id=2019%3A1446&show-proto-sidebar=1)
