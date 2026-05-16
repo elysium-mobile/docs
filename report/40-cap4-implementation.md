@@ -1,24 +1,361 @@
 # Capítulo IV: Product Implementation & Validation {#capítulo-iv-product-implementation-and-validation}
 
+En este capítulo se detalla el proceso de implementación del producto digital, incluyendo la configuración del entorno de desarrollo, la gestión de código fuente, las prácticas de despliegue y las evidencias obtenidas durante el desarrollo de la landing page y la aplicación móvil. Además, se presentan los resultados de las entrevistas de validación realizadas con usuarios finales y profesionales de Recursos Humanos, así como evaluaciones según heurísticas de la experiencia de usuario (UX) y diseño visual (UI) del sistema.
+
 ## 4.1. Software Configuration Management {#software-configuration-management}
+
+En esta sección se describen las prácticas y herramientas adoptadas para la gestión de la configuración del software durante el desarrollo del proyecto. Se detallan aspectos relacionados con el control de versiones, la organización del código fuente, las convenciones de estilo y las estrategias de despliegue utilizadas para asegurar la calidad, trazabilidad y eficiencia en el proceso de implementación.
 
 ### 4.1.1. Software Development Environment Configuration {#software-development-environment-configuration}
 
+Entorno reproducible y convenciones del equipo:
+
+- Sistema operativo recomendado: macOS o Linux para desarrollo; Windows con WSL2 aceptable.
+- Versiones mínimas y stack tecnológico:
+	- Backend: Java 26 con Spring Boot (versión objetivo para servicios del dominio).
+	- Node.js 18+ para herramientas front-end y para construir la Landing Page con Astro.
+	- Mobile:
+	  - Kotlin (Android) — Vista de empleados; desarrollar con Android Studio.
+	  - Flutter 3.41 — Vista de RRHH (dashboard y herramientas de gestión).
+Editor recomendado: Android Studio (Kotlin); Android Studio o Visual Studio Code (Flutter); IntelliJ IDEA (backend). Añadir configuración de workspace (`.vscode/`) con ajustes de formato y extensiones recomendadas.
+- Entorno reproducible: usar `devcontainer` (Docker + VS Code Remote) o `docker-compose` para servicios locales.
+- Variables de entorno: documentar en `.env.example` y nunca incluir valores reales en el repositorio.
+
 ### 4.1.2. Source Code Management {#source-code-management}
+
+Políticas y flujos de trabajo Git:
+
+- Estrategia: GitFlow (feature/bugfix/release/hotfix). Mantener `master` protegida y `develop` para integración.
+- Convención de commits: Conventional Commits (type(scope): subject).
+- Pull Requests: PR con descripción, checklist de QA, asignación de reviewer y tags `ready-for-review`.
+- Hooks recomendados: pre-commit para formateo (`prettier`, `clang-format`), y pre-push para tests rápidos.
+- Versionado: semántico (`vMAJOR.MINOR.PATCH`) y changelog automático (conventional-changelog).
+
+Trazabilidad:
+- Incluir referencias a historias y ticket IDs en los mensajes de commit y PRs.
+- Asociar PRs a issues y enlazar evidencia de test/review en la descripción.
+
 
 ### 4.1.3. Source Code Style Guide & Conventions {#source-code-style-guide-and-conventions}
 
+## Landing Page Standards
+
+## 1. Introducción y Propósito
+Este documento define las directrices oficiales de estilo, convenciones de código y estándares arquitectónicos para el repositorio de la página de aterrizaje (Landing Page) de **SoftWork**. Como proyecto orientado a la captación de usuarios, la optimización del entorno laboral y la recopilación de *feedback* de RR.HH., el código debe reflejar excelencia técnica: ser altamente mantenible, escalable, semántico y optimizado para el rendimiento móvil y de escritorio.
+
+El objetivo principal es unificar el criterio de desarrollo de todo el equipo, reducir la fricción en las revisiones de código (*Code Reviews*) y garantizar que la interfaz mantenga un rendimiento óptimo conforme a las mejores prácticas de la industria.
+
+---
+
+## 2. Arquitectura de Archivos y Estructura de Carpetas
+El proyecto adopta una estructura de carpetas limpia y predecible basada en la modularidad y la separación de responsabilidades, alineada con las convenciones modernas de frameworks frontend (como Next.js/React o arquitecturas de componentes desacoplados):
+
+```text
+/
+├── public/                 # Assets estáticos globales (Favicons, Configs)
+│   └── assets/
+│       ├── icons/          # Iconos optimizados (SVG Sprites)
+│       └── images/         # Imágenes comprimidas (WebP/AVIF)
+├── src/
+│   ├── assets/             # Assets que pasan por el pipeline de empaquetado
+│   ├── components/         # Componentes globales de la interfaz (UI Kit)
+│   │   ├── common/         # Componentes atómicos (Botones, Inputs, Modales)
+│   │   ├── layout/         # Componentes de estructura (Header, Footer, Navbar)
+│   │   └── sections/       # Secciones específicas de la Landing Page (Hero, Features, Pricing)
+│   ├── config/             # Configuraciones globales (Constantes, variables de entorno)
+│   ├── styles/             # Estilos globales y configuraciones de diseño
+│   ├── utils/              # Funciones utilitarias y helpers puros
+│   └── main.ts / App.tsx   # Punto de entrada de la aplicación
+├── tailwind.config.js      # Configuración del sistema de diseño (Tailwind CSS)
+├── tsconfig.json           # Configuración estricta de TypeScript
+└── package.json            # Gestión de dependencias y scripts de automatización 
+```
+
+---
+
+## 3. Principios de Diseño y Reglas Básicas
+- Preferir componentes puros y sin estado cuando sea posible; el estado debe residir en contenedores o stores (p. ej. Zustand, Pinia, Redux, etc.).
+- Componentes pequeños y reutilizables: un componente debe hacer una sola cosa bien definida.
+- Tipado estricto en TypeScript: `strict: true` en `tsconfig.json` y evitar `any` salvo excepciones justificadas.
+- Evitar lógica de negocio en componentes de presentación; esos casos deben delegarse a hooks, servicios o helpers.
+- Favor la accesibilidad: elementos semánticos, `aria-*` cuando corresponda, y contraste de colores conforme a WCAG.
+
+## 4. Estilos y CSS
+- Usar Tailwind CSS para utilidades y tokens de diseño; preferir clases utilitarias sobre CSS en línea salvo casos muy concretos.
+- Variables globales de diseño centralizadas en `tailwind.config.js` y `src/styles/variables.css`.
+- Evitar estilos globales que rompan el aislamiento de componentes; preferir los estilos scoped o módulos CSS.
+
+## 5. Convenciones de Componentes
+- Nomenclatura PascalCase para componentes React/Vue/TSX: `HeroSection`, `PrimaryButton`.
+- Archivos relacionados al componente en una carpeta con `index.tsx`, `styles.module.css` y tests (`__tests__`).
+- Props bien tipadas y documentadas; usar JSDoc para props complejas.
+
+## 6. Scripts y Automatización
+- `npm run lint` — ejecuta ESLint con reglas del repo.
+- `npm run format` — ejecuta Prettier.
+- `npm run build` — build de producción optimizado (minificación, tree-shaking, imágenes optimizadas).
+
+## 7. Calidad de Código
+- ESLint con reglas extendidas: `eslint:recommended`, `plugin:@typescript-eslint/recommended`, `plugin:react/recommended`.
+- Prettier como formateador canónico y `eslint-config-prettier` para evitar conflictos.
+- Revisiones obligatorias por PR: al menos un reviewer y passing CI antes de merge.
+
+## 8. Tests
+- Tests unitarios para lógica y componentes críticos (Jest/Testing Library o Vitest).
+- Tests de integración e2e opcionales con Playwright/Cypress para flujos clave (formulario de contacto, navegación principal).
+
+## 9. Performance y Optimización
+- Imágenes en WebP/AVIF y `srcset` para responsive images.
+- Critical CSS inlining para el Hero y elementos above-the-fold.
+- Lazy-loading para secciones no críticas y componentes pesados.
+
+## 10. Seguridad y Secrets
+- Nunca commitear secrets; usar `GitHub Secrets` y variables de entorno en CI.
+- Validar dependencias con `npm audit` y actualizar regularmente.
+
+## 11. Deploy y CI (resumen)
+- Deploys automáticos desde GitHub Actions hacia Vercel (previews por PRs y despliegues en `main`).
+- Los artefactos y logs del build deben ser visibles en el workflow para auditoría.
+
+---
+
+## Frontend Standards
+
+## 1. Alcance y Propósito Global
+Este apartado consolida las convenciones y patrones aplicables a la **Aplicación Móvil** de SoftWork (Android nativo con Kotlin y multiplataforma con Flutter). Su propósito es unificar criterios de arquitectura, calidad, pruebas y distribución para acelerar la entrega y mantener la sostenibilidad técnica del producto.
+
+## 2. Arquitectura Recomendada
+
+- Android (Kotlin): Clean Architecture con capas `domain` / `data` / `presentation` y patrón MVVM. Usar `ViewModel`, `Coroutines` y `Flow` para gestión de concurrencia y streams reactivos. Inyección de dependencias con Hilt. UI en Jetpack Compose (preferido) o XML en legacy.
+- Flutter: Arquitectura por características (feature modules) con separación `data` / `domain` / `presentation`. Recomendar Riverpod (o BLoC) para gestión de estado, null-safety estricto y uso de widgets desacoplados.
+
+## 3. Estructura de Proyecto (ejemplos)
+
+Android (Kotlin):
+
+```text
+app/
+└── src/main/kotlin/com/elysium/
+	├── data/        # repositorios, fuentes remotas/Locales, mappers
+	├── domain/      # casos de uso, entidades, repositorios interfaces
+	└── presentation/ # ViewModels, composables/screens
+```
+
+Flutter:
+
+```text
+lib/
+├── src/
+│   ├── features/
+│   │   └── auth/
+│   │       ├── data/
+│   │       ├── domain/
+│   │       └── presentation/
+│   ├── shared/     # widgets, theme, utils
+│   └── main.dart
+```
+
+## 4. Estilo de Código y Linters
+
+- Kotlin: aplicar `ktlint` + `detekt` con reglas acordadas; usar KDoc para documentación pública; seguir Kotlin Coding Conventions (nombres CamelCase para clases y lowerCamelCase para funciones/variables). Evitar `!!` y uso excesivo de `lateinit`.
+- Dart/Flutter: `dart analyze`, `flutter format` y `package:lint` o `lint_rules` oficiales; evitar `dynamic`; usar null-safety y documentación con Dartdoc.
+
+## 5. Gestión de Estado e Inyección de Dependencias
+
+- Kotlin: Hilt para DI; Repositories expuestos como interfaces; usar `Result`/`Either` para modelar estados de éxito/falla.
+- Flutter: Riverpod (recomendado) o BLoC; separar responsabilidades y evitar lógica de negocio en widgets.
+
+## 6. Tests y Calidad
+
+- Kotlin: unit tests con JUnit5, MockK para mocks; pruebas instrumentadas con Espresso; Compose UI testing para Jetpack Compose.
+- Flutter: unit tests, widget tests y integration tests (Flutter Driver / integration_test / e2e con CI). Ejecutar cobertura mínima en CI (p. ej. 60% objetivo para módulos críticos).
+
+## 7. Builds, Flavors y Signing
+
+- Mantener `buildTypes` y `productFlavors` bien documentados; usar variantes `staging`/`production` para pruebas y releases.
+- No commitear keystores: usar `ANDROID_KEYSTORE_BASE64` y otras variables en `GitHub Secrets` para decodificar y firmar en CI.
+
+## 8. Releases y Distribución
+
+- Distribución de builds de testing a través de Firebase App Distribution (usar `FIREBASE_TOKEN`).
+- Releases a Play Store / App Store con procesos separados y firma segura en CI; mantener changelogs vinculados a releases y etiquetas semánticas.
+
+## 9. Observabilidad y Manejo de Errores
+
+- Integrar Crashlytics y logs estructurados (Timber en Android); correlacionar con IDs de sesión si procede.
+- Exponer métricas básicas (latencia de API, errores críticos) y logs en entornos de staging/producción.
+
+## 10. Seguridad
+
+- Nunca almacenar secrets en VCS. Para almacenamiento local usar `EncryptedSharedPreferences` (Android) o `flutter_secure_storage` (Flutter).
+- Validar datos sensibles en cliente y siempre confiar en la validación del backend.
+
+## 11. PRs y Revisiones
+
+- PRs pequeños, con descripción, checklist de QA y evidencia (screenshots o enlaces a builds en Firebase). Revisión obligatoria y passing CI antes de merge.
+
+---
+
+## Backend Standards
+
+## 1. Introducción y Propósito
+Se define las directrices oficiales de diseño, estándares de arquitectura y convenciones de código para el repositorio de **backend** de **SoftWork**. Como el motor central encargado de procesar métricas de recursos humanos, analíticas de clima laboral y flujos de feedback anónimos, el backend debe garantizar máxima seguridad, alta disponibilidad, rendimiento óptimo bajo concurrencia y un aislamiento total de las reglas de negocio frente a agentes externos.
+
+El objetivo de esta guía es unificar la escritura del código del lado del servidor, mitigar el acoplamiento tecnológico y asegurar que la base de código sea escalable y mantenible por cualquier miembro del equipo de ingeniería.
+
+---
+
+## 2. Arquitectura de Software y Estructura de Carpetas
+
+El backend de SoftWork se construye bajo los principios de la **Arquitectura Hexagonal (Puertos y Adaptadores)** combinada con **Screaming Architecture**, donde la estructura de carpetas revela explícitamente las intenciones y el dominio del negocio del sistema, en lugar de los frameworks utilizados.
+
+### 2.1. Estructura del Proyecto por Dominios/Estructura Hexagonal
+Cada módulo o contexto acotado de la aplicación (e.g., `auth`, `feedback`, `workplace`) debe dividirse estrictamente en tres capas internas fundamentales:
+
+```text
+com.elysium.backend.modules/
+├── feedback/                           # Contexto acotado de Feedback
+│   ├── domain/                         # CAPA DE DOMINIO (Núcleo Puro)
+│   │   ├── model/                      # Entidades de dominio e Inmutables
+│   │   │   └── Feedback.java
+│   │   └── ports/                      # Contratos de Comunicación (Interfaces)
+│   │       ├── inbound/                # Casos de uso invocados por la aplicación
+│   │       │   └── CreateFeedbackUseCase.java
+│   │       └── outbound/               # Puertos de salida (SPI) para persistencia o APIs
+│   │           └── FeedbackOutputPort.java
+│   │
+│   ├── application/                    # CAPA DE APLICACIÓN (Casos de Uso)
+│   │   └── service/                    # Implementación de los casos de uso del dominio
+│   │       └── FeedbackApplicationService.java
+│   │
+│   ├── infrastructure/                 # CAPA DE INFRAESTRUCTURA (Adaptadores)
+│   │   ├── adapter/                    # Implementaciones de los Puertos
+│   │   │   ├── inbound/                # Controladores REST, GraphQL, Consumidores de Eventos
+│   │   │   │   ├── dto/                # Request / Response DTOs
+│   │   │   │   └── FeedbackRestController.java
+│   │   │   └── outbound/               # Persistencia (JPA, MongoDB Atlas, Supabase)
+│   │   │       ├── entity/             # Entidades de Base de Datos (@Entity / @Document)
+│   │   │       ├── repository/         # Interfaces de Spring Data
+│   │   │       └── FeedbackPersistenceAdapter.java
+│   │   └── config/                     # Beans específicos del framework e inyecciones
+│   │       └── FeedbackModuleConfig.java
+```
+
+---
+
+## 3. Convenciones de Código y Buenas Prácticas
+
+- Principio: escribir código orientado al dominio; evitar fugas de frameworks hacia la capa de dominio.
+- Nombres: paquetes en lower-case y agrupados por dominio; clases en PascalCase; interfaces con sufijo `Port` o `Repository` según rol.
+- DTOs: objetos de transporte en `infrastructure.adapter.inbound.dto` y conversiones explícitas mediante mappers en `infrastructure.mapper`.
+- Exceptions: usar excepciones específicas del dominio y mapearlas a códigos HTTP en controladores/adapters.
+
+## 4. Calidad, Linting y Análisis Estático
+
+- Checkstyle y SpotBugs configurados con reglas del equipo; usar `maven/gradle` plugins para ejecutar análisis en CI.
+- Dependabot o Renovate para actualizaciones seguras de dependencias.
+
+## 5. Tests y Contratos
+
+- Unit tests para lógica de dominio (`JUnit5`, `AssertJ`).
+- Integration tests con slices de Spring (`@SpringBootTest` o `@DataJpaTest`) y pruebas contractuales con `Spring Cloud Contract` o `PACT` cuando aplique.
+- Pruebas de rendimiento en endpoints críticos (gatling/jmeter) en pipelines separados.
+
+## 6. Migrations y Persistencia
+
+- Gestionar cambios de esquema con `Flyway` o `Liquibase`; mantener scripts en `resources/db/migration` con versionado semántico.
+- Repositorios: exponer sólo interfaces en la capa de dominio e implementar adaptadores en `infrastructure.adapter.outbound`.
+
+## 7. Observabilidad, Logs y Monitorización
+
+- Estructurar logs con `MDC` y correlación por request-id; usar `Logback` y niveles configurables.
+- Integrar tracing (OpenTelemetry) y exportar métricas a Prometheus/Grafana.
+
+## 8. Seguridad
+
+- Validaciones: sanitizar entradas en las capas adaptadoras; no confiar en validaciones del cliente.
+- Gestión de secretos: no incluir credenciales en VCS; utilizar `GitHub Secrets`/Vault/Secret Manager.
+- Autenticación y autorización: OAuth2/OpenID Connect para APIs públicas; roles y scopes claros en el dominio.
+
+## 9. CI/CD y Releases
+
+- Workflows en GitHub Actions para `build`, `test`, `static-analysis`, `container-build` y `deploy` a entornos controlados.
+- Versionado de artefactos y releases con tags semánticos; publicar imágenes con etiquetas inmutables.
+
+## 10. Documentación y OpenAPI
+
+- Exponer contratos API con OpenAPI/Swagger y mantenerlos actualizados en el repo (`/docs/openapi.yaml`).
+- Documentar casos de uso y diagramas de secuencia para flujos críticos.
+
+---
+
 ### 4.1.4. Software Deployment Configuration {#software-deployment-configuration}
+
+Pipeline y despliegue:
+
+- Entorno de CI/CD: GitHub Actions (exclusivo). Todas las tareas de CI, build y despliegue se ejecutan mediante workflows ubicados en `.github/workflows`.
+- Jobs típicos: `lint`, `build:landing`, `build:android`, `build:flutter`, `upload:firebase-distribution`, `deploy:landing`.
+- Distribución móvil: Kotlin (Android) y Flutter (Android/iOS) — los artefactos de build se generan y se firman en los workflows de GitHub Actions y se suben a Firebase App Distribution para testing. Los workflows deben utilizar el token de Firebase (`FIREBASE_TOKEN`) y los secretos de firma (keystore y contraseñas) guardados en `GitHub Secrets`.
+- Deploy Landing Page: desplegar en Vercel (Astro). El despliegue puede dispararse desde GitHub Actions usando `vercel` CLI con `VERCEL_TOKEN`, o mediante la integración nativa de Vercel conectada al repositorio; las previews por PR deben permanecer habilitadas para revisión.
+- Backend: las etapas de build y test del backend (Java 26 / Spring Boot) se ejecutan también en GitHub Actions; los despliegues a infraestructura cloud (p. ej. AWS) se orquestan desde workflows protegidos y con secretos en `GitHub Secrets`.
+- Secrets y credenciales recomendadas: `FIREBASE_TOKEN`, `ANDROID_KEYSTORE_BASE64`, `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD`, `VERCEL_TOKEN`, `GITHUB_TOKEN`.
+- Política de CI/CD: centralizar todo el flujo de build y distribución en GitHub Actions para mantener trazabilidad, control de accesos y consistencia del proceso. No utilizar otros servicios de CI externos para la generación y distribución de build móviles.
+
+Rollback y monitoreo:
+- Mantener estrategia de rollback mediante tags y releases gestionados desde GitHub Actions.
+- Integrar monitoreo y alertas (Prometheus/Grafana u otros) y exponer métricas básicas desde los servicios desplegados.
+
+---
 
 ## 4.2. Landing Page & Mobile Application Implementation {#landing-page-and-mobile-application-implementation}
 
+En esta sección se muestra el proceso de implementación de la landing page y la aplicación móvil, incluyendo la planificación del Sprint, el backlog de tareas, las evidencias de desarrollo, pruebas y despliegue, así como las dinámicas de colaboración del equipo durante esta fase del proyecto.
+
 ### 4.2.1. Sprint 1 {#sprint-1}
+
+En el primer Sprint se enfocó en establecer la base del producto digital, desarrollando la estructura inicial de la landing page y prototipo móvil con las pantallas clave de la aplicación móvil. Se priorizaron las funcionalidades esenciales para validar los flujos principales de registro, navegación y comunicación dentro de la plataforma, asegurando que los artefactos entregados permitieran realizar pruebas de usuario efectivas y obtener evidencia visual para el Sprint Review.
 
 #### 4.2.1.1. Sprint Planning 1 {#sprint-planning-1}
 
+Objetivos del Sprint 1:
+
+- Implementar la base del Landing Page (hero, beneficios, métricas) y prototipado inicial de la app móvil (pantallas clave).
+- Validar flujos principales: registro/login, modo anónimo, publicación en foro y reportes.
+- Entregar artefactos para pruebas de usuario y evidencia visual para Sprint Review.
+
+Velocidad y criterios de aceptación:
+- Historias priorizadas con estimación relativa (story points).
+- Cada historia debe incluir criterios de aceptación claros y pruebas manuales asociadas.
+
 #### 4.2.1.2. Sprint Backlog 1 {#sprint-backlog-1}
 
+Backlog mínimo para Sprint 1 (ejemplo):
+
+- Diseño e implementación del Hero y CTA del Landing Page.
+- Implementación de cards de métricas y estructura responsive.
+- Prototipado de pantallas: Login, Registro, Perfil, Foro y Reporte.
+- Integración básica de formulario de contacto (no productivo).
+- Preparación de evidencias (capturas de pantalla etiquetadas) para Sprint Review.
+
+Cada ítem debe referenciar su issue/ID en el repositorio y estar asignado a un desarrollador.
+
 #### 4.2.1.3. Development Evidence for Sprint Review {#development-evidence-sprint-1}
+
+Plantilla de evidencia (usar para cada captura o artefacto):
+
+- Título: [Breve título de la evidencia]
+- Archivo: `assets/images/Cap4/<nombre>.jpg`
+- Fecha: YYYY-MM-DD
+- Descripción: 1–2 líneas describiendo qué muestra la captura y su relevancia.
+- Referencia: Issue/PR relacionado (ej. `#123`)
+
+Ejemplo en Markdown (plantilla lista para pegar):
+
+```markdown
+![Título descriptivo](assets/images/Cap4/placeholder.jpg){#fig:placeholder width=60%}
+
+Figura: Breve descripción (¿qué se validó? ¿qué resultado se obtuvo?). Referencia: PR #123.
+```
 
 #### 4.2.1.4. Testing Suite Evidence for Sprint Review {#testing-suite-evidence-sprint-1}
 
@@ -46,9 +383,9 @@ A continuación, se resume el estado del testing al cierre del Sprint 1:
 
 #### 4.2.1.5. Execution Evidence for Sprint Review {#execution-evidence-sprint-1}
 
-A continuación, se presentan las evidencias de ejecución correspondientes al cierre del Sprint. Estas capturas documentan la operatividad de los componentes desarrollados, validando la integración exitosa entre los servicios del Backend y la interfaz de la Aplicación Móvil. Las pruebas demuestran el cumplimiento de los criterios de aceptación para las funcionalidades de autenticación, gestión de anonimato y flujo de reportes en tiempo real.
+A continuación, se presentan las evidencias de ejecución correspondientes al cierre del Sprint. Estas capturas documentan la operatividad de los componentes desarrollados y evidencian el cumplimiento de los criterios de aceptación para autenticación, gestión de anonimato y flujo de reportes.
 
-**LANDING PAGE:**
+**Landing Page:**
 
 ![Login SoftWork](assets/images/Cap4/Lan1.jpg){width=50%}
 
@@ -62,9 +399,10 @@ Figura: Captura de sección de beneficios — estructura de contenido en dos col
 
 Figura: Captura del panel de métricas del Landing Page — ejemplos de widgets y visualización de indicadores clave usados para pruebas de usabilidad.
 
-Esta sección compila las evidencias de funcionamiento de la plataforma SoftWork obtenidas durante el Sprint Review. Se exhiben los logros técnicos alcanzados tanto en el desarrollo de la arquitectura del backend como en la implementación del frontend móvil, asegurando la trazabilidad de las historias de usuario completadas durante este ciclo de desarrollo.
 
-**MOBILE APP:**
+Esta sección compila las evidencias de funcionamiento de la plataforma SoftWork obtenidas durante el Sprint Review, mostrando las implementaciones de interfaz y los artefactos entregados durante el ciclo.
+
+**Mobile App:**
 
 ![Login SoftWork](assets/images/Cap4/Mockup1.jpg){width=50%}
 
@@ -87,19 +425,19 @@ Figura: Pantalla móvil — flujo de reporte de incidente cifrado y pantalla de 
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review {#software-deployment-evidence-sprint-1}
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint {#team-collaboration-insights-sprint-1}
-En esta sección se describen los mecanismos de coordinación y las dinámicas de trabajo adoptadas por el equipo durante el primer Sprint. El análisis se centra en cómo la comunicación constante y el uso de herramientas colaborativas permitieron sincronizar el desarrollo del backend con el diseño de la interfaz móvil, asegurando que los bloqueos técnicos se resolvieran de manera ágil para cumplir con los objetivos establecidos.
+En esta sección se describen los mecanismos de coordinación y las dinámicas de trabajo adoptadas por el equipo durante el primer Sprint. El análisis se centra en cómo la comunicación constante y el uso de herramientas colaborativas permitieron sincronizar el desarrollo con el diseño de la interfaz móvil, asegurando que los bloqueos técnicos se resolvieran de manera ágil para cumplir con los objetivos establecidos.
 
 Se detalla la interfaz orientada al colaborador, diseñada bajo un enfoque de 'mobile-first' para garantizar accesibilidad y comodidad. La aplicación móvil integra las funcionalidades clave de comunicación, como el foro de discusión, el buzón de denuncias cifradas y el control de identidad protegida, facilitando la participación constante desde cualquier lugar.
 
-**REPORT:**
+**Report:**
 
 ![Login SoftWork](assets/images/Cap4/Report.jpg)
 
-**MOBILE APP:**
+**Mobile App:**
 
-![Login SoftWork](assets/images/Cap4/MobileApp.jpg)
+![Login SoftWork](assets/images/Cap4/MobileApp.png)
 
-**LANDING PAGE:**
+**Landing Page:**
 
 ![Login SoftWork](assets/images/Cap4/LandingPaGE.jpg)
 
@@ -596,3 +934,5 @@ Los problemas detectados se puntúan bajo la siguiente métrica:
 * **Heurística violada:** Diseño Inclusivo - Experiencias comparables
 * **Problema:** En la pantalla de inicio de sesión, las etiquetas de los campos ("Email", "Password") utilizan un color azul oscuro sobre un fondo negro. Esta combinación no cumple con los estándares mínimos de contraste de la WCAG, dificultando severamente la lectura para personas con visión reducida o en entornos con mucha luz.
 * **Recomendación:** Cambiar el color de las etiquetas a blanco o un gris de alta luminancia para asegurar una legibilidad universal.
+
+\newpage
