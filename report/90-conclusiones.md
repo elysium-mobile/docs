@@ -80,6 +80,12 @@ Link de la organización de Github de la Startup: [https://github.com/elysium-mo
 
 Link del repositorio de Github del reporte del trabajo: [https://github.com/elysium-mobile/docs](https://github.com/elysium-mobile/docs)
 
+Link del repositorio de Github de la landing page: [https://github.com/elysium-mobile/landing-page](https://github.com/elysium-mobile/landing-page)
+
+Link del repositorio de Github de la aplicación móvil en Kotlin: [https://github.com/elysium-mobile/frontend](https://github.com/elysium-mobile/frontend)
+
 Link del Diagrama de Clases: [https://lucid.app/lucidchart/8ae423f1-1d2a-4c56-b57a-52b0f45420ee/edit?viewport_loc=-4959%2C-5147%2C27759%2C13963%2C0_0&invitationId=inv_bac7d21b-9b8e-4663-914c-ef2fd53ebe0c](https://lucid.app/lucidchart/8ae423f1-1d2a-4c56-b57a-52b0f45420ee/edit?viewport_loc=-4959%2C-5147%2C27759%2C13963%2C0_0&invitationId=inv_bac7d21b-9b8e-4663-914c-ef2fd53ebe0c)
 
 Link de Miro: [https://miro.com/app/board/uXjVHdLLoFo=/?share_link_id=197484953010](https://miro.com/app/board/uXjVHdLLoFo=/?share_link_id=197484953010)
+
+Link de la Landing Page desplegada: [https://landing-page-tau-jet-49.vercel.app/](https://landing-page-tau-jet-49.vercel.app/)
