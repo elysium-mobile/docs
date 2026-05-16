@@ -396,6 +396,16 @@ Estos commits representan los avances en la implementación de la landing page y
 
 En esta sección se presentan las evidencias relacionadas con la suite de pruebas implementada durante el Sprint. Se incluyen tablas que detallan los casos de prueba, su estado y los resultados obtenidos, así como capturas de pantalla de las pruebas ejecutadas.
 
+**Test Cases for Sprint 1**
+| Test Case Id | Test Case Title | Description | Status (Pass/Fail) | Executed on (Date) |
+|:---|:---|:---|:---|:---|
+| TC-001 | Hero Section Responsiveness | Verify that the Hero section displays correctly on desktop and mobile devices | Pass | 2026-05-12 |
+| TC-002 | Subscription Form Validation | Ensure that the subscription form validates input correctly and shows error messages | Pass | 2026-05-13 |
+| TC-003 | Mobile Login Flow | Test the login flow on mobile devices for correct navigation and validation | Pass | 2026-05-14 |
+| TC-004 | Mobile Profile Accessibility | Check that the profile screen meets accessibility standards (contrast, tappable areas) | Pass | 2026-05-14 |
+| TC-005 | Forum Post Creation | Validate that the forum post creation flow works as expected and shows the correct UI states | Pass | 2026-05-15 |
+
+Con estas evidencias se demuestra que las funcionalidades implementadas durante el Sprint han sido probadas y cumplen con los criterios de aceptación establecidos, lo que contribuye a la confianza en la calidad del producto entregado.
 
 #### 4.2.1.5. Execution Evidence for Sprint Review {#execution-evidence-sprint-1}
 
@@ -403,15 +413,18 @@ A continuación, se presentan las evidencias de ejecución correspondientes al c
 
 **Landing Page:**
 
-![Login SoftWork](assets/images/Cap4/Lan1.jpg){width=50%}
+![Hero section — desktop and mobile preview showing primary CTA "Solicitar Demo", responsive layout and visual hierarchy](assets/images/Cap4/Lan1.jpg){width=50%}
+Figura: Captura del Hero del Landing Page — muestra el botón principal "Solicitar Demo", variantes mobile/desktop y notas de validación visual (espaciado, contraste y orden de lectura). Fecha: 2026-05-10.
 
 Figura: Captura de la sección Hero del Landing Page — muestra CTA "Solicitar Demo", mockup móvil y disposición responsive validada durante el sprint.
 
-![Login SoftWork](assets/images/Cap4/Lan2.jpg){width=50%}
+![Benefits section — two-column layout demonstrating content hierarchy and example forum excerpt for visual testing](assets/images/Cap4/Lan2.jpg){width=50%}
+Figura: Sección de beneficios en dos columnas, utilizada para validar legibilidad y jerarquía de la información en desktop y móvil. Fecha: 2026-05-10.
 
 Figura: Captura de sección de beneficios — estructura de contenido en dos columnas y ejemplo de publicación/foro para comprobación de jerarquía visual.
 
-![Login SoftWork](assets/images/Cap4/Lan3.jpg){width=50%}
+![Landing metrics widgets — examples of small dashboard widgets used in the landing for KPI previews (users, signups, requests)](assets/images/Cap4/Lan3.jpg){width=50%}
+Figura: Panel de métricas del Landing Page con widgets de ejemplo; sirve como evidencia visual de los indicadores diseñados para la página. Fecha: 2026-05-10.
 
 Figura: Captura del panel de métricas del Landing Page — ejemplos de widgets y visualización de indicadores clave usados para pruebas de usabilidad.
 
@@ -420,25 +433,59 @@ Esta sección compila las evidencias de funcionamiento de la plataforma SoftWork
 
 **Mobile App:**
 
-![Login SoftWork](assets/images/Cap4/Mockup1.jpg){width=50%}
+![Mobile mockup — Login screen mockup showing form validation states and input layout for user authentication flow](assets/images/Cap4/Mockup1.jpg){width=50%}
+Figura: Mockup de la pantalla de inicio de sesión móvil — evidencia de validación de campos y disposición de elementos en la vista real/prototipo.
 
 Figura: Pantalla móvil — flujo de inicio de sesión y validación de campos; evidencia de integración visual entre wireframe y build.
 
-![Login SoftWork](assets/images/Cap4/Mockup2.jpg){width=50%}
+![Mobile mockup — Profile screen showing privacy toggles and avatar layout for user settings](assets/images/Cap4/Mockup2.jpg){width=50%}
+Figura: Mockup de perfil de usuario con controles de privacidad y diseño probado para accesibilidad y espaciado.
 
 Figura: Pantalla móvil — perfil / hero del usuario con controles de privacidad y toggles, revisada para accesibilidad y espaciamiento.
 
-![Login SoftWork](assets/images/Cap4/Mockup3.jpg){width=50%}
+![Mobile mockup — Forum view mockup with post list and readability checks for anonymous posting flow](assets/images/Cap4/Mockup3.jpg){width=50%}
+Figura: Mockup del foro móvil — evidencia de legibilidad, chips de estado y flujo de navegación en el muro de publicaciones.
 
 Figura: Pantalla móvil — vista del foro y publicación anónima; se verificó legibilidad de etiquetas y chips de estado.
 
-![Login SoftWork](assets/images/Cap4/Mockup4.jpg){width=50%}
+![Mobile mockup — Incident report flow showing encrypted report submission and confirmation screen](assets/images/Cap4/Mockup4.jpg){width=50%}
+Figura: Flujo de reporte de incidente cifrado — muestra pasos clave del envío y pantalla de confirmación utilizada en pruebas de usuario.
 
 Figura: Pantalla móvil — flujo de reporte de incidente cifrado y pantalla de confirmación, evidenciando el comportamiento esperado.
 
 #### 4.2.1.6. Services Documentation Evidence for Sprint Review {#services-documentation-evidence-sprint-1}
 
+En esta sección se documentan los servicios implementados durante el Sprint, se muestra el Open API o Swagger donde se describen los endpoints disponibles, y se incluyen ejemplos de payloads y respuestas para cada servicio relevante al Sprint.
+
+![OpenAPI / Swagger UI — overview screenshot showing UsersAccount, Threads and core IAM endpoints in the local API docs](assets/images/Cap4/services-documentation/evidence-services-1.png){width=70%}
+Figura: Documentación OpenAPI (Swagger UI) — vista general de los endpoints expuestos para IAM, Threads y recursos relacionados; evidencia de contratos API disponibles en el Sprint.
+
+![OpenAPI / Swagger UI — endpoints for Memberships and Dashboards with request/response examples visible](assets/images/Cap4/services-documentation/evidence-services-2.png){width=70%}
+Figura: Swagger screenshot — endpoints de Memberships y Dashboards, usado como evidencia de la especificación y payloads de ejemplo.
+
+![OpenAPI / Swagger UI — excerpts showing Forums, EmployeeProfile and Users endpoints with HTTP verbs and descriptions](assets/images/Cap4/services-documentation/evidence-services-3.png){width=70%}
+Figura: Captura de la documentación de servicios — se observan rutas de Forums y EmployeeProfile empleadas por el frontend y mobile prototypes.
+
+![OpenAPI / Swagger UI — additional endpoints: Notifications, Messages, Companies and Performances sections displayed](assets/images/Cap4/services-documentation/evidence-services-4.png){width=70%}
+Figura: Vista de OpenAPI con endpoints adicionales (Notifications, Messages, Companies, Performances) y ejemplos de uso para pruebas de integración.
+
+
 #### 4.2.1.7. Software Deployment Evidence for Sprint Review {#software-deployment-evidence-sprint-1}
+
+En esta sección se presentan las evidencias relacionadas con el despliegue de los artefactos desarrollados durante el Sprint.
+
+Se desplegó primero la landing page en vercel: 
+
+![Landing page deployment — Vercel dashboard screenshot showing successful deployment of the landing page with preview URL](assets/images/Cap4/deployment-evidence/landing-page.png){width=70%}
+
+También se desplegó la aplicación móvil de Empleado con Kotlin a través de Firebase App Distribution para pruebas internas:
+
+![Mobile app deployment — Firebase App Distribution dashboard showing the uploaded APK for internal testing with distribution status](assets/images/Cap4/deployment-evidence/mobile-kotlin.png){width=70%}
+
+Seguidamente se puede descargar la aplicación móvil de Empleado desde un correo de Gmail que manda Firebase App Distribution a los testers internos, evidenciando la distribución exitosa del build generado en el Sprint.
+
+![Mobile app distribution email — screenshot of the email received from Firebase App Distribution with the download link for the mobile app](assets/images/Cap4/deployment-evidence/email-test.png){width=70%}
+
 
 #### 4.2.1.8. Team Collaboration Insights during Sprint {#team-collaboration-insights-sprint-1}
 En esta sección se describen los mecanismos de coordinación y las dinámicas de trabajo adoptadas por el equipo durante el primer Sprint. El análisis se centra en cómo la comunicación constante y el uso de herramientas colaborativas permitieron sincronizar el desarrollo con el diseño de la interfaz móvil, asegurando que los bloqueos técnicos se resolvieran de manera ágil para cumplir con los objetivos establecidos.
@@ -447,15 +494,18 @@ Se detalla la interfaz orientada al colaborador, diseñada bajo un enfoque de 'm
 
 **Report:**
 
-![Login SoftWork](assets/images/Cap4/Report.jpg)
+![Sprint report screenshots — excerpts from test reports and execution evidence used in the Sprint Review](assets/images/Cap4/Report.jpg)
+Figura: Captura del informe y evidencias de ejecución recogidas durante el Sprint Review; incluye referencias a PRs y resultados manuales/verificables.
 
 **Mobile App:**
 
-![Login SoftWork](assets/images/Cap4/MobileApp.png)
+![Mobile app overview — combined mockups and prototype screens showing navigation and key flows (Login, Profile, Forum)](assets/images/Cap4/MobileApp.png)
+Figura: Visión general de la aplicación móvil con pantallas principales integradas para presentación y validación de flujos.
 
 **Landing Page:**
 
-![Login SoftWork](assets/images/Cap4/LandingPaGE.jpg)
+![Landing page full preview — thumbnail showing overall layout, hero, features and footer in a single composite image](assets/images/Cap4/LandingPaGE.jpg)
+Figura: Vista compuesta del Landing Page empleada como referencia visual para el diseño y revisión de contenido.
 
 
 ## 4.3. Validation Interviews {#validation-interviews}
@@ -563,7 +613,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Cargo | Empleado |
 | Inicio de entrevista | 00:02 |
 | Enlace de entrevista | [Entrevista en video](https://n9.cl/py3txj) |
-| Foto captura |![Login SoftWork](assets/images/Cap4/AleEntrevista.png) |
+| Foto captura |![Entrevista: Alexandro Bravo — captura de video durante la validación de usuario](assets/images/Cap4/AleEntrevista.png) |
 | Facilidad de uso de la aplicación | Le pareció intuitiva y fácil de usar desde el inicio. Comentó que el diseño le recordó a otras plataformas que ya había utilizado anteriormente. |
 | Navegación y acceso a funciones | Encontró rápidamente las opciones para reportar problemas y participar en el foro. Consideró que la estructura de la aplicación está bien organizada. |
 | Claridad de íconos y botones | Indicó que entendió correctamente la función de los botones e íconos y que no tuvo dificultades para comprender la navegación. |
@@ -584,7 +634,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Cargo | Empleado |
 | Inicio de entrevista | 00:02 |
 | Enlace de entrevista | [Entrevista en video](https://n9.cl/s2of0) |
-| Foto captura | ![Login SoftWork](assets/images/Cap4/PedroExpo.png) |
+| Foto captura | ![Entrevista: Pedro Omar Lecca — captura de video con feedback sobre usabilidad y navegación](assets/images/Cap4/PedroExpo.png) |
 | Facilidad de uso de la aplicación | Consideró que la aplicación es fácil de usar desde el inicio. Destacó que las funciones principales como inicio de sesión, menú, foro, perfil y reportes son visibles y fáciles de identificar. |
 | Navegación y acceso a funciones | Encontró rápidamente las opciones para reportar problemas y publicar en el foro. Comentó que la estructura está bien organizada y que las categorías de denuncia ayudan a la navegación. |
 | Claridad de íconos y botones | Indicó que la mayoría de botones e íconos son claros, especialmente funciones como publicar, enviar denuncia cifrada, generar reporte y editar perfil. Sugirió que algunos íconos podrían ser más grandes o incluir etiquetas visibles. |
