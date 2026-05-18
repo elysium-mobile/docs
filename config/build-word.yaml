@@ -1,0 +1,38 @@
+# Pandoc build configuration file for generating the final report Word document
+input-files:
+  - report/00-caratula.md
+  - report/01-registro-versiones.md
+  - report/02-collaboration-insights.md
+  - report/03-contenido.md
+  - report/04-student-outcome.md
+  - report/05-objetivos-smart.md
+  - report/10-cap1-introduccion.md
+  - report/20-cap2-requirements-analysis.md
+  - report/30-cap3-ui-ux-design.md
+  - report/40-cap4-implementation.md
+  - report/90-conclusiones.md
+
+output-file: dist/informe-final.docx
+
+# Configuración de metadatos alineada con el PDF
+metadata:
+  chapters: false
+  figPrefix: "Figura"
+  tabPrefix: "Tabla"
+  tableCaptions: true
+  figureCaptions: true
+
+filters:
+  - config/condicionales.lua
+
+standalone: true
+
+# Rutas optimizadas y sincronizadas para que Word encuentre absolutamente todas las imágenes
+resource-path:
+  - "."
+  - "assets/images"
+  - "assets/images/shared"
+
+# Variables de diseño para Word
+variables:
+  lang: es-ES

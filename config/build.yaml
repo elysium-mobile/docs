@@ -14,6 +14,9 @@ input-files:
 
 output-file: dist/informe-final.pdf
 
+filters:
+  - config/condicionales.lua
+
 # Configuración de metadatos para el documento final
 metadata:
   chapters: false
@@ -22,8 +25,7 @@ metadata:
   tableCaptions: true
   figureCaptions: true
 
-# Selección del motor: xelatex o lualatex son ideales para soportar fuentes y UTF-8
-pdf-engine: xelatex
+pdf-engine: tectonic
 standalone: true
 
 # IDs globales para permitir enlaces internos entre secciones del documento combinado
@@ -34,6 +36,7 @@ include-in-header:
 # Rutas donde Pandoc buscará las imágenes referenciadas
 resource-path:
   - "."
+  - "assets/images"
   - "assets/images/shared"
 
 # Variables de diseño
@@ -41,3 +44,4 @@ variables:
   lang: es-ES
   geometry: [margin=2cm]
   colorlinks: true
+  monofont: "Consolas"

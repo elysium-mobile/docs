@@ -3,8 +3,57 @@
 ## ABET - EAC - Student Outcome 7
 
 **Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.**
+\begin{longtable}{p{0.28\textwidth} p{0.49\textwidth} p{0.19\textwidth}}
+{\bfseries Criterio específico} & {\bfseries Acciones realizadas} & {\bfseries Conclusiones} \\
+\hline
+\endfirsthead
+{\bfseries Criterio específico} & {\bfseries Acciones realizadas} & {\bfseries Conclusiones} \\
+\hline
+\endhead
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|:---|:---|:---|
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | \textbf{Gianmarco Fabian Jiménez Guerra}\newline AV1: Pude enfocar y coordinar mejor el tipo de segmentos al que vamos a apuntar y formulé las preguntas entrevistas para conocer a cada segmento\newline\newline \textbf{Diego Andres Avalos Cordova}\newline AV1: Mejor mis avances, me encargue de realizar partes del capítulo 1 y 2, así como también me encargue de realizar las entrevistas para nuestro segundo segmento objetivo.\newline\newline \textbf{Piero Francesco Tenorio Medina}\newline AV1: Durante el desarrollo de este avance, me he visto envuelto en repasar conceptos anteriormente tocados en ciclos anteriores. Esto me sirvió para refrescar conceptos y actualizar alguno de ellos que tenía una definición algo desfasada.\newline\newline \textbf{Flor Contreras Leon}\newline AV1:Durante el desarrollo de este avance, me enfoqué en la definición de sus características funcionales. Esto me permitió alinear los segmentos de usuario identificados con una estructura técnica base sólida, asegurando que la arquitectura de la solución responda directamente a las necesidades estratégicas planteadas desde el inicio\newline\newline \textbf{Cesar Arostegui:}\newline AV1:  | Sí se cumplió el criterio, ya que las actividades realizadas permitieron fortalecer conocimientos relacionados con UX/UI, validación de prototipos, testing manual y documentación de soluciones de software orientadas a usuarios reales. | AV1: Se coordino de manera efectiva la idea del proyecto, las características del mismo, los segmentos a los que apuntar y la estructura base del programa. |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | \textbf{Gianmarco Fabian Jiménez Guerra}\newline AV1: He podido comprender un poco más sobre cómo funciona nuestro segmento objetivo y sobre cómo hay que adaptar este proyecto a una aplicación móvil, lo que implica aprender cada vez más sobre el desarrollo de software.\newline\newline \textbf{Diego Andres Avalos Cordova}\newline AV1: Durante el tiempo de este avance, pude mejorar mis avances de investigación, mis habilidades comprensivas y mis habilidades creativas. Comprender nuestro entorno y saber a quienes vamos enfocado fue un proceso clave en este avance.\newline\newline \textbf{Piero Francesco Tenorio Medina}\newline AV1: Durante el avance de este entregable, como estudiante me he dado cuenta que los conocimientos adquiridos hasta ahora no son los suficientes para poder trabajar en trabajos de mayor escala. Por lo que me he dado la tarea de aprender constantemente nuevas herramientas y tecnologías para futuros trabajos y futuros cursos.\newline\newline \textbf{Flor Contreras Leon}\newline AV1: Durante el desarrollo de este avance, me vi en la necesidad de investigar y profundizar en metodologías actuales de segmentación y definición de arquitecturas base. Este proceso me permitió reconocer que el aprendizaje permanente es indispensable, ya que me sirvió para validar que los conceptos teóricos de ciclos pasados deben evolucionar constantemente para aplicarse con éxito en soluciones de software que respondan a las exigencias reales del mercado actual.\newline AV1: Se realizó una indagación exitosa sobre diversas cualidades que podría necesitar el producto, lo que refuerza la necesidad de mantenerse en una capacitación constante.\newline\newline \textbf{Cesar Arostegui:}\newline AV1: | Sí se cumplió el criterio, debido a que el desarrollo de esta entrega evidenció la importancia de seguir aprendiendo metodologías y herramientas modernas relacionadas con experiencia de usuario, validación de software y diseño de interfaces digitales. | AV1: Se evidenció la necesidad de mantener un aprendizaje permanente para responder a las exigencias del proyecto y del desarrollo de software. El trabajo realizado permitió actualizar criterios y fortalecer la toma de decisiones técnicas. |
+{\bfseries Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.} &
+\begin{minipage}[t]{\linewidth}
+{\bfseries Gianmarco Fabian Jiménez Guerra}\\
+AV1: Pude enfocar y coordinar mejor el tipo de segmentos al que vamos a apuntar y formulé las preguntas entrevistas para conocer a cada segmento.\\
+TB1: Pude contribuir con la creación de los mockups y wireframes para la app móvil.\\[0.5em]
+{\bfseries Diego Andres Avalos Cordova}\\
+AV1: Mejor mis avances, me encargué de realizar partes del capítulo 1 y 2, así como también me encargué de realizar las entrevistas para nuestro segundo segmento objetivo.\\
+TB1: Durante el desarrollo de esta entrega, me encargué de elaborar secciones clave del informe relacionadas con la arquitectura de información de la aplicación móvil, lo que me permitió reforzar y actualizar conceptos sobre organización de contenido, sistemas de navegación y etiquetado en aplicaciones nativas Android. Además, contribuí en la documentación del Sprint 1, aplicando conocimientos sobre metodologías ágiles y gestión de Product Backlog.\\[0.5em]
+{\bfseries Piero Francesco Tenorio Medina}\\
+AV1: Durante el desarrollo de este avance, me he visto envuelto en repasar conceptos anteriormente tocados en ciclos anteriores. Esto me sirvió para refrescar conceptos y actualizar alguno de ellos que tenía una definición algo desfasada.\\[0.5em]
+{\bfseries Flor Contreras Leon}\\
+AV1: Durante el desarrollo de este avance, me enfoqué en la definición de sus características funcionales. Esto me permitió alinear los segmentos de usuario identificados con una estructura técnica base sólida, asegurando que la arquitectura de la solución responda directamente a las necesidades estratégicas planteadas desde el inicio.\\
+TB1: Durante esta entrega me enfoqué en el análisis de entrevistas y la validación de la experiencia de usuario (UX).\\[0.5em]
+{\bfseries Cesar Arostegui}\\
+AV1: Implementé y coordiné la puesta en marcha inicial de la landing page; colaboré en la definición del Sprint Goal y en la integración de contenidos y evidencias para el informe.\\
+TB1: Diseñé y validé wireframes y mockups, implementé la versión inicial de la landing page y documenté el Sprint 1 (capturas, commits y evidencias para el Sprint Review).
+\end{minipage} &
+\begin{minipage}[t]{\linewidth}
+AV1: Se coordinó de manera efectiva la idea del proyecto, las características del mismo, los segmentos a los que apuntar y la estructura base del programa.\\[0.5em]
+TB1: La práctica en TB1 actualizó habilidades en prototipado, documentación ágil y validación de usabilidad; además evidenció áreas técnicas a mejorar que guiarán el aprendizaje futuro.
+\end{minipage} \\
+\hline
+
+{\bfseries Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.} &
+\begin{minipage}[t]{\linewidth}
+{\bfseries Gianmarco Fabian Jiménez Guerra}\\
+AV1: He podido comprender un poco más sobre cómo funciona nuestro segmento objetivo y sobre cómo hay que adaptar este proyecto a una aplicación móvil, lo que implica aprender cada vez más sobre el desarrollo de software.\\
+TB1: He podido mejorar mis habilidades con Figma tras haber implementado los bosquejos de la app móvil, lo que me permite comprender mejor sobre esta herramienta para el desarrollo del frontend.\\[0.5em]
+{\bfseries Diego Andres Avalos Cordova}\\
+AV1: Durante el tiempo de este avance, pude mejorar mis avances de investigación, mis habilidades comprensivas y mis habilidades creativas. Comprender nuestro entorno y saber a quienes vamos enfocado fue un proceso clave en este avance.\\
+TB1: En esta entrega reconocí la importancia de mantener un aprendizaje continuo, especialmente al trabajar con conceptos de Information Architecture y UX aplicados a aplicaciones móviles nativas. Este proceso me llevó a investigar patrones de navegación en Android y buenas prácticas de diseño de sistemas de búsqueda, áreas en las que identifiqué oportunidades de mejora para mi formación profesional.\\[0.5em]
+{\bfseries Piero Francesco Tenorio Medina}\\
+AV1: Durante el avance de este entregable, como estudiante me he dado cuenta que los conocimientos adquiridos hasta ahora no son los suficientes para poder trabajar en trabajos de mayor escala. Por lo que me he dado la tarea de aprender constantemente nuevas herramientas y tecnologías para futuros trabajos y futuros cursos.\\[0.5em]
+{\bfseries Flor Contreras Leon}\\
+AV1: Durante el desarrollo de este avance, me vi en la necesidad de investigar y profundizar en metodologías actuales de segmentación y definición de arquitecturas base. Este proceso me permitió reconocer que el aprendizaje permanente es indispensable, ya que me sirvió para validar que los conceptos teóricos de ciclos pasados deben evolucionar constantemente para aplicarse con éxito en soluciones de software que respondan a las exigencias reales del mercado actual.\\
+TB1: Durante esta entrega investigué sobre principios heurísticos de usabilidad, testing manual, diseño centrado en el usuario y documentación de validaciones UX. Asimismo, profundicé en la elaboración de entrevistas y análisis de feedback para identificar oportunidades de mejora dentro del prototipo.
+\end{minipage} &
+\begin{minipage}[t]{\linewidth}
+AV1: Se evidenció la necesidad de mantener un aprendizaje permanente para responder a las exigencias del proyecto y del desarrollo de software. El trabajo realizado permitió actualizar criterios y fortalecer la toma de decisiones técnicas.\\[0.5em]
+TB1: La práctica en TB1 reforzó habilidades en prototipado, documentación ágil y validación de usabilidad; además evidenció áreas técnicas a mejorar que guiarán el aprendizaje futuro.
+\end{minipage} \\
+\hline
+\end{longtable}
+
+\newpage
+    
