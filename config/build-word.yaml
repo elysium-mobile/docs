@@ -14,7 +14,7 @@ input-files:
 
 output-file: dist/informe-final.docx
 
-# Configuración de metadatos para el documento final
+# Configuración de metadatos alineada con el PDF
 metadata:
   chapters: false
   figPrefix: "Figura"
@@ -22,13 +22,17 @@ metadata:
   tableCaptions: true
   figureCaptions: true
 
+filters:
+  - config/condicionales.lua
+
 standalone: true
 
-# Rutas donde Pandoc buscará las imágenes referenciadas
+# Rutas optimizadas y sincronizadas para que Word encuentre absolutamente todas las imágenes
 resource-path:
   - "."
+  - "assets/images"
   - "assets/images/shared"
 
-# Variables de diseño
+# Variables de diseño para Word
 variables:
   lang: es-ES

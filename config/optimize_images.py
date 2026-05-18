@@ -4,6 +4,7 @@ from PIL import Image
 # Configuración
 TARGET_DIRS = ["assets/images", "report"] # Carpetas a escanear
 MAX_WIDTH = 1200 # Ancho máximo ideal para el PDF de LaTeX
+MAX_HEIGHT = 1200
 QUALITY = 85 # Calidad de compresión (85 es el sweet spot)
 
 def optimize_image(file_path):
@@ -13,12 +14,12 @@ def optimize_image(file_path):
             updated = False
             
             # Tramo 1: Redimensión si es excesivamente grande
-            if orig_width > MAX_WIDTH:
-                ratio = MAX_WIDTH / float(orig_width)
-                new_height = int(float(orig_height) * float(ratio))
-                img = img.resize((MAX_WIDTH, new_height), Image.Resampling.LANCZOS)
+            if orig_height > MAX_HEIGHT:
+                ratio = MAX_HEIGHT / float(orig_height)
+                new_width = int(float(orig_width) * float(ratio))
+                img = img.resize((new_width, MAX_HEIGHT), Image.Resampling.LANCZOS)
                 updated = True
-                print(f"[RESIZED] {file_path} ({orig_width}px -> {MAX_WIDTH}px)")
+                print(f"[RESIZED HEIGHT] {file_path} ({orig_height}px -> {MAX_HEIGHT}px)")
             
             # Tramo 2: Compresión y optimización
             # Guardamos temporalmente para verificar si reduce peso
