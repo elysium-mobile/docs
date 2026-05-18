@@ -3,19 +3,39 @@
 \usepackage{seqsplit}
 \usepackage{needspace}
 \usepackage{enumitem}
-\usepackage[table,xcdraw]{xcolor}
+
+% Manejo flexible de flotantes para optimizar el tiempo de compilación de la CPU
 \makeatletter
-\def\fps@figure{H}
-\def\fps@table{H}
+\def\fps@figure{htbp}
+\def\fps@table{htbp}
 \makeatother
-\setkeys{Gin}{width=\linewidth,height=0.45\textheight,keepaspectratio}
+
+\setkeys{Gin}{width=\linewidth,height=0.40\textheight,keepaspectratio}
+
 \usepackage{longtable}
 \usepackage{array}
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{etoolbox}
+\usepackage{pmboxdraw} % Soporte nativo y veloz para diagramas de árbol ASCII/Unicode
+
+% =========================================================================
+% OPTIMIZACIÓN DE TABLA DE CONTENIDOS (TOC) PARA REPORTES DE GRAN VOLUMEN
+% =========================================================================
+\usepackage{tocloft}
+\cftsetrmarg{3.5em}      % Evita que títulos largos colisionen con los números de página
+\cftsetpnumwidth{2.5em}  % Espacio holgado para números de página de 3 dígitos (100+)
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % Puntos suspensivos consistentes en H1/H2
+
+% Parche de estabilidad para evitar bucles de cálculo infinitos en layouts complejos
+\patchcmd{\tableofcontents}{\multiaddtocontents}{}{}{}
+% =========================================================================
+
 \setlength{\tabcolsep}{6pt}
 \renewcommand{\arraystretch}{1.5}
 \AtBeginEnvironment{tabular}{\small}
 \AtBeginEnvironment{tabularx}{\small}
 \AtBeginEnvironment{longtable}{\small}
+% Solución segura para permitir saltos de línea en texto monoespaciado (\texttt)
+\let\oldtexttt\texttt
+\renewcommand{\texttt}[1]{\oldtexttt{\spaceskip=0.5em plus 0.3em minus 0.1em\relax #1}}

@@ -16,6 +16,12 @@
 
 - Continuar y realizar validaciones a futuro con respecto a los avances del proyecto, para mantener la correlación entre las necesidades reales y el desarrollo.
 
+# Video App Validation {#video-app-validation}
+
+# Video About the product {#video-about-the-product}
+
+# Video About the team {#video-about-the-team}
+
 # Glosario {#glosario}
 
 Glosario de términos técnicos y conceptos clave utilizados en el proyecto, incluyendo definiciones y explicaciones para facilitar la comprensión de los lectores. También servicios como Amazon Web Services (AWS) y herramientas como GitHub Actions, entre otros, serán incluidos para contextualizar su uso dentro del proyecto.
@@ -88,7 +94,7 @@ Glosario de términos técnicos y conceptos clave utilizados en el proyecto, inc
 
 # Bibliografía {#bibliografía}
 
-- Domain-Driven Design Practitioners. (s.f.). Context map. Domain-driven Design: A Practitioner's Guide. https://ddd-practitioners.com/home/glossary/context-map/
+- Domain-Driven Design Practitioners. (s.f.). Context map. Domain-driven Design: A Practitioners Guide. https://ddd-practitioners.com/home/glossary/context-map/
 
 - ddd-crew. (s.f.). Domain message flow modelling [Repositorio de software]. GitHub. https://github.com/ddd-crew/domain-message-flow-modelling
 

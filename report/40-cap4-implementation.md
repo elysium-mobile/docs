@@ -906,7 +906,7 @@ Los problemas detectados se puntúan bajo la siguiente métrica:
 | 6   | Iconos de redes sociales sin etiquetas descriptivas       |   **3**   | Inclusive Design: Diseño accesible                     |
 | 7   | Ambigüedad visual en el toggle de ahorro anual            |   **2**   | Information Architecture: Is it findable?              |
 | 8   | Contraste insuficiente en selector de rol inactivo        |   **2**   | Usability: Visibilidad del estado del sistema          |
-| 9   | Inconsistencia monetaria (S/ frente a $)                  |   **3**   | Usability: Consistencia y estándares                   |
+| 9   | Inconsistencia monetaria (S/ frente a USD)                |   **3**   | Usability: Consistencia y estándares                   |
 | 10  | Menú de navegación inferior (Tab Bar) volátil             |   **4**   | Usability: Consistencia y estándares                   |
 | 11  | Componente de fecha con lógica de botones inusual         |   **3**   | Usability: Libertad y control del usuario              |
 | 12  | Variación de etiquetas de retroceso ("Back" vs "Go back") |   **1**   | Usability: Consistencia y estándares                   |
@@ -965,10 +965,10 @@ Los problemas detectados se puntúan bajo la siguiente métrica:
 * **Problema:** En el flujo de "¿Cómo funciona?", el botón del rol no seleccionado tiene un color tan claro que parece estar deshabilitado en lugar de simplemente "no activo". El usuario podría pensar que la opción no está disponible.
 * **Recomendación:** Aplicar un borde definido o un tono gris más oscuro al estado inactivo para comunicar que el elemento es interactivo pero no está seleccionado.
 
-### **PROBLEMA #9: Inconsistencia monetaria (S/ frente a $)**
+### **PROBLEMA #9: Inconsistencia monetaria (S/ frente a USD)**
 * **Severidad:** 3
 * **Heurística violada:** Usabilidad - Consistencia y estándares
-* **Problema:** Existe una contradicción en el uso de divisas dentro de la aplicación móvil. Mientras la mayoría de pantallas usan Soles (S/), la vista de detalles de gastos utiliza el signo de Dólares ($). Esto genera incertidumbre financiera crítica en una app de gestión de gastos.
+* **Problema:** Existe una contradicción en el uso de divisas dentro de la aplicación móvil. Mientras la mayoría de pantallas usan Soles (S/), la vista de detalles de gastos utiliza el signo de Dólares (USD). Esto genera incertidumbre financiera crítica en una app de gestión de gastos.
 * **Recomendación:** Configurar una variable global de moneda que se aplique a toda la interfaz según la preferencia del hogar, asegurando que el símbolo sea idéntico en todas las pantallas.
 
 ### **PROBLEMA #10: Navegación inferior (Tab Bar) inconsistente**

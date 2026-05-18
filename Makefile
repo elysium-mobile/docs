@@ -3,9 +3,18 @@ CONFIG_PDF = config/build.yaml
 CONFIG_WORD = config/build-word.yaml
 OUTPUT_PDF = dist/informe-final.pdf
 OUTPUT_WORD = dist/informe-final.docx
+PYTHON = $(if $(wildcard .venv/Scripts/python.exe),.venv/Scripts/python.exe,python)
 
 # Comando por defecto
 all: pdf word
+
+# Regla para compilar ambos formatos
+release: pdf word
+
+# Nueva regla para automatizar la optimización por lotes
+optimize:
+	@echo "Ejecutando optimización automatizada de imágenes..."
+	$(PYTHON) optimize_images.py
 
 # Regla para compilar el PDF
 pdf:
@@ -21,6 +30,5 @@ word:
 	pandoc --defaults=$(CONFIG_WORD)
 	@echo "Build exitoso. Archivo generado en: $(OUTPUT_WORD)"
 
-# Regla para limpiar la carpeta dist
 clean:
 	powershell -Command "Remove-Item -Path 'dist/*' -Recurse -Force"

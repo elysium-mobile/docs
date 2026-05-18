@@ -482,12 +482,12 @@ Vista para responder o comentar publicaciones del foro.
 **Reporte de Publicaciones**  
 Funcionalidad para reportar contenido inapropiado dentro del foro.
 
-![Forum Report Wireframe](assets/images/cap3/mobile-app/Wireframes/ReportarForo.png){width=70%}
+![Forum Report Wireframe](assets/images/cap3/mobile-app/Wireframes/ReportarForo.png){width=0.7\linewidth}
 
 **Reportes de Datos para RRHH**  
 Pantalla de visualización de métricas y reportes para Recursos Humanos.
 
-![Data Report Wireframe](assets/images/cap3/mobile-app/Wireframes/ReporteRRHH.png){width=70%}
+![Data Report Wireframe](assets/images/cap3/mobile-app/Wireframes/ReporteRRHH.png){width=0.7\linewidth}
 
 
 
@@ -497,28 +497,28 @@ Pantalla de visualización de métricas y reportes para Recursos Humanos.
 A continuación se presentarán los flujos de actividades utilizando los wireframes:
 
 Escenario de registro, aplica para ambos segmentos:
-![Sign up Wireflow](assets/images/cap3/userflow/Wireframes/Registro.png){width=70%}
+![Sign up Wireflow](assets/images/cap3/userflow/Wireframes/Registro.png){width=0.7\linewidth}
 
 Escenario de pago de suscripción al aplicativo, aplica para ambos segmentos:
-![Payment Wireflow](assets/images/cap3/userflow/Wireframes/PagoMembresia.png){width=70%}
+![Payment Wireflow](assets/images/cap3/userflow/Wireframes/PagoMembresia.png){width=0.7\linewidth}
 
 Escenario de inicio de sesión, aplica para ambos segmentos:
-![Log in Wireflow](assets/images/cap3/userflow/Wireframes/InicioSesion.png){width=70%}
+![Log in Wireflow](assets/images/cap3/userflow/Wireframes/InicioSesion.png){width=0.7\linewidth}
 
 Escenario de edición del perfil, aplica para el segmento 1 (empleado):
-![Profile Employee in Wireflow](assets/images/cap3/userflow/Wireframes/EdicionPerfilEmpleado.png){width=70%}
+![Profile Employee in Wireflow](assets/images/cap3/userflow/Wireframes/EdicionPerfilEmpleado.png){width=0.7\linewidth}
 
 Escenario de edición del perfil, aplica para el segmento 2 (RRHH):
-![Profile RRHH in Wireflow](assets/images/cap3/userflow/Wireframes/EdicionPerfilRRHH.png){width=70%}
+![Profile RRHH in Wireflow](assets/images/cap3/userflow/Wireframes/EdicionPerfilRRHH.png){width=0.7\linewidth}
 
 Escenario de completar la encuesta, aplica para el segmento 1 (empleado):
-![Survey Wireflow](assets/images/cap3/userflow/Wireframes/Encuesta.png){width=70%}
+![Survey Wireflow](assets/images/cap3/userflow/Wireframes/Encuesta.png){width=0.7\linewidth}
 
 Escenario de acceso a estadísticas, aplica para el segmento 2 (RRHH):
-![Stats Wireflow](assets/images/cap3/userflow/Wireframes/Estadisticas.png){width=70%}
+![Stats Wireflow](assets/images/cap3/userflow/Wireframes/Estadisticas.png){width=0.7\linewidth}
 
 Escenario de acceso y uso del foro, aplica para el segmento 1 (empleado):
-![Forum Wireflow](assets/images/cap3/userflow/Wireframes/Foro.png){width=70%}
+![Forum Wireflow](assets/images/cap3/userflow/Wireframes/Foro.png){width=0.7\linewidth}
 
 
 
@@ -527,94 +527,94 @@ Escenario de acceso y uso del foro, aplica para el segmento 1 (empleado):
 **Registro de Usuario**  
 Pantalla de creación de cuenta para nuevos usuarios dentro de la aplicación.
 
-![Register Mockup](assets/images/cap3/mobile-app/Mockups/Registro.png){width=70%}
+![Register Mockup](assets/images/cap3/mobile-app/Mockups/Registro.png){width=0.7\linewidth}
 
 **Registro con Google**  
 Vista de autenticación mediante una cuenta de Google.
 
-![Google Mockup](assets/images/cap3/mobile-app/Mockups/RegistroGoogle.png){width=70%}
+![Google Mockup](assets/images/cap3/mobile-app/Mockups/RegistroGoogle.png){width=0.7\linewidth}
 
 **Planes de Membresía**  
 Pantalla donde se visualizan los planes de suscripción disponibles.
 
-![Memberships Mockup](assets/images/cap3/mobile-app/Mockups/PlanesPago.png){width=70%}
+![Memberships Mockup](assets/images/cap3/mobile-app/Mockups/PlanesPago.png){width=0.7\linewidth}
 
 **Menú Principal del Empleado**  
 Interfaz principal con las opciones disponibles para el empleado.
 
-![Employee Menu Mockup](assets/images/cap3/mobile-app/Mockups/MenuEmpleado.png){width=70%}
+![Employee Menu Mockup](assets/images/cap3/mobile-app/Mockups/MenuEmpleado.png){width=0.7\linewidth}
 
 **Menú Principal de RRHH**  
 Vista principal destinada al área de Recursos Humanos.
 
-![HR Menu Mockup](assets/images/cap3/mobile-app/Mockups/MenuRRHH.png){width=70%}
+![HR Menu Mockup](assets/images/cap3/mobile-app/Mockups/MenuRRHH.png){width=0.7\linewidth}
 
 **Llenado de Encuestas**  
 Pantalla para responder encuestas relacionadas al clima laboral.
 
-![Filling Survey Mockup](assets/images/cap3/mobile-app/Mockups/LlenarEncuesta.png){width=70%}
+![Filling Survey Mockup](assets/images/cap3/mobile-app/Mockups/LlenarEncuesta.png){width=0.7\linewidth}
 
 **Edición de Perfil del Empleado**  
 Vista para actualizar la información personal del empleado.
 
-![Profile Edit Employee Mockup](assets/images/cap3/mobile-app/Mockups/EditarPerfil.png){width=70%}
+![Profile Edit Employee Mockup](assets/images/cap3/mobile-app/Mockups/EditarPerfil.png){width=0.7\linewidth}
 
 **Modo Anónimo**  
 Funcionalidad que permite interactuar de manera anónima dentro de la aplicación.
 
-![Anonymous Mode Mockup](assets/images/cap3/mobile-app/Mockups/ModoAnonimo.png){width=70%}
+![Anonymous Mode Mockup](assets/images/cap3/mobile-app/Mockups/ModoAnonimo.png){width=0.7\linewidth}
 
 **Foro de Comunicación**  
 Espacio de interacción y comunicación entre usuarios.
 
-![Forum Mockup](assets/images/cap3/mobile-app/Mockups/Foro.png){width=70%}
+![Forum Mockup](assets/images/cap3/mobile-app/Mockups/Foro.png){width=0.7\linewidth}
 
 **Publicación en el Foro**  
 Pantalla para crear nuevas publicaciones dentro del foro.
 
-![New Post Mockup](assets/images/cap3/mobile-app/Mockups/PublicarForo.png){width=70%}
+![New Post Mockup](assets/images/cap3/mobile-app/Mockups/PublicarForo.png){width=0.7\linewidth}
 
 **Comentarios en Publicaciones**  
 Vista para responder o comentar publicaciones del foro.
 
-![New Comment Mockup](assets/images/cap3/mobile-app/Mockups/ComentarForo.png){width=70%}
+![New Comment Mockup](assets/images/cap3/mobile-app/Mockups/ComentarForo.png){width=0.7\linewidth}
 
 **Reporte de Publicaciones**  
 Funcionalidad para reportar contenido inapropiado dentro del foro.
 
-![Forum Report Mockup](assets/images/cap3/mobile-app/Mockups/ReporteForo.png){width=70%}
+![Forum Report Mockup](assets/images/cap3/mobile-app/Mockups/ReporteForo.png){width=0.7\linewidth}
 
 **Reportes de Datos para RRHH**  
 Pantalla de visualización de métricas y reportes para Recursos Humanos.
 
-![Data Report Mockup](assets/images/cap3/mobile-app/Mockups/ReporteRRHH.png){width=70%}
+![Data Report Mockup](assets/images/cap3/mobile-app/Mockups/ReporteRRHH.png){width=0.7\linewidth}
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams {#mobile-applications-user-flow-diagrams}
 A continuación se presentarán los flujos de actividades utilizando los mockups:
 
 Escenario de registro, aplica para ambos segmentos:
-![Sign up User Flow](assets/images/cap3/userflow/Mockups/Registro.png){width=70%}
+![Sign up User Flow](assets/images/cap3/userflow/Mockups/Registro.png){width=0.7\linewidth}
 
 Escenario de pago de suscripción al aplicativo, aplica para ambos segmentos:
-![Payment User Flow](assets/images/cap3/userflow/Mockups/Pago.png){width=70%}
+![Payment User Flow](assets/images/cap3/userflow/Mockups/Pago.png){width=0.7\linewidth}
 
 Escenario de inicio de sesión, aplica para ambos segmentos:
-![Log in User Flow](assets/images/cap3/userflow/Mockups/InicioSesion.png){width=70%}
+![Log in User Flow](assets/images/cap3/userflow/Mockups/InicioSesion.png){width=0.7\linewidth}
 
 Escenario de edición del perfil, aplica para el segmento 1 (empleado):
-![Profile Employee in User Flow](assets/images/cap3/userflow/Mockups/EdicionPerfilEmpleado.png){width=70%}
+![Profile Employee in User Flow](assets/images/cap3/userflow/Mockups/EdicionPerfilEmpleado.png){width=0.7\linewidth}
 
 Escenario de edición del perfil, aplica para el segmento 2 (RRHH):
-![Profile RRHH in User Flow](assets/images/cap3/userflow/Mockups/EdicionPerfilRRHH.png){width=70%}
+![Profile RRHH in User Flow](assets/images/cap3/userflow/Mockups/EdicionPerfilRRHH.png){width=0.7\linewidth}
 
 Escenario de completar la encuesta, aplica para el segmento 1 (empleado):
-![Survey User Flow](assets/images/cap3/userflow/Mockups/Encuesta.png){width=70%}
+![Survey User Flow](assets/images/cap3/userflow/Mockups/Encuesta.png){width=0.7\linewidth}
 
 Escenario de acceso a estadísticas, aplica para el segmento 2 (RRHH):
-![Stats User Flow](assets/images/cap3/userflow/Mockups/Estadistica.png){width=70%}
+![Stats User Flow](assets/images/cap3/userflow/Mockups/Estadistica.png){width=0.7\linewidth}
 
 Escenario de acceso y uso del foro, aplica para el segmento 1 (empleado):
-![Forum User Flow](assets/images/cap3/userflow/Mockups/Foro.png){width=70%}
+![Forum User Flow](assets/images/cap3/userflow/Mockups/Foro.png){width=0.7\linewidth}
 
 
 #### 3.1.4.5. Mobile Applications Prototyping {#mobile-applications-prototyping}

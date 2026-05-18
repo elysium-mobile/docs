@@ -14,16 +14,22 @@ input-files:
 
 output-file: dist/informe-final.pdf
 
+# Habilita la Tabla de Contenidos automática
+table-of-contents: true
+
+# Configura la profundidad de la Tabla de Contenidos (1 para capítulos, 2 para secciones, etc.)
+toc-depth: 3
+
 # Configuración de metadatos para el documento final
 metadata:
+  toc-title: "Contenido"
   chapters: false
   figPrefix: "Figura"
   tabPrefix: "Tabla"
   tableCaptions: true
   figureCaptions: true
 
-# Selección del motor: xelatex o lualatex son ideales para soportar fuentes y UTF-8
-pdf-engine: xelatex
+pdf-engine: tectonic
 standalone: true
 
 # IDs globales para permitir enlaces internos entre secciones del documento combinado
@@ -42,3 +48,4 @@ variables:
   lang: es-ES
   geometry: [margin=2cm]
   colorlinks: true
+  monofont: "Consolas"
