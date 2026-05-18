@@ -10,5 +10,11 @@
 |   AV1   | 22/04/2026 | Diego Andres Avalos Cordova | Implementación de As-is Scenario Mapping y To-Be Scenario Mapping |
 |   AV1   | 20/04/2026 | Flor Contreras Leon | Analisar las entrevistas y crear los User Personas |
 |   AV1   | 21/04/2026 | Flor Contreras Leon | Crear los User Journey Mapping y User Task Matrix |
+|   TB1   | 15/05/2026 | Gianmarco Fabian Jiménez Guerra | Crear los wireframes y mockups para el aplicativo móvil |
+|   TB1   | 15/05/2026 | Diego Andres Avalos Cordova | Information Architecture, Searching Systems y Navigation Systems |
+|   TB1   | 15/05/2026 | Piero Francesco Tenorio Medina   | Implementación del Backend y aporte en los mockups de la aplicación móvil |
+|   TB1   | 15/05/2026 | Flor Contreras Leon | Implementación de los mockups de la aplicación móvil y aporte en la Information Architecture |
+|   TB1   | 15/05/2026 | César Augusto Aróstegui Alzamora | Implementación de la landing page y aporte en el desarrollo del aplicativo móvil |
+|   TB1   | 30/05/2026 | César Augusto Aróstegui Alzamora | Documentación del Sprint 1 |
 
 \newpage

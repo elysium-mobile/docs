@@ -1,12 +1,71 @@
 \usepackage{graphicx}
-\usepackage{etoolbox}
-\BeforeBeginEnvironment{longtable}{\small}
-\usepackage{microtype}
 \usepackage{float}
-\let\origfigure\figure
-\let\endorigfigure\endfigure
-\renewenvironment{figure}[1][2] {
-    \expandafter\origfigure\expandafter[H]
-} {
-    \endorigfigure
+\usepackage{seqsplit}
+\usepackage{needspace}
+\usepackage{enumitem}
+
+% =========================================================================
+% ANCLAJE ESTRICTO DE IMÁGENES (REQUIERE EL LÍMITE DE TAMAÑO PREVIO)
+% =========================================================================
+% Obliga a LaTeX a poner la imagen EXACTAMENTE donde la declaraste en el 
+% Markdown, sin que flote ni se separe de su párrafo descriptivo.
+\makeatletter
+\def\fps@figure{H}
+\def\fps@table{H}
+\makeatother
+% =========================================================================
+
+% =========================================================================
+% CONTROL DE TAMAÑO MÁXIMO DE IMÁGENES (PANDOC OVERRIDE DEFINITIVO)
+% =========================================================================
+% Interceptamos las variables nativas de Pandoc en el último milisegundo.
+% Forzamos un límite del 30% de alto para que las capturas de pantalla de la
+% app móvil dejen espacio para el texto y no se adueñen de la página entera.
+\makeatletter
+\AtBeginDocument{
+  \def\maxwidth{\ifdim\Gin@nat@width>0.75\linewidth 0.75\linewidth\else\Gin@nat@width\fi}
+  \def\maxheight{\ifdim\Gin@nat@height>0.30\textheight 0.30\textheight\else\Gin@nat@height\fi}
 }
+\makeatother
+% =========================================================================
+
+% Parámetros de agresividad para obligar a LaTeX a mezclar texto e imágenes
+\renewcommand{\topfraction}{0.85}      
+\renewcommand{\bottomfraction}{0.85}   
+\renewcommand{\textfraction}{0.15}     
+\renewcommand{\floatpagefraction}{0.8} 
+
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{etoolbox}
+\usepackage{pmboxdraw} % Soporte nativo para diagramas de árbol ASCII
+
+% =========================================================================
+% OPTIMIZACIÓN DE TABLA DE CONTENIDOS (TOC) - PREFIJOS CORREGIDOS
+% =========================================================================
+\usepackage{tocloft}
+\cftsetrmarg{3.5em}      % Evita que títulos largos colisionen con los números de página
+\cftsetpnumwidth{2.5em}  % Espacio holgado para números de página de 3 dígitos (100+)
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % Puntos suspensivos consistentes en H1/H2
+
+% Parche de estabilidad para evitar bucles de cálculo infinitos en layouts complejos
+\patchcmd{\tableofcontents}{\multiaddtocontents}{}{}{}
+% =========================================================================
+
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.5}
+\AtBeginEnvironment{tabular}{\small}
+\AtBeginEnvironment{tabularx}{\small}
+\AtBeginEnvironment{longtable}{\small}
+
+% Solución segura para texto monoespaciado (\texttt)
+\let\oldtexttt\texttt
+\renewcommand{\texttt}[1]{\oldtexttt{\spaceskip=0.5em plus 0.3em minus 0.1em\relax #1}}
+
+% Evita desbordamientos caóticos entre secciones
+\usepackage[section]{placeins}
+
+\usepackage{caption}
+\captionsetup[figure]{skip=10pt,position=bottom}

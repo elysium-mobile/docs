@@ -1,3 +1,4 @@
+::: {.pdf-only}
 \begin{center}
 \includegraphics[width=0.3\textwidth]{assets/images/shared/upc-logo.png}
 
@@ -33,3 +34,40 @@ Julio 2026
 \end{center}
 
 \clearpage
+:::
+
+::: {.word-only}
+::: {align="center"}
+![](assets/images/shared/upc-logo.png){width=30%}
+
+<br>
+
+# Universidad Peruana de Ciencias Aplicadas
+## Ingeniería de Software
+
+<br>
+
+**1ACC0238 | Aplicaciones para Dispositivos Móviles** | **NRC:** 3667  
+**Profesor:** Eduardo Martin Reyes Rodriguez  
+**Periodo:** 202610  
+
+<br>
+
+# Informe del Trabajo Final
+### **Startup:** Elysium | **Producto:** SoftWork  
+
+<br>
+
+César Augusto Aróstegui Alzamora  
+Piero Francesco Tenorio Medina  
+Gianmarco Fabian Jiménez Guerra  
+Flor De María Contreras Leon  
+Diego Andres Avalos  
+
+<br>
+
+**Julio 2026**
+:::
+
+\newpage
+:::

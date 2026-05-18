@@ -133,9 +133,9 @@
 
 ### [Conclusiones][final]
 * [Conclusiones y recomendaciones][conclusiones]
-* [Video App Validation][video-app]
-* [Video About the Product][video-product]
-* [Video About the Team][video-team]
+* [Video App Validation](#video-app-validation)
+* [Video About the Product](#video-about-the-product)
+* [Video About the Team](#video-about-the-team)
 
 ### [Glosario][glosario]
 ### [Bibliografía][bibliografia]
@@ -274,9 +274,6 @@
 
 [final]: #conclusiones
 [conclusiones]: #conclusiones-y-recomendaciones
-[video-app]: #video-app-validation
-[video-product]: #video-about-the-product
-[video-team]: #video-about-the-team
 [glosario]: #glosario
 [bibliografia]: #bibliografía
 [anexos]: #anexos

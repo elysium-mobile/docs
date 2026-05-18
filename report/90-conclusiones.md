@@ -16,6 +16,12 @@
 
 - Continuar y realizar validaciones a futuro con respecto a los avances del proyecto, para mantener la correlación entre las necesidades reales y el desarrollo.
 
+# Video App Validation {#video-app-validation}
+
+# Video About the product {#video-about-the-product}
+
+# Video About the team {#video-about-the-team}
+
 # Glosario {#glosario}
 
 Glosario de términos técnicos y conceptos clave utilizados en el proyecto, incluyendo definiciones y explicaciones para facilitar la comprensión de los lectores. También servicios como Amazon Web Services (AWS) y herramientas como GitHub Actions, entre otros, serán incluidos para contextualizar su uso dentro del proyecto.
@@ -62,10 +68,33 @@ Glosario de términos técnicos y conceptos clave utilizados en el proyecto, inc
 | IAM (Identity and Access Management) | Bounded Context responsable de identidades, autenticación y autorización. |
 | RRHH | Área de Recursos Humanos encargada de gestionar el clima laboral y la atención a empleados. |
 | Ubiquitous Language | Lenguaje compartido del dominio que evita ambigüedades entre equipo técnico y usuarios. |
+| Design Tokens | Variables reutilizables que definen valores visuales (colores, tipografía, espaciamiento, elevaciones) usadas por un Design System. |
+| Design System | Conjunto de componentes, patrones, tokens y documentación que garantizan consistencia visual y UX en el producto. |
+| Tailwind CSS | Framework utilitario de CSS que facilita la composición de estilos mediante clases atómicas y tokens. |
+| Astro | Framework moderno para sitios estáticos y Jamstack, optimizado para rendimiento y despliegue en Vercel. |
+| Vercel | Plataforma de despliegue y hosting para aplicaciones frontend con previews por PR y CDN integrado. |
+| Firebase App Distribution | Servicio de Firebase para distribuir versiones de prueba de apps móviles a testers y QA. |
+| OpenTelemetry | Conjunto de APIs, SDKs y herramientas estándar para trazabilidad, métricas y telemetría distribuida. |
+| Prometheus | Sistema de recolección y almacenamiento de métricas en formato de series temporales, usado para monitoreo. |
+| Grafana | Plataforma de visualización y dashboards para métricas y logs agregados. |
+| Hexagonal Architecture | Patrón arquitectónico (Ports & Adapters) que separa el dominio de las dependencias de infraestructura. |
+| Screaming Architecture | Enfoque de organización del código donde la estructura revela las intenciones del dominio más que el framework. |
+| Riverpod | Biblioteca de gestión de estado recomendada para Flutter, que favorece inmutabilidad y testabilidad. |
+| BLoC | Patrón de gestión de estado para Flutter (Business Logic Component) que separa lógica de UI mediante streams. |
+| Hilt | Biblioteca de inyección de dependencias para Android basada en Dagger, simplifica el wiring de componentes. |
+| Jetpack Compose | Toolkit declarativo de UI para Android que permite construir interfaces con Kotlin de forma reactiva. |
+| ktlint / detekt | Herramientas para estandarizar estilo de código y análisis estático en proyectos Kotlin. |
+| Flyway / Liquibase | Herramientas para versionado y migraciones de esquema de bases de datos en entornos de producción. |
+| Checkstyle / SpotBugs | Herramientas de análisis estático para Java que ayudan a mantener calidad y detectar bugs comunes. |
+| EncryptedSharedPreferences | API de Android para almacenar datos sensibles de forma cifrada en el dispositivo. |
+| Figma | Herramienta de diseño colaborativo para crear wireframes, mockups y prototipos interactivos. |
+| Wireframe | Representación esquemática de la estructura y disposición de una interfaz, enfocada en la funcionalidad y jerarquía. |
+| Mockup | Representación visual estática de alta fidelidad que muestra el aspecto final de la interfaz. |
+| Accessibility (WCAG) | Conjunto de directrices (WCAG) para asegurar que interfaces sean accesibles a personas con diversas capacidades. |
 
 # Bibliografía {#bibliografía}
 
-- Domain-Driven Design Practitioners. (s.f.). Context map. Domain-driven Design: A Practitioner's Guide. https://ddd-practitioners.com/home/glossary/context-map/
+- Domain-Driven Design Practitioners. (s.f.). Context map. Domain-driven Design: A Practitioners Guide. https://ddd-practitioners.com/home/glossary/context-map/
 
 - ddd-crew. (s.f.). Domain message flow modelling [Repositorio de software]. GitHub. https://github.com/ddd-crew/domain-message-flow-modelling
 
@@ -80,6 +109,12 @@ Link de la organización de Github de la Startup: [https://github.com/elysium-mo
 
 Link del repositorio de Github del reporte del trabajo: [https://github.com/elysium-mobile/docs](https://github.com/elysium-mobile/docs)
 
+Link del repositorio de Github de la landing page: [https://github.com/elysium-mobile/landing-page](https://github.com/elysium-mobile/landing-page)
+
+Link del repositorio de Github de la aplicación móvil en Kotlin: [https://github.com/elysium-mobile/frontend](https://github.com/elysium-mobile/frontend)
+
 Link del Diagrama de Clases: [https://lucid.app/lucidchart/8ae423f1-1d2a-4c56-b57a-52b0f45420ee/edit?viewport_loc=-4959%2C-5147%2C27759%2C13963%2C0_0&invitationId=inv_bac7d21b-9b8e-4663-914c-ef2fd53ebe0c](https://lucid.app/lucidchart/8ae423f1-1d2a-4c56-b57a-52b0f45420ee/edit?viewport_loc=-4959%2C-5147%2C27759%2C13963%2C0_0&invitationId=inv_bac7d21b-9b8e-4663-914c-ef2fd53ebe0c)
 
 Link de Miro: [https://miro.com/app/board/uXjVHdLLoFo=/?share_link_id=197484953010](https://miro.com/app/board/uXjVHdLLoFo=/?share_link_id=197484953010)
+
+Link de la Landing Page desplegada: [https://landing-page-tau-jet-49.vercel.app/](https://landing-page-tau-jet-49.vercel.app/)
