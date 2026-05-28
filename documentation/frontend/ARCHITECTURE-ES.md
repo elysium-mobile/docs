@@ -105,7 +105,7 @@ worker/forum/
 
 ---
 
-## 🎨 Capa Compartida (`shared/`)
+## Capa Compartida (`shared/`)
 
 El bounded context `shared` maneja el código utilizado por múltiples contextos:
 - `presentation/theme/`: Colores de marca, tipografía (Exo) y formas.
@@ -118,7 +118,7 @@ El bounded context `shared` maneja el código utilizado por múltiples contextos
 
 ---
 
-## 🔄 Resumen del Flujo de Datos
+## Resumen del Flujo de Datos
 
 1. **Acción del Usuario**: El usuario pulsa "Publicar" en `NewPostScreen`.
 2. **Evento**: Se llama a `NewPostViewModel.publish()`.
