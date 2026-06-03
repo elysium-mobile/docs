@@ -26,7 +26,7 @@ A continuación se presentan las evidencias de colaboración registradas en GitH
 
 Repositorio utilizado para el informe: [https://github.com/elysium-mobile/docs](https://github.com/elysium-mobile/docs){width=0.7\linewidth}
 
-![Evidencia de colaboración en GitHub](assets/images/shared/evidence-av1.png)
+![Evidencia de colaboración en GitHub](assets/images/shared/evidence-av1.png){width=50%}
 
 ## Participación total en AV1
 
@@ -48,7 +48,7 @@ A continuación se presentan las evidencias de colaboración registradas en GitH
 
 Repositorio utilizado para el informe: [https://github.com/elysium-mobile/docs](https://github.com/elysium-mobile/docs){width=0.7\linewidth}
 
-![Evidencia de colaboración en GitHub para TB1](assets/images/shared/evidence-tb1.png)
+![Evidencia de colaboración en GitHub para TB1](assets/images/shared/evidence-tb1.png){width=50%}
 
 ## Participación total en TB1
 
