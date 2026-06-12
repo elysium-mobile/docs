@@ -6,16 +6,16 @@ Este documento describe los patrones arquitectónicos y la estructura de directo
 
 ## Objetivos Arquitectónicos de Alto Nivel
 
-1.  **Separación de Responsabilidades**: La lógica de negocio (Dominio) está desacoplada de la interfaz de usuario (Presentación) y de la infraestructura (Datos).
+1.  **Separación de Responsabilidades**: La lógica de negocio (Dominio y Casos de Uso de Aplicación) está desacoplada de la interfaz de usuario (Presentación) y de la infraestructura (Datos).
 2.  **Modularidad**: Las funcionalidades están aisladas en **Bounded Contexts** (Contextos Delimitados) para minimizar los efectos secundarios.
-3.  **Capacidad de Pruebas**: La capa de Dominio contiene código Kotlin puro, lo que facilita las pruebas unitarias en la JVM.
+3.  **Capacidad de Pruebas**: Las capas de Dominio y Aplicación contienen código Kotlin puro, lo que facilita las pruebas unitarias en la JVM.
 4.  **Consistencia**: Se aplica una estructura predecible de 4 capas a cada funcionalidad.
 
 ---
 
 ## Estructura del Proyecto: Paquete por Funcionalidad
 
-Utilizamos un enfoque de **Bounded Context**. En lugar de agrupar todos los ViewModels o todos los Fragments juntos, agrupamos por capacidad de negocio bajo `com.elysium.softwork`.
+Utilizamos un enfoque de **Bounded Context**. En lugar de agrupar todos los ViewModels o todos los Casos de Uso juntos, agrupamos por capacidad de negocio bajo `com.elysium.softwork`.
 
 ### Bounded Contexts
 - `iam`: Gestión de Identidad y Acceso (Login, Registro, Sesión).
@@ -31,29 +31,31 @@ Utilizamos un enfoque de **Bounded Context**. En lugar de agrupar todos los View
 Cada contexto delimitado se divide estrictamente en cuatro capas:
 
 ### 1. Capa de Dominio (`domain/`)
-El "corazón" del software. Contiene las reglas de negocio y las entidades.
+El "corazón" del software. Contiene las reglas de negocio y las entidades puras.
 - **Modelos**: Clases de datos (data classes) de Kotlin puro (ej. `Post`, `User`).
+- **Pureza del Dominio**: **Cero dependencias de frameworks externos.** No se permite Retrofit, Room, Compose ni anotaciones de serialización (`@SerializedName`, `@Entity`). Los nombres de las propiedades coinciden exactamente con las llaves del backend para aprovechar la reflexión nativa de Gson. Si se requiere un mapeo alternativo, se implementa un DTO dedicado en `data/network/dto/`.
 - **Interfaces Store**: Actúan como los **Puertos** en la Arquitectura Hexagonal. Definen *qué* operaciones de datos se necesitan sin saber *cómo* están implementadas.
-- **Reglas**: **Cero dependencias de Android.** Sin Retrofit, sin Room, sin Compose.
 
-### 2. Capa de Datos (`data/store/`)
+### 2. Capa de Datos (`data/`)
 La infraestructura o los **Adaptadores**.
-- **Implementaciones de Store**: Implementan las interfaces del Dominio (ej. `PostStoreImpl`).
-- **WebServices**: Interfaces de Retrofit para la comunicación con la API.
-- **DAOs**: Interfaces de Room para la persistencia local.
+- **Implementaciones de Store** (`data/store/`): Implementan las interfaces del Dominio (ej. `PostStoreImpl`).
+- **DTOs** (`data/network/dto/`): Objetos de Transferencia de Datos utilizados para aislar contratos de red inestables sin afectar las entidades de dominio.
+- **WebServices** (`data/network/`): Interfaces de Retrofit para la comunicación con la API.
+- **DAOs** (`data/local/`): Interfaces de Room para la persistencia local.
 - **Lógica**: Orquesta entre la Red y el Caché Local (estrategia Offline-first).
 
 ### 3. Capa de Aplicación (`application/`)
 La capa de orquestación.
-- **ViewModels**: Mantienen el estado de la UI y manejan la intención del usuario. Se comunican con el `Store`.
+- **Casos de Uso / Interactors** (`application/usecase/`): Contiene bloques de ejecución ligeros y de alto rendimiento para las operaciones centrales de negocio (ej. `LoginUseCase.kt`, `GetNotificationsUseCase.kt`). Extrae la orquestación de negocio fuera de los ViewModels.
 - **Validación**: Lógica pura para validación de formularios (ej. `AuthValidation`).
-- **Factories**: Implementaciones de `ViewModelProvider.Factory` para la Inyección de Dependencias (DI) manual.
 
 ### 4. Capa de Presentación (`presentation/`)
-La representación visual.
-- **Views/Screens**: Funciones de Jetpack Compose que definen el diseño.
-- **Components**: Widgets de UI específicos de la funcionalidad.
-- **Navigation**: Definiciones de rutas y constructores de NavGraph.
+La representación visual y gestión del estado de la UI.
+- **ViewModels** (`presentation/viewmodel/`): Mantienen el estado de la UI a través de `StateFlow` de solo lectura y manejan la intención del usuario. Delegan estrictamente la ejecución de la lógica de negocio a los Casos de Uso de la capa de Aplicación.
+- **Factories** (`presentation/factory/`): Implementaciones de `ViewModelProvider.Factory` para la Inyección de Dependencias (DI) manual mediante el Service Locator.
+- **Views/Screens** (`presentation/views/`): Funciones de Jetpack Compose que definen el diseño.
+- **Components** (`presentation/components/`): Widgets de UI específicos de la funcionalidad.
+- **Navigation** (`presentation/navigation/`): Definiciones de rutas y constructores de NavGraph vinculados a las nuevas ubicaciones de los ViewModels.
 
 ---
 
@@ -67,13 +69,8 @@ Utilizamos el término **Store** en lugar de Repository para alinearnos con las 
 ### Inyección de Dependencias Manual (Service Locator)
 **No** utilizamos Hilt ni Dagger.
 - `SoftWorkApplication` posee un `ServiceLocator`.
-- El `ServiceLocator` instancia singletons (Retrofit, Base de Datos, Stores).
-- Los ViewModels reciben sus dependencias a través de su `Factory` desde el `ServiceLocator`.
-
-### Bean / Atajo Pragmático
-Para simplificar, a menudo usamos una única data class de Kotlin tanto para el Modelo de Dominio como para el DTO de Red/Base de Datos.
-- Las clases están anotadas con `@SerializedName` (Gson) y `@Entity` (Room) cuando es necesario.
-- Esto evita el código repetitivo de mapeadores, pero requiere que todos los campos sean opcionales o tengan valores por defecto si el contrato de red es inestable.
+- El `ServiceLocator` instancia singletons (Retrofit, Base de Datos, Casos de Uso, Stores).
+- Los ViewModels reciben sus Casos de Uso requeridos a través de su `Factory` desde el `ServiceLocator`.
 
 ---
 
@@ -84,23 +81,28 @@ Así es como se mapea el bounded context del **Foro** a través de la arquitectu
 ```text
 worker/forum/
 ├── domain/
-│   ├── model/Post.kt             <-- Entidad de Negocio
-│   └── store/PostStore.kt        <-- Interfaz
+│   ├── model/Post.kt              <-- Entidad de Negocio Pura (Sin Anotaciones)
+│   └── store/PostStore.kt         <-- Interfaz (PUERTO)
 ├── data/
-│   ├── network/PostWebService.kt <-- Cliente de Red
-│   ├── local/PostDao.kt          <-- Caché Local
-│   └── store/PostStoreImpl.kt    <-- Implementación (Lógica)
+│   ├── network/
+│   │   ├── dto/PostDto.kt         <-- DTO de Red (Si requiere mapeo)
+│   │   └── PostWebService.kt      <-- Cliente de Red
+│   ├── local/PostDao.kt           <-- Caché Local
+│   └── store/PostStoreImpl.kt     <-- Implementación (ADAPTADOR)
 ├── application/
-│   └── viewmodel/
-│       ├── ForumViewModel.kt     <-- Gestión de Estado de UI
-│       └── NewPostViewModel.kt
+│   └── usecase/
+│       ├── GetForumFeedUseCase.kt <-- Lógica Central de Negocio
+│       └── PublishPostUseCase.kt
 └── presentation/
-    ├── navigation/               <-- Rutas: "forum/feed"
+    ├── viewmodel/
+    │   ├── ForumViewModel.kt      <-- Estado de UI (StateFlow)
+    │   └── NewPostViewModel.kt
+    ├── navigation/                <-- Rutas: "forum/feed"
     ├── views/
-    │   ├── feed/ForumScreen.kt   <-- Interfaz Principal
+    │   ├── feed/ForumScreen.kt    <-- Interfaz Principal
     │   └── thread/ThreadScreen.kt
     └── components/
-        └── PostCard.kt           <-- Widget de UI
+        └── PostCard.kt            <-- Widget de UI
 ```
 
 ---
@@ -125,4 +127,4 @@ El bounded context `shared` maneja el código utilizado por múltiples contextos
 3. **Llamada al Dominio**: El ViewModel llama a `postStore.publish(content)`.
 4. **Lógica del Adaptador**: `PostStoreImpl` llama a `PostWebService` (Red).
 5. **Persistencia**: En caso de éxito, `PostStoreImpl` actualiza el resultado en `PostDao` (Local).
-6. **Reactividad**: La UI está observando un `Flow` desde `PostDao`, por lo que la nueva publicación aparece automáticamente.
+6. **Reactividad**: La UI observa un Flow proveniente de `PostDao` expuesto por el `StateFlow` de solo lectura del `ViewModel`, actualizando la pantalla automáticamente.
