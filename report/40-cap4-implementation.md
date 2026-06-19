@@ -508,6 +508,29 @@ Figura: Visión general de la aplicación móvil con pantallas principales integ
 Figura: Vista compuesta del Landing Page empleada como referencia visual para el diseño y revisión de contenido.
 
 
+#### 4.2.2.1. Sprint 2 {#sprint-2}
+
+En el segundo Sprint se enfocó en completar y mejorar las funcionalidades principales del producto digital, continuando con el desarrollo de la aplicación móvil y la plataforma web. Se finalizaron las implementaciones pendientes, se realizaron ajustes en los formatos visuales y se corrigieron diversos errores encontrados durante las pruebas del Sprint anterior. Además, se optimizaron los flujos existentes de navegación, registro y comunicación, aplicando mejoras en la experiencia de usuario y en la estabilidad general del sistema. Los cambios realizados permitieron consolidar los avances del producto y obtener una versión más completa para la validación mediante pruebas y evidencias durante el Sprint Review.
+
+
+#### 4.2.2.2. Sprint Planning 2 {#sprint-planning-2}
+
+#### 4.2.2.3. Sprint Backlog 2
+
+#### 4.2.2.4. Development Evidence for Sprint Review
+
+#### 4.2.2.5. Testing Suite Evidence for Sprint Review
+
+#### 4.2.2.6. Execution Evidence for Sprint Review
+
+#### 4.2.2.7. Services Documentation Evidence for Sprint Review
+#### 4.2.2.8. Software Deployment Evidence for Sprint Review
+#### 4.2.2.9. Team Collaboration Insights during Sprint
+
+
+
+
+
 ## 4.3. Validation Interviews {#validation-interviews}
 
 ### 4.3.1. Diseño de Entrevistas {#diseno-entrevistas-validacion}
