@@ -515,6 +515,38 @@ En el segundo Sprint se enfocó en completar y mejorar las funcionalidades princ
 
 #### 4.2.2.2. Sprint Planning 2 {#sprint-planning-2}
 
+En esta sección detallamos lo acordado durante el Sprint Planning de nuestra segunda iteración. Tras haber estructurado la capa visual en el sprint anterior, el equipo ahora se enfocará en darle vida a la aplicación: conectaremos las interfaces móviles con nuestros servicios de backend (IAM y Feedback) y construiremos la primera versión funcional del panel analítico (Dashboard) para el área de Recursos Humanos.
+
+| **Sprint #** | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-06-01 |
+| Time | 09:00 AM |
+| Location | Sesión Virtual |
+| Prepared By | Diego Andres Avalos Cordova |
+| Attendees (to planning meeting) | César Augusto Aróstegui Alzamora, Gianmarco Fabian Jiménez Guerra, Diego Andres Avalos Cordova, Piero Francesco Tenorio Medina, Flor Contreras Leon |
+| Sprint 1 Review Summary | Durante el primer sprint logramos cerrar los prototipos interactivos de la app móvil (Login, Registro, Foro y Reportes) y la base de la Landing Page. Al validarlos con usuarios reales (empleados y personal de RR. HH.), recibimos comentarios muy positivos sobre la facilidad de uso. El feedback fue claro: el siguiente paso crítico es conectar estas pantallas con el backend para que la información empiece a fluir y persistir de forma real. |
+| Sprint 1 Retrospective Summary | El equipo se sintió muy cómodo y ágil armando las vistas en Kotlin y Flutter. Sin embargo, notamos que hubo ciertos cuellos de botella al esperar que los servicios backend estuvieran listos para conectarlos. Para evitar que esto vuelva a pasar, acordamos definir los contratos de las APIs (usando OpenAPI) y los esquemas en Supabase desde el primer día del sprint. Así, frontend y backend podrán avanzar en paralelo sin bloquearse. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | **Our focus is on** integrating the mobile app with our core backend services (IAM and Feedback) and building the first functional version of the HR dashboard.<br><br>**We believe it delivers** a secure way for employees to report incidents in real-time, and gives HR professionals a reliable tool to start visualizing that data.<br><br>**This will be confirmed when** an employee can successfully log in and submit an encrypted report from their phone, and that exact report automatically appears on the HR dashboard. |
+| Sprint 2 Velocity | 26 |
+| Sum of Story Points | 26 |
+
+**Ventana del Sprint**: 2026-06-01 al 2026-06-14
+
+A continuación, presentamos el Sprint Backlog con las tareas y User Stories que hemos priorizado para alcanzar el objetivo de esta iteración:
+
+| User Story Id | User Story Title | Work-Item / Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Progress / To-Review / Done) |
+|:---|:---|:---|:---|:---|:---:|:---|:---|
+| US10 | Autenticación y Autorización (IAM) | T-210 | Implement IAM Backend Endpoints | Desarrollar los servicios REST en Spring Boot para manejar el registro, inicio de sesión y la validación de tokens JWT. | 8 | @diego | To-Do |
+| US11 | Integración Móvil: Autenticación | T-211 | Conectar App Móvil con IAM API | Conectar la aplicación móvil con la API de IAM para que el login sea funcional y manejar la sesión del usuario de forma segura. | 6 | @piero | To-Do |
+| US14 | Reportes de Incidencias Seguros | T-212 | Implement Feedback Backend API | Crear la lógica del backend para recibir y guardar los reportes anónimos directamente en nuestra base de datos en Supabase. | 8 | @diego | To-Do |
+| US15 | Integración Móvil: Reportes | T-213 | Conectar envío de reportes a la API | Configurar la app móvil para que consuma la API de reportes, asegurando que los incidentes se envíen correctamente al servidor. | 6 | @cesar | To-Do |
+| US16 | Dashboard RRHH: Interfaz | T-214 | Desarrollar vistas del Dashboard | Maquetar el panel de control web para RR. HH., armando la estructura base de los gráficos y tablas de resumen. | 8 | @flor | To-Do |
+| US17 | Dashboard RRHH: Integración | T-215 | Conectar Dashboard con Backend | Conectar el dashboard con el backend para que los gráficos comiencen a mostrar datos reales de clima laboral e incidencias. | 8 | @gianmarco | To-Do |
+| US20 | Backend: Gestión de Perfiles | T-216 | API de perfiles de empleado y RRHH | Armar los endpoints necesarios para consultar y actualizar la información personal y de privacidad de los perfiles de usuario. | 6 | @diego | To-Do |
+| US21 | Base de datos: Migraciones | T-217 | Configurar esquemas iniciales | Diseñar y crear las tablas en Supabase para los módulos de usuarios, reportes y perfiles, dejando la base de datos lista para operar. | 4 | @gianmarco | To-Do |
+
 #### 4.2.2.3. Sprint Backlog 2
 
 #### 4.2.2.4. Development Evidence for Sprint Review
