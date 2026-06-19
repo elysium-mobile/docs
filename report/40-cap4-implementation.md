@@ -575,7 +575,23 @@ A continuación, se detalla la tabla de control de estado con la descomposición
 | US20 | Backend: Gestión de Perfiles | T-216 | API de perfiles empleado y RRHH | Armar los endpoints necesarios para consultar y actualizar la información personal y de privacidad de los usuarios. | 6 | @diego | To-do |
 | US21 | Base de datos: Migraciones | T-217 | Configurar esquemas iniciales | Diseñar y crear las tablas en Supabase para usuarios, reportes y perfiles, dejando la base de datos lista para operar. | 4 | @gianmarco | Done |
 
-#### 4.2.2.4. Development Evidence for Sprint Review
+#### 4.2.2.4. Development Evidence for Sprint Review {#development-evidence-sprint-2}
+
+En esta sección compartimos los resultados tangibles de la implementación lograda durante este segundo Sprint. Como nuestro objetivo principal era dar el salto de los prototipos visuales a un producto funcional, la mayor parte de nuestro esfuerzo se centró en el desarrollo de los servicios web (APIs de IAM y Feedback), la configuración inicial de nuestra base de datos en Supabase, y la conexión real de estos servicios tanto con la aplicación móvil como con el Dashboard web de Recursos Humanos. 
+
+A continuación, presentamos la tabla con los commits más representativos de este ciclo. Esta trazabilidad refleja el trabajo duro del equipo para integrar las diferentes capas de la arquitectura de SoftWork:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|:---|:---|:---|:---|:---|:---|
+| elysium-mobile/database | main | 8a7b6c5 | chore: initial Supabase migrations for core modules | Added SQL migration scripts for IAM users, employee profiles, and anonymous feedback tables. | 2026-06-02 |
+| elysium-mobile/backend | feature/iam-auth | 3f2e1d0 | feat: implement IAM REST controllers and JWT auth | Configured Spring Security filter chain, added login/register endpoints, and implemented JWT generation. | 2026-06-05 |
+| elysium-mobile/backend | feature/feedback-api | 9c8b7a6 | feat: add Feedback endpoints for incident reports | Implemented domain and infrastructure layers to securely receive and persist anonymous reports into Supabase. | 2026-06-08 |
+| elysium-mobile/mobile-app | feature/auth-integration | 4d5e6f7 | feat: connect mobile login with real IAM backend | Replaced mock authentication with real HTTP calls. Added encrypted shared preferences to store JWT securely. | 2026-06-10 |
+| elysium-mobile/mobile-app | feature/report-integration | 1a2b3c4 | feat: integrate incident reporting form with API | Wired up the feedback form to send encrypted report payloads to the backend and handle success/error states. | 2026-06-11 |
+| elysium-mobile/frontend | feature/hr-dashboard | 5f6g7h8 | feat: build HR dashboard base layout and charts | Created the main dashboard shell, integrated charting libraries for climate metrics, and connected data fetching hooks. | 2026-06-12 |
+| elysium-mobile/frontend | feature/hr-dashboard | 2h3i4j5 | fix: resolve CORS issues and refine dashboard UI | Fixed cross-origin requests blocking API calls from the dashboard and adjusted table paddings for better readability. | 2026-06-13 |
+
+*Nota: Los enlaces directos a estos commits están disponibles en los repositorios de nuestra organización en GitHub para revisión del código fuente, validación de las pruebas unitarias y revisión de la integración continua (CI).*
 
 #### 4.2.2.5. Testing Suite Evidence for Sprint Review
 
