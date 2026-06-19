@@ -598,19 +598,20 @@ En esta sección se describen las estrategias de coordinación y colaboración u
 Durante este Sprint se priorizó la optimización de la experiencia del usuario mediante ajustes en interfaces, actualización de formatos visuales y mejoras en los flujos principales del sistema. Además, se realizaron revisiones continuas del avance del desarrollo para validar que las funcionalidades implementadas cumplieran con los criterios establecidos y mantuvieran consistencia entre la aplicación móvil y la landing page.
 
 #### Report:
+![Report](assets/images/Cap4/Report1.png)
 
 Sprint report screenshots — evidencias del seguimiento del Sprint 2, incluyendo avances de desarrollo, correcciones realizadas, resultados de pruebas y validaciones ejecutadas durante el Sprint Review.
 
-##### Mobile App:
+##### Mobile App (Backend y Frontend):
+![Frontend](assets/images/Cap4/Frontend1.png)
+![Backend](assets/images/Cap4/backend.png)
 
 Mobile app overview — evidencia de la versión actualizada de la aplicación móvil, mostrando las mejoras aplicadas en navegación, funcionalidades completadas y ajustes realizados en las pantallas principales.
 
 ##### Landing Page:
+![Web](assets/images/Cap4/web.png)
 
 Landing page full preview — evidencia de la versión final actualizada de la landing page, mostrando cambios de diseño, mejoras visuales y ajustes realizados durante el segundo Sprint.
-
-
-
 
 
 ## 4.3. Validation Interviews {#validation-interviews}
