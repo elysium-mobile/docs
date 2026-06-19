@@ -553,13 +553,6 @@ El objetivo principal de este segundo Sprint es dar vida a las interfaces que ma
 
 Para gestionar este flujo de trabajo y asegurar que frontend y backend avancen sincronizados, hemos organizado nuestras historias de usuario y tareas de desarrollo en nuestro tablero de GitHub Projects. Esto nos da visibilidad en tiempo real de los bloqueos y el progreso de cada integrante del equipo.
 
-A continuación, compartimos el enlace público de nuestro tablero y una captura de pantalla de cómo iniciamos este ciclo:
-
-**URL del Board:** [Tablero Kanban - SoftWork Sprint 2](https://github.com/orgs/elysium-mobile/projects/2) 
-
-![Sprint 2 Board — Captura mostrando las columnas To-Do, In-Progress y Done](assets/images/Cap4/sprint2-board.jpg)
-*Figura: Estado inicial del Sprint Backlog en GitHub Projects para el Sprint 2.*
-
 A continuación, se detalla la tabla de control de estado con la descomposición de las Historias de Usuario en tareas específicas para este ciclo:
 
 | Sprint # | Sprint 2 | | | | | | |
