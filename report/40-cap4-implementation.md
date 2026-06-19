@@ -526,6 +526,21 @@ En el segundo Sprint se enfocó en completar y mejorar las funcionalidades princ
 #### 4.2.2.7. Services Documentation Evidence for Sprint Review
 #### 4.2.2.8. Software Deployment Evidence for Sprint Review
 #### 4.2.2.9. Team Collaboration Insights during Sprint
+En esta sección se describen las estrategias de coordinación y colaboración utilizadas por el equipo durante el segundo Sprint. El trabajo estuvo enfocado en finalizar las funcionalidades pendientes, realizar mejoras sobre los componentes desarrollados en el Sprint anterior y corregir errores identificados durante las pruebas realizadas. La comunicación constante entre los integrantes permitió organizar las tareas, resolver bloqueos técnicos y asegurar la integración adecuada de los cambios realizados en la plataforma y aplicación móvil.
+
+Durante este Sprint se priorizó la optimización de la experiencia del usuario mediante ajustes en interfaces, actualización de formatos visuales y mejoras en los flujos principales del sistema. Además, se realizaron revisiones continuas del avance del desarrollo para validar que las funcionalidades implementadas cumplieran con los criterios establecidos y mantuvieran consistencia entre la aplicación móvil y la landing page.
+
+#### Report:
+
+Sprint report screenshots — evidencias del seguimiento del Sprint 2, incluyendo avances de desarrollo, correcciones realizadas, resultados de pruebas y validaciones ejecutadas durante el Sprint Review.
+
+##### Mobile App:
+
+Mobile app overview — evidencia de la versión actualizada de la aplicación móvil, mostrando las mejoras aplicadas en navegación, funcionalidades completadas y ajustes realizados en las pantallas principales.
+
+##### Landing Page:
+
+Landing page full preview — evidencia de la versión final actualizada de la landing page, mostrando cambios de diseño, mejoras visuales y ajustes realizados durante el segundo Sprint.
 
 
 
