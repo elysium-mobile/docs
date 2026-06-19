@@ -547,7 +547,33 @@ A continuación, presentamos el Sprint Backlog con las tareas y User Stories que
 | US20 | Backend: Gestión de Perfiles | T-216 | API de perfiles de empleado y RRHH | Armar los endpoints necesarios para consultar y actualizar la información personal y de privacidad de los perfiles de usuario. | 6 | @diego | To-Do |
 | US21 | Base de datos: Migraciones | T-217 | Configurar esquemas iniciales | Diseñar y crear las tablas en Supabase para los módulos de usuarios, reportes y perfiles, dejando la base de datos lista para operar. | 4 | @gianmarco | To-Do |
 
-#### 4.2.2.3. Sprint Backlog 2
+#### 4.2.2.3. Sprint Backlog 2 {#sprint-backlog-2}
+
+El objetivo principal de este segundo Sprint es dar vida a las interfaces que maquetamos en la iteración anterior. Nos enfocaremos en conectar la aplicación móvil con nuestros servicios core de backend (específicamente los módulos de autenticación IAM y el envío de reportes de Feedback) y en construir la primera versión funcional del dashboard analítico para el equipo de Recursos Humanos. 
+
+Para gestionar este flujo de trabajo y asegurar que frontend y backend avancen sincronizados, hemos organizado nuestras historias de usuario y tareas de desarrollo en nuestro tablero de GitHub Projects. Esto nos da visibilidad en tiempo real de los bloqueos y el progreso de cada integrante del equipo.
+
+A continuación, compartimos el enlace público de nuestro tablero y una captura de pantalla de cómo iniciamos este ciclo:
+
+**URL del Board:** [Tablero Kanban - SoftWork Sprint 2](https://github.com/orgs/elysium-mobile/projects/2) 
+
+![Sprint 2 Board — Captura mostrando las columnas To-Do, In-Progress y Done](assets/images/Cap4/sprint2-board.jpg)
+*Figura: Estado inicial del Sprint Backlog en GitHub Projects para el Sprint 2.*
+
+A continuación, se detalla la tabla de control de estado con la descomposición de las Historias de Usuario en tareas específicas para este ciclo:
+
+| Sprint # | Sprint 2 | | | | | | |
+|:---|:---|:---|:---|:---|:---:|:---|:---|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US10 | Autenticación y Autorización (IAM) | T-210 | Implement IAM Backend Endpoints | Desarrollar los servicios REST en Spring Boot para manejar el registro, inicio de sesión y la validación de tokens JWT. | 8 | @diego | In-Process |
+| US11 | Integración Móvil: Autenticación | T-211 | Conectar App Móvil con IAM API | Conectar la aplicación móvil con la API de IAM para que el login sea funcional y manejar la sesión de forma segura. | 6 | @piero | To-do |
+| US14 | Reportes de Incidencias Seguros | T-212 | Implement Feedback Backend API | Crear la lógica del backend para recibir y guardar los reportes anónimos directamente en nuestra base de datos (Supabase). | 8 | @diego | To-do |
+| US15 | Integración Móvil: Reportes | T-213 | Conectar envío de reportes a API | Configurar la app móvil para que consuma la API de reportes, asegurando que los incidentes se envíen correctamente. | 6 | @cesar | To-do |
+| US16 | Dashboard RRHH: Interfaz | T-214 | Desarrollar vistas del Dashboard | Maquetar el panel de control web para RR. HH., armando la estructura base de los gráficos y tablas de resumen. | 8 | @flor | In-Process |
+| US17 | Dashboard RRHH: Integración | T-215 | Conectar Dashboard con Backend | Conectar el dashboard con el backend para que los gráficos comiencen a mostrar datos reales de clima laboral. | 8 | @gianmarco | To-do |
+| US20 | Backend: Gestión de Perfiles | T-216 | API de perfiles empleado y RRHH | Armar los endpoints necesarios para consultar y actualizar la información personal y de privacidad de los usuarios. | 6 | @diego | To-do |
+| US21 | Base de datos: Migraciones | T-217 | Configurar esquemas iniciales | Diseñar y crear las tablas en Supabase para usuarios, reportes y perfiles, dejando la base de datos lista para operar. | 4 | @gianmarco | Done |
 
 #### 4.2.2.4. Development Evidence for Sprint Review
 
