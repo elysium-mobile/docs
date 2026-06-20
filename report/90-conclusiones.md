@@ -118,3 +118,5 @@ Link del Diagrama de Clases: [https://lucid.app/lucidchart/8ae423f1-1d2a-4c56-b5
 Link de Miro: [https://miro.com/app/board/uXjVHdLLoFo=/?share_link_id=197484953010](https://miro.com/app/board/uXjVHdLLoFo=/?share_link_id=197484953010)
 
 Link de la Landing Page desplegada: [https://landing-page-tau-jet-49.vercel.app/](https://landing-page-tau-jet-49.vercel.app/)
+
+Link del Backend desplegado en AWS EC2: [http://ec2-3-131-45-167.us-east-2.compute.amazonaws.com:8080/swagger-ui/index.html](http://ec2-3-131-45-167.us-east-2.compute.amazonaws.com:8080/swagger-ui/index.html)
