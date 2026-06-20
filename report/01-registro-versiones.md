@@ -16,5 +16,7 @@
 |   TB1   | 15/05/2026 | Flor Contreras Leon | Implementación de los mockups de la aplicación móvil y aporte en la Information Architecture |
 |   TB1   | 15/05/2026 | César Augusto Aróstegui Alzamora | Implementación de la landing page y aporte en el desarrollo del aplicativo móvil |
 |   TB1   | 30/05/2026 | César Augusto Aróstegui Alzamora | Documentación del Sprint 1 |
+|   AV2   | 19/06/2026 | Flor Contreras Leon | Documentación del Sprint 2 |
+|   AV2   | 19/06/2026 | Diego Andres Avalos Cordova | Avance del Sprint 2 planificacion y backlog |
 
 \newpage

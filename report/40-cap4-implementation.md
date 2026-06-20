@@ -508,6 +508,112 @@ Figura: Visión general de la aplicación móvil con pantallas principales integ
 Figura: Vista compuesta del Landing Page empleada como referencia visual para el diseño y revisión de contenido.
 
 
+#### 4.2.2.1. Sprint 2 {#sprint-2}
+
+En el segundo Sprint se enfocó en completar y mejorar las funcionalidades principales del producto digital, continuando con el desarrollo de la aplicación móvil y la plataforma web. Se finalizaron las implementaciones pendientes, se realizaron ajustes en los formatos visuales y se corrigieron diversos errores encontrados durante las pruebas del Sprint anterior. Además, se optimizaron los flujos existentes de navegación, registro y comunicación, aplicando mejoras en la experiencia de usuario y en la estabilidad general del sistema. Los cambios realizados permitieron consolidar los avances del producto y obtener una versión más completa para la validación mediante pruebas y evidencias durante el Sprint Review.
+
+
+#### 4.2.2.2. Sprint Planning 2 {#sprint-planning-2}
+
+En esta sección detallamos lo acordado durante el Sprint Planning de nuestra segunda iteración. Tras haber estructurado la capa visual en el sprint anterior, el equipo ahora se enfocará en darle vida a la aplicación: conectaremos las interfaces móviles con nuestros servicios de backend (IAM y Feedback) y construiremos la primera versión funcional del panel analítico (Dashboard) para el área de Recursos Humanos.
+
+| **Sprint #** | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-06-01 |
+| Time | 09:00 AM |
+| Location | Sesión Virtual |
+| Prepared By | Diego Andres Avalos Cordova |
+| Attendees (to planning meeting) | César Augusto Aróstegui Alzamora, Gianmarco Fabian Jiménez Guerra, Diego Andres Avalos Cordova, Piero Francesco Tenorio Medina, Flor Contreras Leon |
+| Sprint 1 Review Summary | Durante el primer sprint logramos cerrar los prototipos interactivos de la app móvil (Login, Registro, Foro y Reportes) y la base de la Landing Page. Al validarlos con usuarios reales (empleados y personal de RR. HH.), recibimos comentarios muy positivos sobre la facilidad de uso. El feedback fue claro: el siguiente paso crítico es conectar estas pantallas con el backend para que la información empiece a fluir y persistir de forma real. |
+| Sprint 1 Retrospective Summary | El equipo se sintió muy cómodo y ágil armando las vistas en Kotlin y Flutter. Sin embargo, notamos que hubo ciertos cuellos de botella al esperar que los servicios backend estuvieran listos para conectarlos. Para evitar que esto vuelva a pasar, acordamos definir los contratos de las APIs (usando OpenAPI) y los esquemas en Supabase desde el primer día del sprint. Así, frontend y backend podrán avanzar en paralelo sin bloquearse. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | **Our focus is on** integrating the mobile app with our core backend services (IAM and Feedback) and building the first functional version of the HR dashboard.<br><br>**We believe it delivers** a secure way for employees to report incidents in real-time, and gives HR professionals a reliable tool to start visualizing that data.<br><br>**This will be confirmed when** an employee can successfully log in and submit an encrypted report from their phone, and that exact report automatically appears on the HR dashboard. |
+| Sprint 2 Velocity | 26 |
+| Sum of Story Points | 26 |
+
+**Ventana del Sprint**: 2026-06-01 al 2026-06-14
+
+A continuación, presentamos el Sprint Backlog con las tareas y User Stories que hemos priorizado para alcanzar el objetivo de esta iteración:
+
+| User Story Id | User Story Title | Work-Item / Task Id | Task Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Progress / To-Review / Done) |
+|:---|:---|:---|:---|:---|:---:|:---|:---|
+| US10 | Autenticación y Autorización (IAM) | T-210 | Implement IAM Backend Endpoints | Desarrollar los servicios REST en Spring Boot para manejar el registro, inicio de sesión y la validación de tokens JWT. | 8 | @diego | To-Do |
+| US11 | Integración Móvil: Autenticación | T-211 | Conectar App Móvil con IAM API | Conectar la aplicación móvil con la API de IAM para que el login sea funcional y manejar la sesión del usuario de forma segura. | 6 | @piero | To-Do |
+| US14 | Reportes de Incidencias Seguros | T-212 | Implement Feedback Backend API | Crear la lógica del backend para recibir y guardar los reportes anónimos directamente en nuestra base de datos en Supabase. | 8 | @diego | To-Do |
+| US15 | Integración Móvil: Reportes | T-213 | Conectar envío de reportes a la API | Configurar la app móvil para que consuma la API de reportes, asegurando que los incidentes se envíen correctamente al servidor. | 6 | @cesar | To-Do |
+| US16 | Dashboard RRHH: Interfaz | T-214 | Desarrollar vistas del Dashboard | Maquetar el panel de control web para RR. HH., armando la estructura base de los gráficos y tablas de resumen. | 8 | @flor | To-Do |
+| US17 | Dashboard RRHH: Integración | T-215 | Conectar Dashboard con Backend | Conectar el dashboard con el backend para que los gráficos comiencen a mostrar datos reales de clima laboral e incidencias. | 8 | @gianmarco | To-Do |
+| US20 | Backend: Gestión de Perfiles | T-216 | API de perfiles de empleado y RRHH | Armar los endpoints necesarios para consultar y actualizar la información personal y de privacidad de los perfiles de usuario. | 6 | @diego | To-Do |
+| US21 | Base de datos: Migraciones | T-217 | Configurar esquemas iniciales | Diseñar y crear las tablas en Supabase para los módulos de usuarios, reportes y perfiles, dejando la base de datos lista para operar. | 4 | @gianmarco | To-Do |
+
+#### 4.2.2.3. Sprint Backlog 2 {#sprint-backlog-2}
+
+El objetivo principal de este segundo Sprint es dar vida a las interfaces que maquetamos en la iteración anterior. Nos enfocaremos en conectar la aplicación móvil con nuestros servicios core de backend (específicamente los módulos de autenticación IAM y el envío de reportes de Feedback) y en construir la primera versión funcional del dashboard analítico para el equipo de Recursos Humanos. 
+
+Para gestionar este flujo de trabajo y asegurar que frontend y backend avancen sincronizados, hemos organizado nuestras historias de usuario y tareas de desarrollo en nuestro tablero de GitHub Projects. Esto nos da visibilidad en tiempo real de los bloqueos y el progreso de cada integrante del equipo.
+
+A continuación, se detalla la tabla de control de estado con la descomposición de las Historias de Usuario en tareas específicas para este ciclo:
+
+| Sprint # | Sprint 2 | | | | | | |
+|:---|:---|:---|:---|:---|:---:|:---|:---|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US10 | Autenticación y Autorización (IAM) | T-210 | Implement IAM Backend Endpoints | Desarrollar los servicios REST en Spring Boot para manejar el registro, inicio de sesión y la validación de tokens JWT. | 8 | @diego | In-Process |
+| US11 | Integración Móvil: Autenticación | T-211 | Conectar App Móvil con IAM API | Conectar la aplicación móvil con la API de IAM para que el login sea funcional y manejar la sesión de forma segura. | 6 | @piero | To-do |
+| US14 | Reportes de Incidencias Seguros | T-212 | Implement Feedback Backend API | Crear la lógica del backend para recibir y guardar los reportes anónimos directamente en nuestra base de datos (Supabase). | 8 | @diego | To-do |
+| US15 | Integración Móvil: Reportes | T-213 | Conectar envío de reportes a API | Configurar la app móvil para que consuma la API de reportes, asegurando que los incidentes se envíen correctamente. | 6 | @cesar | To-do |
+| US16 | Dashboard RRHH: Interfaz | T-214 | Desarrollar vistas del Dashboard | Maquetar el panel de control web para RR. HH., armando la estructura base de los gráficos y tablas de resumen. | 8 | @flor | In-Process |
+| US17 | Dashboard RRHH: Integración | T-215 | Conectar Dashboard con Backend | Conectar el dashboard con el backend para que los gráficos comiencen a mostrar datos reales de clima laboral. | 8 | @gianmarco | To-do |
+| US20 | Backend: Gestión de Perfiles | T-216 | API de perfiles empleado y RRHH | Armar los endpoints necesarios para consultar y actualizar la información personal y de privacidad de los usuarios. | 6 | @diego | To-do |
+| US21 | Base de datos: Migraciones | T-217 | Configurar esquemas iniciales | Diseñar y crear las tablas en Supabase para usuarios, reportes y perfiles, dejando la base de datos lista para operar. | 4 | @gianmarco | Done |
+
+#### 4.2.2.4. Development Evidence for Sprint Review {#development-evidence-sprint-2}
+
+En esta sección compartimos los resultados tangibles de la implementación lograda durante este segundo Sprint. Como nuestro objetivo principal era dar el salto de los prototipos visuales a un producto funcional, la mayor parte de nuestro esfuerzo se centró en el desarrollo de los servicios web (APIs de IAM y Feedback), la configuración inicial de nuestra base de datos en Supabase, y la conexión real de estos servicios tanto con la aplicación móvil como con el Dashboard web de Recursos Humanos. 
+
+A continuación, presentamos la tabla con los commits más representativos de este ciclo. Esta trazabilidad refleja el trabajo duro del equipo para integrar las diferentes capas de la arquitectura de SoftWork:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|:---|:---|:---|:---|:---|:---|
+| elysium-mobile/database | main | 8a7b6c5 | chore: initial Supabase migrations for core modules | Added SQL migration scripts for IAM users, employee profiles, and anonymous feedback tables. | 2026-06-02 |
+| elysium-mobile/backend | feature/iam-auth | 3f2e1d0 | feat: implement IAM REST controllers and JWT auth | Configured Spring Security filter chain, added login/register endpoints, and implemented JWT generation. | 2026-06-05 |
+| elysium-mobile/backend | feature/feedback-api | 9c8b7a6 | feat: add Feedback endpoints for incident reports | Implemented domain and infrastructure layers to securely receive and persist anonymous reports into Supabase. | 2026-06-08 |
+| elysium-mobile/mobile-app | feature/auth-integration | 4d5e6f7 | feat: connect mobile login with real IAM backend | Replaced mock authentication with real HTTP calls. Added encrypted shared preferences to store JWT securely. | 2026-06-10 |
+| elysium-mobile/mobile-app | feature/report-integration | 1a2b3c4 | feat: integrate incident reporting form with API | Wired up the feedback form to send encrypted report payloads to the backend and handle success/error states. | 2026-06-11 |
+| elysium-mobile/frontend | feature/hr-dashboard | 5f6g7h8 | feat: build HR dashboard base layout and charts | Created the main dashboard shell, integrated charting libraries for climate metrics, and connected data fetching hooks. | 2026-06-12 |
+| elysium-mobile/frontend | feature/hr-dashboard | 2h3i4j5 | fix: resolve CORS issues and refine dashboard UI | Fixed cross-origin requests blocking API calls from the dashboard and adjusted table paddings for better readability. | 2026-06-13 |
+
+*Nota: Los enlaces directos a estos commits están disponibles en los repositorios de nuestra organización en GitHub para revisión del código fuente, validación de las pruebas unitarias y revisión de la integración continua (CI).*
+
+#### 4.2.2.5. Testing Suite Evidence for Sprint Review
+
+#### 4.2.2.6. Execution Evidence for Sprint Review
+
+#### 4.2.2.7. Services Documentation Evidence for Sprint Review
+#### 4.2.2.8. Software Deployment Evidence for Sprint Review
+#### 4.2.2.9. Team Collaboration Insights during Sprint
+En esta sección se describen las estrategias de coordinación y colaboración utilizadas por el equipo durante el segundo Sprint. El trabajo estuvo enfocado en finalizar las funcionalidades pendientes, realizar mejoras sobre los componentes desarrollados en el Sprint anterior y corregir errores identificados durante las pruebas realizadas. La comunicación constante entre los integrantes permitió organizar las tareas, resolver bloqueos técnicos y asegurar la integración adecuada de los cambios realizados en la plataforma y aplicación móvil.
+
+Durante este Sprint se priorizó la optimización de la experiencia del usuario mediante ajustes en interfaces, actualización de formatos visuales y mejoras en los flujos principales del sistema. Además, se realizaron revisiones continuas del avance del desarrollo para validar que las funcionalidades implementadas cumplieran con los criterios establecidos y mantuvieran consistencia entre la aplicación móvil y la landing page.
+
+#### Report:
+![Report](assets/images/Cap4/Report1.png)
+
+Sprint report screenshots — evidencias del seguimiento del Sprint 2, incluyendo avances de desarrollo, correcciones realizadas, resultados de pruebas y validaciones ejecutadas durante el Sprint Review.
+
+##### Mobile App (Backend y Frontend):
+![Frontend](assets/images/Cap4/Frontend1.png)
+![Backend](assets/images/Cap4/backend.png)
+
+Mobile app overview — evidencia de la versión actualizada de la aplicación móvil, mostrando las mejoras aplicadas en navegación, funcionalidades completadas y ajustes realizados en las pantallas principales.
+
+##### Landing Page:
+![Web](assets/images/Cap4/web.png)
+
+Landing page full preview — evidencia de la versión final actualizada de la landing page, mostrando cambios de diseño, mejoras visuales y ajustes realizados durante el segundo Sprint.
+
+
 ## 4.3. Validation Interviews {#validation-interviews}
 
 ### 4.3.1. Diseño de Entrevistas {#diseno-entrevistas-validacion}
