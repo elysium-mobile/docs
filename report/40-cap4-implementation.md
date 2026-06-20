@@ -490,7 +490,7 @@ Seguidamente se puede descargar la aplicación móvil de Empleado desde un corre
 #### 4.2.1.8. Team Collaboration Insights during Sprint {#team-collaboration-insights-sprint-1}
 En esta sección se describen los mecanismos de coordinación y las dinámicas de trabajo adoptadas por el equipo durante el primer Sprint. El análisis se centra en cómo la comunicación constante y el uso de herramientas colaborativas permitieron sincronizar el desarrollo con el diseño de la interfaz móvil, asegurando que los bloqueos técnicos se resolvieran de manera ágil para cumplir con los objetivos establecidos.
 
-Se detalla la interfaz orientada al colaborador, diseñada bajo un enfoque de 'mobile-first' para garantizar accesibilidad y comodidad. La aplicación móvil integra las funcionalidades clave de comunicación, como el foro de discusión, el buzón de denuncias cifradas y el control de identidad protegida, facilitando la participación constante desde cualquier lugar.
+Se detalla la interfaz orientada al colaborador, diseñada bajo un enfoque mobile-first para garantizar accesibilidad y comodidad. La aplicación móvil integra las funcionalidades clave de comunicación, como el foro de discusión, el buzón de denuncias cifradas y el control de identidad protegida, facilitando la participación constante desde cualquier lugar.
 
 **Report:**
 
@@ -586,29 +586,78 @@ A continuación, presentamos la tabla con los commits más representativos de es
 
 *Nota: Los enlaces directos a estos commits están disponibles en los repositorios de nuestra organización en GitHub para revisión del código fuente, validación de las pruebas unitarias y revisión de la integración continua (CI).*
 
-#### 4.2.2.5. Testing Suite Evidence for Sprint Review
+#### 4.2.2.5. Testing Suite Evidence for Sprint Review {#testing-suite-evidence-sprint-2}
 
-#### 4.2.2.6. Execution Evidence for Sprint Review
+En esta sección se presentan las evidencias relacionadas con la suite de pruebas implementada durante el segundo Sprint. Se incluyen tablas que detallan los casos de prueba, su estado y los resultados obtenidos, así como capturas de pantalla de las pruebas ejecutadas.
 
-#### 4.2.2.7. Services Documentation Evidence for Sprint Review
-#### 4.2.2.8. Software Deployment Evidence for Sprint Review
-#### 4.2.2.9. Team Collaboration Insights during Sprint
+**Unit Tests for Sprint 2**
+
+![Unit Test for Sprint 2](assets/images/Cap4/sprint-2/unit-tests.png)
+
+#### 4.2.2.6. Execution Evidence for Sprint Review {#execution-evidence-sprint-2}
+
+En esta sección se presentan las evidencias de ejecución correspondientes al cierre del segundo Sprint. Estas capturas documentan la operatividad de los componentes desarrollados y evidencian el cumplimiento de los criterios de aceptación para la integración de la aplicación móvil con los servicios backend y la funcionalidad inicial del dashboard para Recursos Humanos.
+
+![Mobile App Integration — screenshot showing successful login and report submission flows in the mobile app](assets/images/Cap4/sprint-2/execution-evidence.png)
+
+#### 4.2.2.7. Services Documentation Evidence for Sprint Review {#services-documentation-evidence-sprint-2}
+
+En esta sección se documentan los servicios implementados durante el Sprint, se muestra el Open API o Swagger donde se describen los endpoints disponibles, y se incluyen ejemplos de payloads y respuestas para cada servicio relevante al Sprint.
+
+![OpenAPI / Swagger UI — overview screenshot showing UsersAccount, Threads and core IAM endpoints in the local API docs](assets/images/Cap4/services-documentation/evidence-services-1.png)
+Figura: Documentación OpenAPI (Swagger UI) — vista general de los endpoints expuestos para IAM, Threads y recursos relacionados; evidencia de contratos API disponibles en el Sprint.
+
+![OpenAPI / Swagger UI — endpoints for Memberships and Dashboards with request/response examples visible](assets/images/Cap4/services-documentation/evidence-services-2.png)
+Figura: Swagger screenshot — endpoints de Memberships y Dashboards, usado como evidencia de la especificación y payloads de ejemplo.
+
+![OpenAPI / Swagger UI — excerpts showing Forums, EmployeeProfile and Users endpoints with HTTP verbs and descriptions](assets/images/Cap4/services-documentation/evidence-services-3.png)
+Figura: Captura de la documentación de servicios — se observan rutas de Forums y EmployeeProfile empleadas por el frontend y mobile prototypes.
+
+![OpenAPI / Swagger UI — additional endpoints: Notifications, Messages, Companies and Performances sections displayed](assets/images/Cap4/services-documentation/evidence-services-4.png)
+Figura: Vista de OpenAPI con endpoints adicionales (Notifications, Messages, Companies, Performances) y ejemplos de uso para pruebas de integración.
+
+#### 4.2.2.8. Software Deployment Evidence for Sprint Review {#software-deployment-evidence-sprint-2}
+
+En esta sección se presentan las evidencias relacionadas con el despliegue de los artefactos desarrollados durante el segundo Sprint.
+
+Se desplegó la aplicación móvil de Empleado con Kotlin a través de Firebase App Distribution para pruebas internas:
+
+![Mobile app deployment — Firebase App Distribution dashboard showing the uploaded APK for internal testing with distribution status](assets/images/Cap4/sprint-2/mobile-kotlin.png)
+
+Seguidamente de la aplicación móvil de Empleado, se desplegó la aplicación móvil de Recursos Humanos con Flutter a través de Firebase App Distribution para pruebas internas:
+
+![Mobile app deployment — Firebase App Distribution dashboard showing the uploaded APK for internal testing with distribution status](assets/images/Cap4/sprint-2/mobile-flutter.png)
+
+También se desplegó la versión final del backend en AWS EC2, utilizando scripts de terraform para configurar la infraestructura y pipelines de CI/CD para automatizar el despliegue de nuevas versiones:
+
+![Backend deployment — AWS EC2 dashboard showing the running instance for the backend services with monitoring metrics](assets/images/Cap4/sprint-2/backend-aws.png)
+
+También evidencia de que esta expuesto a internet la API del backend, permitiendo que la aplicación móvil puedan consumir los servicios implementados durante el Sprint:
+
+![Backend API exposure — screenshot showing successful API response from the deployed backend when accessed via Postman](assets/images/Cap4/sprint-2/backend-api.png)
+
+
+#### 4.2.2.9. Team Collaboration Insights during Sprint {#team-collaboration-insights-sprint-2}
+
 En esta sección se describen las estrategias de coordinación y colaboración utilizadas por el equipo durante el segundo Sprint. El trabajo estuvo enfocado en finalizar las funcionalidades pendientes, realizar mejoras sobre los componentes desarrollados en el Sprint anterior y corregir errores identificados durante las pruebas realizadas. La comunicación constante entre los integrantes permitió organizar las tareas, resolver bloqueos técnicos y asegurar la integración adecuada de los cambios realizados en la plataforma y aplicación móvil.
 
 Durante este Sprint se priorizó la optimización de la experiencia del usuario mediante ajustes en interfaces, actualización de formatos visuales y mejoras en los flujos principales del sistema. Además, se realizaron revisiones continuas del avance del desarrollo para validar que las funcionalidades implementadas cumplieran con los criterios establecidos y mantuvieran consistencia entre la aplicación móvil y la landing page.
 
 #### Report:
+
 ![Report](assets/images/Cap4/Report1.png)
 
 Sprint report screenshots — evidencias del seguimiento del Sprint 2, incluyendo avances de desarrollo, correcciones realizadas, resultados de pruebas y validaciones ejecutadas durante el Sprint Review.
 
 ##### Mobile App (Backend y Frontend):
+
 ![Frontend](assets/images/Cap4/Frontend1.png)
 ![Backend](assets/images/Cap4/backend.png)
 
 Mobile app overview — evidencia de la versión actualizada de la aplicación móvil, mostrando las mejoras aplicadas en navegación, funcionalidades completadas y ajustes realizados en las pantallas principales.
 
 ##### Landing Page:
+
 ![Web](assets/images/Cap4/web.png)
 
 Landing page full preview — evidencia de la versión final actualizada de la landing page, mostrando cambios de diseño, mejoras visuales y ajustes realizados durante el segundo Sprint.
@@ -815,6 +864,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 | Cambios para asemejarse a una red social | Comentó que el diseño actual ya resulta atractivo y funcional, por lo que no considera necesario incorporar demasiados elementos similares a redes sociales. |
 
 ### 4.3.3. Evaluaciones según heurísticas {#evaluaciones-heuristicas}
+
 ### UX Heuristics & Principles Evaluation
 
 ### Evaluación recibida
@@ -831,6 +881,7 @@ Esto permitirá diseñar una solución digital más alineada con las necesidades
 SoftWork    
 
 ## 1. Tareas a Evaluar 
+
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas tanto en la Landing Page como en la aplicación móvil (flujos de Empleado y RRHH):
 
 1. Identificación de la propuesta de valor.
@@ -846,6 +897,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 ***
 
 ## 2. Escala de Severidad
+
 Los problemas detectados se puntúan bajo la siguiente métrica:
 
 * **1. Problema superficial:** Ocurre con muy poca frecuencia; no necesita ser arreglado a menos que exista disponibilidad de tiempo.

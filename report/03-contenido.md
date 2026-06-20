@@ -126,6 +126,15 @@
         - [4.2.1.6. Services Documentation Evidence for Sprint Review][4.2.1.6]
         - [4.2.1.7. Software Deployment Evidence for Sprint Review][4.2.1.7]
         - [4.2.1.8. Team Collaboration Insights during Sprint][4.2.1.8]
+    - [4.2.2. Sprint 2][4.2.2]
+        - [4.2.2.1 Sprint Planning 2][4.2.2.1]
+        - [4.2.2.2 Sprint Backlog 2][4.2.2.2]
+        - [4.2.2.3 Development Evidence for Sprint Review][4.2.2.3]
+        - [4.2.2.4 Testing Suite Evidence for Sprint Review][4.2.2.4]
+        - [4.2.2.5 Execution Evidence for Sprint Review][4.2.2.5]
+        - [4.2.2.6 Services Documentation Evidence for Sprint Review][4.2.2.6]
+        - [4.2.2.7 Software Deployment Evidence for Sprint Review][4.2.2.7]
+        - [4.2.2.8 Team Collaboration Insights during Sprint][4.2.2.8]
 * [4.3. Validation Interviews][4.3]
     - [4.3.1. Diseño de Entrevistas][4.3.1]
     - [4.3.2. Registro de Entrevistas][4.3.2]
@@ -265,6 +274,15 @@
 [4.2.1.4]: #testing-suite-evidence-sprint-1
 [4.2.1.5]: #execution-evidence-sprint-1
 [4.2.1.6]: #services-documentation-evidence-sprint-1
+[4.2.1.7]: #software-deployment-evidence-sprint-1
+[4.2.1.8]: #team-collaboration-insights-sprint-1
+[4.2.2]: #sprint-2
+[4.2.2.1]: #sprint-planning-2
+[4.2.2.2]: #sprint-backlog-2
+[4.2.2.3]: #development-evidence-sprint-2
+[4.2.2.4]: #testing-suite-evidence-sprint-2
+[4.2.2.5]: #execution-evidence-sprint-2
+[4.2.2.6]: #services-documentation-evidence-sprint-2
 [4.2.1.7]: #software-deployment-evidence-sprint-1
 [4.2.1.8]: #team-collaboration-insights-sprint-1
 [4.3]: #validation-interviews

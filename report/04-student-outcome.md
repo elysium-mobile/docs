@@ -60,8 +60,7 @@ TB1: Durante esta entrega investigué sobre principios heurísticos de usabilida
 AV2: Profundicé en el aprendizaje de técnicas de evaluación UX y validación de productos digitales, entendiendo que la mejora continua basada en datos reales es clave para el éxito de soluciones de software centradas en el usuario.\\[0.5em]
 
 {\bfseries Cesar Arostegui}\\
-AV2: Fortalecí mis conocimientos en despliegue, integración continua y optimización de interfaces, reconociendo que el aprendizaje permanente es esencial para mantener la calidad en el desarrollo de aplicaciones web y móviles. 
-\end{minipage} 
+AV2: Fortalecí mis conocimientos en despliegue, integración continua y optimización de interfaces, reconociendo que el aprendizaje permanente es esencial para mantener la calidad en el desarrollo de aplicaciones web y móviles.
 \end{minipage} &
 \begin{minipage}[t]{\linewidth}
 AV1: Se evidenció la necesidad de mantener un aprendizaje permanente para responder a las exigencias del proyecto y del desarrollo de software. El trabajo realizado permitió actualizar criterios y fortalecer la toma de decisiones técnicas.\\[0.5em]
