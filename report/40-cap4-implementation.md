@@ -613,6 +613,16 @@ Mobile app overview — evidencia de la versión actualizada de la aplicación m
 
 Landing page full preview — evidencia de la versión final actualizada de la landing page, mostrando cambios de diseño, mejoras visuales y ajustes realizados durante el segundo Sprint.
 
+#### 4.2.3.1. Sprint 3 {#sprint-3}
+#### 4.2.3.2. Sprint Planning 3 {#sprint-planning-3}
+#### 4.2.3.3. Sprint Backlog 3 {#sprint-backlog-3}
+#### 4.2.3.4. Development Evidence for Sprint Review {#development-evidence-sprint-3}
+#### 4.2.3.5. Testing Suite Evidence for Sprint Review
+#### 4.2.3.6. Execution Evidence for Sprint Review
+#### 4.2.3.7. Services Documentation Evidence for Sprint Review
+#### 4.2.3.8. Software Deployment Evidence for Sprint Review
+#### 4.2.3.9. Team Collaboration Insights during Sprint
+
 
 ## 4.3. Validation Interviews {#validation-interviews}
 
