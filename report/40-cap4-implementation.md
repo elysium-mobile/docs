@@ -615,9 +615,69 @@ Landing page full preview — evidencia de la versión final actualizada de la l
 
 #### 4.2.3.1. Sprint 3 {#sprint-3}
 #### 4.2.3.2. Sprint Planning 3 {#sprint-planning-3}
+
+En esta sección se detallan los acuerdos y objetivos definidos durante el Sprint Planning de nuestra tercera iteración. Habiendo consolidado la conexión entre la aplicación móvil, el dashboard web y los servicios core (IAM y Feedback), el equipo se centrará en cerrar el ciclo de valor del producto: implementar el motor de encuestas de clima laboral, habilitar las interacciones en el foro anónimo y configurar el módulo de pagos y membresías para el área de Recursos Humanos.
+
+| **Sprint #** | Sprint 3 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-06-15 |
+| Time | 09:00 AM |
+| Location | Sesión Virtual |
+| Prepared By | Diego Andres Avalos Cordova |
+| Attendees (to planning meeting) | César Augusto Aróstegui Alzamora, Gianmarco Fabian Jiménez Guerra, Diego Andres Avalos Cordova, Piero Francesco Tenorio Medina, Flor Contreras Leon |
+| Sprint 2 Review Summary | En el Sprint 2 logramos un hito importante: la aplicación móvil ya se comunica bidireccionalmente con el backend mediante tokens JWT, y los reportes cifrados se persisten con éxito en Supabase y se visualizan en el panel web. Las pruebas de integración fueron exitosas y la arquitectura demostró ser estable. |
+| Sprint 2 Retrospective Summary | El equipo destacó la fluidez que proporcionó definir los contratos OpenAPI desde el día 1. Como punto de mejora, se identificó la necesidad de aumentar la cobertura de pruebas unitarias en el backend para lógicas complejas y pulir las validaciones de UI antes de pasar a QA. |
+| **Sprint Goal & User Stories** | |
+| Sprint 3 Goal | **Nos centramos en** finalizar el sistema de encuestas diarias para empleados, habilitar la interacción completa en el foro (publicaciones y respuestas) e integrar el flujo de suscripción y pago para las cuentas de Recursos Humanos.<br><br>**Consideramos que esto aporta** el ciclo fundamental completo de SoftWork: la medición continua del clima laboral y una vía viable de monetización.<br><br>**Esto se confirmará cuando** un empleado pueda enviar una encuesta diaria desde su aplicación, los datos se consoliden correctamente en el panel de control de Recursos Humanos y un usuario de RR. HH. pueda simular con éxito una mejora de suscripción. |
+| Sprint 3 Velocity | 28 |
+| Sum of Story Points | 28 |
+
+**Ventana del Sprint**: 2026-06-15 al 2026-06-28
+
 #### 4.2.3.3. Sprint Backlog 3 {#sprint-backlog-3}
+
+Para este ciclo, las tareas se han organizado priorizando los servicios en Spring Boot necesarios para procesar las encuestas y los foros, seguido de su respectiva integración en las interfaces. A continuación se presenta el control de estado del Sprint Backlog:
+
+| Sprint # | Sprint 3 | | | | | | |
+|:---|:---|:---|:---|:---|:---:|:---|:---|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Id** | **Title** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US18 | Motor de Encuestas (Backend) | T-301 | Implementar API de Encuestas | Desarrollar endpoints en Spring Boot para generar, recibir y calcular métricas de encuestas diarias de clima laboral. | 8 | @diego | In-Process |
+| US19 | Integración Móvil: Encuestas | T-302 | Conectar UI de Encuestas a API | Integrar la vista móvil de encuestas con el backend, manejando estados de éxito y prevención de envíos duplicados. | 6 | @piero | To-do |
+| US26 | Foro Anónimo Completo | T-303 | Desarrollar lógica del Foro | Crear servicios backend para publicación de hilos, comentarios y reacciones asegurando el anonimato del usuario. | 8 | @diego | To-do |
+| US27 | Integración Móvil: Foro | T-304 | Consumir endpoints del Foro | Conectar la UI del foro en la app para listar posts, permitir comentarios y renderizar estados de carga. | 6 | @cesar | To-do |
+| US29 | Dashboard RRHH: Analítica Avanzada | T-305 | Gráficos de evolución climática | Conectar los resultados de las encuestas del backend con los gráficos de líneas y filtros de fecha en el Dashboard web. | 8 | @gianmarco | In-Process |
+| US31 | Pagos y Membresías (Backend) | T-306 | Implementar pasarela Mock | Configurar el módulo de suscripciones en el backend para gestionar planes (Basic, Pro) y fechas de corte. | 6 | @diego | To-do |
+| US32 | Interfaz de Pagos Web | T-307 | Maquetar e integrar checkout | Construir la vista de facturación en el Dashboard de RRHH y conectarla con la API de membresías. | 8 | @flor | To-do |
+| US35 | Optimización y QA | T-308 | Resolución de heurísticas UX | Aplicar correcciones levantadas en la evaluación heurística (contraste, formatos de fecha, placeholders). | 6 | @flor | To-do |
+
 #### 4.2.3.4. Development Evidence for Sprint Review {#development-evidence-sprint-3}
+
+A continuación, se documentan los commits más representativos que evidencian el avance en la construcción de los módulos de encuestas, foro y membresías. El esfuerzo del equipo permitió consolidar la lógica de negocio y preparar el sistema para su validación final.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|:---|:---|:---|:---|:---|:---|
+| elysium-mobile/backend | feature/surveys-api | e8a91b2 | feat: implement survey engine and metrics calculation | Added SurveyController and domain logic in Spring Boot to process daily climate answers and aggregate scores. | 2026-06-18 |
+| elysium-mobile/backend | feature/forum-api | c7d83f4 | feat: add anonymous forum endpoints | Configured endpoints for threads and comments, ensuring user identity is decoupled before database insertion. | 2026-06-20 |
+| elysium-mobile/mobile-app | feature/surveys-ui | b5c67d8 | feat: integrate survey flow with backend | Wired the "How do you feel today?" screen with the Survey API, added success modal and local state caching. | 2026-06-22 |
+| elysium-mobile/mobile-app | feature/forum-ui | 9a0b1c2 | feat: connect forum feed and comment interactions | Implemented infinite scroll for forum feed and connected POST endpoints for new anonymous threads. | 2026-06-24 |
+| elysium-mobile/backend | feature/subscriptions | 3d4e5f6 | feat: implement membership management service | Added Subscription module to handle HR plan upgrades and generate billing history records. | 2026-06-25 |
+| elysium-mobile/frontend | feature/billing-dashboard | 7f8a9b0 | feat: build billing view and integrate subscription API | Created the payment methods interface and connected it to the backend to reflect the active organization plan. | 2026-06-26 |
+| elysium-mobile/frontend | fix/ux-heuristics | 1c2d3e4 | fix: resolve critical UX heuristics issues | Fixed Y-axis ordering on charts, corrected date formats to DD/MM, and improved color contrast on auth links. | 2026-06-27 |
+
 #### 4.2.3.5. Testing Suite Evidence for Sprint Review
+
+Para asegurar la calidad de las entregas de este ciclo, se ejecutaron diversas pruebas funcionales y de integración enfocadas en los nuevos flujos implementados. La siguiente tabla resume los casos de prueba validados durante el Sprint Review:
+
+| Test Case Id | Test Case Title | Description | Status (Pass/Fail) | Executed on (Date) |
+|:---|:---|:---|:---|:---|
+| TC-301 | Envío de Encuesta Diaria | Validar que un empleado pueda enviar la encuesta de clima y que el backend prevenga un segundo envío en el mismo día. | Pass | 2026-06-23 |
+| TC-302 | Publicación Anónima en Foro | Verificar que al crear un post en el foro, el payload no exponga datos sensibles y se refleje correctamente en el feed. | Pass | 2026-06-25 |
+| TC-303 | Actualización de Gráficos RRHH | Asegurar que al recibir nuevas encuestas, el dashboard de RRHH actualice la curva de clima laboral correctamente. | Pass | 2026-06-26 |
+| TC-304 | Flujo de Upgrade de Membresía | Simular la compra del "Plan Pro" desde el dashboard y comprobar que el estado de la organización cambie en la base de datos. | Pass | 2026-06-27 |
+| TC-305 | Verificación de Accesibilidad (Heurísticas) | Comprobar que los ajustes de contraste en los enlaces de login y los formatos de fecha en los gráficos cumplan con lo reportado en la evaluación UX. | Pass | 2026-06-28 |
+
 #### 4.2.3.6. Execution Evidence for Sprint Review
 #### 4.2.3.7. Services Documentation Evidence for Sprint Review
 #### 4.2.3.8. Software Deployment Evidence for Sprint Review
