@@ -679,9 +679,61 @@ Para asegurar la calidad de las entregas de este ciclo, se ejecutaron diversas p
 | TC-305 | Verificación de Accesibilidad (Heurísticas) | Comprobar que los ajustes de contraste en los enlaces de login y los formatos de fecha en los gráficos cumplan con lo reportado en la evaluación UX. | Pass | 2026-06-28 |
 
 #### 4.2.3.6. Execution Evidence for Sprint Review
+En esta sección se presentan las evidencias de ejecución correspondientes al cierre del tercer Sprint. Estas capturas documentan la operatividad de los componentes desarrollados y evidencian el cumplimiento de los criterios de aceptación para la integración de la aplicación móvil con los servicios backend y la funcionalidad inicial del dashboard para Recursos Humanos.
+
+![Mobile App Integration — screenshot showing successful login and report submission flows in the mobile app](assets/images/Cap4/sprint-2/execution-evidence.png)
+
+
 #### 4.2.3.7. Services Documentation Evidence for Sprint Review
+
+En esta sección se documentan los servicios implementados durante el Sprint, se muestra el Open API o Swagger donde se describen los endpoints disponibles, y se incluyen ejemplos de payloads y respuestas para cada servicio relevante al Sprint 3.
+
+![OpenAPI / Swagger UI — overview screenshot showing UsersAccount, Threads and core IAM endpoints in the local API docs](assets/images/Cap4/services-documentation/evidence-services-1.png)
+Figura: Documentación OpenAPI (Swagger UI) — vista general de los endpoints expuestos para IAM, Threads y recursos relacionados; evidencia de contratos API disponibles en el Sprint.
+
+![OpenAPI / Swagger UI — endpoints for Memberships and Dashboards with request/response examples visible](assets/images/Cap4/services-documentation/evidence-services-2.png)
+Figura: Swagger screenshot — endpoints de Memberships y Dashboards, usado como evidencia de la especificación y payloads de ejemplo.
+
+![OpenAPI / Swagger UI — excerpts showing Forums, EmployeeProfile and Users endpoints with HTTP verbs and descriptions](assets/images/Cap4/services-documentation/evidence-services-3.png)
+Figura: Captura de la documentación de servicios — se observan rutas de Forums y EmployeeProfile empleadas por el frontend y mobile prototypes.
+
+![OpenAPI / Swagger UI — additional endpoints: Notifications, Messages, Companies and Performances sections displayed](assets/images/Cap4/services-documentation/evidence-services-4.png)
+Figura: Vista de OpenAPI con endpoints adicionales (Notifications, Messages, Companies, Performances) y ejemplos de uso para pruebas de integración.
+
+
 #### 4.2.3.8. Software Deployment Evidence for Sprint Review
+
+En esta sección se presentan las evidencias relacionadas con el despliegue de los artefactos desarrollados durante el tercer Sprint.
+
+Se desplegó la aplicación móvil de Empleado con Kotlin a través de Firebase App Distribution para pruebas internas:
+
+![Mobile app deployment — Firebase App Distribution dashboard showing the uploaded APK for internal testing with distribution status](assets/images/Cap4/sprint-2/mobile-kotlin.png)
+
+Seguidamente de la aplicación móvil de Empleado, se desplegó la aplicación móvil de Recursos Humanos con Flutter a través de Firebase App Distribution para pruebas internas:
+
+![Mobile app deployment — Firebase App Distribution dashboard showing the uploaded APK for internal testing with distribution status](assets/images/Cap4/sprint-2/mobile-flutter.png)
+
+También se desplegó la versión final del backend en AWS EC2, utilizando scripts de terraform para configurar la infraestructura y pipelines de CI/CD para automatizar el despliegue de nuevas versiones:
+
+![Backend deployment — AWS EC2 dashboard showing the running instance for the backend services with monitoring metrics](assets/images/Cap4/sprint-2/backend-aws.png)
+
+También evidencia de que esta expuesto a internet la API del backend, permitiendo que la aplicación móvil puedan consumir los servicios implementados durante el Sprint:
+
+![Backend API exposure — screenshot showing successful API response from the deployed backend when accessed via Postman](assets/images/Cap4/sprint-2/backend-api.png)
+
+
 #### 4.2.3.9. Team Collaboration Insights during Sprint
+
+En esta sección se describen las estrategias de coordinación y colaboración empleadas por el equipo durante el tercer y último Sprint, el cual estuvo orientado a la culminación del proyecto, la estabilización del sistema y la entrega final. El trabajo se centró en la integración completa de los módulos desarrollados, la ejecución de pruebas de aceptación final y el refinamiento detallado de la solución para garantizar el cumplimiento de todos los objetivos propuestos.
+
+La comunicación durante esta etapa fue crítica y altamente dinámica, enfocada en asegurar una transición fluida hacia el entorno de producción. Se mantuvieron sesiones de sincronización diarias para identificar y resolver de manera inmediata cualquier discrepancia técnica, asegurar la coherencia en la arquitectura entre la aplicación móvil y la landing page, y validar que la plataforma fuera entregable según los estándares de calidad definidos.
+
+
+
+
+
+
+
 
 
 ## 4.3. Validation Interviews {#validation-interviews}
