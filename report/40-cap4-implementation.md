@@ -731,7 +731,25 @@ La comunicación durante esta etapa fue crítica y altamente dinámica, enfocada
 
 
 
+### Backend – Spring Boot
+![Backend](assets/images/Cap4/sprint3backend.png)
 
+La imagen muestra el desarrollo del **backend** del proyecto implementado con **Spring Boot**. En esta capa se desarrollaron los servicios REST, la lógica de negocio y la comunicación con la base de datos, permitiendo que las aplicaciones cliente consuman la información de manera segura y estructurada.
+
+### Documentación del Proyecto
+![Documentación](assets/images/Cap4/sprint3doc.png)
+
+La imagen presenta la **documentación técnica** correspondiente al Sprint 3. En ella se recopilan las decisiones de diseño, arquitectura, casos de uso, implementación y demás evidencias que respaldan el desarrollo del proyecto, facilitando el mantenimiento y la continuidad del software.
+
+### Aplicación Flutter
+![Flutter](assets/images/Cap4/sprint3flutter.png)
+
+La imagen corresponde al desarrollo de la aplicación móvil implementada con **Flutter**. Esta tecnología permitió construir una interfaz moderna y multiplataforma, consumiendo los servicios del backend para ofrecer una experiencia de usuario fluida e intuitiva.
+
+### Aplicación Kotlin
+![Kotlin](assets/images/Cap4/sprint3kotlin.png)
+
+La imagen muestra el desarrollo de la aplicación nativa para **Android** utilizando **Kotlin**. En esta implementación se desarrollaron las pantallas, navegación e integración con la API REST del sistema, garantizando un funcionamiento eficiente dentro del ecosistema Android.
 
 
 
