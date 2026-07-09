@@ -18,5 +18,7 @@
 |   TB1   | 30/05/2026 | César Augusto Aróstegui Alzamora | Documentación del Sprint 1 |
 |   AV2   | 19/06/2026 | Flor Contreras Leon | Documentación del Sprint 2 |
 |   AV2   | 19/06/2026 | Diego Andres Avalos Cordova | Avance del Sprint 2 planificacion y backlog |
-
+|   TB2   | 08/07/2026 | Flor Contreras Leon | Documentación del Sprint 3 |
+|   TB2   | 08/07/2026 | Diego Andres Avalos Cordova | Avance del Sprint 3 planificacion y backlog |
+|   TB2   | 08/07/2026 | César Augusto Aróstegui Alzamora | Documentación del Sprint 3 |
 \newpage
