@@ -35,9 +35,25 @@
 
 # Video App Validation {#video-app-validation}
 
+[![App Validation](https://i.postimg.cc/T3Yq4g4q/App-validation.png)](https://youtu.be/AtwN1HZsvvo)
+
+**Enlace del video:** [https://youtu.be/AtwN1HZsvvo](https://youtu.be/AtwN1HZsvvo)
+
+---
+
 # Video About the product {#video-about-the-product}
 
+[![About the Product](https://i.postimg.cc/SxN7vCvf/about-the-product.png)](https://youtu.be/rmh9LruBnsc)
+
+**Enlace del video:** [https://youtu.be/rmh9LruBnsc](https://youtu.be/rmh9LruBnsc)
+
+---
+
 # Video About the team {#video-about-the-team}
+
+[![About the Team](https://i.postimg.cc/6p5Lmnmd/about-the-team.png)](https://youtu.be/KjCzCiI95mM)
+
+**Enlace del video:** [https://youtu.be/KjCzCiI95mM](https://youtu.be/KjCzCiI95mM)
 
 # Glosario {#glosario}
 
