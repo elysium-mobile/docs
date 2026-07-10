@@ -2,19 +2,36 @@
 
 ## Conclusiones y recomendaciones {#conclusiones-y-recomendaciones}
 
-**Conclusiones**
+#### Conclusiones
+* **Integración y Propuesta de Valor:** La plataforma SoftWork ha logrado integrar con éxito una aplicación móvil orientada al colaborador y un panel de control web para Recursos Humanos. Esta dualidad tecnológica cierra la brecha de comunicación interna, proveyendo un entorno seguro y anónimo que fomenta la participación, cumpliendo directamente con la misión de Elysium de mejorar el clima laboral.
+* **Escalabilidad de la Arquitectura:** La adopción de una arquitectura desacoplada, utilizando Spring Boot para el núcleo de los servicios, Supabase para la persistencia y políticas de seguridad, y tecnologías móviles modernas, demostró ser altamente efectiva. Permitió el desarrollo en paralelo y sentó una base sólida para escalar la aplicación a un mayor volumen de usuarios sin comprometer el rendimiento.
+* **Impacto del Diseño Centrado en el Usuario:** Las validaciones tempranas mediante prototipos interactivos y pruebas heurísticas confirmaron que un diseño *mobile-first* y accesible reduce drásticamente la fricción. La implementación de foros anónimos y reportes cifrados evidenció un aumento en la percepción de confianza por parte del usuario final.
 
-- Con SoftWork se identifica busca solucionar el problema de comunicación que hay entre los trabajadores y los integrantes de los equipos de RRHH. Dentro de la aplicación usaremos distintas tecnologías como el uso de la IA para poder desarrollar una solución al problema anteriormente dicho. Generando una sensación de conexión y expresión dentro de la área de trabajo.
+---
 
-- Establecemos una clara alineación entre las competencias del equipo y los objetivos que establecimos para el proyecto. Los integrantes del grupo aportan conocimientos anteriormente aprendidos en distintos ámbitos y demuestran una visión estratégica para poder transformar problemáticas del mundo real en soluciones tecnológicas.
+#### Recomendaciones
+* **Evolución del Pipeline CI/CD:** Se sugiere robustecer el flujo de Integración y Despliegue Continuo (CI/CD) en GitHub Actions, incorporando pruebas de integración automatizadas más rigurosas y análisis de seguridad estático (SAST) para prevenir vulnerabilidades antes de cada pase a producción.
+* **Análisis Avanzado de Datos:** Para futuras iteraciones del Dashboard de RR. HH., se recomienda explorar la integración de algoritmos de procesamiento de lenguaje natural (NLP) que permitan realizar análisis de sentimiento automáticos sobre los reportes y comentarios del foro, agilizando la detección de riesgos psicosociales.
+* **Políticas de Retención y Escalabilidad de Base de Datos:** Considerando que el volumen de encuestas diarias y mensajes en el foro crecerá exponencialmente con la adopción del sistema, es imperativo diseñar e implementar políticas claras de archivado (archiving) y particionamiento de datos en Supabase para mantener la agilidad de las consultas históricas.
 
-**Recomendaciones**
+---
 
- - Verificar de manera constante los avances de los demás integrantes para evitar confusiones a futuro. Especialmente de los integrates que son designados a partes fundamentales del proyecto sea documentación o desarrollo.
+#### Lecciones Aprendidas por Integrante
 
-- Mejorar la distribución y la comunicación entre los integrantes del equipo en el aspecto de las entregas del trabajo.
+* **Diego Andres Avalos Cordova:** 
+  La experiencia consolidó la importancia de establecer contratos de API claros (OpenAPI) desde el inicio del proyecto. Coordinar el desarrollo de los servicios backend en Spring Boot bajo una arquitectura limpia fue fundamental para evitar bloqueos con el equipo de frontend, demostrando que una planificación rigurosa de la lógica de negocio y la mentoría técnica aceleran las entregas conjuntas.
 
-- Continuar y realizar validaciones a futuro con respecto a los avances del proyecto, para mantener la correlación entre las necesidades reales y el desarrollo.
+* **César Augusto Aróstegui Alzamora:** 
+  El proceso evidenció el reto de traducir diseños complejos de UI/UX a pantallas móviles responsivas y funcionales. La principal lección fue la necesidad de auditar continuamente la accesibilidad y el contraste de colores para asegurar que la aplicación sea verdaderamente inclusiva para cualquier perfil de empleado.
+
+* **Gianmarco Fabian Jiménez Guerra:** 
+  La configuración y gestión de la infraestructura en Supabase dejó grandes aprendizajes sobre la seguridad a nivel de base de datos. Implementar correctamente el Row Level Security (RLS) y gestionar las migraciones SQL de forma versionada probó ser vital para mantener la integridad y privacidad de los datos sensibles de los reportes.
+
+* **Piero Francesco Tenorio Medina:** 
+  Se validó el alto valor de las pruebas de usuario tempranas. La lección clave fue comprender cómo el *feedback* directo de las entrevistas puede alterar y mejorar los flujos de navegación, especialmente en procesos críticos como el registro móvil y el manejo de sesiones en el lado del cliente.
+
+* **Flor Contreras Leon:** 
+  El desarrollo del panel de Recursos Humanos demostró la complejidad del manejo de estados globales y la visualización de datos en la web. Aprender a integrar librerías de gráficos dinámicos y a consumir métricas en tiempo real desde el backend fue un desafío que subrayó la importancia de optimizar el rendimiento y la carga cognitiva en interfaces analíticas.
 
 # Video App Validation {#video-app-validation}
 
