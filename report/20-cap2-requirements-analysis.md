@@ -809,7 +809,7 @@ Provee las implementaciones técnicas de las interfaces definidas en el dominio.
 
 Aquí se presenta el diagrama de componentes del Bounded Context de IAM, donde se muestran los principales componentes que conforman este contexto, como el componente de autenticación, el componente de autorización y el componente de gestión de usuarios. También se muestra cómo interactuan entre sí y con otros componentes del sistema.
 
-![IAM Component Diagram](assets/images/cap2/tactical-level/components/iamBCComponent.png)
+[![iam-BCComponent-dark.png](https://i.postimg.cc/BnDVcdXc/iam-BCComponent-dark.png)](https://postimg.cc/VJfgzZ9d)
 
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams {#bounded-context-identity-and-access-management-software-architecture-code-level-diagrams}
 
@@ -830,6 +830,8 @@ En este diagrama de diseño de base de datos del Bounded Context de IAM, se mues
 ### 2.6.2. Bounded Context: Subscription and Payments Management {#bounded-context-subscription-and-payments-management}
 
 En el Bounded Context de Subscription and Payments Management, se manejan todas las funcionalidades relacionadas con la gestión de suscripciones y pagos dentro del sistema. Esto incluye la creación y gestión de membresías, el procesamiento de pagos y la integración con servicios de pago externos.
+
+[![subscription-Payments-Component-dark.png](https://i.postimg.cc/BQZSzBx1/subscription-Payments-Component-dark.png)](https://postimg.cc/6TSx2Rb9)
 
 #### 2.6.2.1. Domain Layer {#bounded-context-subscription-and-payments-management-domain-layer}
 
@@ -915,6 +917,8 @@ En este diagrama de diseño de base de datos del Bounded Context de Workers Foru
 ### 2.6.4. Bounded Context: Dashboard and Analytics {#bounded-context-dashboard-and-analytics}
 
 En el Bounded Context de Dashboard and Analytics, se manejan todas las funcionalidades relacionadas con la gestión de dashboard y análisis dentro del sistema. Esto incluye la recopilación de datos, la generación de informes y la visualización de datos para los gerentes de RRHH.
+
+[![dashboard-Analytics-Component-dark.png](https://i.postimg.cc/4xTrMfC1/dashboard-Analytics-Component-dark.png)](https://postimg.cc/JGP6HWzy)
 
 #### 2.6.4.1. Domain Layer {#bounded-context-dashboard-and-analytics-domain-layer}
 
