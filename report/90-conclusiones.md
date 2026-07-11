@@ -152,4 +152,4 @@ Link de Miro: [https://miro.com/app/board/uXjVHdLLoFo=/?share_link_id=1974849530
 
 Link de la Landing Page desplegada: [https://landing-page-tau-jet-49.vercel.app/](https://landing-page-tau-jet-49.vercel.app/)
 
-Link del Backend desplegado en AWS EC2: [http://ec2-3-131-45-167.us-east-2.compute.amazonaws.com:8080/swagger-ui/index.html](http://ec2-3-131-45-167.us-east-2.compute.amazonaws.com:8080/swagger-ui/index.html)
+Link del Backend desplegado en AWS: [https://api.elysium-mobile.online/swagger-ui/index.html#/](https://api.elysium-mobile.online/swagger-ui/index.html#/)
