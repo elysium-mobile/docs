@@ -663,6 +663,9 @@ Mobile app overview — evidencia de la versión actualizada de la aplicación m
 Landing page full preview — evidencia de la versión final actualizada de la landing page, mostrando cambios de diseño, mejoras visuales y ajustes realizados durante el segundo Sprint.
 
 #### 4.2.3.1. Sprint 3 {#sprint-3}
+
+En este sprint final del proyecto, el equipo se enfocará en cerrar el ciclo de valor del producto, implementando el motor de encuestas de clima laboral, habilitando las interacciones en el foro anónimo y configurando el módulo de pagos y membresías para el área de Recursos Humanos. El objetivo es consolidar todas las funcionalidades desarrolladas en los sprints anteriores y asegurar que la plataforma SoftWork esté lista para su lanzamiento.
+
 #### 4.2.3.2. Sprint Planning 3 {#sprint-planning-3}
 
 En esta sección se detallan los acuerdos y objetivos definidos durante el Sprint Planning de nuestra tercera iteración. Habiendo consolidado la conexión entre la aplicación móvil, el dashboard web y los servicios core (IAM y Feedback), el equipo se centrará en cerrar el ciclo de valor del producto: implementar el motor de encuestas de clima laboral, habilitar las interacciones en el foro anónimo y configurar el módulo de pagos y membresías para el área de Recursos Humanos.
