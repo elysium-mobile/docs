@@ -54,4 +54,48 @@ Repositorio utilizado para el informe: [https://github.com/elysium-mobile/docs](
 
 Todos los miembros del equipo contribuyeron activamente en TB1, participando en la implementación de la landing page, el desarrollo del aplicativo móvil y la documentación del Sprint 1. La evidencia de commits y el registro de versiones reflejan una colaboración constante, con aportes distribuidos según las responsabilidades asignadas a cada integrante durante TB1.
 
+### AV2
+
+| Integrante | Participación en AV2 |
+|:---|:---|
+| César Augusto Aróstegui Alzamora | Integró el envío de reportes de incidencias con el backend IAM y realizó el despliegue del aplicativo móvil para pruebas internas. |
+| Gianmarco Fabian Jiménez Guerra | Configuró los esquemas iniciales en Supabase y las migraciones de base de datos. También integró el Dashboard de RRHH con el backend para mostrar datos reales de clima laboral. |
+| Diego Andres Avalos Cordova | Gestionó el repositorio y las ramas de trabajo. Implementó los endpoints REST del backend IAM y Feedback, y participó en la planificación del Sprint 2. |
+| Piero Francesco Tenorio Medina | Conectó la autenticación móvil con la API de IAM, reemplazando mocks por llamadas HTTP reales y gestionando sesiones seguras con JWT. |
+| Flor Contreras Leon | Documentó el Sprint 2 y desarrolló las vistas del Dashboard de RRHH con integración de librerías de gráficos dinámicos. |
+
+## Evidencia de colaboración en GitHub para AV2
+
+A continuación se presentan las evidencias de colaboración registradas en GitHub para AV2, donde se observa la participación activa de los integrantes en commits relacionados con la integración backend-frontend, la configuración de base de datos y el desarrollo del Dashboard de RRHH. Estas evidencias respaldan el trabajo conjunto realizado en el repositorio del equipo durante AV2.
+
+Repositorio utilizado para el informe: [https://github.com/elysium-mobile/docs](https://github.com/elysium-mobile/docs){width=0.7\linewidth}
+
+![Evidencia de colaboración en GitHub para AV2](assets/images/shared/evidence-av2.png){width=50%}
+
+## Participación total en AV2
+
+Todos los miembros del equipo contribuyeron activamente en AV2, participando en la integración de la aplicación móvil con los servicios backend, la configuración de la base de datos y el desarrollo del Dashboard analítico para RRHH. La evidencia de commits y el registro de versiones reflejan una colaboración constante, con aportes distribuidos según las responsabilidades asignadas a cada integrante durante AV2.
+
+### TB2
+
+| Integrante | Participación en TB2 |
+|:---|:---|
+| César Augusto Aróstegui Alzamora | Realizó el despliegue final del backend en AWS EC2 y optimizó el pipeline CI/CD en GitHub Actions para automatizar builds y releases. |
+| Gianmarco Fabian Jiménez Guerra | Documentó el cierre del Sprint 2 y validó la integración del Dashboard RRHH con datos reales, asegurando la correcta visualización de métricas de clima laboral. |
+| Diego Andres Avalos Cordova | Gestionó la configuración final del repositorio y del entorno de despliegue continuo, asegurando la trazabilidad de commits y la correcta integración de los servicios. |
+| Piero Francesco Tenorio Medina | Implementó pruebas unitarias para los flujos críticos de autenticación y corrigió errores identificados durante las pruebas de integración. |
+| Flor Contreras Leon | Realizó la evaluación heurística completa de UX y documentó los resultados de las entrevistas de validación con usuarios. |
+
+## Evidencia de colaboración en GitHub para TB2
+
+A continuación se presentan las evidencias de colaboración registradas en GitHub para TB2, donde se observa la participación activa de los integrantes en commits relacionados con el despliegue final, las pruebas de software, la validación UX y la documentación del proyecto. Estas evidencias respaldan el trabajo conjunto realizado en el repositorio del equipo durante TB2.
+
+Repositorio utilizado para el informe: [https://github.com/elysium-mobile/docs](https://github.com/elysium-mobile/docs){width=0.7\linewidth}
+
+![Evidencia de colaboración en GitHub para TB2](assets/images/shared/evidence-tb2.png){width=50%}
+
+## Participación total en TB2
+
+Todos los miembros del equipo contribuyeron activamente en TB2, participando en el despliegue final de la infraestructura, las pruebas de calidad, la validación de experiencia de usuario y la consolidación de la documentación del proyecto. La evidencia de commits y el registro de versiones reflejan una colaboración constante, con aportes distribuidos según las responsabilidades asignadas a cada integrante durante TB2.
+
 \newpage

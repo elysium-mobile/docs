@@ -17,6 +17,14 @@
 |   TB1   | 15/05/2026 | César Augusto Aróstegui Alzamora | Implementación de la landing page y aporte en el desarrollo del aplicativo móvil |
 |   TB1   | 30/05/2026 | César Augusto Aróstegui Alzamora | Documentación del Sprint 1 |
 |   AV2   | 19/06/2026 | Flor Contreras Leon | Documentación del Sprint 2 |
-|   AV2   | 19/06/2026 | Diego Andres Avalos Cordova | Avance del Sprint 2 planificacion y backlog |
+|   AV2   | 19/06/2026 | Diego Andres Avalos Cordova | Avance del Sprint 2 planificación y backlog |
+|   AV2   | 19/06/2026 | César Augusto Aróstegui Alzamora | Integración del envío de reportes con el backend IAM y despliegue del aplicativo móvil |
+|   AV2   | 19/06/2026 | Gianmarco Fabian Jiménez Guerra | Configuración de esquemas en Supabase e integración del Dashboard RRHH con el backend |
+|   AV2   | 19/06/2026 | Piero Francesco Tenorio Medina | Conexión de la autenticación móvil con la API de IAM y manejo de sesiones seguras |
+|   TB2   | 10/07/2026 | César Augusto Aróstegui Alzamora | Despliegue final del backend en AWS y optimización del pipeline CI/CD |
+|   TB2   | 10/07/2026 | Gianmarco Fabian Jiménez Guerra | Documentación del Sprint 2 y validación de integración del Dashboard con datos reales |
+|   TB2   | 10/07/2026 | Piero Francesco Tenorio Medina | Implementación de pruebas unitarias y corrección de errores en flujos de autenticación |
+|   TB2   | 10/07/2026 | Diego Andres Avalos Cordova | Gestión final del repositorio y configuración del entorno de despliegue continuo |
+|   TB2   | 10/07/2026 | Flor Contreras Leon | Evaluación heurística de UX y documentación de validación con entrevistas de usuario |
 
 \newpage
