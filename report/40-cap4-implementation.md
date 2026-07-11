@@ -508,12 +508,12 @@ Figura: Visión general de la aplicación móvil con pantallas principales integ
 Figura: Vista compuesta del Landing Page empleada como referencia visual para el diseño y revisión de contenido.
 
 
-#### 4.2.2.1. Sprint 2 {#sprint-2}
+### 4.2.2. Sprint 2 {#sprint-2}
 
 En el segundo Sprint se enfocó en completar y mejorar las funcionalidades principales del producto digital, continuando con el desarrollo de la aplicación móvil y la plataforma web. Se finalizaron las implementaciones pendientes, se realizaron ajustes en los formatos visuales y se corrigieron diversos errores encontrados durante las pruebas del Sprint anterior. Además, se optimizaron los flujos existentes de navegación, registro y comunicación, aplicando mejoras en la experiencia de usuario y en la estabilidad general del sistema. Los cambios realizados permitieron consolidar los avances del producto y obtener una versión más completa para la validación mediante pruebas y evidencias durante el Sprint Review.
 
 
-#### 4.2.2.2. Sprint Planning 2 {#sprint-planning-2}
+#### 4.2.2.1. Sprint Planning 2 {#sprint-planning-2}
 
 En esta sección detallamos lo acordado durante el Sprint Planning de nuestra segunda iteración. Tras haber estructurado la capa visual en el sprint anterior, el equipo ahora se enfocará en darle vida a la aplicación: conectaremos las interfaces móviles con nuestros servicios de backend (IAM y Feedback) y construiremos la primera versión funcional del panel analítico (Dashboard) para el área de Recursos Humanos.
 
@@ -547,7 +547,7 @@ A continuación, presentamos el Sprint Backlog con las tareas y User Stories que
 | US20 | Backend: Gestión de Perfiles | T-216 | API de perfiles de empleado y RRHH | Armar los endpoints necesarios para consultar y actualizar la información personal y de privacidad de los perfiles de usuario. | 6 | @diego | To-Do |
 | US21 | Base de datos: Migraciones | T-217 | Configurar esquemas iniciales | Diseñar y crear las tablas en Supabase para los módulos de usuarios, reportes y perfiles, dejando la base de datos lista para operar. | 4 | @gianmarco | To-Do |
 
-#### 4.2.2.3. Sprint Backlog 2 {#sprint-backlog-2}
+#### 4.2.2.2. Sprint Backlog 2 {#sprint-backlog-2}
 
 El objetivo principal de este segundo Sprint es dar vida a las interfaces que maquetamos en la iteración anterior. Nos enfocaremos en conectar la aplicación móvil con nuestros servicios core de backend (específicamente los módulos de autenticación IAM y el envío de reportes de Feedback) y en construir la primera versión funcional del dashboard analítico para el equipo de Recursos Humanos. 
 
@@ -568,7 +568,7 @@ A continuación, se detalla la tabla de control de estado con la descomposición
 | US20 | Backend: Gestión de Perfiles | T-216 | API de perfiles empleado y RRHH | Armar los endpoints necesarios para consultar y actualizar la información personal y de privacidad de los usuarios. | 6 | @diego | To-do |
 | US21 | Base de datos: Migraciones | T-217 | Configurar esquemas iniciales | Diseñar y crear las tablas en Supabase para usuarios, reportes y perfiles, dejando la base de datos lista para operar. | 4 | @gianmarco | Done |
 
-#### 4.2.2.4. Development Evidence for Sprint Review {#development-evidence-sprint-2}
+#### 4.2.2.3. Development Evidence for Sprint Review {#development-evidence-sprint-2}
 
 En esta sección compartimos los resultados tangibles de la implementación lograda durante este segundo Sprint. Como nuestro objetivo principal era dar el salto de los prototipos visuales a un producto funcional, la mayor parte de nuestro esfuerzo se centró en el desarrollo de los servicios web (APIs de IAM y Feedback), la configuración inicial de nuestra base de datos en Supabase, y la conexión real de estos servicios tanto con la aplicación móvil como con el Dashboard web de Recursos Humanos. 
 
@@ -586,7 +586,7 @@ A continuación, presentamos la tabla con los commits más representativos de es
 
 *Nota: Los enlaces directos a estos commits están disponibles en los repositorios de nuestra organización en GitHub para revisión del código fuente, validación de las pruebas unitarias y revisión de la integración continua (CI).*
 
-#### 4.2.2.5. Testing Suite Evidence for Sprint Review {#testing-suite-evidence-sprint-2}
+#### 4.2.2.4. Testing Suite Evidence for Sprint Review {#testing-suite-evidence-sprint-2}
 
 En esta sección se presentan las evidencias relacionadas con la suite de pruebas implementada durante el segundo Sprint. Se incluyen tablas que detallan los casos de prueba, su estado y los resultados obtenidos, así como capturas de pantalla de las pruebas ejecutadas.
 
@@ -594,13 +594,13 @@ En esta sección se presentan las evidencias relacionadas con la suite de prueba
 
 ![Unit Test for Sprint 2](assets/images/Cap4/sprint-2/unit-tests.png)
 
-#### 4.2.2.6. Execution Evidence for Sprint Review {#execution-evidence-sprint-2}
+#### 4.2.2.5. Execution Evidence for Sprint Review {#execution-evidence-sprint-2}
 
 En esta sección se presentan las evidencias de ejecución correspondientes al cierre del segundo Sprint. Estas capturas documentan la operatividad de los componentes desarrollados y evidencian el cumplimiento de los criterios de aceptación para la integración de la aplicación móvil con los servicios backend y la funcionalidad inicial del dashboard para Recursos Humanos.
 
 ![Mobile App Integration — screenshot showing successful login and report submission flows in the mobile app](assets/images/Cap4/sprint-2/execution-evidence.png)
 
-#### 4.2.2.7. Services Documentation Evidence for Sprint Review {#services-documentation-evidence-sprint-2}
+#### 4.2.2.6. Services Documentation Evidence for Sprint Review {#services-documentation-evidence-sprint-2}
 
 En esta sección se documentan los servicios implementados durante el Sprint, se muestra el Open API o Swagger donde se describen los endpoints disponibles, y se incluyen ejemplos de payloads y respuestas para cada servicio relevante al Sprint.
 
@@ -616,7 +616,7 @@ Figura: Captura de la documentación de servicios — se observan rutas de Forum
 ![OpenAPI / Swagger UI — additional endpoints: Notifications, Messages, Companies and Performances sections displayed](assets/images/Cap4/services-documentation/evidence-services-4.png)
 Figura: Vista de OpenAPI con endpoints adicionales (Notifications, Messages, Companies, Performances) y ejemplos de uso para pruebas de integración.
 
-#### 4.2.2.8. Software Deployment Evidence for Sprint Review {#software-deployment-evidence-sprint-2}
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review {#software-deployment-evidence-sprint-2}
 
 En esta sección se presentan las evidencias relacionadas con el despliegue de los artefactos desarrollados durante el segundo Sprint.
 
@@ -637,7 +637,7 @@ También evidencia de que esta expuesto a internet la API del backend, permitien
 ![Backend API exposure — screenshot showing successful API response from the deployed backend when accessed via Postman](assets/images/Cap4/sprint-2/backend-api.png)
 
 
-#### 4.2.2.9. Team Collaboration Insights during Sprint {#team-collaboration-insights-sprint-2}
+#### 4.2.2.8. Team Collaboration Insights during Sprint {#team-collaboration-insights-sprint-2}
 
 En esta sección se describen las estrategias de coordinación y colaboración utilizadas por el equipo durante el segundo Sprint. El trabajo estuvo enfocado en finalizar las funcionalidades pendientes, realizar mejoras sobre los componentes desarrollados en el Sprint anterior y corregir errores identificados durante las pruebas realizadas. La comunicación constante entre los integrantes permitió organizar las tareas, resolver bloqueos técnicos y asegurar la integración adecuada de los cambios realizados en la plataforma y aplicación móvil.
 
@@ -662,11 +662,11 @@ Mobile app overview — evidencia de la versión actualizada de la aplicación m
 
 Landing page full preview — evidencia de la versión final actualizada de la landing page, mostrando cambios de diseño, mejoras visuales y ajustes realizados durante el segundo Sprint.
 
-#### 4.2.3.1. Sprint 3 {#sprint-3}
+### 4.2.3. Sprint 3 {#sprint-3}
 
 En este sprint final del proyecto, el equipo se enfocará en cerrar el ciclo de valor del producto, implementando el motor de encuestas de clima laboral, habilitando las interacciones en el foro anónimo y configurando el módulo de pagos y membresías para el área de Recursos Humanos. El objetivo es consolidar todas las funcionalidades desarrolladas en los sprints anteriores y asegurar que la plataforma SoftWork esté lista para su lanzamiento.
 
-#### 4.2.3.2. Sprint Planning 3 {#sprint-planning-3}
+#### 4.2.3.1. Sprint Planning 3 {#sprint-planning-3}
 
 En esta sección se detallan los acuerdos y objetivos definidos durante el Sprint Planning de nuestra tercera iteración. Habiendo consolidado la conexión entre la aplicación móvil, el dashboard web y los servicios core (IAM y Feedback), el equipo se centrará en cerrar el ciclo de valor del producto: implementar el motor de encuestas de clima laboral, habilitar las interacciones en el foro anónimo y configurar el módulo de pagos y membresías para el área de Recursos Humanos.
 
@@ -687,7 +687,7 @@ En esta sección se detallan los acuerdos y objetivos definidos durante el Sprin
 
 **Ventana del Sprint**: 2026-06-15 al 2026-06-28
 
-#### 4.2.3.3. Sprint Backlog 3 {#sprint-backlog-3}
+#### 4.2.3.2. Sprint Backlog 3 {#sprint-backlog-3}
 
 Para este ciclo, las tareas se han organizado priorizando los servicios en Spring Boot necesarios para procesar las encuestas y los foros, seguido de su respectiva integración en las interfaces. A continuación se presenta el control de estado del Sprint Backlog:
 
@@ -704,7 +704,7 @@ Para este ciclo, las tareas se han organizado priorizando los servicios en Sprin
 | US32 | Interfaz de Pagos Web | T-307 | Maquetar e integrar checkout | Construir la vista de facturación en el Dashboard de RRHH y conectarla con la API de membresías. | 8 | @flor | To-do |
 | US35 | Optimización y QA | T-308 | Resolución de heurísticas UX | Aplicar correcciones levantadas en la evaluación heurística (contraste, formatos de fecha, placeholders). | 6 | @flor | To-do |
 
-#### 4.2.3.4. Development Evidence for Sprint Review {#development-evidence-sprint-3}
+#### 4.2.3.3. Development Evidence for Sprint Review {#development-evidence-sprint-3}
 
 A continuación, se documentan los commits más representativos que evidencian el avance en la construcción de los módulos de encuestas, foro y membresías. El esfuerzo del equipo permitió consolidar la lógica de negocio y preparar el sistema para su validación final.
 
@@ -718,7 +718,7 @@ A continuación, se documentan los commits más representativos que evidencian e
 | elysium-mobile/frontend | feature/billing-dashboard | 7f8a9b0 | feat: build billing view and integrate subscription API | Created the payment methods interface and connected it to the backend to reflect the active organization plan. | 2026-06-26 |
 | elysium-mobile/frontend | fix/ux-heuristics | 1c2d3e4 | fix: resolve critical UX heuristics issues | Fixed Y-axis ordering on charts, corrected date formats to DD/MM, and improved color contrast on auth links. | 2026-06-27 |
 
-#### 4.2.3.5. Testing Suite Evidence for Sprint Review
+#### 4.2.3.4. Testing Suite Evidence for Sprint Review {#testing-suite-evidence-sprint-3}
 
 Para asegurar la calidad de las entregas de este ciclo, se ejecutaron diversas pruebas funcionales y de integración enfocadas en los nuevos flujos implementados. La siguiente tabla resume los casos de prueba validados durante el Sprint Review:
 
@@ -730,13 +730,13 @@ Para asegurar la calidad de las entregas de este ciclo, se ejecutaron diversas p
 | TC-304 | Flujo de Upgrade de Membresía | Simular la compra del "Plan Pro" desde el dashboard y comprobar que el estado de la organización cambie en la base de datos. | Pass | 2026-06-27 |
 | TC-305 | Verificación de Accesibilidad (Heurísticas) | Comprobar que los ajustes de contraste en los enlaces de login y los formatos de fecha en los gráficos cumplan con lo reportado en la evaluación UX. | Pass | 2026-06-28 |
 
-#### 4.2.3.6. Execution Evidence for Sprint Review
+#### 4.2.3.5. Execution Evidence for Sprint Review {#execution-evidence-sprint-3}
 En esta sección se presentan las evidencias de ejecución correspondientes al cierre del tercer Sprint. Estas capturas documentan la operatividad de los componentes desarrollados y evidencian el cumplimiento de los criterios de aceptación para la integración de la aplicación móvil con los servicios backend y la funcionalidad inicial del dashboard para Recursos Humanos.
 
 ![Mobile App Integration — screenshot showing successful login and report submission flows in the mobile app](assets/images/Cap4/sprint-2/execution-evidence.png)
 
 
-#### 4.2.3.7. Services Documentation Evidence for Sprint Review
+#### 4.2.3.6. Services Documentation Evidence for Sprint Review {#services-documentation-evidence-sprint-3}
 
 En esta sección se documentan los servicios implementados durante el Sprint, se muestra el Open API o Swagger donde se describen los endpoints disponibles, y se incluyen ejemplos de payloads y respuestas para cada servicio relevante al Sprint 3.
 
@@ -753,7 +753,7 @@ Figura: Captura de la documentación de servicios — se observan rutas de Forum
 Figura: Vista de OpenAPI con endpoints adicionales (Notifications, Messages, Companies, Performances) y ejemplos de uso para pruebas de integración.
 
 
-#### 4.2.3.8. Software Deployment Evidence for Sprint Review
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review {#software-deployment-evidence-sprint-3}
 
 En esta sección se presentan las evidencias relacionadas con el despliegue de los artefactos desarrollados durante el tercer Sprint.
 
@@ -774,7 +774,7 @@ También evidencia de que esta expuesto a internet la API del backend, permitien
 ![Backend API exposure — screenshot showing successful API response from the deployed backend when accessed via Postman](assets/images/Cap4/sprint-2/backend-api.png)
 
 
-#### 4.2.3.9. Team Collaboration Insights during Sprint
+#### 4.2.3.8. Team Collaboration Insights during Sprint {#team-collaboration-insights-sprint-3}
 
 En esta sección se describen las estrategias de coordinación y colaboración empleadas por el equipo durante el tercer y último Sprint, el cual estuvo orientado a la culminación del proyecto, la estabilización del sistema y la entrega final. El trabajo se centró en la integración completa de los módulos desarrollados, la ejecución de pruebas de aceptación final y el refinamiento detallado de la solución para garantizar el cumplimiento de todos los objetivos propuestos.
 
